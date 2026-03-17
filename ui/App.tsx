@@ -9,14 +9,14 @@ import {
 // import { Badge } from "./components/ui/badge";
 import { Separator } from "./components/ui/separator";
 // import { Progress } from "./components/ui/progress";
-// import {
-//   Table,
-//   TableBody,
-//   TableCell,
-//   TableHead,
-//   TableHeader,
-//   TableRow,
-// } from "./components/ui/table";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "./components/ui/table";
 // import {
 //   Select,
 //   SelectContent,
@@ -58,8 +58,8 @@ import { Check, ChevronsUpDown } from "lucide-react";
 //   Area,
 // } from "recharts";
 import {
-  // TrendingUp,
-  // Minus,
+  TrendingUp,
+  Minus,
   Leaf,
   // Bug,
   // Bird,
@@ -71,7 +71,7 @@ import {
 } from "lucide-react";
 // import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 import { getCountryData, type CountryData } from "./data/api";
-// import { getWealthDistribution, type WealthDistributionData } from "./data/api";
+import { getWealthDistribution, type WealthDistributionData } from "./data/api";
 import { useState, useEffect } from "react";
 // import { TaxonomicSunburst } from "./components/TaxonomicSunburst";
 import { DatasetScatterPlot } from "./components/DatasetScatterPlot";
@@ -85,7 +85,7 @@ import { CollapsibleAbout } from "./components/CollapsibleAbout";
 // import { SummaryIndicators } from "./components/SummaryIndicators";
 import { getDatasetScatterData } from "./data/dataset-scatterplot/api";
 import { getTaxonomicDiversityData } from "./data/taxonomic-diversity/api";
-// import { getSpeciesOccurrenceTableData } from "./data/species-occurrence-table/api";
+import { getSpeciesOccurrenceTableData } from "./data/species-occurrence-table/api";
 
 // Images from data/images folder  
 const gbifLogo = `${import.meta.env.BASE_URL}data/images/gbif-logo.svg?v=` + Date.now();
@@ -98,50 +98,50 @@ const gbifLogo = `${import.meta.env.BASE_URL}data/images/gbif-logo.svg?v=` + Dat
 // const availableCountries = ["DK"];
 
 // Color mapping for taxonomic groups
-// const TAXONOMIC_COLORS: Record<string, string> = {
-//   "Mammals": "#F0BE48",
-//   "Birds": "#0079B5",
-//   "Reptiles": "#684393",
-//   "Amphibians": "#4C9B45",
-//   "Bony Fish": "#20B4E9",
-//   "Fish": "#20B4E9",
-//   "Flowering Plants": "#4C9B45",
-//   "Floweringplants": "#4C9B45",
-//   "Ferns": "#F0BE48",
-//   "Gymnosperms": "#E27B72",
-//   "Mosses": "#20B4E9",
-//   "Insects": "#E27B72",
-//   "Arachnids": "#0079B5",
-//   "Molluscs": "#D0628D",
-//   "Basidiomycota": "#684393",
-//   "Sac Fungi": "#4F4C4D",
-//   "Sacfungi": "#4F4C4D",
-//   "Other": "#999999"
-// };
+const TAXONOMIC_COLORS: Record<string, string> = {
+  "Mammals": "#F0BE48",
+  "Birds": "#0079B5",
+  "Reptiles": "#684393",
+  "Amphibians": "#4C9B45",
+  "Bony Fish": "#20B4E9",
+  "Fish": "#20B4E9",
+  "Flowering Plants": "#4C9B45",
+  "Floweringplants": "#4C9B45",
+  "Ferns": "#F0BE48",
+  "Gymnosperms": "#E27B72",
+  "Mosses": "#20B4E9",
+  "Insects": "#E27B72",
+  "Arachnids": "#0079B5",
+  "Molluscs": "#D0628D",
+  "Basidiomycota": "#684393",
+  "Sac Fungi": "#4F4C4D",
+  "Sacfungi": "#4F4C4D",
+  "Other": "#999999"
+};
 
 // Helper function to get color for a taxonomic group
-// const getTaxonomicColor = (groupName: string): string => {
-//   return TAXONOMIC_COLORS[groupName] || "#999999";
-// };
+const getTaxonomicColor = (groupName: string): string => {
+  return TAXONOMIC_COLORS[groupName] || "#999999";
+};
 
 // Helper function to get growth styling (always positive or zero)
-// const getGrowthStyling = (growthValue: number) => {
-//   if (growthValue > 0) {
-//     return {
-//       color: 'text-green-600',
-//       icon: TrendingUp,
-//       label: 'Growth',
-//       prefix: '+'
-//     };
-//   } else {
-//     return {
-//       color: 'text-gray-600',
-//       icon: Minus,
-//       label: 'No growth',
-//       prefix: ''
-//     };
-//   }
-// };
+const getGrowthStyling = (growthValue: number) => {
+  if (growthValue > 0) {
+    return {
+      color: 'text-green-600',
+      icon: TrendingUp,
+      label: 'Growth',
+      prefix: '+'
+    };
+  } else {
+    return {
+      color: 'text-gray-600',
+      icon: Minus,
+      label: 'No growth',
+      prefix: ''
+    };
+  }
+};
 
 // Helper function to format large numbers
 const formatNumber = (num: number): string => {
@@ -165,7 +165,7 @@ export default function App() {
   const [countriesLoading, setCountriesLoading] = useState(true);
   const [open, setOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState<string>('');
-  // const [showPublishedBy, setShowPublishedBy] = useState<boolean>(false); // Toggle between FROM country and PUBLISHED BY country
+  const [showPublishedBy, setShowPublishedBy] = useState<boolean>(false); // Toggle between FROM country and PUBLISHED BY country
   const [literatureMetrics, setLiteratureMetrics] = useState<{
     count2024: number;
     totalSince2008: number;
@@ -185,7 +185,8 @@ export default function App() {
     annualGrowth: number;
     loading: boolean;
   }>({ total: 0, publishedByCountry: 0, annualGrowth: 0, loading: true });
-  // const [wealthDistributionData, setWealthDistributionData] = useState<WealthDistributionData | null>(null);
+  const [wealthDistributionData, setWealthDistributionData] = useState<WealthDistributionData | null>(null);
+  const [groupOrderReference, setGroupOrderReference] = useState<string[]>([]); // Reference order for taxonomic groups
 
   // Function to copy card link to clipboard
   const copyCardLink = (cardId: string) => {
@@ -309,28 +310,33 @@ export default function App() {
         // Fetch taxonomic diversity data from backend
         const taxonomicData = await getTaxonomicDiversityData(selectedCountry);
         
-        // Fetch species occurrence table data from backend (use showPublishedBy state)
-        // const occurrenceTableData = await getSpeciesOccurrenceTableData(selectedCountry, showPublishedBy);
+        // Fetch species occurrence table data from backend (use false for initial load)
+        const occurrenceTableData = await getSpeciesOccurrenceTableData(selectedCountry, false);
         
         if (taxonomicData) {
           // Build table from occurrence API data and enrich with taxonomic diversity info
-          // countryInfo.taxonomicGroups = occurrenceTableData.taxonomicGroups.map(occurrenceGroup => {
-          //   // Find matching taxonomic diversity data for this group
-          //   const taxonGroup = taxonomicData.groups.find(
-          //     g => g.name === occurrenceGroup.group
-          //   );
-          //   
-          //   return {
-          //     group: occurrenceGroup.group,
-          //     species: taxonGroup?.species || occurrenceGroup.species, // Prefer taxonomic diversity species count
-          //     percentage: taxonGroup?.percentage || 0,
-          //     color: getTaxonomicColor(occurrenceGroup.group),
-          //     kingdom: taxonGroup?.kingdom || '', // Get kingdom from taxonomic diversity
-          //     occurrences: occurrenceGroup.occurrences,
-          //     occurrenceGrowth: String(occurrenceGroup.occurrenceGrowth),
-          //     speciesGrowth: String(occurrenceGroup.speciesGrowth)
-          //   };
-          // });
+          if (occurrenceTableData) {
+            countryInfo.taxonomicGroups = occurrenceTableData.taxonomicGroups.map(occurrenceGroup => {
+              // Find matching taxonomic diversity data for this group
+              const taxonGroup = taxonomicData.groups.find(
+                g => g.name === occurrenceGroup.group
+              );
+              
+              return {
+                group: occurrenceGroup.group,
+                species: taxonGroup?.species || occurrenceGroup.species, // Prefer taxonomic diversity species count
+                percentage: taxonGroup?.percentage || 0,
+                color: getTaxonomicColor(occurrenceGroup.group),
+                kingdom: taxonGroup?.kingdom || '', // Get kingdom from taxonomic diversity
+                occurrences: occurrenceGroup.occurrences,
+                occurrenceGrowth: String(occurrenceGroup.occurrenceGrowth),
+                speciesGrowth: String(occurrenceGroup.speciesGrowth)
+              };
+            });
+            
+            // Store the reference order based on initial FROM data (by occurrence count descending)
+            setGroupOrderReference(occurrenceTableData.taxonomicGroups.map(g => g.group));
+          }
           
           // Store ALL taxonomic diversity groups separately for the sunburst (includes "Other" groups)
           // Note: Commented out since TaxonomicSunburst component is currently not in use
@@ -343,12 +349,13 @@ export default function App() {
           // }));
           
           // Store kingdom summaries for sunburst component
-          if (countryInfo) {
-            countryInfo.kingdomSummaries = taxonomicData.kingdomSummaries || [];
-            
-            // Update total species from taxonomic diversity endpoint (same as sunburst center)
-            countryInfo.species = taxonomicData.totalSpecies.toLocaleString();
-          }
+          countryInfo.kingdomSummaries = taxonomicData.kingdomSummaries || [];
+          
+          // Store taxonomic ranks for display
+          countryInfo.taxonomicRanks = taxonomicData.taxonomicRanks;
+          
+          // Update total species from taxonomic diversity endpoint (same as sunburst center)
+          countryInfo.species = taxonomicData.totalSpecies.toLocaleString();
         }
         
         const scatterData = await getDatasetScatterData(selectedCountry);
@@ -356,13 +363,13 @@ export default function App() {
         setDatasetScatterData(scatterData);
         
         // Fetch wealth distribution data for statistics
-        // try {
-        //   const wealthData = await getWealthDistribution(selectedCountry);
-        //   setWealthDistributionData(wealthData);
-        // } catch (error) {
-        //   console.error("Failed to load wealth distribution data:", error);
-        //   setWealthDistributionData(null);
-        // }
+        try {
+          const wealthData = await getWealthDistribution(selectedCountry, false);
+          setWealthDistributionData(wealthData);
+        } catch (error) {
+          console.error("Failed to load wealth distribution data:", error);
+          setWealthDistributionData(null);
+        }
       } catch (error) {
         console.error("Failed to load country data:", error);
       } finally {
@@ -374,46 +381,61 @@ export default function App() {
   }, [selectedCountry, countries]);
 
   // Update occurrence table when publishedBy toggle changes (without reloading entire page)
-  // useEffect(() => {
-  //   const updateOccurrenceTable = async () => {
-  //     if (!currentCountry) return;
-  //     
-  //     try {
-  //       const occurrenceTableData = await getSpeciesOccurrenceTableData(selectedCountry, showPublishedBy);
-  //       const taxonomicData = await getTaxonomicDiversityData(selectedCountry);
-  //       
-  //       // Also update wealth distribution data for the statistics in the table
-  //       const wealthData = await getWealthDistribution(selectedCountry, showPublishedBy);
-  //       setWealthDistributionData(wealthData);
-  //       
-  //       if (occurrenceTableData && taxonomicData) {
-  //         // Update only the taxonomicGroups in currentCountry
-  //         const updatedGroups = occurrenceTableData.taxonomicGroups.map(occurrenceGroup => {
-  //           const taxonGroup = taxonomicData.groups.find(
-  //             g => g.name === occurrenceGroup.group
-  //           );
-  //           
-  //           return {
-  //             group: occurrenceGroup.group,
-  //             species: taxonGroup?.species || occurrenceGroup.species,
-  //             percentage: taxonGroup?.percentage || 0,
-  //             color: getTaxonomicColor(occurrenceGroup.group),
-  //             kingdom: taxonGroup?.kingdom || '',
-  //             occurrences: occurrenceGroup.occurrences,
-  //             occurrenceGrowth: String(occurrenceGroup.occurrenceGrowth),
-  //             speciesGrowth: String(occurrenceGroup.speciesGrowth)
-  //           };
-  //         });
-  //         
-  //         setCurrentCountry(prev => prev ? { ...prev, taxonomicGroups: updatedGroups } : prev);
-  //       }
-  //     } catch (error) {
-  //       console.error("Failed to update occurrence table:", error);
-  //     }
-  //   };
-  //
-  //   updateOccurrenceTable();
-  // }, [showPublishedBy, selectedCountry]);
+  useEffect(() => {
+    const updateOccurrenceTable = async () => {
+      if (!currentCountry) return;
+      
+      try {
+        const occurrenceTableData = await getSpeciesOccurrenceTableData(selectedCountry, showPublishedBy);
+        const taxonomicData = await getTaxonomicDiversityData(selectedCountry);
+        
+        // Also update wealth distribution data for the statistics in the table
+        const wealthData = await getWealthDistribution(selectedCountry, showPublishedBy);
+        setWealthDistributionData(wealthData);
+        
+        if (occurrenceTableData && taxonomicData) {
+          // Update only the taxonomicGroups in currentCountry
+          const updatedGroups = occurrenceTableData.taxonomicGroups.map(occurrenceGroup => {
+            const taxonGroup = taxonomicData.groups.find(
+              g => g.name === occurrenceGroup.group
+            );
+            
+            return {
+              group: occurrenceGroup.group,
+              species: taxonGroup?.species || occurrenceGroup.species,
+              percentage: taxonGroup?.percentage || 0,
+              color: getTaxonomicColor(occurrenceGroup.group),
+              kingdom: taxonGroup?.kingdom || '',
+              occurrences: occurrenceGroup.occurrences,
+              occurrenceGrowth: String(occurrenceGroup.occurrenceGrowth),
+              speciesGrowth: String(occurrenceGroup.speciesGrowth)
+            };
+          });
+          
+          // Sort by reference order to maintain consistent ranks across toggle
+          const sortedGroups = groupOrderReference.length > 0
+            ? updatedGroups.sort((a, b) => {
+                const indexA = groupOrderReference.indexOf(a.group);
+                const indexB = groupOrderReference.indexOf(b.group);
+                // If both are in reference, sort by reference order
+                if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+                // If only one is in reference, prioritize it
+                if (indexA !== -1) return -1;
+                if (indexB !== -1) return 1;
+                // If neither is in reference, maintain original order
+                return 0;
+              })
+            : updatedGroups;
+          
+          setCurrentCountry(prev => prev ? { ...prev, taxonomicGroups: sortedGroups } : prev);
+        }
+      } catch (error) {
+        console.error("Failed to update occurrence table:", error);
+      }
+    };
+
+    updateOccurrenceTable();
+  }, [showPublishedBy, selectedCountry]);
 
   // Fetch literature metrics from GBIF API
   useEffect(() => {
@@ -796,6 +818,34 @@ export default function App() {
                 />
               </div>
               <div className="text-3xl mb-2" style={{ color: "#D0628D" }}>{currentCountry.species}</div>
+              {currentCountry.taxonomicRanks && (
+                <div className="text-xs space-y-0.5 opacity-75">
+                  <div className="flex justify-between">
+                    <span className="text-gray-500">Kingdoms:</span>
+                    <span>{currentCountry.taxonomicRanks.uniqueKingdoms.toLocaleString()}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-500">Phyla:</span>
+                    <span>{currentCountry.taxonomicRanks.uniquePhyla.toLocaleString()}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-500">Classes:</span>
+                    <span>{currentCountry.taxonomicRanks.uniqueClasses.toLocaleString()}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-500">Orders:</span>
+                    <span>{currentCountry.taxonomicRanks.uniqueOrders.toLocaleString()}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-500">Families:</span>
+                    <span>{currentCountry.taxonomicRanks.uniqueFamilies.toLocaleString()}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-500">Genera:</span>
+                    <span>{currentCountry.taxonomicRanks.uniqueGenera.toLocaleString()}</span>
+                  </div>
+                </div>
+              )}
             </div>
             <div
               className="p-4 rounded-lg"
@@ -838,6 +888,11 @@ export default function App() {
               </div>
             </div>
           </div>
+          
+          {/* Summary Metrics Explainer */}
+          <CollapsibleAbout title="About Summary Metrics" borderColor="border-green-400">
+            <strong>Total Occurrences</strong> shows all occurrence records available through GBIF found within the boundaries of {currentCountry.name}. The published by records can occur outside of {currentCountry.name}. <strong>Published Datasets</strong> represents the number of datasets shared by organizations in {currentCountry.name}, contributing to global biodiversity knowledge. <strong>Total Species</strong> displays the count of unique species and higher order groups with occurrence records. <strong>Literature Metrics</strong> tracks peer-reviewed research articles that cite GBIF-mediated data. Explore the full <a href="https://www.gbif.org/resource/search?contentType=literature" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">GBIF literature collection</a>.
+          </CollapsibleAbout>
         </CardContent>
       </Card>
 
@@ -944,10 +999,10 @@ export default function App() {
       </Card> */}
 
       {/* Species Counts by Group */}
-      {/* <Card className="mb-4" id="occurrence-counts">
+      <Card className="mb-4" id="occurrence-counts">
         <CardHeader>
           <div className="flex items-center justify-between">
-            <CardTitle>Species Occurrence Counts by Taxonomic Group</CardTitle>
+            <CardTitle>Summary Table</CardTitle>
             <button
               onClick={() => copyCardLink('occurrence-counts')}
               className="text-gray-400 hover:text-gray-600 transition-colors"
@@ -1067,11 +1122,21 @@ export default function App() {
           </Table>
 
           
-          <CollapsibleAbout title="About Growth Values" borderColor="border-orange-400">
-            The growth values show the number of new occurrence records and species added in 2025 for each taxonomic group. Values are always positive (shown in green with a + prefix) or zero (shown in gray), representing new data contributions. These numbers reflect data collection and digitization efforts during 2025 and may be influenced by seasonal sampling patterns, new data contributors, or ongoing digitization projects.
+          <CollapsibleAbout title="About Summary Table" borderColor="border-orange-400">
+            <p className="mb-3">This table shows biodiversity data for major taxonomic groups. Each column provides different insights:</p>
+            <ul className="list-disc pl-5 space-y-1.5">
+              <li><strong>Taxonomic Group:</strong> Major groups of organisms (e.g., Mammals, Birds, Flowering Plants)</li>
+              <li><strong>Occurrences:</strong> Total number of occurrence records available through GBIF</li>
+              <li><strong>Species:</strong> Total number of unique species represented in the data</li>
+              <li><strong>Mean occ/sp:</strong> Average number of occurrence records per species across all species in the group</li>
+              <li><strong>Median occ/sp:</strong> Median number of occurrence records per species, representing the typical species (less affected by highly-recorded species)</li>
+              <li><strong>Occ. Growth:</strong> Number of new occurrence records added in 2025, shown in green with + prefix when positive, gray when zero</li>
+              <li><strong>Sp. Growth:</strong> Number of new species added in 2025, shown in green with + prefix when positive, gray when zero</li>
+            </ul>
+            <p className="mt-3">Growth values reflect data collection and digitization efforts during 2025 and may be influenced by seasonal sampling patterns, new data contributors, or ongoing digitization projects.</p>
           </CollapsibleAbout>
         </CardContent>
-      </Card> */}
+      </Card>
 
       {/* IUCN Conservation Metrics */}
       {/* <Card className="mb-6" id="iucn-redlist">
