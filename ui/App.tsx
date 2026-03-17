@@ -300,6 +300,7 @@ export default function App() {
             families: "0 families",
             literatureCount: "0",
             literatureTotal: "0 articles since 2008",
+            description: "",
             chartTitle: "Taxonomic Diversity",
             taxonomicGroups: []
           };
@@ -342,10 +343,12 @@ export default function App() {
           // }));
           
           // Store kingdom summaries for sunburst component
-          countryInfo.kingdomSummaries = taxonomicData.kingdomSummaries || [];
-          
-          // Update total species from taxonomic diversity endpoint (same as sunburst center)
-          countryInfo.species = taxonomicData.totalSpecies.toLocaleString();
+          if (countryInfo) {
+            countryInfo.kingdomSummaries = taxonomicData.kingdomSummaries || [];
+            
+            // Update total species from taxonomic diversity endpoint (same as sunburst center)
+            countryInfo.species = taxonomicData.totalSpecies.toLocaleString();
+          }
         }
         
         const scatterData = await getDatasetScatterData(selectedCountry);
