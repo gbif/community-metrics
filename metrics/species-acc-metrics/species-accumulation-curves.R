@@ -1,11 +1,10 @@
 
 library(rgbif)
 library(dplyr)
-library(httr)
 library(jsonlite)
 
 # Configuration
-API_BASE_URL <- "http://localhost:8081/api/species-accumulation"
+OUTPUT_DIR <- "../../ui/public/data/species-accumulation"
 
 # Get all countries from GBIF enumeration
 cat("Fetching country list from GBIF...\n")
@@ -21,6 +20,12 @@ country_names <- setNames(
 TARGET_COUNTRIES <- gbif_countries$iso2
 
 cat("Found", length(TARGET_COUNTRIES), "countries to process\n")
+
+# Create output directory if it doesn't exist
+if (!dir.exists(OUTPUT_DIR)) {
+  dir.create(OUTPUT_DIR, recursive = TRUE)
+  cat("Created output directory:", OUTPUT_DIR, "\n")
+}
 
 sql <- "
 SELECT 
@@ -46,7 +51,7 @@ SELECT
   END AS taxon_group,
   COUNT(*) AS occurrence_count
 FROM occurrence
-WHERE \"year\" >= 2010 AND \"year\" <= 2024
+WHERE \"year\" <= 2026
   AND hasCoordinate = TRUE
   AND hasgeospatialissues = FALSE
   AND speciesKey IS NOT NULL
@@ -117,16 +122,6 @@ data <- data %>% filter(countrycode %in% TARGET_COUNTRIES)
 countries_with_data <- unique(data$countrycode)
 cat("Found data for", length(countries_with_data), "countries in the dataset\n")
 
-# Function to check if country already exists in API
-country_exists <- function(country_code) {
-  tryCatch({
-    response <- GET(paste0(API_BASE_URL, "/country/", country_code))
-    return(status_code(response) == 200)
-  }, error = function(e) {
-    return(FALSE)
-  })
-}
-
 # Function to calculate species accumulation curve for a taxonomic group
 calculate_accumulation <- function(group_data) {
   # Sort by year
@@ -159,8 +154,8 @@ calculate_accumulation <- function(group_data) {
   return(result)
 }
 
-# Function to upload data for one country
-upload_country_data <- function(country_code, country_data) {
+# Function to save data for one country to JSON file
+save_country_data <- function(country_code, country_data) {
   cat("\nProcessing", country_code, "-", country_names[[country_code]], "\n")
   
   # Group by taxonomic group
@@ -201,61 +196,16 @@ upload_country_data <- function(country_code, country_data) {
     taxonomicGroups = groups_list
   )
   
-  # Convert to JSON
-  json_payload <- toJSON(payload, auto_unbox = TRUE, pretty = TRUE)
+  # Write to JSON file
+  output_file <- file.path(OUTPUT_DIR, paste0(country_code, ".json"))
+  write_json(payload, output_file, pretty = TRUE, auto_unbox = TRUE)
   
-  # POST to API
-  cat("Uploading to API...\n")
-  response <- POST(
-    url = API_BASE_URL,
-    body = json_payload,
-    content_type_json(),
-    encode = "json"
-  )
-  
-  if (status_code(response) == 201) {
-    cat("✓ Successfully created data for", country_code, "\n")
-  } else if (status_code(response) == 409) {
-    # Already exists, try PUT
-    cat("Data exists, attempting update...\n")
-    
-    # Get the ID first
-    get_response <- GET(paste0(API_BASE_URL, "/country/", country_code))
-    if (status_code(get_response) == 200) {
-      existing_data <- content(get_response)
-      id <- existing_data$id
-      
-      put_response <- PUT(
-        url = paste0(API_BASE_URL, "/", id),
-        body = json_payload,
-        content_type_json(),
-        encode = "json"
-      )
-      
-      if (status_code(put_response) == 200) {
-        cat("✓ Successfully updated data for", country_code, "\n")
-      } else {
-        cat("✗ Failed to update:", status_code(put_response), "\n")
-        cat(content(put_response, "text"), "\n")
-      }
-    }
-  } else {
-    cat("✗ Failed to upload:", status_code(response), "\n")
-    cat(content(response, "text"), "\n")
-  }
+  cat("✓ Successfully saved data to", output_file, "\n")
 }
 
 # Process each country
-# Set SKIP_EXISTING to TRUE if you want to skip countries that already have data
-SKIP_EXISTING <- FALSE
-
 cat("\n=== Processing Countries ===\n")
-cat("Total countries to check:", length(countries_with_data), "\n")
-if (SKIP_EXISTING) {
-  cat("Mode: SKIP existing countries\n")
-} else {
-  cat("Mode: UPDATE existing countries\n")
-}
+cat("Total countries to process:", length(countries_with_data), "\n")
 cat("===========================\n\n")
 
 processed <- 0
@@ -267,18 +217,11 @@ for (i in seq_along(countries_with_data)) {
   
   cat(sprintf("\n[%d/%d] Processing %s...\n", i, length(countries_with_data), country))
   
-  # Check if country already exists
-  if (SKIP_EXISTING && country_exists(country)) {
-    cat("⊘ Skipping", country, "- already exists\n")
-    skipped <- skipped + 1
-    next
-  }
-  
   country_data <- data %>% filter(countrycode == country)
   
   if (nrow(country_data) > 0) {
     tryCatch({
-      upload_country_data(country, country_data)
+      save_country_data(country, country_data)
       processed <- processed + 1
     }, error = function(e) {
       cat("✗ Error processing", country, ":", e$message, "\n")
@@ -289,8 +232,8 @@ for (i in seq_along(countries_with_data)) {
     skipped <- skipped + 1
   }
   
-  # Optional: Add a small delay to avoid overwhelming the API
-  Sys.sleep(0.5)
+  # Optional: Add a small delay to avoid file system issues
+  Sys.sleep(0.1)
 }
 
 cat("\n=== Summary ===\n")

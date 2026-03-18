@@ -20,11 +20,29 @@ export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCur
   const [error, setError] = useState<string | null>(null);
   const [showCountrySelector, setShowCountrySelector] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>('');
+  const [yearRangeMin, setYearRangeMin] = useState<number>(2000);
+  const [yearRangeMax, setYearRangeMax] = useState<number>(2026);
 
   // Extract taxonomic groups from accumulation data
   const taxonomicGroups = useMemo(() => {
     const firstCountryData = Object.values(accumulationData)[0];
     return firstCountryData ? firstCountryData.taxonomicGroups.map(group => group.group) : [];
+  }, [accumulationData]);
+
+  // Get the actual min/max years from all data
+  const dataYearRange = useMemo(() => {
+    const allYears: number[] = [];
+    Object.values(accumulationData).forEach(countryData => {
+      countryData.taxonomicGroups.forEach(group => {
+        group.data.forEach(point => allYears.push(point.year));
+      });
+    });
+    
+    if (allYears.length === 0) return { min: 2010, max: 2026 };
+    return {
+      min: Math.min(...allYears),
+      max: Math.max(...allYears)
+    };
   }, [accumulationData]);
 
   // Fetch data for selected countries
@@ -78,7 +96,7 @@ export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCur
     };
   }, [selectedCountries, selectedGroup]);
 
-  // Get data for the selected group across all countries
+  // Get data for the selected group across all countries with year filtering
   const multiCountryGroupData = useMemo(() => {
     if (!selectedGroup) return [];
     
@@ -90,11 +108,19 @@ export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCur
         const groupData = data.taxonomicGroups.find(g => g.group === selectedGroup);
         if (!groupData) return null;
         
+        // Filter data points to year range
+        const filteredData = {
+          ...groupData,
+          data: groupData.data.filter(
+            point => point.year >= yearRangeMin && point.year <= yearRangeMax
+          )
+        };
+        
         return {
           countryCode: code,
           countryName: data.countryName,
           color: countryColorMap[code] || '#666666',
-          groupData: groupData
+          groupData: filteredData
         };
       })
       .filter(item => item !== null) as Array<{
@@ -103,7 +129,7 @@ export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCur
         color: string;
         groupData: TaxonomicGroupAccumulation;
       }>;
-  }, [accumulationData, selectedCountries, selectedGroup]);
+  }, [accumulationData, selectedCountries, selectedGroup, yearRangeMin, yearRangeMax]);
 
   const toggleCountry = (code: string) => {
     const newSelection = new Set(selectedCountries);
@@ -199,6 +225,35 @@ export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCur
               </option>
             ))}
           </select>
+        </div>
+
+        {/* Year Range Selection */}
+        <div className="flex items-center gap-2">
+          <label className="text-sm text-gray-700 font-medium">Year Range:</label>
+          <input
+            type="number"
+            value={yearRangeMin}
+            onChange={(e) => setYearRangeMin(Math.max(dataYearRange.min, Math.min(parseInt(e.target.value) || dataYearRange.min, yearRangeMax)))}
+            min={dataYearRange.min}
+            max={yearRangeMax}
+            className="w-20 px-2 py-1 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          />
+          <span className="text-gray-500">-</span>
+          <input
+            type="number"
+            value={yearRangeMax}
+            onChange={(e) => setYearRangeMax(Math.min(dataYearRange.max, Math.max(parseInt(e.target.value) || dataYearRange.max, yearRangeMin)))}
+            min={yearRangeMin}
+            max={dataYearRange.max}
+            className="w-20 px-2 py-1 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          />
+          <button
+            onClick={() => { setYearRangeMin(2000); setYearRangeMax(2026); }}
+            className="ml-1 px-2 py-1 text-xs text-blue-600 hover:text-blue-800 hover:bg-blue-50 rounded"
+            title="Reset to default (2000-2026)"
+          >
+            Reset
+          </button>
         </div>
 
         {/* Country Selection */}
