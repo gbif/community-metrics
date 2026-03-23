@@ -209,7 +209,7 @@ export function DatasetScatterPlot({ datasets, countryName }: DatasetScatterPlot
             }`}
           />
         </button>
-        <span className="text-sm text-gray-600">Only published in country</span>
+        <span className="text-sm text-gray-600">Only published by country</span>
         <span className="text-xs text-gray-500">
           ({allDatasets.length} dataset{allDatasets.length !== 1 ? 's' : ''})
         </span>

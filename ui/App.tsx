@@ -167,10 +167,10 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [showPublishedBy, setShowPublishedBy] = useState<boolean>(false); // Toggle between FROM country and PUBLISHED BY country
   const [literatureMetrics, setLiteratureMetrics] = useState<{
-    count2024: number;
+    count2025: number;
     totalSince2008: number;
     loading: boolean;
-  }>({ count2024: 0, totalSince2008: 0, loading: true });
+  }>({ count2025: 0, totalSince2008: 0, loading: true });
   const [datasetCount, setDatasetCount] = useState<{
     total: number;
     loading: boolean;
@@ -440,14 +440,14 @@ export default function App() {
   // Fetch literature metrics from GBIF API
   useEffect(() => {
     const fetchLiteratureMetrics = async () => {
-      setLiteratureMetrics({ count2024: 0, totalSince2008: 0, loading: true });
+      setLiteratureMetrics({ count2025: 0, totalSince2008: 0, loading: true });
       
       try {
-        // Fetch 2024 count (peer-reviewed only)
-        const response2024 = await fetch(
-          `https://api.gbif.org/v1/literature/search?publishingCountry=${selectedCountry}&year=2024&peerReview=true&limit=0`
+        // Fetch 2025 count (peer-reviewed only)
+        const response2025 = await fetch(
+          `https://api.gbif.org/v1/literature/search?publishingCountry=${selectedCountry}&year=2025&peerReview=true&limit=0`
         );
-        const data2024 = await response2024.json();
+        const data2025 = await response2025.json();
         
         // Fetch total since 2008 (peer-reviewed only)
         const responseSince2008 = await fetch(
@@ -456,13 +456,13 @@ export default function App() {
         const dataSince2008 = await responseSince2008.json();
         
         setLiteratureMetrics({
-          count2024: data2024.count || 0,
+          count2025: data2025.count || 0,
           totalSince2008: dataSince2008.count || 0,
           loading: false
         });
       } catch (error) {
         console.error("Failed to fetch literature metrics:", error);
-        setLiteratureMetrics({ count2024: 0, totalSince2008: 0, loading: false });
+        setLiteratureMetrics({ count2025: 0, totalSince2008: 0, loading: false });
       }
     };
 
@@ -541,23 +541,23 @@ export default function App() {
         );
         const dataPublished = await responsePublished.json();
         
+        // Fetch 2025 data for growth calculation
+        const response2025 = await fetch(
+          `https://api.gbif.org/v1/occurrence/search?country=${selectedCountry}&year=2025&limit=0`
+        );
+        const data2025 = await response2025.json();
+        
         // Fetch 2024 data for growth calculation
         const response2024 = await fetch(
           `https://api.gbif.org/v1/occurrence/search?country=${selectedCountry}&year=2024&limit=0`
         );
         const data2024 = await response2024.json();
         
-        // Fetch 2023 data for growth calculation
-        const response2023 = await fetch(
-          `https://api.gbif.org/v1/occurrence/search?country=${selectedCountry}&year=2023&limit=0`
-        );
-        const data2023 = await response2023.json();
-        
         // Calculate annual growth percentage
+        const count2025 = data2025.count || 0;
         const count2024 = data2024.count || 0;
-        const count2023 = data2023.count || 0;
-        const growthPercentage = count2023 > 0 
-          ? ((count2024 - count2023) / count2023) * 100 
+        const growthPercentage = count2024 > 0 
+          ? ((count2025 - count2024) / count2024) * 100 
           : 0;
         
         setOccurrenceCount({
@@ -705,12 +705,12 @@ export default function App() {
               <h1 className="text-3xl">{currentCountry.name}</h1>
             </div>
             <p className="text-gray-600">
-              Global Biodiversity Information Facility - 2025 Activity Report
+              Global Biodiversity Information Facility - Activity Report
             </p>
           </div>
           <div className="text-right">
             <p className="text-sm text-gray-500">
-              Generated: October 1, 2025
+              Generated: March 23, 2026
             </p>
           </div>
         </div>
@@ -867,14 +867,14 @@ export default function App() {
                 {literatureMetrics.loading ? (
                   <span className="animate-pulse">...</span>
                 ) : (
-                  literatureMetrics.count2024.toLocaleString()
+                  literatureMetrics.count2025.toLocaleString()
                 )}
               </div>
               <div
                 className="text-xs mb-1"
                 style={{ color: "#E27B72" }}
               >
-                peer-reviewed articles citing GBIF use during 2024
+                peer-reviewed articles citing GBIF use during 2025
               </div>
               <div
                 className="text-xs"
@@ -1023,7 +1023,7 @@ export default function App() {
           
           <div className="mb-4 flex items-center justify-center gap-3">
             <span className={`text-sm ${!showPublishedBy ? 'font-semibold text-gray-900' : 'text-gray-600'}`}>
-              From Country
+              Any Publisher
             </span>
             <button
               onClick={() => setShowPublishedBy(!showPublishedBy)}
@@ -1038,7 +1038,7 @@ export default function App() {
               />
             </button>
             <span className={`text-sm ${showPublishedBy ? 'font-semibold text-gray-900' : 'text-gray-600'}`}>
-              Published By
+              Only published by country
             </span>
           </div>
           
@@ -1249,12 +1249,9 @@ export default function App() {
         <div className="flex justify-between items-center text-sm text-gray-500">
           <div>
             <p>Compiled by: GBIF Secretariat</p>
-            <p>
-              Data Contributors: 1,847 institutions worldwide
-            </p>
           </div>
           <div className="text-right">
-            <p>Next Update: January 2026</p>
+            <p>Next Update: July 2026</p>
           </div>
         </div>
       </div>
