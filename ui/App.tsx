@@ -72,6 +72,7 @@ import {
 // import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 import { getCountryData, type CountryData } from "./data/api";
 import { getWealthDistribution, type WealthDistributionData } from "./data/api";
+import { getTaxonomicCoverage, type TaxonomicCoverage } from "./data/api";
 import { useState, useEffect } from "react";
 // import { TaxonomicSunburst } from "./components/TaxonomicSunburst";
 import { DatasetScatterPlot } from "./components/DatasetScatterPlot";
@@ -83,6 +84,7 @@ import { CollapsibleAbout } from "./components/CollapsibleAbout";
 // import { YearRangeHistogram } from "./components/YearRangeHistogram";
 // import { WealthDistribution } from "./components/WealthDistribution";
 // import { SummaryIndicators } from "./components/SummaryIndicators";
+import { QuestionsCard } from "./components/QuestionsCard";
 import { getDatasetScatterData } from "./data/dataset-scatterplot/api";
 import { getTaxonomicDiversityData } from "./data/taxonomic-diversity/api";
 import { getSpeciesOccurrenceTableData } from "./data/species-occurrence-table/api";
@@ -187,6 +189,7 @@ export default function App() {
   }>({ total: 0, publishedByCountry: 0, annualGrowth: 0, loading: true });
   const [wealthDistributionData, setWealthDistributionData] = useState<WealthDistributionData | null>(null);
   const [groupOrderReference, setGroupOrderReference] = useState<string[]>([]); // Reference order for taxonomic groups
+  const [taxonomicCoverageData, setTaxonomicCoverageData] = useState<TaxonomicCoverage | null>(null); // Taxonomic coverage for Summary Metrics card
 
   // Function to copy card link to clipboard
   const copyCardLink = (cardId: string) => {
@@ -369,6 +372,15 @@ export default function App() {
         } catch (error) {
           console.error("Failed to load wealth distribution data:", error);
           setWealthDistributionData(null);
+        }
+        
+        // Fetch taxonomic coverage data for Summary Metrics card
+        try {
+          const taxonomicCoverage = await getTaxonomicCoverage(selectedCountry);
+          setTaxonomicCoverageData(taxonomicCoverage);
+        } catch (error) {
+          console.error("Failed to load taxonomic coverage data:", error);
+          setTaxonomicCoverageData(null);
         }
       } catch (error) {
         console.error("Failed to load country data:", error);
@@ -818,31 +830,31 @@ export default function App() {
                 />
               </div>
               <div className="text-3xl mb-2" style={{ color: "#D0628D" }}>{currentCountry.species}</div>
-              {currentCountry.taxonomicRanks && (
+              {taxonomicCoverageData?.taxonomicCoverage && (
                 <div className="text-xs space-y-0.5 opacity-75">
                   <div className="flex justify-between">
                     <span className="text-gray-500">Kingdoms:</span>
-                    <span>{currentCountry.taxonomicRanks.uniqueKingdoms.toLocaleString()}</span>
+                    <span>{taxonomicCoverageData.taxonomicCoverage.distinctKingdoms.toLocaleString()}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-500">Phyla:</span>
-                    <span>{currentCountry.taxonomicRanks.uniquePhyla.toLocaleString()}</span>
+                    <span>{taxonomicCoverageData.taxonomicCoverage.distinctPhyla.toLocaleString()}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-500">Classes:</span>
-                    <span>{currentCountry.taxonomicRanks.uniqueClasses.toLocaleString()}</span>
+                    <span>{taxonomicCoverageData.taxonomicCoverage.distinctClasses.toLocaleString()}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-500">Orders:</span>
-                    <span>{currentCountry.taxonomicRanks.uniqueOrders.toLocaleString()}</span>
+                    <span>{taxonomicCoverageData.taxonomicCoverage.distinctOrders.toLocaleString()}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-500">Families:</span>
-                    <span>{currentCountry.taxonomicRanks.uniqueFamilies.toLocaleString()}</span>
+                    <span>{taxonomicCoverageData.taxonomicCoverage.distinctFamilies.toLocaleString()}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-500">Genera:</span>
-                    <span>{currentCountry.taxonomicRanks.uniqueGenera.toLocaleString()}</span>
+                    <span>{taxonomicCoverageData.taxonomicCoverage.distinctGenera.toLocaleString()}</span>
                   </div>
                 </div>
               )}
@@ -1214,6 +1226,12 @@ export default function App() {
         countryCode={selectedCountry}
         countryName={currentCountry.name}
       /> */}
+
+      {/* Summary Indicator Checklist */}
+      <QuestionsCard 
+        countryCode={selectedCountry}
+        countryName={currentCountry.name}
+      />
 
       {/* Community Feedback Card */}
       <Card className="mb-8 border-2 border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50">

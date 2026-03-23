@@ -97,6 +97,8 @@ cat("Will attempt to export data for", length(countries_to_export), "countries\n
 sql_taxonomic_coverage <- "
 SELECT 
   countryCode,
+  COUNT(DISTINCT kingdomKey) AS distinct_kingdoms,
+  COUNT(DISTINCT phylumKey) AS distinct_phyla,
   COUNT(DISTINCT classKey) AS distinct_classes,
   COUNT(DISTINCT orderKey) AS distinct_orders,
   COUNT(DISTINCT familyKey) AS distinct_families,
@@ -120,19 +122,40 @@ ORDER BY countryCode
 "
 
 # Check for existing download files
-existing_downloads <- list.files(pattern = "^taxonomic-coverage-[0-9]+-[0-9]+\\.zip$", full.names = TRUE)
+# Check for both renamed files (taxonomic-coverage-*.zip) and original files ([0-9]+-[0-9]+.zip)
+existing_downloads_renamed <- list.files(pattern = "^taxonomic-coverage-[0-9]+-[0-9]+\\.zip$", full.names = TRUE)
+existing_downloads_original <- list.files(pattern = "^[0-9]+-[0-9]+\\.zip$", full.names = TRUE)
+existing_downloads <- c(existing_downloads_renamed, existing_downloads_original)
 
 # Download taxonomic coverage data
 if (length(existing_downloads) > 0) {
   # Use the most recent download file
   download_file <- existing_downloads[length(existing_downloads)]
-  download_key <- sub("^taxonomic-coverage-", "", sub("\\.zip$", "", basename(download_file)))
+  
+  # Extract download key based on filename pattern
+  if (grepl("^taxonomic-coverage-", basename(download_file))) {
+    # File has been renamed
+    download_key <- sub("^taxonomic-coverage-", "", sub("\\.zip$", "", basename(download_file)))
+  } else {
+    # Original download filename
+    download_key <- sub("\\.zip$", "", basename(download_file))
+  }
+  
   cat("Found existing download file:", basename(download_file), "\n")
   cat("Using download key:", download_key, "\n")
   
   # Import the download
   data_taxonomic <- rgbif::occ_download_get(download_key, overwrite = FALSE) |>
     rgbif::occ_download_import()
+  
+  # Rename file if it hasn't been renamed yet
+  if (!grepl("^taxonomic-coverage-", basename(download_file))) {
+    new_file <- paste0("taxonomic-coverage-", download_key, ".zip")
+    if (!file.exists(new_file)) {
+      file.rename(download_file, new_file)
+      cat("Renamed download file to:", new_file, "\n")
+    }
+  }
   
 } else {
   # Request new download for taxonomic coverage
@@ -151,12 +174,14 @@ if (length(existing_downloads) > 0) {
   data_taxonomic <- rgbif::occ_download_get(download_key) |>
     rgbif::occ_download_import()
   
-  # Rename the file to include 'taxonomic-coverage-' prefix
+  # Rename the file to include 'taxonomic-coverage-' prefix if not already renamed
   old_file <- paste0(download_key, ".zip")
   new_file <- paste0("taxonomic-coverage-", download_key, ".zip")
-  if (file.exists(old_file)) {
+  if (file.exists(old_file) && !file.exists(new_file)) {
     file.rename(old_file, new_file)
     cat("Renamed download file to:", new_file, "\n")
+  } else if (file.exists(new_file)) {
+    cat("File already renamed to:", new_file, "\n")
   }
 }
 
@@ -236,6 +261,8 @@ for (country_code in countries_to_export) {
     countryCode = country_code,
     countryName = country_names[[country_code]],
     taxonomicCoverage = list(
+      distinctKingdoms = as.integer(country_data$distinct_kingdoms[1]),
+      distinctPhyla = as.integer(country_data$distinct_phyla[1]),
       distinctClasses = as.integer(country_data$distinct_classes[1]),
       distinctOrders = as.integer(country_data$distinct_orders[1]),
       distinctFamilies = as.integer(country_data$distinct_families[1]),
@@ -259,10 +286,11 @@ for (country_code in countries_to_export) {
   write_json(metrics, output_file, pretty = TRUE, auto_unbox = TRUE)
   
   cat("  Exported", country_code, "(", country_names[[country_code]], ")",
-      "- Classes:", country_data$distinct_classes[1],
+      "- Kingdoms:", country_data$distinct_kingdoms[1],
+      "Phyla:", country_data$distinct_phyla[1],
+      "Classes:", country_data$distinct_classes[1],
       "Orders:", country_data$distinct_orders[1],
-      "Families:", country_data$distinct_families[1],
-      "Genera:", country_data$distinct_genera[1], "\n")
+      "Families:", country_data$distinct_families[1], "\n")
   
   exported_count <- exported_count + 1
 }
