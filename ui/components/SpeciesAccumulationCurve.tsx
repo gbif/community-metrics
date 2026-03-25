@@ -442,7 +442,10 @@ function MultiCountryAccumulationChart({ countryData }: MultiCountryAccumulation
 
   return (
     <div className="flex justify-center relative">
-      <svg width={width} height={height} className="border border-gray-200 rounded-lg">
+      {/* Scrollable container for mobile */}
+      <div className="overflow-x-auto w-full">
+        <div className="min-w-[700px]">
+          <svg width={width} height={height} className="border border-gray-200 rounded-lg">
         {/* Background */}
         <rect width={width} height={height} fill="#FAFAFA" />
         
@@ -640,6 +643,8 @@ function MultiCountryAccumulationChart({ countryData }: MultiCountryAccumulation
           </g>
         </g>
       </svg>
+        </div>
+      </div>
 
       {/* Tooltip */}
       {tooltip && (

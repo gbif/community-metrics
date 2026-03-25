@@ -190,6 +190,13 @@ export default function App() {
   const [wealthDistributionData, setWealthDistributionData] = useState<WealthDistributionData | null>(null);
   const [groupOrderReference, setGroupOrderReference] = useState<string[]>([]); // Reference order for taxonomic groups
   const [taxonomicCoverageData, setTaxonomicCoverageData] = useState<TaxonomicCoverage | null>(null); // Taxonomic coverage for Summary Metrics card
+  const [showLandscapeBanner, setShowLandscapeBanner] = useState<boolean>(() => {
+    // Check if user has previously dismissed the banner
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem('landscapeBannerDismissed') !== 'true';
+    }
+    return true;
+  });
 
   // Function to copy card link to clipboard
   const copyCardLink = (cardId: string) => {
@@ -594,7 +601,7 @@ export default function App() {
   // Show loading state
   if (loading || !currentCountry) {
     return (
-      <div className="max-w-4xl mx-auto p-12 bg-white min-h-screen flex items-center justify-center">
+      <div className="max-w-4xl mx-auto p-4 sm:p-8 md:p-12 bg-white min-h-screen flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900 mx-auto mb-4"></div>
           <p className="text-gray-600">Loading biodiversity data...</p>
@@ -625,14 +632,42 @@ export default function App() {
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto p-12 bg-white min-h-screen">
+      {/* Landscape Mode Suggestion Banner - Only shown on mobile portrait */}
+      {showLandscapeBanner && (
+        <div className="w-full px-4 py-3 bg-gradient-to-r from-blue-50 to-cyan-50 border-b border-blue-200 md:hidden">
+          <div className="flex items-center justify-between gap-3 max-w-4xl mx-auto">
+            <div className="flex items-center gap-2 text-sm flex-1">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+              </svg>
+              <span className="text-blue-900">
+                <span className="font-semibold">Tip:</span> Rotate your device to landscape mode for a better viewing experience of charts and data.
+              </span>
+            </div>
+            <button
+              onClick={() => {
+                setShowLandscapeBanner(false);
+                localStorage.setItem('landscapeBannerDismissed', 'true');
+              }}
+              className="flex-shrink-0 text-blue-700 hover:text-blue-900 p-1 rounded-full hover:bg-blue-100 transition-colors"
+              aria-label="Dismiss landscape mode suggestion"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      )}
+
+      <div className="max-w-4xl mx-auto p-4 sm:p-6 md:p-12 bg-white min-h-screen">
         {/* Country Selection Menu */}
-        <div className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100 py-4 mb-8 -mx-12 px-12">
+        <div className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100 py-4 mb-8 -mx-4 sm:-mx-6 md:-mx-12 px-4 sm:px-6 md:px-12">
         <div className="flex justify-center">
           <div className="relative">
             <button
               onClick={() => setOpen(!open)}
-              className="w-96 px-4 py-2 border border-gray-300 rounded-md bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 flex items-center justify-between"
+              className="w-full sm:w-80 md:w-96 px-4 py-2 border border-gray-300 rounded-md bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 flex items-center justify-between"
             >
               <span>
                 {selectedCountry ? (
@@ -649,7 +684,7 @@ export default function App() {
             </button>
             
             {open && (
-              <div className="absolute z-[100] mt-2 w-96 bg-white border border-gray-300 rounded-md shadow-lg max-h-96 overflow-hidden flex flex-col">
+              <div className="absolute z-[100] mt-2 w-full sm:w-80 md:w-96 bg-white border border-gray-300 rounded-md shadow-lg max-h-96 overflow-hidden flex flex-col">
                 <div className="p-3 border-b border-gray-200">
                   <input
                     type="text"
@@ -706,7 +741,7 @@ export default function App() {
 
       {/* Header Section */}
       <div className="mb-8">
-        <div className="flex justify-between items-start mb-4">
+        <div className="flex flex-col sm:flex-row justify-between items-start mb-4 gap-4">
           <div>
             <div className="flex items-center gap-3 mb-2">
               <img
@@ -714,7 +749,7 @@ export default function App() {
                 alt="GBIF Logo"
                 className="h-8 w-8"
               />
-              <h1 className="text-3xl">{currentCountry.name}</h1>
+              <h1 className="text-2xl sm:text-3xl">{currentCountry.name}</h1>
             </div>
             <p className="text-gray-600">
               Global Biodiversity Information Facility - Activity Report
@@ -744,7 +779,7 @@ export default function App() {
           </div>
         </CardHeader>
         <CardContent>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div
               className="p-4 rounded-lg"
               style={{ backgroundColor: "#4C9B4520" }}
@@ -1054,7 +1089,9 @@ export default function App() {
             </span>
           </div>
           
-          <Table>
+          {/* Table with horizontal scroll on mobile */}
+          <div className="overflow-x-auto -mx-6 px-6">
+            <Table>
             <TableHeader>
               <TableRow>
                 <TableHead>Taxonomic Group</TableHead>
@@ -1132,6 +1169,7 @@ export default function App() {
               ))}
             </TableBody>
           </Table>
+          </div>
 
           
           <CollapsibleAbout title="About Summary Table" borderColor="border-orange-400">
