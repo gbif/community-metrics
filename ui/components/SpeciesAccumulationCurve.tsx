@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import { getAccumulationData, getGBIFCountries } from '../data/species-accumulation/api';
 import type { CountryAccumulationData, TaxonomicGroupAccumulation, GBIFCountry } from '../data/species-accumulation/types';
 
@@ -22,6 +22,7 @@ export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCur
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [yearRangeMin, setYearRangeMin] = useState<number>(2000);
   const [yearRangeMax, setYearRangeMax] = useState<number>(2026);
+  const countrySelectorRef = useRef<HTMLDivElement>(null);
 
   // Extract taxonomic groups from accumulation data
   const taxonomicGroups = useMemo(() => {
@@ -142,6 +143,7 @@ export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCur
       newSelection.add(code);
     }
     setSelectedCountries(newSelection);
+    setShowCountrySelector(false); // Close dropdown after selection
   };
 
   // Fetch the list of available countries on mount
@@ -158,6 +160,22 @@ export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCur
     })();
     return () => { mounted = false; };
   }, []);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (countrySelectorRef.current && !countrySelectorRef.current.contains(event.target as Node)) {
+        setShowCountrySelector(false);
+      }
+    };
+
+    if (showCountrySelector) {
+      document.addEventListener('mousedown', handleClickOutside);
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+      };
+    }
+  }, [showCountrySelector]);
 
   // Assign colors dynamically to newly selected countries (preserve existing map entries)
   useEffect(() => {
@@ -258,7 +276,7 @@ export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCur
 
         {/* Country Selection */}
         <div className="flex items-center">
-          <div className="relative">
+          <div className="relative" ref={countrySelectorRef}>
             <button
               onClick={() => setShowCountrySelector(!showCountrySelector)}
               className="px-4 py-2 border border-gray-300 rounded-md bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
