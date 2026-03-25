@@ -84,7 +84,7 @@ import { CollapsibleAbout } from "./components/CollapsibleAbout";
 // import { YearRangeHistogram } from "./components/YearRangeHistogram";
 // import { WealthDistribution } from "./components/WealthDistribution";
 // import { SummaryIndicators } from "./components/SummaryIndicators";
-import { QuestionsCard } from "./components/QuestionsCard";
+// import { QuestionsCard } from "./components/QuestionsCard";
 import { getDatasetScatterData } from "./data/dataset-scatterplot/api";
 import { getTaxonomicDiversityData } from "./data/taxonomic-diversity/api";
 import { getSpeciesOccurrenceTableData } from "./data/species-occurrence-table/api";
@@ -1266,10 +1266,10 @@ export default function App() {
       /> */}
 
       {/* Summary Indicator Checklist */}
-      <QuestionsCard 
+      {/* <QuestionsCard 
         countryCode={selectedCountry}
         countryName={currentCountry.name}
-      />
+      /> */}
 
       {/* Community Feedback Card */}
       <Card className="mb-8 border-2 border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50">
