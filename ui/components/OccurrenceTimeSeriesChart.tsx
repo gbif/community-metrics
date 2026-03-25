@@ -216,7 +216,7 @@ export function OccurrenceTimeSeriesChart({ countryCode, countryName }: Occurren
           </div>
           <div className="flex items-center gap-3">
             <span className={`text-sm ${dataType === 'COUNTRY' ? 'font-semibold text-gray-900' : 'text-gray-600'}`}>
-              In Country
+              Any publisher
             </span>
             <button
               onClick={() => setDataType(dataType === 'COUNTRY' ? 'PUBLISHER' : 'COUNTRY')}
@@ -231,7 +231,7 @@ export function OccurrenceTimeSeriesChart({ countryCode, countryName }: Occurren
               />
             </button>
             <span className={`text-sm ${dataType === 'PUBLISHER' ? 'font-semibold text-gray-900' : 'text-gray-600'}`}>
-              Published by Country
+              Only published by country
             </span>
           </div>
         </div>
