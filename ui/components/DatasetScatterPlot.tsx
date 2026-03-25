@@ -233,7 +233,10 @@ export function DatasetScatterPlot({ datasets, countryName }: DatasetScatterPlot
         <span className="text-sm text-gray-600">Color by category</span>
       </div>
 
-      <svg width={width} height={height} className="border border-gray-200 rounded">
+      {/* Scrollable container for mobile */}
+      <div className="overflow-x-auto">
+        <div className="min-w-[600px]">
+          <svg width={width} height={height} className="border border-gray-200 rounded">
         {/* Background */}
         <rect width={width} height={height} fill="#FAFAFA" />
         
@@ -367,6 +370,8 @@ export function DatasetScatterPlot({ datasets, countryName }: DatasetScatterPlot
         </g>
 
       </svg>
+        </div>
+      </div>
 
       {/* External Tooltip - renders above other elements */}
       {tooltip && (
