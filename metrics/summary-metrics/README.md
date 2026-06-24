@@ -27,7 +27,6 @@ The summary metrics include:
 ## Scripts
 
 - `generate-summary-metrics.R` - Main script to generate all summary metrics for all countries
-- `upload-summary-metrics.R` - Script to upload generated metrics to the backend API
 
 ## Data Sources
 
@@ -35,14 +34,11 @@ All metrics are calculated from GBIF occurrence data downloads using SQL queries
 
 ## Output
 
-Metrics are output as JSON files in the `json-output/` subdirectory and can be uploaded to the backend API for display in the UI.
+Metrics are output as JSON files in the `json-output/` subdirectory for display in the UI.
 
 ## Usage
 
 ```r
 # Generate metrics for all countries
 Rscript generate-summary-metrics.R
-
-# Upload to backend API
-Rscript upload-summary-metrics.R
 ```

@@ -5,6 +5,7 @@ import { LinkIcon } from 'lucide-react';
 import { getOccurrenceTimeSeries } from '../data/occurrence-time-series/api';
 import type { OccurrenceTimeSeriesData } from '../data/occurrence-time-series/types';
 import { CollapsibleAbout } from './CollapsibleAbout';
+import { DownloadAttribution } from './DownloadAttribution';
 
 interface OccurrenceTimeSeriesChartProps {
   countryCode: string;
@@ -209,6 +210,7 @@ export function OccurrenceTimeSeriesChart({ countryCode, countryName }: Occurren
               >
                 <LinkIcon className="h-4 w-4" />
               </button>
+              <DownloadAttribution attribution={timeSeriesData?.downloadAttribution} />
             </div>
             <CardDescription>
               {countryName} • Total: {formatNumber(totalOccurrences)} occurrences (2010-2025)

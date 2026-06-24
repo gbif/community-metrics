@@ -3,6 +3,9 @@ library(dplyr)
 library(httr)
 library(jsonlite)
 
+# Load shared attribution utilities
+source("../shared/attribution-utils.R")
+
 # Set GBIF credentials from environment variables
 gbif_user <- Sys.getenv("GBIF_USER")
 gbif_pwd <- Sys.getenv("GBIF_PWD")
@@ -78,6 +81,10 @@ if (length(existing_downloads) > 0) {
   all_dataset_stats <- rgbif::occ_download_get(download_key) |>
     rgbif::occ_download_import()
 }
+
+# Capture attribution metadata for the download
+print("\nCapturing download attribution...")
+download_attribution <- get_download_attribution(download_key)
 
 print(paste("Total rows retrieved:", nrow(all_dataset_stats)))
 
@@ -205,6 +212,11 @@ for(cc in countries_to_export) {
     notes = paste0("Biodiversity datasets from ", countryName, " institutions and GBIF network"),
     datasets = dataset_stats
   )
+  
+  # Add download attribution if available
+  if (!is.null(download_attribution)) {
+    all_results[[cc]]$downloadAttribution <- download_attribution
+  }
   
   # Export to JSON for easy import to backend
   jsonlite::write_json(all_results[[cc]], 

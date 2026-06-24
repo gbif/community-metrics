@@ -3,6 +3,37 @@ library(dplyr)
 library(httr)
 library(jsonlite)
 
+# Parse command-line arguments
+args <- commandArgs(trailingOnly = TRUE)
+current_year <- 2026
+previous_year <- 2025
+two_years_ago <- 2024
+three_years_ago <- 2023
+lit_start_year <- 2008
+
+if (length(args) > 0) {
+  for (i in seq_along(args)) {
+    if (args[i] == "--current-year" && i < length(args)) {
+      current_year <- as.integer(args[i + 1])
+    } else if (args[i] == "--previous-year" && i < length(args)) {
+      previous_year <- as.integer(args[i + 1])
+    } else if (args[i] == "--two-years-ago" && i < length(args)) {
+      two_years_ago <- as.integer(args[i + 1])
+    } else if (args[i] == "--three-years-ago" && i < length(args)) {
+      three_years_ago <- as.integer(args[i + 1])
+    } else if (args[i] == "--lit-start-year" && i < length(args)) {
+      lit_start_year <- as.integer(args[i + 1])
+    }
+  }
+}
+
+cat("Using year parameters:\n")
+cat("  Current year:", current_year, "\n")
+cat("  Previous year:", previous_year, "\n")
+cat("  Two years ago:", two_years_ago, "\n")
+cat("  Three years ago:", three_years_ago, "\n")
+cat("  Literature start year:", lit_start_year, "\n\n")
+
 # Country codes to process
 countries <- c("AU", "BW", "CO", "DK")
 
@@ -88,17 +119,17 @@ for (country in countries) {
   cat(paste("\nProcessing", country, "...\n"))
   
   # Get literature metrics
-  # Total since 2008
-  lit_total <- get_literature_count(country, "2008,2025")
-  cat(paste("  Literature total since 2008:", lit_total, "\n"))
+  # Total since lit_start_year
+  lit_total <- get_literature_count(country, paste0(lit_start_year, ",", previous_year))
+  cat(paste("  Literature total since", lit_start_year, ":", lit_total, "\n"))
   
-  # Current year (2024)
-  lit_2024 <- get_literature_count(country, "2024")
-  cat(paste("  Literature 2024:", lit_2024, "\n"))
+  # Previous year
+  lit_prev <- get_literature_count(country, as.character(previous_year))
+  cat(paste("  Literature", previous_year, ":", lit_prev, "\n"))
   
-  # Previous year (2023) for growth calculation
-  lit_2023 <- get_literature_count(country, "2023")
-  cat(paste("  Literature 2023:", lit_2023, "\n"))
+  # Two years ago for growth calculation
+  lit_two_ago <- get_literature_count(country, as.character(two_years_ago))
+  cat(paste("  Literature", two_years_ago, ":", lit_two_ago, "\n"))
   
   # Get occurrence count
   occ_count <- get_occurrence_count(country)
@@ -136,8 +167,8 @@ for (country in countries) {
     literatureCountRaw = lit_2024,
     literatureTotal = paste(lit_total, "articles since 2008"),
     literatureTotalRaw = lit_total,
-    literatureYearOverYear = if (lit_2023 > 0) {
-      round(((lit_2024 - lit_2023) / lit_2023) * 100, 1)
+    literatureYearOverYear = if (lit_two_ago > 0) {
+      round(((lit_prev - lit_two_ago) / lit_two_ago) * 100, 1)
     } else {
       0
     },

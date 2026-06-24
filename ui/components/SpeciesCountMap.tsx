@@ -4,6 +4,8 @@ import 'leaflet/dist/leaflet.css';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { LinkIcon } from 'lucide-react';
 import { CollapsibleAbout } from './CollapsibleAbout';
+import { DownloadAttribution } from './DownloadAttribution';
+import type { DownloadAttribution as DownloadAttributionType } from '../data/dataset-types';
 
 interface SpeciesCountMapProps {
   countryCode: string;
@@ -25,6 +27,7 @@ interface CountryMetadata {
   totalGridCells: number;
   maxSpeciesCount: number;
   minSpeciesCount: number;
+  downloadAttribution?: DownloadAttributionType;
 }
 
 const TAXONOMIC_GROUPS = [
@@ -642,13 +645,16 @@ export function SpeciesCountMap({ countryCode, countryName }: SpeciesCountMapPro
               {loading ? `Loading map data for ${countryName}...` : error ? 'Metric not available' : `Interactive grid map showing species richness across ${countryName}.`}
             </CardDescription>
           </div>
-          <button
-            onClick={() => copyCardLink('species-count-map')}
-            className="text-gray-400 hover:text-gray-600 transition-colors"
-            title="Copy link to this section"
-          >
-            <LinkIcon className="h-4 w-4" />
-          </button>
+          <div className="flex items-center gap-3">
+            <DownloadAttribution attribution={metadata?.downloadAttribution} />
+            <button
+              onClick={() => copyCardLink('species-count-map')}
+              className="text-gray-400 hover:text-gray-600 transition-colors"
+              title="Copy link to this section"
+            >
+              <LinkIcon className="h-4 w-4" />
+            </button>
+          </div>
         </div>
       </CardHeader>
       <CardContent>

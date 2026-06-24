@@ -6,9 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "./components/ui/card";
-// import { Badge } from "./components/ui/badge";
 import { Separator } from "./components/ui/separator";
-// import { Progress } from "./components/ui/progress";
 import {
   Table,
   TableBody,
@@ -17,87 +15,30 @@ import {
   TableHeader,
   TableRow,
 } from "./components/ui/table";
-// import {
-//   Select,
-//   SelectContent,
-//   SelectItem,
-//   SelectTrigger,
-//   SelectValue,
-// } from "./components/ui/select";
-// import {
-//   Command,
-//   CommandEmpty,
-//   CommandGroup,
-//   CommandInput,
-//   CommandItem,
-//   CommandList,
-// } from "./components/ui/command";
-// import {
-//   Popover,
-//   PopoverContent,
-//   PopoverTrigger,
-// } from "./components/ui/popover";
-// import { Button } from "./components/ui/button";
-// import { Switch } from "./components/ui/switch";
-// import { Label } from "./components/ui/label";
 import { Check, ChevronsUpDown } from "lucide-react";
-// import {
-//   BarChart,
-//   Bar,
-//   XAxis,
-//   YAxis,
-//   CartesianGrid,
-//   Tooltip,
-//   ResponsiveContainer,
-//   LineChart,
-//   Line,
-//   PieChart,
-//   Pie,
-//   Cell,
-//   AreaChart,
-//   Area,
-// } from "recharts";
 import {
   TrendingUp,
   Minus,
   Leaf,
-  // Bug,
-  // Bird,
-  // Fish,
-  // TreePine,
   Microscope,
   Database,
   Link as LinkIcon,
 } from "lucide-react";
-// import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 import { getCountryData, type CountryData } from "./data/api";
 import { getWealthDistribution, type WealthDistributionData } from "./data/api";
 import { getTaxonomicCoverage, type TaxonomicCoverage } from "./data/api";
 import { useState, useEffect } from "react";
-// import { TaxonomicSunburst } from "./components/TaxonomicSunburst";
 import { DatasetScatterPlot } from "./components/DatasetScatterPlot";
 import { SpeciesAccumulationCurve } from "./components/SpeciesAccumulationCurve";
-// import { CitesCard } from "./components/CitesCard";
 import { OccurrenceTimeSeriesChart } from "./components/OccurrenceTimeSeriesChart";
 import { SpeciesCountMap } from "./components/SpeciesCountMap";
 import { CollapsibleAbout } from "./components/CollapsibleAbout";
-// import { YearRangeHistogram } from "./components/YearRangeHistogram";
-// import { WealthDistribution } from "./components/WealthDistribution";
-// import { SummaryIndicators } from "./components/SummaryIndicators";
-// import { QuestionsCard } from "./components/QuestionsCard";
+import { DownloadAttribution } from "./components/DownloadAttribution";
 import { getDatasetScatterData } from "./data/dataset-scatterplot/api";
 import { getTaxonomicDiversityData } from "./data/taxonomic-diversity/api";
 import { getSpeciesOccurrenceTableData } from "./data/species-occurrence-table/api";
 
-// Images from data/images folder  
 const gbifLogo = `${import.meta.env.BASE_URL}data/images/gbif-logo.svg?v=` + Date.now();
-// const occurrenceRecordsImage = '/data/images/occurrence-records.png';
-// const chao1Image = '/data/images/chao1/chao1-explainer.png';
-
-
-
-// Available countries
-// const availableCountries = ["DK"];
 
 // Color mapping for taxonomic groups
 const TAXONOMIC_COLORS: Record<string, string> = {
@@ -177,6 +118,8 @@ export default function App() {
     total: number;
     loading: boolean;
   }>({ total: 0, loading: true });
+  const [speciesAccumulationAttributions, setSpeciesAccumulationAttributions] = useState<any[]>([]);
+  const [occurrenceTableAttributions, setOccurrenceTableAttributions] = useState<any[]>([]);
   const [organizationCount, setOrganizationCount] = useState<{
     total: number;
     loading: boolean;
@@ -326,6 +269,10 @@ export default function App() {
         if (taxonomicData) {
           // Build table from occurrence API data and enrich with taxonomic diversity info
           if (occurrenceTableData) {
+            // Store attribution for initial load
+            if (occurrenceTableData.downloadAttributions) {
+              setOccurrenceTableAttributions(occurrenceTableData.downloadAttributions);
+            }
             countryInfo.taxonomicGroups = occurrenceTableData.taxonomicGroups.map(occurrenceGroup => {
               // Find matching taxonomic diversity data for this group
               const taxonGroup = taxonomicData.groups.find(
@@ -348,17 +295,7 @@ export default function App() {
             setGroupOrderReference(occurrenceTableData.taxonomicGroups.map(g => g.group));
           }
           
-          // Store ALL taxonomic diversity groups separately for the sunburst (includes "Other" groups)
-          // Note: Commented out since TaxonomicSunburst component is currently not in use
-          // countryInfo.allTaxonomicGroups = taxonomicData.groups.map(group => ({
-          //   group: group.name,
-          //   species: group.species,
-          //   percentage: group.percentage,
-          //   color: getTaxonomicColor(group.name),
-          //   kingdom: group.kingdom
-          // }));
-          
-          // Store kingdom summaries for sunburst component
+          // Store kingdom summaries
           countryInfo.kingdomSummaries = taxonomicData.kingdomSummaries || [];
           
           // Store taxonomic ranks for display
@@ -413,6 +350,11 @@ export default function App() {
         setWealthDistributionData(wealthData);
         
         if (occurrenceTableData && taxonomicData) {
+          // Store attribution for toggle changes
+          if (occurrenceTableData.downloadAttributions) {
+            setOccurrenceTableAttributions(occurrenceTableData.downloadAttributions);
+          }
+          
           // Update only the taxonomicGroups in currentCountry
           const updatedGroups = occurrenceTableData.taxonomicGroups.map(occurrenceGroup => {
             const taxonGroup = taxonomicData.groups.find(
@@ -953,14 +895,17 @@ export default function App() {
       <Card className="mb-4" id="dataset-scatter">
         <CardHeader>
           <div className="flex items-center justify-between">
-            <CardTitle>Dataset Scatter Plot</CardTitle>
-            <button
-              onClick={() => copyCardLink('dataset-scatter')}
-              className="text-gray-400 hover:text-gray-600 transition-colors"
-              title="Copy link to this section"
-            >
-              <LinkIcon className="h-4 w-4" />
-            </button>
+            <div className="flex items-center gap-2">
+              <CardTitle>Dataset Scatter Plot</CardTitle>
+              <button
+                onClick={() => copyCardLink('dataset-scatter')}
+                className="text-gray-400 hover:text-gray-600 transition-colors"
+                title="Copy link to this section"
+              >
+                <LinkIcon className="h-4 w-4" />
+              </button>
+              <DownloadAttribution attribution={datasetScatterData?.downloadAttribution} />
+            </div>
           </div>
           <CardDescription>
             Distribution of datasets by species count and occurrence records in {currentCountry.name}.
@@ -984,14 +929,17 @@ export default function App() {
       <Card className="mb-4" id="species-accumulation">
         <CardHeader>
           <div className="flex items-center justify-between">
-            <CardTitle>Species Accumulation Curve</CardTitle>
-            <button
-              onClick={() => copyCardLink('species-accumulation')}
-              className="text-gray-400 hover:text-gray-600 transition-colors"
-              title="Copy link to this section"
-            >
-              <LinkIcon className="h-4 w-4" />
-            </button>
+            <div className="flex items-center gap-2">
+              <CardTitle>Species Accumulation Curve</CardTitle>
+              <button
+                onClick={() => copyCardLink('species-accumulation')}
+                className="text-gray-400 hover:text-gray-600 transition-colors"
+                title="Copy link to this section"
+              >
+                <LinkIcon className="h-4 w-4" />
+              </button>
+              <DownloadAttribution attribution={speciesAccumulationAttributions} />
+            </div>
           </div>
           <CardDescription>
             Cumulative species discovery over time showing the rate of new species identification for each taxonomic group. Circle sizes indicate sampling effort for each year.
@@ -1001,6 +949,7 @@ export default function App() {
           <SpeciesAccumulationCurve 
             countryCode={selectedCountry}
             countryName={currentCountry.name}
+            onAttributionsChange={setSpeciesAccumulationAttributions}
           />
 
           {/* Species Accumulation Curve Explainer */}
@@ -1016,47 +965,21 @@ export default function App() {
         countryName={currentCountry.name}
       />
 
-      {/* Year Range Histogram */}
-      {/* <YearRangeHistogram 
-        countryCode={selectedCountry}
-        countryName={currentCountry.name}
-      /> */}
-
-      {/* Taxonomic Diversity Sunburst */}
-      {/* <Card className="mb-6">
-        <CardHeader>
-          <CardTitle>Taxonomic Diversity</CardTitle>
-          <CardDescription>
-            Hierarchical visualization of species distribution across taxonomic kingdoms and groups in {currentCountry.name}. Hover over segments to see detailed counts.
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <TaxonomicSunburst 
-            taxonomicGroups={currentCountry.allTaxonomicGroups || currentCountry.taxonomicGroups}
-            kingdomSummaries={currentCountry.kingdomSummaries}
-          />
-          
-          {/* Sunburst Explainer *‍/}
-          <div className="mt-6 px-4 py-3 bg-gray-50 rounded-lg border-l-4 border-purple-400">
-            <p className="text-xs text-gray-700">
-              <strong>About the Sunburst Chart:</strong> This visualization displays the hierarchical structure of biodiversity in {currentCountry.name}. The inner ring represents major taxonomic kingdoms (Animals, Plants, Fungi), with each segment sized proportionally to the number of species. The outer ring breaks down these kingdoms into specific taxonomic groups, allowing you to see the relative contribution of each group to overall biodiversity. Hover over any segment to see exact species counts.
-            </p>
-          </div>
-        </CardContent>
-      </Card> */}
-
       {/* Species Counts by Group */}
       <Card className="mb-4" id="occurrence-counts">
         <CardHeader>
           <div className="flex items-center justify-between">
             <CardTitle>Summary Table</CardTitle>
-            <button
-              onClick={() => copyCardLink('occurrence-counts')}
-              className="text-gray-400 hover:text-gray-600 transition-colors"
-              title="Copy link to this section"
-            >
-              <LinkIcon className="h-4 w-4" />
-            </button>
+            <div className="flex items-center gap-3">
+              <DownloadAttribution attribution={occurrenceTableAttributions} />
+              <button
+                onClick={() => copyCardLink('occurrence-counts')}
+                className="text-gray-400 hover:text-gray-600 transition-colors"
+                title="Copy link to this section"
+              >
+                <LinkIcon className="h-4 w-4" />
+              </button>
+            </div>
           </div>
           <CardDescription>
             Total occurrence records and species counts for major taxonomic groups in {currentCountry.name}, with growth showing new records added in the last year (2025). 
@@ -1187,89 +1110,6 @@ export default function App() {
           </CollapsibleAbout>
         </CardContent>
       </Card>
-
-      {/* IUCN Conservation Metrics */}
-      {/* <Card className="mb-6" id="iucn-redlist">
-        <CardHeader>
-          <div className="flex items-center justify-between">
-            <CardTitle>IUCN Red List Assessment Metrics</CardTitle>
-            <button
-              onClick={() => copyCardLink('iucn-redlist')}
-              className="text-gray-400 hover:text-gray-600 transition-colors"
-              title="Copy link to this section"
-            >
-              <LinkIcon className="h-4 w-4" />
-            </button>
-          </div>
-          <CardDescription>
-            Conservation status assessments for {currentCountry.name} species according to IUCN criteria
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="space-y-3">
-            <div className="flex justify-between items-center">
-              <span className="text-sm flex items-center gap-2">
-                <span className="h-3 w-3 rounded-full bg-red-600"></span>
-                Critically Endangered
-              </span>
-              <span className="text-sm">89 species (3.1%)</span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-sm flex items-center gap-2">
-                <span className="h-3 w-3 rounded-full bg-orange-500"></span>
-                Endangered
-              </span>
-              <span className="text-sm">186 species (6.5%)</span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-sm flex items-center gap-2">
-                <span className="h-3 w-3 rounded-full bg-yellow-500"></span>
-                Vulnerable
-              </span>
-              <span className="text-sm">256 species (9.0%)</span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-sm flex items-center gap-2">
-                <span className="h-3 w-3 rounded-full bg-blue-500"></span>
-                Near Threatened
-              </span>
-              <span className="text-sm">192 species (6.7%)</span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-sm flex items-center gap-2">
-                <span className="h-3 w-3 rounded-full bg-green-600"></span>
-                Least Concern
-              </span>
-              <span className="text-sm">1,892 species (66.4%)</span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-sm flex items-center gap-2">
-                <span className="h-3 w-3 rounded-full bg-gray-400"></span>
-                Data Deficient
-              </span>
-              <span className="text-sm">232 species (8.1%)</span>
-            </div>
-          </div>
-        </CardContent>
-      </Card> */}
-
-      {/* CITES Card */}
-      {/* <CitesCard countryCode={selectedCountry} countryName={currentCountry.name} /> */}
-
-      {/* Wealth Distribution */}
-      {/* <WealthDistribution countryCode={selectedCountry} /> */}
-
-      {/* Summary Indicators */}
-      {/* <SummaryIndicators 
-        countryCode={selectedCountry}
-        countryName={currentCountry.name}
-      /> */}
-
-      {/* Summary Indicator Checklist */}
-      {/* <QuestionsCard 
-        countryCode={selectedCountry}
-        countryName={currentCountry.name}
-      /> */}
 
       {/* Community Feedback Card */}
       <Card className="mb-8 border-2 border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50">
