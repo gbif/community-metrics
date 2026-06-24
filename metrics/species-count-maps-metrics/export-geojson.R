@@ -281,8 +281,9 @@ GROUP BY geogrid_id, taxonomic_group;
   cat(paste0("  Merging with grid...\n"))
   grid_data <- merge(sf_obj, d, by = "geogrid_id")
   
-  # Add country code after merge to avoid duplicates
+  # Add country code and downloadKey after merge to avoid duplicates
   grid_data$countryCode <- country_code
+  grid_data$downloadKey <- download_key
   
   # Convert to WGS84 for Leaflet
   grid_data <- st_transform(grid_data, 4326)

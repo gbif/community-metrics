@@ -5,6 +5,14 @@ library(dplyr)
 # Source shared attribution utilities
 source("../shared/attribution-utils.R")
 
+# Load country-download mapping for existing GeoJSON files that don't have downloadKey
+mapping_file <- "country-download-mapping.json"
+country_download_mapping <- NULL
+if (file.exists(mapping_file)) {
+  country_download_mapping <- read_json(mapping_file)
+  cat(paste0("Loaded country-download mapping with ", length(country_download_mapping), " entries\n\n"))
+}
+
 cat("Regenerating metadata from existing GeoJSON files...\n\n")
 
 # Directory with GeoJSON files
@@ -66,7 +74,15 @@ for (i in seq_along(geojson_files)) {
     if ("downloadKey" %in% names(grid_data) && !is.na(grid_data$downloadKey[1]) && grid_data$downloadKey[1] != "") {
       download_key <- as.character(grid_data$downloadKey[1])
       cat(paste0("  Found downloadKey: ", download_key, "\n"))
-      download_attribution <- get_download_attribution(download_key)
+      download_attribution <- get_download_attribution(download_key, cache_dir = ".")
+      if (!is.null(download_attribution)) {
+        metadata_entry$downloadAttribution <- download_attribution
+      }
+    } else if (!is.null(country_download_mapping) && country_code %in% names(country_download_mapping)) {
+      # Fall back to mapping file for existing GeoJSON files without downloadKey
+      download_key <- country_download_mapping[[country_code]]
+      cat(paste0("  Using mapping: downloadKey = ", download_key, "\n"))
+      download_attribution <- get_download_attribution(download_key, cache_dir = ".")
       if (!is.null(download_attribution)) {
         metadata_entry$downloadAttribution <- download_attribution
       }
