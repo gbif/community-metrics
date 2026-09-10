@@ -197,9 +197,9 @@ run_r_script() {
     
     if [ "$DRY_RUN" = true ]; then
         if [ -n "$script_args" ]; then
-            print_info "DRY RUN: Would execute: Rscript.exe $(basename $script_path) $script_args"
+            print_info "DRY RUN: Would execute: Rscript $(basename $script_path) $script_args"
         else
-            print_info "DRY RUN: Would execute: Rscript.exe $(basename $script_path)"
+            print_info "DRY RUN: Would execute: Rscript $(basename $script_path)"
         fi
     else
         local start_time=$(date +%s)
@@ -207,7 +207,7 @@ run_r_script() {
         # Run the R script with arguments
         if [ -n "$script_args" ]; then
             print_info "Arguments: $script_args"
-            if Rscript.exe "$(basename $script_path)" $script_args; then
+            if Rscript "$(basename $script_path)" $script_args; then
                 local end_time=$(date +%s)
                 local duration=$((end_time - start_time))
                 print_success "Completed in ${duration}s"
@@ -218,7 +218,7 @@ run_r_script() {
                 return 1
             fi
         else
-            if Rscript.exe "$(basename $script_path)"; then
+            if Rscript "$(basename $script_path)"; then
                 local end_time=$(date +%s)
                 local duration=$((end_time - start_time))
                 print_success "Completed in ${duration}s"
