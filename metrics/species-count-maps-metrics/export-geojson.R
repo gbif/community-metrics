@@ -5,6 +5,9 @@ library(rgbif)
 library(jsonlite)
 library(spData)
 
+# Source shared attribution utilities
+source("../shared/attribution-utils.R")
+
 # Get all GBIF countries
 cat("Fetching GBIF countries...\n")
 gbif_countries <- rgbif::enumeration_country()
@@ -67,6 +70,23 @@ if (length(args) > 0) {
 # Directory to save individual country GeoJSONs (output to UI public data)
 geojson_dir <- "../../ui/public/data/species-count-maps/countries"
 dir.create(geojson_dir, showWarnings = FALSE, recursive = TRUE)
+
+# Check which countries already have GeoJSON files
+existing_geojson_files <- list.files(geojson_dir, pattern = "\\.geojson$")
+existing_country_codes <- gsub("\\.geojson$", "", existing_geojson_files)
+
+cat(paste0("Status check:\n"))
+cat(paste0("  Total GBIF countries: ", length(countries), "\n"))
+cat(paste0("  Already processed: ", length(existing_country_codes), " countries\n"))
+cat(paste0("  Remaining to process: ", length(setdiff(countries, existing_country_codes)), " countries\n\n"))
+
+if (length(existing_country_codes) > 0) {
+  cat(paste0("Already have data for: ", paste(head(sort(existing_country_codes), 20), collapse = ", ")))
+  if (length(existing_country_codes) > 20) {
+    cat(paste0(", ... and ", length(existing_country_codes) - 20, " more"))
+  }
+  cat("\n\n")
+}
 
 # Function to download ISEA3H shapefiles from GitHub
 download_isea3h_shapefile <- function(resolution) {
@@ -133,7 +153,7 @@ get_country_geojson <- function(country_code, resolution, sf_obj_7, sf_obj_8, sf
   if (file.exists(geojson_file)) {
     cat(paste0("  ✓ Loading existing GeoJSON for ", country_code, " (skipping download)\n"))
     grid_data <- st_read(geojson_file, quiet = TRUE)
-    return(grid_data)
+    return(list(grid_data = grid_data, attribution = NULL))
   }
   
   # Select appropriate grid based on resolution
@@ -225,6 +245,10 @@ GROUP BY geogrid_id, taxonomic_group;
     return(NULL)
   }
   
+  # Capture download attribution
+  cat(paste0("  Capturing download attribution...\n"))
+  download_attribution <- get_download_attribution(download_key)
+  
   # Import the data (already aggregated by SQL)
   cat(paste0("  Importing data...\n"))
   d_by_group <- occ_download_get(download_key) %>% 
@@ -257,8 +281,9 @@ GROUP BY geogrid_id, taxonomic_group;
   cat(paste0("  Merging with grid...\n"))
   grid_data <- merge(sf_obj, d, by = "geogrid_id")
   
-  # Add country code after merge to avoid duplicates
+  # Add country code and downloadKey after merge to avoid duplicates
   grid_data$countryCode <- country_code
+  grid_data$downloadKey <- download_key
   
   # Convert to WGS84 for Leaflet
   grid_data <- st_transform(grid_data, 4326)
@@ -279,19 +304,25 @@ GROUP BY geogrid_id, taxonomic_group;
   })
   
   cat(paste0("  ✓ Completed ", country_code, "\n\n"))
-  return(grid_data)
+  return(list(grid_data = grid_data, attribution = download_attribution))
 }
 
 # Process each country
 cat("Processing countries...\n\n")
 
 all_grid_data <- list()
+all_attributions <- list()
+countries_processed <- 0
+countries_skipped <- 0
+countries_failed <- 0
+
 for (country_code in countries) {
   # Get country info including resolution
   country_info <- countries_with_area %>% filter(countryCode == country_code)
   
   if (nrow(country_info) == 0) {
-    cat(paste0("Skipping ", country_code, " - not found in country area data\n\n"))
+    cat(paste0("⊘ Skipping ", country_code, " - not found in country area data\n\n"))
+    countries_skipped <- countries_skipped + 1
     next
   }
   
@@ -299,31 +330,64 @@ for (country_code in countries) {
   area_km2 <- country_info$area_km2[1]
   country_name <- country_info$countryName[1]
   
-  # Skip small countries (< 35000 km²) - insufficient for grid-based visualization
+  # Skip small countries (< 42000 km²) - insufficient for grid-based visualization
   if (area_km2 < 42000) {
-    cat(paste0("Skipping ", country_code, " (", country_name, ") - too small (", 
+    cat(paste0("⊘ Skipping ", country_code, " (", country_name, ") - too small (", 
                format(area_km2, big.mark = ","), " km²)\n\n"))
+    countries_skipped <- countries_skipped + 1
     next
   }
   
-  cat(paste0("Processing ", country_code, " (", country_name, ")...\n"))
+  # Check if this country already has a GeoJSON file
+  geojson_file <- file.path(geojson_dir, paste0(country_code, ".geojson"))
+  if (file.exists(geojson_file)) {
+    cat(paste0("✓ Skipping ", country_code, " (", country_name, ") - data already exists\n\n"))
+    countries_skipped <- countries_skipped + 1
+    next
+  }
+  
+  cat(paste0("→ Processing ", country_code, " (", country_name, ")...\n"))
   cat(paste0("  Area: ", format(area_km2, big.mark = ","), " km², Resolution: ", resolution, "\n"))
   
-  grid_data <- get_country_geojson(country_code, resolution, sf_obj_7, sf_obj_8, sf_obj_9)
+  result <- get_country_geojson(country_code, resolution, sf_obj_7, sf_obj_8, sf_obj_9)
   
   # Skip if download failed
-  if (is.null(grid_data)) {
-    cat(paste0("Skipping ", country_code, " due to download failure\n\n"))
+  if (is.null(result)) {
+    cat(paste0("✗ Failed ", country_code, " due to download failure\n\n"))
+    countries_failed <- countries_failed + 1
     next
   }
   
-  all_grid_data[[country_code]] <- grid_data
+  all_grid_data[[country_code]] <- result$grid_data
+  all_attributions[[country_code]] <- result$attribution
+  countries_processed <- countries_processed + 1
 }
+
+cat("\n")
+cat(paste0(rep("=", 70), collapse = ""))
+cat("\n")
+cat("Processing Summary:\n")
+cat(paste0("  ✓ Successfully processed: ", countries_processed, " countries\n"))
+cat(paste0("  ⊘ Skipped (already done or too small): ", countries_skipped, " countries\n"))
+cat(paste0("  ✗ Failed: ", countries_failed, " countries\n"))
+cat(paste0(rep("=", 70), collapse = ""))
+cat("\n\n")
 
 # Generate metadata.json from processed countries
 cat("\nGenerating metadata.json...\n")
-metadata_list <- list()
 
+# Load existing metadata if it exists
+metadata_file <- "../../ui/public/data/species-count-maps/metadata.json"
+if (file.exists(metadata_file)) {
+  cat("  Loading existing metadata...\n")
+  metadata_list <- fromJSON(metadata_file, simplifyVector = FALSE)
+  cat(paste0("  Found metadata for ", length(metadata_list), " existing countries\n"))
+} else {
+  metadata_list <- list()
+  cat("  Creating new metadata file\n")
+}
+
+# Add or update metadata for newly processed countries
 for (country_code in names(all_grid_data)) {
   grid_data <- all_grid_data[[country_code]]
   
@@ -340,7 +404,7 @@ for (country_code in names(all_grid_data)) {
   min_count <- min(grid_data$unique_species_count, na.rm = TRUE)
   
   # Create metadata entry
-  metadata_list[[country_code]] <- list(
+  metadata_entry <- list(
     countryCode = country_code,
     centroid = list(
       lat = as.numeric(centroid[2]),
@@ -357,15 +421,27 @@ for (country_code in names(all_grid_data)) {
     minSpeciesCount = as.integer(min_count)
   )
   
+  # Add download attribution if available
+  if (!is.null(all_attributions[[country_code]])) {
+    metadata_entry$downloadAttribution <- all_attributions[[country_code]]
+  }
+  
+  metadata_list[[country_code]] <- metadata_entry
+  
   cat(paste0("  ✓ Generated metadata for ", country_code, "\n"))
 }
 
 # Save metadata.json
-metadata_file <- "../../ui/public/data/species-count-maps/metadata.json"
-write_json(metadata_list, metadata_file, auto_unbox = TRUE, pretty = TRUE)
-cat(paste0("  ✓ Saved metadata to ", metadata_file, "\n"))
+if (length(all_grid_data) > 0) {
+  write_json(metadata_list, metadata_file, auto_unbox = TRUE, pretty = TRUE)
+  cat(paste0("\n  ✓ Updated metadata file: ", metadata_file, "\n"))
+  cat(paste0("    Total countries in metadata: ", length(metadata_list), "\n"))
+  cat(paste0("    New countries added: ", length(all_grid_data), "\n"))
+} else {
+  cat("\n  ⊘ No new countries to add to metadata\n")
+}
 
-cat("\n✓ Successfully processed all countries!\n")
-cat(paste0("  - Total countries: ", length(all_grid_data), "\n"))
-cat(paste0("  - Individual GeoJSONs saved in: ", geojson_dir, "\n"))
-cat(paste0("  - Metadata saved to: ", metadata_file, "\n"))
+cat("\n✓ Successfully completed!\n")
+cat(paste0("  - Total countries processed this run: ", countries_processed, "\n"))
+cat(paste0("  - Individual GeoJSONs directory: ", geojson_dir, "\n"))
+cat(paste0("  - Metadata file: ", metadata_file, "\n"))

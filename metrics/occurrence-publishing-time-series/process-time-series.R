@@ -2,6 +2,28 @@ library(rgbif)
 library(dplyr)
 library(jsonlite)
 
+# Load shared attribution utilities
+source("../shared/attribution-utils.R")
+
+# Parse command-line arguments
+args <- commandArgs(trailingOnly = TRUE)
+start_year <- 2010
+end_year <- 2025
+
+if (length(args) > 0) {
+  for (i in seq_along(args)) {
+    if (args[i] == "--start-year" && i < length(args)) {
+      start_year <- as.integer(args[i + 1])
+    } else if (args[i] == "--end-year" && i < length(args)) {
+      end_year <- as.integer(args[i + 1])
+    }
+  }
+}
+
+cat("Using year parameters:\n")
+cat("  Start year:", start_year, "\n")
+cat("  End year:", end_year, "\n\n")
+
 # Configuration
 OUTPUT_DIR <- "../../ui/public/data/occurrence-time-series"
 
@@ -26,7 +48,7 @@ TARGET_COUNTRIES <- gbif_countries$iso2
 cat("Found", length(TARGET_COUNTRIES), "countries to process\n")
 
 # SQL query for GBIF download
-sql <- "
+sql <- paste0("
 SELECT 
   countryCode,
   \"year\",
@@ -49,7 +71,7 @@ SELECT
   END AS taxon_group,
   COUNT(*) AS occurrence_count
 FROM occurrence
-WHERE \"year\" >= 2010 AND \"year\" <= 2025
+WHERE \"year\" >= ", start_year, " AND \"year\" <= ", end_year, "
   AND hasCoordinate = TRUE
   AND hasgeospatialissues = FALSE
   AND basisOfRecord != 'FOSSIL_SPECIMEN'
@@ -73,7 +95,7 @@ GROUP BY
     WHEN phylumKey IN ('34') THEN 'basidiomycota'
     ELSE 'other'
   END
-"
+")
 
 # Check for existing download files
 existing_downloads <- list.files(pattern = "^[0-9]+-[0-9]+\\.zip$", full.names = TRUE)
@@ -101,6 +123,10 @@ if (length(existing_downloads) > 0) {
   data <- rgbif::occ_download_get(download_key) |>
     rgbif::occ_download_import()
 }
+
+# Capture attribution metadata for the download
+cat("\nCapturing download attribution...\n")
+download_attribution <- get_download_attribution(download_key)
 
 cat("Importing data...\n")
 
@@ -160,6 +186,11 @@ process_country_data <- function(country_code, country_data) {
     lastModified = format(Sys.Date(), "%Y-%m-%d"),
     taxonomicGroups = groups_list
   )
+  
+  # Add download attribution if available
+  if (!is.null(download_attribution)) {
+    payload$downloadAttribution <- download_attribution
+  }
   
   # Save to JSON file
   json_file <- file.path(OUTPUT_DIR, paste0(country_code, ".json"))

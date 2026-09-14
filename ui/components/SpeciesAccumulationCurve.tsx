@@ -1,16 +1,18 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
 import { getAccumulationData, getGBIFCountries } from '../data/species-accumulation/api';
 import type { CountryAccumulationData, TaxonomicGroupAccumulation, GBIFCountry } from '../data/species-accumulation/types';
+import type { DownloadAttribution } from '../data/dataset-types';
 
 interface SpeciesAccumulationCurveProps {
   countryCode: string;
   countryName: string;
+  onAttributionsChange?: (attributions: DownloadAttribution[]) => void;
 }
 
 // Colors are assigned dynamically when a country is selected
 // We'll fetch available countries from the API so new countries don't need code changes
 
-export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCurveProps) {
+export function SpeciesAccumulationCurve({ countryCode, onAttributionsChange }: SpeciesAccumulationCurveProps) {
   const [accumulationData, setAccumulationData] = useState<Record<string, CountryAccumulationData>>({});
   const [selectedGroup, setSelectedGroup] = useState<string>('');
   const [selectedCountries, setSelectedCountries] = useState<Set<string>>(new Set([countryCode]));
@@ -55,8 +57,17 @@ export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCur
         setLoading(true);
         setError(null);
         
-        // Fetch data for all selected countries
-        const dataPromises = Array.from(selectedCountries).map(code => 
+        // Only fetch data for countries we don't already have
+        const countriesToFetch = Array.from(selectedCountries).filter(
+          code => !accumulationData[code]
+        );
+        
+        if (countriesToFetch.length === 0) {
+          setLoading(false);
+          return;
+        }
+        
+        const dataPromises = countriesToFetch.map(code => 
           getAccumulationData(code)
         );
         
@@ -64,21 +75,23 @@ export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCur
 
         if (!isMounted) return;
 
-        // Build a map of country code to data
-        const dataMap: Record<string, CountryAccumulationData> = {};
-        results.forEach(data => {
-          if (data) {
-            dataMap[data.countryCode] = data;
+        // Merge new data with existing data
+        setAccumulationData(prev => {
+          const updated = { ...prev };
+          results.forEach(data => {
+            if (data) {
+              updated[data.countryCode] = data;
+            }
+          });
+          
+          // Set the first group as selected if not already set
+          const firstData = Object.values(updated)[0];
+          if (firstData && firstData.taxonomicGroups.length > 0 && !selectedGroup) {
+            setSelectedGroup(firstData.taxonomicGroups[0].group);
           }
+          
+          return updated;
         });
-
-        setAccumulationData(dataMap);
-        
-        // Set the first group as selected if not already set
-        const firstData = Object.values(dataMap)[0];
-        if (firstData && firstData.taxonomicGroups.length > 0 && !selectedGroup) {
-          setSelectedGroup(firstData.taxonomicGroups[0].group);
-        }
       } catch (err) {
         if (!isMounted) return;
         setError('Failed to load accumulation data');
@@ -95,7 +108,17 @@ export function SpeciesAccumulationCurve({ countryCode }: SpeciesAccumulationCur
     return () => {
       isMounted = false;
     };
-  }, [selectedCountries, selectedGroup]);
+  }, [selectedCountries]);
+
+  // Pass attributions back to parent when data changes
+  useEffect(() => {
+    if (onAttributionsChange && Object.keys(accumulationData).length > 0) {
+      const attributions = Array.from(selectedCountries)
+        .map(code => accumulationData[code]?.downloadAttribution)
+        .filter((attr): attr is DownloadAttribution => attr !== undefined);
+      onAttributionsChange(attributions);
+    }
+  }, [accumulationData, selectedCountries, onAttributionsChange]);
 
   // Get data for the selected group across all countries with year filtering
   const multiCountryGroupData = useMemo(() => {
