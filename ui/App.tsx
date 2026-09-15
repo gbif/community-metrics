@@ -697,11 +697,6 @@ export default function App() {
               Global Biodiversity Information Facility - Activity Report
             </p>
           </div>
-          <div className="text-right">
-            <p className="text-sm text-gray-500">
-              Generated: March 23, 2026
-            </p>
-          </div>
         </div>
         <Separator />
       </div>
@@ -1113,30 +1108,15 @@ export default function App() {
 
       {/* Community Feedback Card */}
       <Card className="mb-8 border-2 border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50">
-        <CardHeader>
-          <CardTitle className="flex items-center gap-2 text-blue-900">
-            <Microscope className="h-5 w-5" />
-            Have Ideas for New Metrics?
-          </CardTitle>
-          <CardDescription className="text-blue-800">
-            We're building these country reports together with the GBIF community.
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="space-y-4">
-            <p className="text-sm text-gray-700">
-              Whether you have ideas for new biodiversity indicators, suggestions for improving existing visualizations, or questions about the data, we'd love to hear from you!
-            </p>
-            <a
+        <CardContent className="flex items-center py-4 [&:last-child]:pb-4">
+          <p className="m-0 text-sm text-blue-900">
+            Share ideas for new metrics on <a
               href="https://github.com/gbif/CommunityMetrics/issues"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg"
-            >
-              <Database className="h-4 w-4" />
-              Share Your Ideas on GitHub
-            </a>
-          </div>
+              className="font-medium text-blue-600 hover:text-blue-800 hover:underline transition-colors"
+            >GitHub</a>.
+          </p>
         </CardContent>
       </Card>
 
@@ -1145,9 +1125,6 @@ export default function App() {
         <div className="flex justify-between items-center text-sm text-gray-500">
           <div>
             <p>Compiled by: GBIF Secretariat</p>
-          </div>
-          <div className="text-right">
-            <p>Next Update: July 2026</p>
           </div>
         </div>
       </div>
