@@ -1,0 +1,75 @@
+{
+  "countryCode": "VA",
+  "countryName": "Holy See",
+  "totalSpecies": 130,
+  "groups": [
+    {
+      "name": "Birds",
+      "species": 55,
+      "percentage": 42.3,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Flowering Plants",
+      "species": 35,
+      "percentage": 26.9,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Insects",
+      "species": 32,
+      "percentage": 24.6,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Arachnids",
+      "species": 4,
+      "percentage": 3.1,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Ferns",
+      "species": 1,
+      "percentage": 0.8,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Mosses",
+      "species": 1,
+      "percentage": 0.8,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Other",
+      "species": 1,
+      "percentage": 0.8,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Reptiles",
+      "species": 1,
+      "percentage": 0.8,
+      "kingdom": "Animalia"
+    }
+  ],
+  "kingdomSummaries": [
+    {
+      "kingdom": "Animalia",
+      "species": 92,
+      "percentage": 70.8
+    },
+    {
+      "kingdom": "Plantae",
+      "species": 38,
+      "percentage": 29.2
+    }
+  ],
+  "taxonomicRanks": {
+    "uniqueGenera": 63,
+    "uniqueFamilies": 36,
+    "uniqueOrders": 21,
+    "uniqueClasses": 5,
+    "uniquePhyla": 3,
+    "uniqueKingdoms": 2
+  }
+}

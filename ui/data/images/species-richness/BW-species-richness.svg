@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  <rect x="50" y="50" width="700" height="500" fill="#e9ecef" stroke="#6c757d" stroke-width="2" rx="10"/>
+  <text x="400" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#495057">
+    BW Species Richness Map
+  </text>
+  <text x="400" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6c757d">
+    Botswana Biodiversity Distribution
+  </text>
+  <text x="400" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#868e96">
+    Placeholder for species richness visualization
+  </text>
+  <text x="400" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#adb5bd">
+    Replace with actual biodiversity map image
+  </text>
+  <!-- Simple mock map outline -->
+  <path d="M 200 400 L 300 380 L 450 390 L 550 410 L 600 450 L 580 480 L 520 490 L 400 485 L 280 475 L 220 450 Z" 
+        fill="#d1ecf1" stroke="#0c5460" stroke-width="2"/>
+  <circle cx="350" cy="430" r="5" fill="#dc3545"/>
+  <circle cx="400" cy="440" r="3" fill="#fd7e14"/>
+  <circle cx="450" cy="420" r="4" fill="#ffc107"/>
+  <circle cx="300" cy="450" r="6" fill="#28a745"/>
+</svg>

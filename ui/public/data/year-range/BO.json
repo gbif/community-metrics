@@ -1,0 +1,119 @@
+{
+  "Mammals": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120],
+    "counts": [163, 49, 31, 51, 20, 5, 17, 13, 36, 19, 15, 13, 16],
+    "totalSpecies": 448,
+    "meanYearRange": 37.86,
+    "medianYearRange": 25,
+    "maxYearRange": 126,
+    "minYearRange": 0
+  },
+  "Birds": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170],
+    "counts": [135, 44, 81, 171, 179, 111, 92, 139, 278, 106, 156, 37, 11, 17, 2, 7, 0, 3],
+    "totalSpecies": 1569,
+    "meanYearRange": 63.76,
+    "medianYearRange": 68,
+    "maxYearRange": 179,
+    "minYearRange": 0
+  },
+  "Reptiles": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120],
+    "counts": [98, 45, 10, 9, 15, 6, 1, 4, 7, 23, 49, 6, 13],
+    "totalSpecies": 286,
+    "meanYearRange": 45.31,
+    "medianYearRange": 20.5,
+    "maxYearRange": 125,
+    "minYearRange": 0
+  },
+  "Amphibians": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120],
+    "counts": [88, 25, 19, 18, 7, 1, 6, 8, 8, 14, 38, 2, 7],
+    "totalSpecies": 241,
+    "meanYearRange": 41.88,
+    "medianYearRange": 27,
+    "maxYearRange": 125,
+    "minYearRange": 0
+  },
+  "Insects": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190],
+    "counts": [4175, 279, 172, 107, 63, 39, 74, 35, 10, 35, 58, 87, 178, 2, 0, 0, 0, 0, 0, 1],
+    "totalSpecies": 5315,
+    "meanYearRange": 13.41,
+    "medianYearRange": 0,
+    "maxYearRange": 191,
+    "minYearRange": 0
+  },
+  "Arachnids": {
+    "bins": [0, 10, 20, 30, 40, 50, 60],
+    "counts": [282, 12, 11, 21, 0, 0, 1],
+    "totalSpecies": 327,
+    "meanYearRange": 4.63,
+    "medianYearRange": 0,
+    "maxYearRange": 67,
+    "minYearRange": 0
+  },
+  "Molluscs": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110],
+    "counts": [56, 3, 2, 2, 0, 0, 2, 1, 1, 3, 2, 2],
+    "totalSpecies": 74,
+    "meanYearRange": 16.74,
+    "medianYearRange": 0,
+    "maxYearRange": 116,
+    "minYearRange": 0
+  },
+  "Flowering Plants": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200],
+    "counts": [6389, 1672, 1721, 1086, 558, 121, 172, 326, 504, 539, 484, 554, 613, 781, 77, 93, 171, 83, 14, 24, 2],
+    "totalSpecies": 15984,
+    "meanYearRange": 40.89,
+    "medianYearRange": 20,
+    "maxYearRange": 205,
+    "minYearRange": 0
+  },
+  "Gymnosperms": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140],
+    "counts": [29, 4, 1, 7, 3, 0, 1, 1, 0, 0, 2, 0, 0, 2, 0],
+    "totalSpecies": 50,
+    "meanYearRange": 22.96,
+    "medianYearRange": 6,
+    "maxYearRange": 140,
+    "minYearRange": 0
+  },
+  "Ferns": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190],
+    "counts": [438, 136, 98, 29, 22, 10, 3, 16, 35, 61, 102, 58, 71, 39, 1, 3, 2, 0, 0, 2],
+    "totalSpecies": 1126,
+    "meanYearRange": 45.34,
+    "medianYearRange": 20,
+    "maxYearRange": 199,
+    "minYearRange": 0
+  },
+  "Mosses": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200],
+    "counts": [472, 75, 130, 65, 8, 7, 9, 41, 16, 119, 113, 55, 57, 5, 9, 19, 11, 3, 5, 1, 3],
+    "totalSpecies": 1223,
+    "meanYearRange": 48.33,
+    "medianYearRange": 27,
+    "maxYearRange": 205,
+    "minYearRange": 0
+  },
+  "Basidiomycota": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130],
+    "counts": [355, 11, 5, 3, 1, 2, 12, 1, 2, 0, 4, 0, 2, 3],
+    "totalSpecies": 401,
+    "meanYearRange": 6.88,
+    "medianYearRange": 0,
+    "maxYearRange": 137,
+    "minYearRange": 0
+  },
+  "Sac Fungi": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170],
+    "counts": [636, 73, 19, 6, 9, 3, 6, 4, 7, 2, 5, 5, 9, 2, 2, 1, 4, 0],
+    "totalSpecies": 793,
+    "meanYearRange": 9.85,
+    "medianYearRange": 0,
+    "maxYearRange": 170,
+    "minYearRange": 0
+  }
+}

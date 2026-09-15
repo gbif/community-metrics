@@ -1,0 +1,119 @@
+{
+  "Mammals": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140],
+    "counts": [15, 4, 0, 0, 2, 13, 5, 1, 1, 0, 2, 1, 1, 0, 1],
+    "totalSpecies": 46,
+    "meanYearRange": 43.63,
+    "medianYearRange": 52,
+    "maxYearRange": 145,
+    "minYearRange": 0
+  },
+  "Birds": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160],
+    "counts": [73, 28, 32, 8, 16, 6, 5, 2, 2, 8, 50, 5, 17, 25, 52, 0, 2],
+    "totalSpecies": 331,
+    "meanYearRange": 70.66,
+    "medianYearRange": 61,
+    "maxYearRange": 165,
+    "minYearRange": 0
+  },
+  "Reptiles": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140],
+    "counts": [39, 8, 14, 9, 11, 15, 10, 3, 6, 12, 13, 2, 0, 2, 10],
+    "totalSpecies": 154,
+    "meanYearRange": 52.47,
+    "medianYearRange": 46.5,
+    "maxYearRange": 149,
+    "minYearRange": 0
+  },
+  "Amphibians": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190],
+    "counts": [12, 3, 3, 0, 5, 5, 3, 0, 5, 4, 6, 0, 0, 0, 2, 0, 0, 0, 0, 1],
+    "totalSpecies": 49,
+    "meanYearRange": 56.27,
+    "medianYearRange": 53,
+    "maxYearRange": 197,
+    "minYearRange": 0
+  },
+  "Insects": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120],
+    "counts": [1505, 187, 151, 86, 44, 43, 38, 25, 47, 22, 28, 9, 1],
+    "totalSpecies": 2186,
+    "meanYearRange": 14.28,
+    "medianYearRange": 2,
+    "maxYearRange": 121,
+    "minYearRange": 0
+  },
+  "Arachnids": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90],
+    "counts": [212, 24, 17, 7, 4, 3, 6, 21, 10, 2],
+    "totalSpecies": 306,
+    "meanYearRange": 15.1,
+    "medianYearRange": 0,
+    "maxYearRange": 97,
+    "minYearRange": 0
+  },
+  "Molluscs": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140],
+    "counts": [450, 22, 19, 25, 11, 16, 8, 41, 128, 21, 15, 0, 4, 14, 2],
+    "totalSpecies": 776,
+    "meanYearRange": 31.33,
+    "medianYearRange": 1,
+    "maxYearRange": 142,
+    "minYearRange": 0
+  },
+  "Flowering Plants": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220],
+    "counts": [1450, 243, 182, 276, 463, 349, 86, 193, 82, 108, 78, 455, 4, 82, 5, 14, 11, 7, 8, 9, 44, 0, 3],
+    "totalSpecies": 4152,
+    "meanYearRange": 45.36,
+    "medianYearRange": 38,
+    "maxYearRange": 222,
+    "minYearRange": 0
+  },
+  "Gymnosperms": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150],
+    "counts": [9, 1, 0, 2, 4, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1],
+    "totalSpecies": 20,
+    "meanYearRange": 34.05,
+    "medianYearRange": 23.5,
+    "maxYearRange": 155,
+    "minYearRange": 0
+  },
+  "Ferns": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220],
+    "counts": [156, 23, 27, 34, 29, 29, 5, 18, 13, 28, 19, 38, 1, 3, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+    "totalSpecies": 426,
+    "meanYearRange": 42.81,
+    "medianYearRange": 36,
+    "maxYearRange": 222,
+    "minYearRange": 0
+  },
+  "Mosses": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150],
+    "counts": [274, 65, 33, 26, 13, 11, 4, 7, 1, 2, 3, 0, 0, 0, 0, 1],
+    "totalSpecies": 440,
+    "meanYearRange": 13.92,
+    "medianYearRange": 5.5,
+    "maxYearRange": 157,
+    "minYearRange": 0
+  },
+  "Basidiomycota": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150],
+    "counts": [462, 44, 14, 6, 3, 3, 4, 4, 3, 2, 6, 5, 0, 0, 0, 1],
+    "totalSpecies": 557,
+    "meanYearRange": 7.97,
+    "medianYearRange": 0,
+    "maxYearRange": 154,
+    "minYearRange": 0
+  },
+  "Sac Fungi": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140],
+    "counts": [1164, 34, 38, 17, 10, 10, 4, 1, 4, 4, 0, 1, 0, 0, 1],
+    "totalSpecies": 1288,
+    "meanYearRange": 4.54,
+    "medianYearRange": 0,
+    "maxYearRange": 149,
+    "minYearRange": 0
+  }
+}

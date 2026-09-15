@@ -1,0 +1,119 @@
+{
+  "Mammals": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150],
+    "counts": [11, 6, 2, 4, 1, 0, 2, 2, 0, 1, 3, 6, 0, 1, 0, 1],
+    "totalSpecies": 40,
+    "meanYearRange": 50.6,
+    "medianYearRange": 36,
+    "maxYearRange": 154,
+    "minYearRange": 0
+  },
+  "Birds": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170],
+    "counts": [41, 9, 16, 14, 31, 29, 15, 9, 6, 59, 6, 25, 4, 32, 10, 8, 2, 1],
+    "totalSpecies": 317,
+    "meanYearRange": 74.32,
+    "medianYearRange": 73,
+    "maxYearRange": 175,
+    "minYearRange": 0
+  },
+  "Reptiles": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140],
+    "counts": [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1],
+    "totalSpecies": 5,
+    "meanYearRange": 88.4,
+    "medianYearRange": 117,
+    "maxYearRange": 144,
+    "minYearRange": 17
+  },
+  "Amphibians": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150],
+    "counts": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 0, 0, 1],
+    "totalSpecies": 5,
+    "meanYearRange": 124.6,
+    "medianYearRange": 120,
+    "maxYearRange": 153,
+    "minYearRange": 112
+  },
+  "Insects": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170],
+    "counts": [3309, 630, 370, 237, 226, 170, 336, 470, 462, 392, 403, 156, 69, 236, 9, 4, 1, 1],
+    "totalSpecies": 7481,
+    "meanYearRange": 38.67,
+    "medianYearRange": 16,
+    "maxYearRange": 176,
+    "minYearRange": 0
+  },
+  "Arachnids": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160],
+    "counts": [318, 16, 31, 18, 34, 38, 39, 19, 17, 5, 10, 12, 6, 1, 1, 15, 16],
+    "totalSpecies": 596,
+    "meanYearRange": 33.54,
+    "medianYearRange": 6.5,
+    "maxYearRange": 166,
+    "minYearRange": 0
+  },
+  "Molluscs": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170],
+    "counts": [18, 4, 1, 2, 8, 7, 4, 2, 1, 7, 7, 0, 7, 5, 20, 1, 6, 9],
+    "totalSpecies": 109,
+    "meanYearRange": 91.42,
+    "medianYearRange": 101,
+    "maxYearRange": 175,
+    "minYearRange": 0
+  },
+  "Flowering Plants": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210],
+    "counts": [431, 41, 54, 53, 32, 23, 34, 41, 40, 63, 62, 99, 86, 125, 176, 66, 122, 46, 10, 1, 0, 6],
+    "totalSpecies": 1611,
+    "meanYearRange": 83.82,
+    "medianYearRange": 99,
+    "maxYearRange": 216,
+    "minYearRange": 0
+  },
+  "Gymnosperms": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170],
+    "counts": [10, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 1],
+    "totalSpecies": 16,
+    "meanYearRange": 42,
+    "medianYearRange": 2,
+    "maxYearRange": 173,
+    "minYearRange": 0
+  },
+  "Ferns": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210],
+    "counts": [4, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 2, 3, 6, 0, 5, 1, 0, 0, 0, 1],
+    "totalSpecies": 25,
+    "meanYearRange": 120.68,
+    "medianYearRange": 144,
+    "maxYearRange": 218,
+    "minYearRange": 0
+  },
+  "Mosses": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160],
+    "counts": [104, 19, 12, 19, 11, 9, 3, 9, 17, 11, 28, 27, 39, 49, 62, 14, 6],
+    "totalSpecies": 439,
+    "meanYearRange": 81.18,
+    "medianYearRange": 102,
+    "maxYearRange": 168,
+    "minYearRange": 0
+  },
+  "Basidiomycota": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150],
+    "counts": [697, 75, 63, 62, 90, 57, 35, 19, 19, 4, 4, 4, 3, 2, 0, 1],
+    "totalSpecies": 1135,
+    "meanYearRange": 17.82,
+    "medianYearRange": 0,
+    "maxYearRange": 152,
+    "minYearRange": 0
+  },
+  "Sac Fungi": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170],
+    "counts": [374, 33, 20, 36, 22, 37, 12, 24, 36, 24, 7, 10, 12, 7, 1, 6, 1, 1],
+    "totalSpecies": 663,
+    "meanYearRange": 28.97,
+    "medianYearRange": 1,
+    "maxYearRange": 171,
+    "minYearRange": 0
+  }
+}

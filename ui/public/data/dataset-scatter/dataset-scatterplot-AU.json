@@ -1,0 +1,1896 @@
+{
+  "countryCode": "AU",
+  "countryName": "Australia",
+  "totalDatasets": 4218,
+  "lastModified": "2026-06-09",
+  "dataSource": "GBIF",
+  "notes": "Biodiversity datasets from Australia institutions and GBIF network",
+  "datasets": [
+    {
+      "datasetkey": "4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+      "name": "EOD – eBird Observation Dataset",
+      "species": 898,
+      "occurrences": 55400410,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "4bf1cca8-832c-4891-9e17-7e7a65b7cc81",
+      "name": "BirdLife Australia, Birdata",
+      "species": 794,
+      "occurrences": 22896604,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "0645ccdb-e001-4ab0-9729-51f1755e007e",
+      "name": "NSW BioNet Atlas",
+      "species": 11799,
+      "occurrences": 14854038,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "37beb6ea-e591-41e3-b781-e384250dc42c",
+      "name": "Victorian Biodiversity Atlas",
+      "species": 9436,
+      "occurrences": 9430232,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+      "name": "iNaturalist Research-grade Observations",
+      "species": 48441,
+      "occurrences": 7590524,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "c3f5731f-4ebc-48a2-83ba-3fb5c895f6c1",
+      "name": "New South Wales Bird Atlassers",
+      "species": 543,
+      "occurrences": 3340124,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "b05a19cf-dcf2-4ef9-bbbb-ad0ecbd2917c",
+      "name": "Eremaea",
+      "species": 880,
+      "occurrences": 3289948,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "73d4365a-8868-4d84-a6fd-51098b968170",
+      "name": "First Bird Atlas",
+      "species": 708,
+      "occurrences": 2693807,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "40c0f670-ee87-4576-be9d-2725e0b47035",
+      "name": "SA Fauna",
+      "species": 2078,
+      "occurrences": 2058696,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "2a513d16-f4ce-4252-974f-2486ce70b788",
+      "name": "SA Flora",
+      "species": 4936,
+      "occurrences": 1971676,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "e4473544-f4cd-4429-b791-39d6e1fdb0a4",
+      "name": "WildNet - Queensland Wildlife Data",
+      "species": 9063,
+      "occurrences": 1907563,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "ce58b7bb-fed6-46b9-9424-135499c7afdf",
+      "name": "Garden Bird Surveys",
+      "species": 248,
+      "occurrences": 1855672,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "3f4d4bf1-5f9a-43f2-a0d8-ff6ed5952796",
+      "name": "IMOS - Animal Tracking Facility - Acoustic Tracking - Quality Controlled Detections (2007 -2021)",
+      "species": 147,
+      "occurrences": 1545830,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "358fbd61-739f-4102-afc9-9d468f571e4d",
+      "name": "Fauna Atlas N.T.",
+      "species": 1073,
+      "occurrences": 1222185,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "7565c55d-9dc8-442d-95cf-19d5ebb3d2b0",
+      "name": "Flora Atlas N.T.",
+      "species": 3927,
+      "occurrences": 1100593,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "9fc74265-28a7-4d62-97ea-33eb5588562e",
+      "name": "Australian Microbiome 18S (Eukaryote) Dataset of Aquatic Samples",
+      "species": 3075,
+      "occurrences": 1092131,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "2985efd1-45b1-46de-b6db-0465d2834a5a",
+      "name": "Tasmanian Natural Values Atlas",
+      "species": 5484,
+      "occurrences": 1062723,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "bf1feaf4-b23d-4529-9c47-ac6176c70afe",
+      "name": "Collation of spatial seagrass data (meadow extent polygons, species presence/absence points) from 1984 - 2018 for the Great Barrier Reef World Heritage Area (GBRWHA) (NESP TWQ Project 3.2.1 and 5.4, TropWATER, James Cook University)",
+      "species": 13,
+      "occurrences": 1057875,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "dce8feb0-6c89-11de-8225-b8a03c50a862",
+      "name": "Australian Museum provider for OZCAM",
+      "species": 38298,
+      "occurrences": 1018373,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "47c9fee2-619a-481c-a114-386bc4748256",
+      "name": "FrogID",
+      "species": 204,
+      "occurrences": 949128,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "044f96bc-3bf2-4a38-9f7c-8808ab48dbf1",
+      "name": "Catches of numerous insect species in Rothamsted 160W light trap at Devonport, Tasmania, 1992-2019",
+      "species": 226,
+      "occurrences": 833727,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "15738fee-78b1-4751-bcc1-cbf7139c68de",
+      "name": "Centre for Australian National Biodiversity Research (CANB) AVH data",
+      "species": 27893,
+      "occurrences": 793950,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "4ce8e3f9-2546-4af1-b28d-e2eadf05dfd4",
+      "name": "National Herbarium of Victoria (MEL) AVH data",
+      "species": 28462,
+      "occurrences": 789805,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "5a3b50fa-c882-4129-9405-38e54c0a73f3",
+      "name": "Western Australian Herbarium (PERTH) AVH data",
+      "species": 19660,
+      "occurrences": 775297,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "47abf4a5-0eb2-4373-bc51-61196e7346d2",
+      "name": "Historical Bird Atlas",
+      "species": 711,
+      "occurrences": 741930,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "39905320-6c8a-11de-8226-b8a03c50a862",
+      "name": "Museums Victoria provider for OZCAM",
+      "species": 28480,
+      "occurrences": 707908,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "9360958c-3534-4d53-874e-4a952eea3e6d",
+      "name": "AD AVH Data",
+      "species": 19642,
+      "occurrences": 702668,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "07a54454-87c7-4e1e-b2ba-88a9d98d534b",
+      "name": "NSW AVH feed",
+      "species": 23918,
+      "occurrences": 702058,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "5d7f5915-0561-4107-aa20-20a4267c203f",
+      "name": "BRI AVH Data and Images",
+      "species": 22695,
+      "occurrences": 689134,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "08ee525d-6077-49c1-bb00-df5e01432f02",
+      "name": "Four Decades of Seagrass Spatial Data from Torres Strait and Gulf of Carpentaria, Australia (1986-2022)",
+      "species": 13,
+      "occurrences": 626288,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "ed868722-2b6f-45b6-8c0f-d8b376858b35",
+      "name": "Australian Microbiome 16S (Bacteria) Dataset of Terrestrial Samples",
+      "species": 164,
+      "occurrences": 573541,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "efe230b2-0a42-41ec-b50a-f3c19ca4a99b",
+      "name": "Australian Microbiome 18S (Eukaryote) Dataset of Terrestrial Samples",
+      "species": 2287,
+      "occurrences": 567237,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "a79c2b50-6c8a-11de-8226-b8a03c50a862",
+      "name": "Queensland Museum provider for OZCAM",
+      "species": 29284,
+      "occurrences": 563674,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "19729f12-88c3-4e56-a84f-b42a5cf052ad",
+      "name": "AWC Ecological Monitoring Surveys",
+      "species": 1226,
+      "occurrences": 549785,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "7c93d290-6c8b-11de-8226-b8a03c50a862",
+      "name": "Western Australian Museum provider for OZCAM",
+      "species": 18922,
+      "occurrences": 480426,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "836cfc79-f83f-454d-a98a-2fea4821c324",
+      "name": "NSW Biosecurity Information System - Weeds",
+      "species": 277,
+      "occurrences": 476283,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "fa375330-6c8a-11de-8226-b8a03c50a862",
+      "name": "South Australian Museum Adelaide provider for OZCAM",
+      "species": 14186,
+      "occurrences": 405459,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "456619c2-c56e-4d4b-86df-ddc80750bda8",
+      "name": "IMOS - Zooplankton Abundance and Biomass Index (CPR)",
+      "species": 288,
+      "occurrences": 400693,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "38f06820-08c5-42b2-94f6-47cc3e83a54a",
+      "name": "Reef Life Survey: Global reef fish dataset",
+      "species": 1437,
+      "occurrences": 322758,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "7ebef267-9d72-4c21-a276-cc84281a8590",
+      "name": "NatureMapr",
+      "species": 10202,
+      "occurrences": 306446,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "227eb73f-9b53-4a66-b2ef-e12c960d76ba",
+      "name": "Australian Microbiome 16S (Bacteria) Dataset of Aquatic Samples",
+      "species": 188,
+      "occurrences": 305315,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "f906d1c4-6e1a-46dd-8805-ec98b5091908",
+      "name": "Western Australia Bird Surveys (1987-2015)",
+      "species": 152,
+      "occurrences": 287856,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "270c3da6-45ad-4272-804b-33ac7ee33421",
+      "name": "Northern Territory Herbarium (DNA) AVH data",
+      "species": 11243,
+      "occurrences": 275572,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "4519fc60-6362-49a8-b0b5-075b77907fbc",
+      "name": "GPS tracking and dive data from 84 foraging trip tracks of Little Penguins (32 female, 31 male) , Port Campbell, Victoria, Australia (2012-2013)",
+      "species": 1,
+      "occurrences": 265468,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "e3ce628e-9683-4af7-b7a9-47eef785d3bb",
+      "name": "Earth Guardians Weekly Feed",
+      "species": 13581,
+      "occurrences": 258538,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded",
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "42301ebf-d36a-4e4f-a061-d37d778c2365",
+      "name": "Tasmanian Herbarium (HO) AVH data",
+      "species": 13970,
+      "occurrences": 230811,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "cd6e21c8-9e8a-493a-8a76-fbf7862069e5",
+      "name": "Royal Botanic Gardens, Kew - Herbarium Specimens",
+      "species": 18630,
+      "occurrences": 227791,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "86cd718d-eb8d-46a0-aeec-3b0089a69ab9",
+      "name": "CSIRO, Cruises, Vertebrate and Invertebrate Fishery Bycatch, North Australia, 1997",
+      "species": 683,
+      "occurrences": 213169,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "beed1b50-8c73-11dc-aaed-b8a03c50a862",
+      "name": "Australian National Insect Collection",
+      "species": 9760,
+      "occurrences": 210580,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "a74db578-ac84-4907-ab8f-8de6eaa7df56",
+      "name": "Marine metagenomes Metagenome",
+      "species": 5577,
+      "occurrences": 205723,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "d8f7cf5d-df32-4b34-bd60-ea85272155e1",
+      "name": "Australian Microbiome ITS2 (Fungi) Dataset of Terrestrial Samples",
+      "species": 3375,
+      "occurrences": 202700,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "0debafd0-6c8a-11de-8225-b8a03c50a862",
+      "name": "Australian National Wildlife Collection provider for OZCAM",
+      "species": 1701,
+      "occurrences": 199748,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "22521af2-162a-4cc5-9f09-a3329fe88231",
+      "name": "Australian Microbiome ITS1 (Fungi) Dataset of Terrestrial Samples",
+      "species": 3795,
+      "occurrences": 197203,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "14a9a51d-a69d-49a8-b4ec-8f8455acc34b",
+      "name": "CSIRO, North West Shelf Demersal Marine Resources Study 1980-1997",
+      "species": 854,
+      "occurrences": 186635,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "2651f9da-9999-4cd2-9f17-293a977ffe58",
+      "name": "Australian Tropical Herbarium (CNS) AVH data",
+      "species": 8578,
+      "occurrences": 185601,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "eeaf050f-23d0-4557-9084-ec545cd3d9a7",
+      "name": "NSW DPI Biosecurity Collections",
+      "species": 9093,
+      "occurrences": 172358,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "040c5662-da76-4782-a48e-cdea1892d14c",
+      "name": "International Barcode of Life project (iBOL)",
+      "species": 19658,
+      "occurrences": 171879,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "4ffe66a0-6c8b-11de-8226-b8a03c50a862",
+      "name": "Tasmanian Museum and Art Gallery provider for OZCAM",
+      "species": 8200,
+      "occurrences": 169783,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "73e4ef3f-804d-4f5f-9592-a9fb6f31df7b",
+      "name": "Australian Institute of Marine Science (AIMS) Long-term Monitoring Program: Visual Census Fish Data (Great Barrier Reef), Australia (1992 to present)",
+      "species": 253,
+      "occurrences": 168620,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "dd593383-505e-4fb4-b182-62d64b1c132f",
+      "name": "Tracking of Little Penguins (Eudyptula minor) from Montague and Bowen Islands, New South Wales coast, Australia (2012 - 2014)",
+      "species": 1,
+      "occurrences": 153360,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "793c3890-6c8a-11de-8226-b8a03c50a862",
+      "name": "Northern Territory Museum and Art Gallery provider for OZCAM",
+      "species": 10904,
+      "occurrences": 150887,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "111e0f70-f27e-498f-89b4-bbf8464e7c35",
+      "name": "FeralScan",
+      "species": 10,
+      "occurrences": 146915,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "e3abd7a9-99ab-41e6-9511-73024d8c9a4e",
+      "name": "Qweeds - Queensland",
+      "species": 266,
+      "occurrences": 137089,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "9749f46b-0678-423a-80a4-e91995e83ee8",
+      "name": "Belt transect surveys to monitor benthic community structure at selected research and control sites, east coast Tasmania, Australia (2008-2011)",
+      "species": 18,
+      "occurrences": 136080,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "387d9422-a3d8-4e1c-8f17-d653c1a1bb7a",
+      "name": "Foreign vessel commercial trawl records from the North West Shelf, Australia (1979-1985)",
+      "species": 59,
+      "occurrences": 121968,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "02abb9d1-7d81-42b3-ac9a-3b3d0c7a5280",
+      "name": "Fungimap",
+      "species": 1481,
+      "occurrences": 120735,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "84a649ce-ff81-420d-9c41-aa1de59e3766",
+      "name": "ALA species sightings and OzAtlas",
+      "species": 14719,
+      "occurrences": 115628,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "42793207-9afe-4991-bff4-db2be2e6182e",
+      "name": "CSIRO, Soviet Fishery Data, Australia, 1965-1978",
+      "species": 910,
+      "occurrences": 112706,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "d8cd16ba-bb74-4420-821e-083f2bac17c2",
+      "name": "INSDC Sequences",
+      "species": 25068,
+      "occurrences": 112199,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "07044577-bd82-4089-9f3a-f4a9d2170b2e",
+      "name": "A global database for the distributions of crop wild relatives",
+      "species": 1085,
+      "occurrences": 111949,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "7506f5a4-6458-4201-8e6a-0d49f69a0cda",
+      "name": "IMOS - AATAMS Facility Satellite Relay Tagging Program - Satellite tracking of pinnipeds - Delayed mode data, 2007-2017",
+      "species": 3,
+      "occurrences": 109388,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "764e832b-96ec-49bb-8de2-f8c5ca09afc2",
+      "name": "Marine Commercial Fish Survey (FV Kapala, FV Trader Horn, FV Shelley, FV Kirrawa, FV May Bell) in the East and South East Australian Region from 1975 to 2008",
+      "species": 716,
+      "occurrences": 103447,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "15f819bd-6612-4447-854b-14d12ee1022d",
+      "name": "Naturalis Biodiversity Center (NL) - Botany",
+      "species": 14619,
+      "occurrences": 101167,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "7e380070-f762-11e1-a439-00145eb45e9a",
+      "name": "Natural History Museum (London) Collection Specimens",
+      "species": 20626,
+      "occurrences": 101071,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b",
+      "name": "Birda - Global Observation Dataset",
+      "species": 658,
+      "occurrences": 100696,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "d0e133c0-6c8a-11de-8226-b8a03c50a862",
+      "name": "Queen Victoria Museum Art Gallery provider for OZCAM",
+      "species": 7721,
+      "occurrences": 100018,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "d7349b4a-5b9e-414f-94a2-418af65425ce",
+      "name": "Conservation Atlas Surveys",
+      "species": 8681,
+      "occurrences": 97242,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "29b28617-c91c-4bc9-b3aa-c97960a8b5c8",
+      "name": "IMOS - Phytoplankton Abundance and Biovolume (CPR), Australia (2007 to present)",
+      "species": 171,
+      "occurrences": 93616,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "3fab912e-e927-4f1c-a97c-eb446cd609e0",
+      "name": "ClimateWatch",
+      "species": 179,
+      "occurrences": 93013,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "8bc47548-aaed-4ad6-96d0-85c97955a81e",
+      "name": "NCW Beadle Herbarium AVH Data",
+      "species": 10215,
+      "occurrences": 90803,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "a57985ac-a9af-4ccb-803c-f5b803af0318",
+      "name": "The Australian Phytoplankton Database (1844 onwards)",
+      "species": 1178,
+      "occurrences": 88880,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "0a147ef3-8436-44a2-8f06-7820daf54d30",
+      "name": "CSIRO, South East Fishery Habitat Ecosystem Study, Southeast Australia, 1993-1997",
+      "species": 347,
+      "occurrences": 88766,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "821cc27a-e3bb-4bc5-ac34-89ada245069d",
+      "name": "NMNH Extant Specimen Records (USNM, US)",
+      "species": 20797,
+      "occurrences": 87228,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "fb996081-e68a-46b4-90a7-a268e3dd1ab0",
+      "name": "Macroalgal coverage from video surveys of long spined sea urchin (Centrostephanus rodgersii) barrens habitat, eastern Tasmania, Australia (2001-2002)",
+      "species": 3,
+      "occurrences": 85599,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "8aeef018-ebc0-4815-8bd0-3b92c098bc87",
+      "name": "Fish sampling, Peel-Harvey Estuary, Western Australia (2009-2011)",
+      "species": 66,
+      "occurrences": 74573,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "433e55fe-a408-46f8-8184-dd4e33e4782f",
+      "name": "Investigation of School and Gummy Shark Nursery Areas in South East Tasmania, Australia, 1991-1997",
+      "species": 102,
+      "occurrences": 71313,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "8a863029-f435-446a-821e-275f4f641165",
+      "name": "Observation.org, Nature data from around the World",
+      "species": 2188,
+      "occurrences": 70775,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "e8443518-d916-47aa-9ae9-405333745b66",
+      "name": "Reef Life Survey - Survey Records",
+      "species": 1128,
+      "occurrences": 67565,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "a8107265-37e5-4825-8e88-dd76ba1a7879",
+      "name": "Ningaloo Outlook turtle tracking of Green turtles (Chelonia mydas), Western Australia (2018-present)",
+      "species": 2,
+      "occurrences": 66107,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "4bfac3ea-8763-4f4b-a71a-76a6f5f243d3",
+      "name": "Museum of Comparative Zoology, Harvard University",
+      "species": 6829,
+      "occurrences": 64077,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "b0361e24-d3c6-4229-9c07-671d0ee428b0",
+      "name": "CSIRO Bee Trap Surveys",
+      "species": 94,
+      "occurrences": 60252,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "1084c169-c39a-4749-94aa-32159777d828",
+      "name": "QLD DERM Coastal Bird Atlas (Trial)",
+      "species": 385,
+      "occurrences": 59897,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "a81bea66-5d00-4fc7-a8d8-4c873d916f06",
+      "name": "Bureau of Rural Sciences, Commercial Fisheries Presence, Australia, 2000-2002",
+      "species": 384,
+      "occurrences": 59793,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "03ce64e0-7906-465f-afa8-1bfb6597aeaa",
+      "name": "QLD DERM Coastal Bird Atlas (Trial)",
+      "species": 380,
+      "occurrences": 59751,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "b86fe411-8e62-4cd0-aab2-914d75401598",
+      "name": "The Retrospective Analysis of Antarctic Tracking (Standardised) Data from the Scientific Committee on Antarctic Research",
+      "species": 10,
+      "occurrences": 59282,
+      "publishedInCountry": false,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "9f0e1ca6-fb08-4c72-9a4a-1e3b7a528c10",
+      "name": "Global soil organisms",
+      "species": 747,
+      "occurrences": 57010,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "23993af9-9834-4700-8f58-97660a0404e9",
+      "name": "Pilbara Marine Conservation Partnership BRUVS data, Australia (2014 - 2015)",
+      "species": 484,
+      "occurrences": 56369,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "9380202e-de78-488f-ada2-d0000e2e8a04",
+      "name": "Birds of Rottnest Island, Western Australia, 1981 - 2007",
+      "species": 44,
+      "occurrences": 54731,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "a3d3150a-6a85-4e42-885f-c273509a808e",
+      "name": "Northern Gulf Fauna Survey",
+      "species": 420,
+      "occurrences": 51090,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "28fec1d3-0776-4a35-8332-5c909abb9563",
+      "name": "Year-round at-sea movements of fairy prions (Pachyptila turtur)  from Kanowna Island, Bass Strait, south-eastern Australia (2017-2020)",
+      "species": 1,
+      "occurrences": 50812,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "63fa6322-9962-44a5-8691-24cdb26e1370",
+      "name": "Weed and native flora data for the Swan Coastal Plain",
+      "species": 1521,
+      "occurrences": 45597,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "f250fecf-8116-435c-9494-9209aab35078",
+      "name": "HMAP Dataset 02: SE Australian Trawl Fishery II: Fish (various) landings and fishing effort, South East Australia, 1937-1943",
+      "species": 8,
+      "occurrences": 45538,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "35e8d7cb-256c-4470-b2e6-79adadc308c5",
+      "name": "WCPS Bird Survey Project",
+      "species": 188,
+      "occurrences": 43624,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "af47755c-c675-4f4b-9214-0648a46c27ae",
+      "name": "Hoplostethus atlanticus (Orange Roughy) length weight data, Australian waters (1987-2012)",
+      "species": 1,
+      "occurrences": 43534,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "bb614691-1d72-45ff-8787-160a9112bd01",
+      "name": "Benthic habitats of Yanyuwa Sea Country, Barni - Wardimantha Awara Indigenous Protected Area, Gulf of Carpentaria, Northern Territory, Australia (NESP MaC Project 1.12, JCU & CDU)",
+      "species": 12,
+      "occurrences": 42224,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "170fd706-23a1-4036-b29e-57f4b2cb7bed",
+      "name": "Salinity Action Plan Flora Survey",
+      "species": 2662,
+      "occurrences": 42186,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "64823037-f86c-4bc9-9cc5-439cf0b448df",
+      "name": "PaDIL Bee records",
+      "species": 894,
+      "occurrences": 42036,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "792e64d5-c1ea-4bf2-b462-b377067cbdd1",
+      "name": "Bathing Birds - National Parks Association NSW and Birdlife Australia",
+      "species": 233,
+      "occurrences": 41371,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "e2396657-ee77-4cc8-8213-74ecf1373b6a",
+      "name": "Plant lists for Southern South Australia from 1986 to 2014",
+      "species": 2054,
+      "occurrences": 41244,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "223f6e89-c7b5-4e8c-99a2-da2752f16435",
+      "name": "North Marine Region demersal fish and invertebrate collection records (DEW collation), Australia (1980 - 1997)",
+      "species": 955,
+      "occurrences": 40653,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "d87dc96e-f246-46a1-b045-41280e44587c",
+      "name": "TRIAP Franklin 2008 Waterbirds - Marine records, Northern Australia (1900-2002)",
+      "species": 93,
+      "occurrences": 40506,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "97b95373-9cb4-4850-b69d-1c2c82403abc",
+      "name": "Tracking of Little Penguins (Eudyptula minor) from Montague Islands, New South Wales coast, Australia (2012-2019)",
+      "species": 1,
+      "occurrences": 39875,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "774c4fd0-fb00-41d2-8bdc-65fc1c809d21",
+      "name": "NESP A12: Northern Australia threatened species, Australia (1905-2020)",
+      "species": 16,
+      "occurrences": 39812,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "d4d2af00-a86d-4904-9ab6-0c8ccf6e146f",
+      "name": "Catch composition and measurement records from trawling, RV Investigator voyage IN2017_V05, North West Shelf, Australia (2017)",
+      "species": 306,
+      "occurrences": 39790,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "be62fffc-d0e7-45f2-9404-d4bc4322bc57",
+      "name": "Vulnerable marine ecosystems in the South Pacific Ocean region",
+      "species": 1288,
+      "occurrences": 39730,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "f087bf34-b2aa-4708-9888-da91aff6b0b3",
+      "name": "Butterflies Australia",
+      "species": 304,
+      "occurrences": 39292,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "f338c61f-4861-4dea-9379-96d98d8ede85",
+      "name": "Tamborine Mountain Weekly Bird Observations",
+      "species": 156,
+      "occurrences": 38507,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "a855a185-cf36-4b06-89f6-bbbce2e2805d",
+      "name": "Banded Iron Formation and Greenstone survey data",
+      "species": 1094,
+      "occurrences": 37694,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "3b7f6307-2f03-4f25-9f64-6aa4c3a3aea1",
+      "name": "CSIRO - Great Barrier Reef seabed biodiversity study 2003-2006",
+      "species": 1143,
+      "occurrences": 37488,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "0471f28e-b58b-4c02-89e4-d2a1d621a9d8",
+      "name": "IMOS - AATAMS Facility Satellite Relay Tagging Program - Delayed mode data",
+      "species": 3,
+      "occurrences": 37101,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "63de248d-9d1b-4cfd-b5a4-9a2e0cd06163",
+      "name": "HMAP Dataset 03: SE Australian Trawl Fishery III: Fish (various) landings and fishing effort, South East Australia, 1951-1957",
+      "species": 9,
+      "occurrences": 37095,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "dc269b2f-de33-4c46-9b42-1954d723de0d",
+      "name": "Australian Waterbird Surveys (1983-2018)",
+      "species": 46,
+      "occurrences": 37065,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "fc761964-3017-4d1f-a04a-c2586306cf3c",
+      "name": "BRUVS data from Southwest Corner Marine Park, Western Australia (2020-2023)",
+      "species": 126,
+      "occurrences": 36641,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "d51f93a6-a5b7-4025-83a9-3f7b8525755a",
+      "name": "Australian National Fish Collection (ANFC)",
+      "species": 3010,
+      "occurrences": 36051,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "18c93d12-34fb-4d3f-903c-b77215a1dcc9",
+      "name": "Australian National Fish Collection (ANFC)",
+      "species": 3010,
+      "occurrences": 36051,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "bf2a4bf0-5f31-11de-b67e-b8a03c50a862",
+      "name": "Edinburgh (E) Herbarium Specimens",
+      "species": 7409,
+      "occurrences": 35846,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "14d5676a-2c54-4f94-9023-1e8dcd822aa0",
+      "name": "Pl@ntNet automatically identified occurrences",
+      "species": 985,
+      "occurrences": 34534,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "8642acf1-68f2-42b2-8ce3-97798e383cb2",
+      "name": "The University of Melbourne Herbarium (MELU) AVH data",
+      "species": 6611,
+      "occurrences": 34456,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "d460cd42-e30a-4072-a11b-cb443834fc4d",
+      "name": "Australian Institute of Marine Science (AIMS) - Baited Remote Underwater Video Station (BRUVS), Australia (1999 to present)",
+      "species": 697,
+      "occurrences": 33851,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "f8f683a8-ab6c-4c4b-a6ec-53b23d5404d0",
+      "name": "Reef Life Survey: Cryptic Fish",
+      "species": 548,
+      "occurrences": 32964,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "be0ae621-f624-4a42-8936-304286bda625",
+      "name": "Wolli Creek Preservation Society Bird Survey",
+      "species": 182,
+      "occurrences": 32809,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "13b70480-bd69-11dd-b15f-b8a03c50a862",
+      "name": "AntWeb",
+      "species": 1095,
+      "occurrences": 32234,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "c1fc2df7-223b-4472-8998-70afb3b749ab",
+      "name": "European Molecular Biology Laboratory Australian Mirror",
+      "species": 758,
+      "occurrences": 31926,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "2e844554-d9bf-4540-8c6d-2999ad5ced21",
+      "name": "IMOS National Reference Station (NRS) - Zooplankton Abundance",
+      "species": 73,
+      "occurrences": 31805,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "b6465deb-2071-445a-9ebd-d5722e1ed7e2",
+      "name": "NatureShare",
+      "species": 4013,
+      "occurrences": 31460,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "96c93a1e-f762-11e1-a439-00145eb45e9a",
+      "name": "AMNH Bird Collection",
+      "species": 676,
+      "occurrences": 31084,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "7d4b8c41-d875-442f-9647-372a8b9cfb38",
+      "name": "Elephant Seal Sightings, Macquarie Island",
+      "species": 1,
+      "occurrences": 30998,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "82e218a4-f762-11e1-a439-00145eb45e9a",
+      "name": "Elephant Seal Sightings, Macquarie Island",
+      "species": 1,
+      "occurrences": 30998,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "9eadc44c-cda0-4096-8dd1-215ed06f8479",
+      "name": "NT Alligator Rivers Region Aerial Survey Raw Bird Count, Northern Territory, Australia (1981 - 1984)",
+      "species": 21,
+      "occurrences": 30836,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "92580ab9-28a5-490f-9a6a-a5fa45449332",
+      "name": "The Australian Zooplankton Database (1938 onwards)",
+      "species": 329,
+      "occurrences": 29713,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "ff3af54e-72de-4ba1-b42b-576857306e2e",
+      "name": "Phytoplankton and zooplankton abundance off New South Wales (~30°S, 153°E), Australia in 2011/2012",
+      "species": 100,
+      "occurrences": 29524,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "19369ff7-ef17-44ef-8df2-c02b3132fffd",
+      "name": "Australian Native Plants Society, Canberra Region",
+      "species": 984,
+      "occurrences": 29148,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "bf0f5d5f-f16e-4abe-9cd5-e4e7c4c630e2",
+      "name": "University of Canberra - Wildlife Genetics Database",
+      "species": 93,
+      "occurrences": 28389,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "69ee8d4e-c8ee-45a6-9795-ad882030cfe8",
+      "name": "Queensland Coastal Wetlands Resources Mapping Data - Mangroves",
+      "species": 3,
+      "occurrences": 28217,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "c6ca96bc-7cf5-4fe7-ac44-d01e06394ef3",
+      "name": "Lizard Island Research Station",
+      "species": 2774,
+      "occurrences": 27802,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "f38cc07c-49a8-4ca4-8882-5cdde1733c12",
+      "name": "Sustainable Rivers Audit",
+      "species": 38,
+      "occurrences": 27476,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "0e5c0373-f957-4ce3-b8d9-a9054df51fc5",
+      "name": "MDFRC macroinvertebrate survey",
+      "species": 420,
+      "occurrences": 27291,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "cac4a8c9-1eb0-4001-bc7e-4f386e4db9d4",
+      "name": "Benthic habitats of Marra Sea Country - Gulf of Carpentaria, Australia (2021)",
+      "species": 12,
+      "occurrences": 27025,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "4b519869-cc09-49a5-8df8-2d61db7701e1",
+      "name": "Dredge, trawl and bycatch records from the northern section of the Great Barrier Reef, Australia (1991-1996)",
+      "species": 773,
+      "occurrences": 26985,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "2cc3887f-73f3-4466-97f8-c85011314c2b",
+      "name": "River Murray Phytoplankton Monitoring",
+      "species": 20,
+      "occurrences": 26956,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "393b8c26-e4e0-4dd0-a218-93fc074ebf4e",
+      "name": "INSDC Host Organism Sequences",
+      "species": 2307,
+      "occurrences": 26365,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "8c748691-6253-43fc-a851-86da40fa0021",
+      "name": "Seabird Atlas of South-eastern Australian Waters 1975-1993",
+      "species": 75,
+      "occurrences": 26238,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "0c56af33-2b10-48af-a87b-f67b6881f036",
+      "name": "John T. Waterhouse Herbarium (UNSW) AVH data",
+      "species": 5818,
+      "occurrences": 25021,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "8241c49f-36bc-4cf2-a707-75bae56e9986",
+      "name": "UNESCO eDNA expedition in Ningaloo Coast (Australia): May 2023",
+      "species": 758,
+      "occurrences": 24604,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "e08f530f-b8b1-428b-a757-b191cdca6610",
+      "name": "QDPC True Fruit Flies",
+      "species": 153,
+      "occurrences": 24093,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "519461fd-3978-4f40-b73a-7dac4a50e21b",
+      "name": "Happywhale - Humpback whale in South Pacific Ocean",
+      "species": 1,
+      "occurrences": 23747,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "16e7e918-38c8-4679-a612-22d933d34946",
+      "name": "Swan Coastal Plain Survey",
+      "species": 1194,
+      "occurrences": 23215,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "2d38cdfd-8d55-4154-8670-85c1bf9fa39e",
+      "name": "Condition of rocky reef communities around Tasmania: invertebrate surveys, Australia (1992-1995 and 2006-2007)",
+      "species": 155,
+      "occurrences": 23156,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "9781ce05-2379-4a10-ab3b-c91346510df8",
+      "name": "RSA - California Botanic Garden Herbarium",
+      "species": 6935,
+      "occurrences": 23014,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "8db49bef-d87e-403d-ae19-32db175ab91e",
+      "name": "Tanami Pipeline Project Records",
+      "species": 106,
+      "occurrences": 22327,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "ef835a72-1a73-4a4d-b913-038df224a625",
+      "name": "Home range and core range of little penguins in Port Phillip Bay, Victoria, Australia (2008 - 2012)",
+      "species": 1,
+      "occurrences": 22220,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "0b9d46d1-4e57-4114-987a-083815522cf4",
+      "name": "Banksia Atlas",
+      "species": 79,
+      "occurrences": 21661,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "2a796d4b-d12f-4806-876a-4fbb5e0a63ca",
+      "name": "Waite Insect and Nematode Collection",
+      "species": 1500,
+      "occurrences": 21569,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "78a9176d-ed14-4471-a619-7005cb161b2c",
+      "name": "HMAP Dataset 01: SE Australian Trawl Fishery I: Fish (various) landings and fishing effort, South East Australia, 1918-1923",
+      "species": 10,
+      "occurrences": 21063,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "d1539850-13a6-49e4-8a1d-6e24e0fccb9a",
+      "name": "NT Waterbird Colonies Species, Northern Territory, Australia (1990-1999)",
+      "species": 8,
+      "occurrences": 20944,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "d4834077-1a84-49ea-a186-c0ec8a16fc00",
+      "name": "Tasmanian Marine Molluscs Observational Records (2003-2017)",
+      "species": 468,
+      "occurrences": 20401,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "679a38a5-b23e-49da-bc6b-b14fd41dc9e2",
+      "name": "PAE Bird Monitoring Project",
+      "species": 133,
+      "occurrences": 20347,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "10710e0f-205f-46d4-b1f3-1a92bd21a4f3",
+      "name": "Jervis Bay Marine Ecological Studies (JBMES) 1988-1991",
+      "species": 217,
+      "occurrences": 20072,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "e80ff7bd-2c75-4ecb-bb5c-fde9d1bd1cd8",
+      "name": "Kings Park Botanical Gardens",
+      "species": 5609,
+      "occurrences": 20068,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "bb5b30b4-827e-4d5e-a86a-825d65cb6583",
+      "name": "Paleobiology Database",
+      "species": 4993,
+      "occurrences": 19981,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "f8576ea2-8979-4312-bb69-31300bad16cd",
+      "name": "Kelp habitat density and composition from underwater video, east coast Tasmania, Australia (2020-2021)",
+      "species": 1,
+      "occurrences": 19827,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "bc26a49c-e669-437f-a3ef-ead49ffff575",
+      "name": "South East Fishery (SEF) Ecosystem Study 1993-1996: Fish Diet Data. Australia (1993-1997)",
+      "species": 150,
+      "occurrences": 19541,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "b740eaa0-0679-41dc-acb7-990d562dfa37",
+      "name": "Meise Botanic Garden Herbarium (BR)",
+      "species": 6875,
+      "occurrences": 19399,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "01bc220b-39b8-4837-b235-f921187af771",
+      "name": "James Cook University Herbarium (JCT) AVH data",
+      "species": 4282,
+      "occurrences": 19164,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "dd5c82fa-6c7e-4570-9c01-402c2a8d4937",
+      "name": "Polychaetes of Northern Australia (species identifications) Australia (2009-2012)",
+      "species": 78,
+      "occurrences": 18547,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "4873b5a9-7666-42b1-8ce5-afeb4ef7e480",
+      "name": "eDNA metabarcoding survey of tropical north‐western Australia, Indian Ocean (2017-2018)",
+      "species": 257,
+      "occurrences": 18194,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "d962a7dc-2183-4824-bb88-5e0ba14ec62d",
+      "name": "Naturalis Biodiversity Center (NL) - Mollusca",
+      "species": 3463,
+      "occurrences": 17980,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "390dcccc-4ee1-4ee1-8607-3e4f584bcccb",
+      "name": "Condition of rocky reef communities around Tasmania: fish surveys, Australia (1992-1995 and 2006-2007)",
+      "species": 129,
+      "occurrences": 17803,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "e88f8fc3-043a-47fc-8e50-6cb631e5a46d",
+      "name": "CSIRO, fish surveys by the Courageous, 1978-1979",
+      "species": 484,
+      "occurrences": 17574,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "b88664ca-8b02-46c4-a6b8-80ba371e164c",
+      "name": "CSIRO, Abundance and distribution of orange roughy in southeast Australian waters 1987-1979",
+      "species": 109,
+      "occurrences": 17207,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "17c7ded5-a12d-4686-968b-159ce38dd8f4",
+      "name": "TurtleSAT",
+      "species": 17,
+      "occurrences": 16992,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "52d51b66-5ed6-4afe-a7b5-d272ca11c3c8",
+      "name": "Condition of rocky reef communities around Tasmania: algal surveys, Australia (1992-1995 and 2006-2007)",
+      "species": 156,
+      "occurrences": 16856,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "b1047888-ae52-4179-9dd5-5448ea342a24",
+      "name": "Xeno-canto - Bird sounds from around the world",
+      "species": 645,
+      "occurrences": 16809,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "0d031c51-08fa-4c31-aced-2250d458acd6",
+      "name": "ReefWatch",
+      "species": 120,
+      "occurrences": 16406,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "354bd015-cfb1-42ac-8416-5c84f6e819e2",
+      "name": "Fish of the Recherche Archipelago , Western Australia (2002)",
+      "species": 87,
+      "occurrences": 16356,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "e053ff53-c156-4e2e-b9b5-4462e9625424",
+      "name": "Tropicos Specimens Non-MO",
+      "species": 2246,
+      "occurrences": 16314,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "b2ccfb67-2697-4dbc-a5fb-f027cc995e13",
+      "name": "BRUVS observations at Ningaloo Marine Park, Western Australia (2019)",
+      "species": 141,
+      "occurrences": 15922,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "c988611b-00f1-404f-81cc-4e57f493f7b9",
+      "name": "Australian Institute of Marine Science (AIMS) - Great Barrier Ref (GBR) Nearshore Coral Diversity, Queensland, Australia (1994 - 1997)",
+      "species": 278,
+      "occurrences": 15909,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "7f879a86-fae4-4830-ab0f-f1d2bcd77d39",
+      "name": "Tracking  speartooth sharks (Glyphis glyphis) and  bull sharks (Carcharhinus leucas), Wenlock and Ducie rivers, Cape York, Australia (2014-2018)",
+      "species": 2,
+      "occurrences": 15807,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "adb92d68-aaff-47ba-b197-d3d26f72f728",
+      "name": "Hexacorallians of the world",
+      "species": 841,
+      "occurrences": 15265,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "b5267bb3-217b-49a1-b9c9-9024cdad2666",
+      "name": "CSIRO, Rachel Cruises, Shark Data, Arafura Sea, North Australia, 1984",
+      "species": 63,
+      "occurrences": 15244,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "e1e16cf0-ada2-11e2-8fbc-00145eb45e9a",
+      "name": "Neptune Deep-Sea Microfossil Occurrence Database",
+      "species": 406,
+      "occurrences": 15176,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "cfb43618-1423-4031-b3ff-fbd2c264f48b",
+      "name": "Herbarium Pacificum (Bishop Museum)",
+      "species": 5618,
+      "occurrences": 15113,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "7bd65a7a-f762-11e1-a439-00145eb45e9a",
+      "name": "Tropicos MO Specimen Data",
+      "species": 4948,
+      "occurrences": 15073,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "88e38292-f762-11e1-a439-00145eb45e9a",
+      "name": "Mosquito Occurrence Dataset",
+      "species": 235,
+      "occurrences": 14990,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "f28ed4a8-3922-4ec0-a539-14d10c6d3229",
+      "name": "WAMSI Node 3.1.1b and 3.2.2 - Ecosystem Effects of Fishing: finescale coral reef fish surveys Ningaloo Reef, Australia (2006)",
+      "species": 392,
+      "occurrences": 14828,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "ef225632-6819-4eee-906c-03e3261a91ea",
+      "name": "Eyre Peninsula's Bird Monitoring Program",
+      "species": 249,
+      "occurrences": 14678,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "36ac062b-e2f1-436d-a6c2-3efe8368dd95",
+      "name": "Wildlife Watch NSC",
+      "species": 509,
+      "occurrences": 14509,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "46ca0045-58d4-4174-8741-8ff072b6b4fa",
+      "name": "Stereo BRUV sampling of Freycinet  Australian Marine Park and nearby Trap reef and Governor Island Marine Reserve, Tasmania, Australia (2016 and 2021)",
+      "species": 74,
+      "occurrences": 14410,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "AU"
+    },
+    {
+      "datasetkey": "8762d14a-8bcd-4069-94f0-44f1cf4f33b5",
+      "name": "Foraging behaviour in the Short-Tailed Shearwater (Puffinus tenuirostris) using GPS, Bass Strait, Australia (2012)",
+      "species": 1,
+      "occurrences": 13984,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "AU"
+    }
+  ],
+  "downloadAttribution": {
+    "downloadKey": "0045877-260519110011954",
+    "doi": "10.15468/dl.wjjhjw",
+    "created": "2026-06-09T10:02:33.361+00:00"
+  }
+}

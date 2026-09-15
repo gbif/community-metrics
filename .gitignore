@@ -2,8 +2,8 @@
 *.zip
 *-*.zip
 
-# Data directory
-data/
+# Data directory (root-level raw data only, not ui/public/data)
+/data/
 
 # R data files
 *.rda

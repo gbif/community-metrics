@@ -1,0 +1,1925 @@
+{
+  "countryCode": "CA",
+  "countryName": "Canada",
+  "totalDatasets": 3355,
+  "lastModified": "2026-06-09",
+  "dataSource": "GBIF",
+  "notes": "Biodiversity datasets from Canada institutions and GBIF network",
+  "datasets": [
+    {
+      "datasetkey": "4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+      "name": "EOD – eBird Observation Dataset",
+      "species": 773,
+      "occurrences": 168816470,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+      "name": "iNaturalist Research-grade Observations",
+      "species": 31945,
+      "occurrences": 11758239,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "78540eb6-95b0-4c3d-b362-03ed0bb5b2d3",
+      "name": "DFO Pacific: Herring Biosample Database",
+      "species": 1,
+      "occurrences": 1961557,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "310dbb60-e369-4ec2-a6d8-8e4de843b208",
+      "name": "Pacific Multispecies Small Mesh Bottom Trawl Survey",
+      "species": 442,
+      "occurrences": 1631035,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "ec186b76-898c-435b-9aea-ebbd5785a25f",
+      "name": "Maritimes Summer Research Vessel Surveys",
+      "species": 490,
+      "occurrences": 1346602,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "38179dfb-3b50-446d-998a-99ea8f39ebd7",
+      "name": "Quoddy Region Pelagics Telemetry",
+      "species": 6,
+      "occurrences": 1309417,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "d2aca710-ebf6-4f11-803b-a55cbb3b6266",
+      "name": "Monitoring offshore subtidal marine biodiversity in the Eastern Shore Islands Area of Interest using eDNA Metabarcoding",
+      "species": 150,
+      "occurrences": 1208771,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "9b1fd4d7-44a1-4c0e-a7de-c0d31584cf1d",
+      "name": "Inner Bay of Fundy Striped Bass",
+      "species": 3,
+      "occurrences": 1112273,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "040c5662-da76-4782-a48e-cdea1892d14c",
+      "name": "International Barcode of Life project (iBOL)",
+      "species": 30090,
+      "occurrences": 1084114,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "c7ae20eb-a8b8-4c58-96b6-26f86e2f745b",
+      "name": "OTN VR2W Loan - Emera Snow Crab and American Lobster",
+      "species": 2,
+      "occurrences": 833675,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "d8cd16ba-bb74-4420-821e-083f2bac17c2",
+      "name": "INSDC Sequences",
+      "species": 28205,
+      "occurrences": 594842,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "f9a70dab-004b-45ad-90cb-24d8ff645b44",
+      "name": "Centre for Biodiversity Genomics - Canadian Specimens",
+      "species": 14115,
+      "occurrences": 572114,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "a26de83c-32d4-4143-88bb-46a1f6b2d918",
+      "name": "DFO Pacific Groundfish - Hecate Strait Multispecies Assemblage Bottom Trawl Survey",
+      "species": 164,
+      "occurrences": 496675,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "240f38f1-ada4-4eac-a9b5-28dd8308d01d",
+      "name": "Maritimes Spring Research Vessel Surveys",
+      "species": 254,
+      "occurrences": 423408,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "3d4cac0a-7441-4099-8eed-8a270d522f8f",
+      "name": "DFO Pacific Groundfish Synoptic Trawl Surveys - Queen Charlotte Sound",
+      "species": 336,
+      "occurrences": 410536,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "e77b6e27-7e91-43dd-b152-23f21247a5cf",
+      "name": "Canadian Maritimes Fishermen and Scientists Research Society Lobster Recruitment Index from Standard Traps- 2003+",
+      "species": 1,
+      "occurrences": 398538,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "d571cb0e-ed43-4b89-902f-a06919804288",
+      "name": "Atlantic Zone Monitoring Program (AZMP) DFO Quebec region phytoplankton",
+      "species": 387,
+      "occurrences": 379813,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "1e61b812-b2ec-43d0-bdbb-8534a761f74c",
+      "name": "Canadian Museum of Nature Herbarium",
+      "species": 7860,
+      "occurrences": 371028,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "10a31872-ddcc-4318-9634-3ffba7a1abb7",
+      "name": "DFO NE Newfoundland Acoustic Array and Atlantic Cod Tagging",
+      "species": 1,
+      "occurrences": 335793,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "18220dbe-1b9e-474c-820c-c4ed65a8d64f",
+      "name": "Large Scale Movements of Sturgeon in the St. Lawrence River System",
+      "species": 2,
+      "occurrences": 328034,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "5ec79639-54a1-4f2d-8a16-0c284d9d87e6",
+      "name": "Large Scale Movements of Sturgeon in the St. Lawrence River System",
+      "species": 2,
+      "occurrences": 328034,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "f2189339-9098-4e0e-98d4-9c72e5e5f96d",
+      "name": "DFO Pacific Groundfish Synoptic Trawl Surveys - West Coast Vancouver Island",
+      "species": 295,
+      "occurrences": 318292,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "82cb293c-f762-11e1-a439-00145eb45e9a",
+      "name": "Great Backyard Bird Count",
+      "species": 293,
+      "occurrences": 287248,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "83ae75fc-f762-11e1-a439-00145eb45e9a",
+      "name": "ECNASAP - East Coast North America Strategic Assessment",
+      "species": 123,
+      "occurrences": 285869,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "48060741-47d3-4093-86e6-2ec484323cc5",
+      "name": "DFO Pacific Groundfish Synoptic Trawl Surveys - Hecate Strait",
+      "species": 292,
+      "occurrences": 283691,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "cf73b51a-d1a7-411a-85ef-dcb7378594d3",
+      "name": "DFO Maritimes - Groundfish and Small Pelagic Tagging database. 1953-1999",
+      "species": 19,
+      "occurrences": 269745,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "cf3bdc30-370c-48d3-8fff-b587a39d72d6",
+      "name": "eButterfly Surveys",
+      "species": 302,
+      "occurrences": 256865,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "98e7e1e0-6d7e-4f85-acdb-53eafcb150d7",
+      "name": "DFO NL: The 1954-1993 Newfoundland cod-tagging database spatial-temporal distributions",
+      "species": 1,
+      "occurrences": 237297,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "f61e70a4-7172-4d9e-acfc-8034cd651b9c",
+      "name": "NuSEDS - New Salmon Escapement Database System",
+      "species": 7,
+      "occurrences": 228926,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "d135f90f-79dd-410f-b752-3960c210477b",
+      "name": "Apoqnmatulti'k - Bras D'Or Lake",
+      "species": 4,
+      "occurrences": 221025,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "b5e75a6b-38d6-4a69-ad19-4aab9ab77821",
+      "name": "Near-seafloor imagery survey benthic taxa occurrences in 2016 and 2017 of three Ecologically and Biologically Significant Areas in Southwest New Brunswick, Canada (Head Harbour/West Isles/the Passages, The Wolves Islands, and Southern Grand Manan)",
+      "species": 20,
+      "occurrences": 209900,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "9d875241-2f83-4e52-be03-57329ec7dbe5",
+      "name": "J. B. Wallis / R. E. Roughley Museum of Entomology",
+      "species": 3901,
+      "occurrences": 204050,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "1cde1ee9-bf4d-4028-a238-b214d770d4a4",
+      "name": "Ocean Salmon Program - Barkley Sound Juvenile Salmon Study from 1987 to 1994",
+      "species": 64,
+      "occurrences": 204028,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "23de5646-8611-4ea4-bbd7-af25905932a8",
+      "name": "Robichaud sturgeon",
+      "species": 1,
+      "occurrences": 202817,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "7066ae08-1550-4071-8058-168456c427f6",
+      "name": "Maritimes 4VSW Research Vessel Surveys",
+      "species": 211,
+      "occurrences": 197187,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "82d54d68-f762-11e1-a439-00145eb45e9a",
+      "name": "Ontario Breeding Bird Atlas 2001-2005",
+      "species": 300,
+      "occurrences": 189569,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "8971dfba-f762-11e1-a439-00145eb45e9a",
+      "name": "University of Alberta E. H. Strickland Entomological Museum (UASM)",
+      "species": 5191,
+      "occurrences": 186520,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "821cc27a-e3bb-4bc5-ac34-89ada245069d",
+      "name": "NMNH Extant Specimen Records (USNM, US)",
+      "species": 14074,
+      "occurrences": 185022,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "2fd02649-fc08-4957-9ac5-2830e072c097",
+      "name": "Herbier Louis-Marie (QFA) - Collection de plantes vasculaires",
+      "species": 3130,
+      "occurrences": 175126,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "1509eb09-8c60-408a-ba2f-01b80b163a3b",
+      "name": "DFO Arctic Metabarcoding (COI) 2015-2019",
+      "species": 266,
+      "occurrences": 173729,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "0348540a-e644-4496-89d3-c257da9ad776",
+      "name": "Marie-Victorin Herbarium (MT) - Plantes vasculaires",
+      "species": 4701,
+      "occurrences": 173595,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "9fcd8de5-a2b6-4c72-b863-debe63ee3a72",
+      "name": "DFO Pacific Groundfish Synoptic Trawl Surveys - West Coast Haida Gwaii",
+      "species": 296,
+      "occurrences": 170949,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "14d5676a-2c54-4f94-9023-1e8dcd822aa0",
+      "name": "Pl@ntNet automatically identified occurrences",
+      "species": 1253,
+      "occurrences": 152909,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "861e6afe-f762-11e1-a439-00145eb45e9a",
+      "name": "Harvard University Herbaria: All Records",
+      "species": 7609,
+      "occurrences": 141664,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "81b9cc60-f715-4711-9ed8-bb3a3f163ecd",
+      "name": "DFO Arctic Metabarcoding (18S) 2015-2019",
+      "species": 209,
+      "occurrences": 137357,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "07fd0d79-4883-435f-bba1-58fef110cd13",
+      "name": "University of British Columbia Herbarium (UBC) - Vascular Plant Collection",
+      "species": 6801,
+      "occurrences": 134530,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "695cef75-b65f-4776-b2ed-74565eebb16e",
+      "name": "Canadian National Mycological Herbarium",
+      "species": 10128,
+      "occurrences": 133904,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "c4a5efee-4c61-45d8-bd7a-6275b2388308",
+      "name": "Herbier du Québec (QUE) - Collection de plantes vasculaires",
+      "species": 2970,
+      "occurrences": 131770,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "88d13c11-f8ea-4b2f-b819-222cb1732e37",
+      "name": "Maritimes Fall Research Vessel Surveys",
+      "species": 104,
+      "occurrences": 129371,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "22c0b11e-f891-442a-8273-9283c986ddc7",
+      "name": "GPS locations of Northern Gannets season 2014 / Localisations GPS de fous de Bassan saison 2014",
+      "species": 1,
+      "occurrences": 126198,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "58b0d103-c7a6-4bad-9616-38ac7074cae2",
+      "name": "European Green Crab surveys - DFO Pacific",
+      "species": 8,
+      "occurrences": 123345,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "ed35adfa-1776-4dbe-a866-ec42bcba7fdc",
+      "name": "DFO-NL Atlantic Cod Telemetry",
+      "species": 1,
+      "occurrences": 121551,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "d9522343-146c-4d6b-b312-543d4d8ca0e8",
+      "name": "Royal Ontario Museum - Botany",
+      "species": 4400,
+      "occurrences": 120213,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "b49a165b-6022-4b09-a443-1551c8eb0535",
+      "name": "PIROP Northwest Atlantic 1965-1992",
+      "species": 113,
+      "occurrences": 112777,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "4edd9396-59df-4b01-9e29-dc21a59f9963",
+      "name": "University of British Columbia Herbarium (UBC) - Bryophytes Collection",
+      "species": 1407,
+      "occurrences": 109563,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "d415c253-4d61-4459-9d25-4015b9084fb0",
+      "name": "The New York Botanical Garden Herbarium (NY)",
+      "species": 8783,
+      "occurrences": 109513,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "6e1077aa-4fc5-425b-9493-8d1d744232df",
+      "name": "Canadian Maritimes Fishermen and Scientists Research Society Lobster Recruitment Index from Standard Traps",
+      "species": 1,
+      "occurrences": 107044,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "6d56415d-b007-4273-9c74-bcd6b2467434",
+      "name": "The CPR Survey",
+      "species": 232,
+      "occurrences": 104102,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "ef9817b8-0eba-42b4-92fe-4f206187aabd",
+      "name": "Royal Saskatchewan Museum - Entomology",
+      "species": 5108,
+      "occurrences": 103683,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "2d18c666-ee2b-40a3-a708-280ea19c0fbc",
+      "name": "Royal BC Museum - Herbarium (V)",
+      "species": 4217,
+      "occurrences": 100791,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "cb4d44e5-99ac-4472-9a58-7706012bf4ea",
+      "name": "DFO Pacific: Ocean Salmon Program - Ricker Beam Trawl Juvenile Salmon Study (1990-1993)",
+      "species": 52,
+      "occurrences": 98496,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "4a99b94e-0c47-4a0b-bb8f-68248e484806",
+      "name": "GPS locations of Northern Gannets season 2016 / Localisations GPS de fous de Bassan saison 2016",
+      "species": 1,
+      "occurrences": 98320,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "8648fdbe-f762-11e1-a439-00145eb45e9a",
+      "name": "Hawk Migration Association of North America - HawkCount",
+      "species": 20,
+      "occurrences": 96040,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "83b45ca6-f762-11e1-a439-00145eb45e9a",
+      "name": "Pacific Ocean Shelf Tracking (OBIS Canada)",
+      "species": 9,
+      "occurrences": 94935,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "77711782-d6c0-4b82-9772-3f6f181add46",
+      "name": "Royal Ontario Museum - Ornithology",
+      "species": 525,
+      "occurrences": 94517,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "848586a4-a07b-4974-9f12-e1bbe0736a21",
+      "name": "Canadian Museum of Nature Bird Collection",
+      "species": 558,
+      "occurrences": 92987,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "7fd12114-9010-4c13-8f46-990fe04ca882",
+      "name": "NatureServe Network Species Occurrence Data",
+      "species": 4021,
+      "occurrences": 92965,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "48c5c83b-2029-4b2c-9f48-5e610e6984d6",
+      "name": "Royal Ontario Museum - Entomology Collection",
+      "species": 3343,
+      "occurrences": 92239,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "275319e1-f91c-406f-b239-62cb9d4185cb",
+      "name": "Lyman Entomological Museum (LEMQ)",
+      "species": 2396,
+      "occurrences": 92057,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "199958ab-9096-43e1-9f4c-8a4d97feb024",
+      "name": "DFO Quebec Region Ecosystemic bottom trawl surveys 2004-2022",
+      "species": 383,
+      "occurrences": 88544,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "33a9db59-db16-42a1-be18-b35c470e2485",
+      "name": "Striped Bass tagging in PEI",
+      "species": 1,
+      "occurrences": 86147,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "c8d12f8a-7e39-4e2c-92d7-825d590ad15b",
+      "name": "University of Michigan Herbarium",
+      "species": 8109,
+      "occurrences": 85948,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "103fa8e2-5be7-402c-b147-708d0755d9b0",
+      "name": "University of Guelph Insect Collection (DEBU)",
+      "species": 5190,
+      "occurrences": 85463,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "2429287b-ef65-4cfd-afcc-11cc3ba95cca",
+      "name": "University of Alberta Vascular Plant Herbarium (ALTA-VP)",
+      "species": 3562,
+      "occurrences": 81515,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "61bf28a5-29e5-4a58-86d7-3e7ed74ec048",
+      "name": "Royal Saskatchewan Museum - Owl Pellet Collection",
+      "species": 38,
+      "occurrences": 81484,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "0e58b838-0cd0-4f39-90c6-c7915aebddaa",
+      "name": "Biodiversity Monitoring in St. Anns Bank Marine Protected Area using Environmental DNA - 2022",
+      "species": 118,
+      "occurrences": 81092,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "83a517aa-f762-11e1-a439-00145eb45e9a",
+      "name": "Atlantic Reference Centre Museum of Canadian Atlantic Organisms - Invertebrates and Fishes Data",
+      "species": 1911,
+      "occurrences": 81051,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "e8a25a42-f125-476c-8554-3ec21cd51a84",
+      "name": "E. C. Smith Herbarium (ACAD)",
+      "species": 4721,
+      "occurrences": 78502,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "ce9d17f0-de7f-4518-83a6-690c615dd8d9",
+      "name": "USGS PWRC - Bird Phenology Program",
+      "species": 319,
+      "occurrences": 74079,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "8cd69796-7c69-41ce-85dc-dc79d2defdef",
+      "name": "Taxa and morphotype occurrences of 68 select taxa from the 2022-2024 near-seafloor optical imagery transects in proposed conservation network sites in Southwest New Brunswick, Bay of Fundy, Canada.",
+      "species": 43,
+      "occurrences": 73057,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "a7a809bb-6f37-486b-90e4-574a8e192d14",
+      "name": "Abundance of intertidal algae and invertebrates on the Atlantic coast of Nova Scotia",
+      "species": 62,
+      "occurrences": 72540,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "a22dcaec-0a63-46a2-8e12-59453f42599d",
+      "name": "Kintama 2004-2011 tags",
+      "species": 5,
+      "occurrences": 72070,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "ad33d5cc-613d-4bd3-b33e-c2dd16e75248",
+      "name": "GPS locations of Northern Gannets season 2013 / Localisations GPS de fous de Bassan saison 2013",
+      "species": 1,
+      "occurrences": 69702,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "9c45867f-f77d-42f3-9751-ae16bb7c9bc8",
+      "name": "University of British Columbia - Spencer Entomological Collection (UBCZ)",
+      "species": 2242,
+      "occurrences": 69279,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "8b95efe0-204b-47d3-89d0-12d85f7f61de",
+      "name": "Offshore Scotian Shelf biodiversity assessment using eDNA metabarcoding 2025",
+      "species": 156,
+      "occurrences": 68302,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "87f42a91-8dfd-44f1-aabb-8b6ef14aba82",
+      "name": "Canadian Museum of Nature Crustacea Collection",
+      "species": 1496,
+      "occurrences": 63795,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "40feadfa-94ea-4af3-90e1-5dffd0fb61df",
+      "name": "Database of the Distributions of Marine Fishes of Arctic Canada",
+      "species": 195,
+      "occurrences": 63622,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "0f14a0e3-022e-4cbd-9b47-3f4c556551bd",
+      "name": "BioChem: Sameoto zooplankton collection",
+      "species": 420,
+      "occurrences": 63602,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "4fb0d8de-b4dc-4843-91db-2bc64394bd83",
+      "name": "DFO Central and Arctic Multi-species Stock Assessment Surveys",
+      "species": 314,
+      "occurrences": 62905,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "4ae92f13-1d1e-435b-8a34-80f59d15179a",
+      "name": "Rocky Subtidal Fish and Invertebrate Community Surveys from the Central Coast of BC",
+      "species": 99,
+      "occurrences": 62023,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "4b3af259-f0a3-438c-ac5a-c61a2ec5e98e",
+      "name": "GPS locations of Northern Gannets season 2017 / Localisations GPS de fous de Bassan saison 2017",
+      "species": 1,
+      "occurrences": 61491,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "5e618452-d449-4290-a29c-6564b5fb3154",
+      "name": "Zooplankton data from central and northern Strait of Georgia",
+      "species": 226,
+      "occurrences": 60882,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "1677f287-3666-49b8-90f2-12a63ca58438",
+      "name": "DFO Pacific Outside North Hard Bottom Longline Surveys",
+      "species": 87,
+      "occurrences": 60388,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "8d3b43e3-1d5d-4cfb-af2c-f4b014536bd1",
+      "name": "DFO Monthly GRDI Survey eDNA metabarcoding (COI) in Halifax 2021-2023",
+      "species": 207,
+      "occurrences": 59072,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "899c4252-f6d0-4b85-a966-ac40d86c06af",
+      "name": "DFO Maritimes Region Cetacean Sightings",
+      "species": 25,
+      "occurrences": 58895,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "197908d0-5565-11d8-b290-b8a03c50a862",
+      "name": "FishBase Database",
+      "species": 586,
+      "occurrences": 55159,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "e908605e-fb40-4db1-bff7-de1c241284a9",
+      "name": "DFO Pacific Outside South Hard Bottom Longline Surveys",
+      "species": 95,
+      "occurrences": 54640,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "f86a681d-7db8-483b-819a-248def18b70a",
+      "name": "Canadian Museum of Nature Mammal Collection",
+      "species": 213,
+      "occurrences": 53644,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "2873b97c-31b3-47f0-903c-637c8646dd79",
+      "name": "Biodiversity Monitoring in St. Anns Bank Marine Protected Area using Environmental DNA - 2023",
+      "species": 110,
+      "occurrences": 53640,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "6d6ac1ac-016c-448e-a92e-ad4c28a95fca",
+      "name": "DFO Maritimes Lobster & Finfish eDNA metabarcoding (COI) in the Bay of Fundy 2018-2019",
+      "species": 425,
+      "occurrences": 52623,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "b93d6936-6e6b-445c-a2b4-c94bf5c237e2",
+      "name": "DFO Monthly GRDI Survey eDNA metabarcoding (COI) in the Bay of Fundy 2019-2021",
+      "species": 432,
+      "occurrences": 51883,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "6ff42543-528d-4249-99bd-350bdd21b424",
+      "name": "Royal Ontario Museum - Ichthyology",
+      "species": 734,
+      "occurrences": 49491,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "9be8feee-18f1-4869-8f7a-f7888aa0bf96",
+      "name": "NTNU River Nidelva Project",
+      "species": 3,
+      "occurrences": 47748,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "06f9f3fa-ef86-478d-9286-be020c6bd73b",
+      "name": "DFO Pacific Inside North Hard Bottom Longline Surveys",
+      "species": 71,
+      "occurrences": 47353,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "393b8c26-e4e0-4dd0-a218-93fc074ebf4e",
+      "name": "INSDC Host Organism Sequences",
+      "species": 1969,
+      "occurrences": 46554,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "d7175711-6bce-4368-a860-a84641c23c9e",
+      "name": "OTN Canada Pacific Sockeye Salmon Tagging Project 2",
+      "species": 3,
+      "occurrences": 46165,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "4bfac3ea-8763-4f4b-a71a-76a6f5f243d3",
+      "name": "Museum of Comparative Zoology, Harvard University",
+      "species": 5066,
+      "occurrences": 45476,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b",
+      "name": "Birda - Global Observation Dataset",
+      "species": 385,
+      "occurrences": 45153,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "82d0e9e4-f762-11e1-a439-00145eb45e9a",
+      "name": "Marsh Monitoring Program - Birds",
+      "species": 195,
+      "occurrences": 44948,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "844040a4-f762-11e1-a439-00145eb45e9a",
+      "name": "Canadian National Collection (CNC) of Insects, Arachnids and Nematodes",
+      "species": 266,
+      "occurrences": 44363,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "d7cfd2ed-8af4-427f-a16e-eb66b7e2c419",
+      "name": "Royal Ontario Museum - Mycology",
+      "species": 5392,
+      "occurrences": 43644,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "2fc9577f-1fa8-45e3-b4b5-0c46c3cad692",
+      "name": "DFO Pacific Inside South Hard Bottom Longline Surveys",
+      "species": 57,
+      "occurrences": 43494,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "ada5d0b1-07de-4dc0-83d4-e312f0fb81cb",
+      "name": "Ouellet-Robert Entomological Collection (QMOR) - Specimens",
+      "species": 679,
+      "occurrences": 42881,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "a8e40b59-5d28-4e37-b371-1a42c2a6e3ce",
+      "name": "New Brunswick Museum - Insects",
+      "species": 2380,
+      "occurrences": 42432,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "628abbe5-dc8d-41e9-a0c7-f05efe282649",
+      "name": "University of British Columbia Herbarium (UBC) - Lichen Collection",
+      "species": 1687,
+      "occurrences": 42187,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "815b2469-2686-4abd-8406-27ebe778a684",
+      "name": "Duke University Herbarium Bryophyte Collection",
+      "species": 1058,
+      "occurrences": 40669,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "bb109a7a-6c5a-4cad-a1b9-b750016e9d82",
+      "name": "Royal Ontario Museum - Mammalogy",
+      "species": 190,
+      "occurrences": 40489,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "dc3bfd08-0141-45ae-9603-91ac50cdc33b",
+      "name": "Canadian Museum of Nature Fish Collection",
+      "species": 810,
+      "occurrences": 40266,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "0b94e07b-898e-47fc-b95f-31a5538f326b",
+      "name": "Canadian Museum of Nature Mollusc Collection",
+      "species": 1043,
+      "occurrences": 39617,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "cca13f2c-0d2c-4c2f-93b9-4446c0cc1629",
+      "name": "BugGuide - Identification, Images, & Information For Insects, Spiders & Their Kin For the United States & Canada",
+      "species": 4669,
+      "occurrences": 39558,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "b54a9760-1077-43ae-b22a-857dd0c89e97",
+      "name": "Harmful Algae in the Strait of Georgia, 2015-2023",
+      "species": 3,
+      "occurrences": 39288,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "729fed8c-9c94-4e13-b680-799ea9ebc112",
+      "name": "New Brunswick Museum - Vascular Plants",
+      "species": 1947,
+      "occurrences": 38835,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "813ae9c9-8707-4d21-9641-49e88cb10d32",
+      "name": "DFO Gulf Region Community Aquatic Monitoring Program (CAMP)",
+      "species": 36,
+      "occurrences": 37570,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "90302970-1bc6-4865-be76-9aef1dd707f9",
+      "name": "University of British Columbia Herbarium (UBC) - Algae Collection",
+      "species": 808,
+      "occurrences": 36563,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "f47f8ecd-fc59-42f4-9d24-cbbc745bcac1",
+      "name": "DFO Monthly GRDI Survey eDNA metabarcoding (18S) in the Bay of Fundy 2019-2021",
+      "species": 318,
+      "occurrences": 36386,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "34fbcf59-d9bb-47e7-9672-99e13ea8c736",
+      "name": "Royal BC Museum - Invertebrates Collection",
+      "species": 2771,
+      "occurrences": 35816,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "aea1eb5d-ba24-4ca5-b35a-5878cc3a092a",
+      "name": "Estimation of Cod Movements in the Northern Gulf (3Pn, 4RS) in the Strait of Belle Isle",
+      "species": 1,
+      "occurrences": 34339,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "8a863029-f435-446a-821e-275f4f641165",
+      "name": "Observation.org, Nature data from around the World",
+      "species": 1156,
+      "occurrences": 32825,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "adb7138a-32a2-42ee-a2ff-9f349515786d",
+      "name": "Herbier Louis-Marie (QFA) - Collection de bryophytes",
+      "species": 950,
+      "occurrences": 32395,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "f0ecbdff-75d4-487b-9aa9-8d7e88e8e862",
+      "name": "DFO Quebec Region Ecosystemic bottom trawl survey 1990-2005",
+      "species": 136,
+      "occurrences": 31942,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "10eeee73-a6f5-4793-bad4-b935db096efa",
+      "name": "Wisconsin State Herbarium, Lichens",
+      "species": 1432,
+      "occurrences": 31560,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "7086bdef-e377-4ac5-872f-751b1d614ed2",
+      "name": "Canadian Museum of Nature Insect Collection",
+      "species": 1542,
+      "occurrences": 31404,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "07044577-bd82-4089-9f3a-f4a9d2170b2e",
+      "name": "A global database for the distributions of crop wild relatives",
+      "species": 686,
+      "occurrences": 30996,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "d1a3b128-b406-46bb-a6d1-f3591dcc8a7b",
+      "name": "USDA United States National Fungus Collections",
+      "species": 4544,
+      "occurrences": 30566,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "5a8cd069-8096-4918-9d61-d63f8e71a17c",
+      "name": "Royal Botanical Gardens Herbarium (HAM)",
+      "species": 2843,
+      "occurrences": 30203,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "7a9ad56e-7452-4f24-a1b4-3be3400c9a9d",
+      "name": "Royal Ontario Museum - Invertebrate Zoology",
+      "species": 2183,
+      "occurrences": 30102,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "74f92761-3a24-4d85-9bfb-00b1fee0119d",
+      "name": "Canadian Museum of Nature Amphibian and Reptile Collection",
+      "species": 109,
+      "occurrences": 29989,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "f3f03cbf-1a01-4739-ae15-c1355b8c2dbf",
+      "name": "Carnegie Museum of Natural History Herbarium",
+      "species": 3034,
+      "occurrences": 29754,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "7a3679ef-5582-4aaa-81f0-8c2545cafc81",
+      "name": "Pl@ntNet observations",
+      "species": 1384,
+      "occurrences": 29717,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "e0893602-ae2d-4c1f-a972-85fe4f62bcc8",
+      "name": "DFO Gulf Region Snow Crab Research Trawl Surveys 2010-2020",
+      "species": 129,
+      "occurrences": 29590,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "f934f8e2-32ca-46a7-b2f8-b032a4740454",
+      "name": "CAS Botany (BOT)",
+      "species": 3917,
+      "occurrences": 29501,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "84472eb4-f762-11e1-a439-00145eb45e9a",
+      "name": "Manitoba Museum of Man and Nature",
+      "species": 207,
+      "occurrences": 29219,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "b22b10e7-86da-4b80-8f49-f3f958a2463d",
+      "name": "University of Manitoba Herbarium (WIN) - Vascular Plant Collection",
+      "species": 1601,
+      "occurrences": 28944,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "bb5b30b4-827e-4d5e-a86a-825d65cb6583",
+      "name": "Paleobiology Database",
+      "species": 6578,
+      "occurrences": 28669,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "3b0752b5-5c65-4198-8eef-680e3fec59e6",
+      "name": "DFO Maritimes Zooplankton Metabarcoding (COI) AEIP 2019",
+      "species": 161,
+      "occurrences": 28290,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "72de3af4-1572-4f2d-8006-2bfa2007065c",
+      "name": "Hakai Institute Juvenile Salmon Program",
+      "species": 27,
+      "occurrences": 28183,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "ca1bcd7e-7387-42f9-81ba-1470db55e3e8",
+      "name": "University of British Columbia Herbarium (UBC) - Fungi Collection",
+      "species": 4140,
+      "occurrences": 26175,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "2bb61c1e-1cf1-4b50-830d-359f0b35e9e1",
+      "name": "Scotian Shelf Snow Crab Tagging",
+      "species": 1,
+      "occurrences": 25989,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "fced6be6-82a9-4aac-8508-7bfd1a205a33",
+      "name": "Shippagan, NB: Cod tagging",
+      "species": 1,
+      "occurrences": 25988,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "845cebe6-f762-11e1-a439-00145eb45e9a",
+      "name": "Ross A. Layberry Observations",
+      "species": 157,
+      "occurrences": 24094,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "f1a4ce9a-97cd-4d35-bf5e-561f2f1c6d91",
+      "name": "Xerces Society - Bumble Bee Watch",
+      "species": 36,
+      "occurrences": 24045,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "d714382d-5890-4234-ae81-696eeb53658a",
+      "name": "Mushroom Observer",
+      "species": 3203,
+      "occurrences": 23960,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "96404cc2-f762-11e1-a439-00145eb45e9a",
+      "name": "Entomology Division, Yale Peabody Museum",
+      "species": 1539,
+      "occurrences": 23530,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "cd6e21c8-9e8a-493a-8a76-fbf7862069e5",
+      "name": "Royal Botanic Gardens, Kew - Herbarium Specimens",
+      "species": 3335,
+      "occurrences": 23406,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "b7a76dbc-3407-467b-96f4-01daae0a6e38",
+      "name": "Herbier Louis-Marie (QFA) - Collection de lichens",
+      "species": 1114,
+      "occurrences": 23388,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "da88825b-4793-4c7f-8ba2-f6eeab1777d8",
+      "name": "DFO Maritimes Lobster & Finfish eDNA metabarcoding (18S) in the Bay of Fundy 2018-2019",
+      "species": 246,
+      "occurrences": 22797,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "843cc7a8-f762-11e1-a439-00145eb45e9a",
+      "name": "Royal BC Museum - Ornithology Collection",
+      "species": 423,
+      "occurrences": 22676,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "7e380070-f762-11e1-a439-00145eb45e9a",
+      "name": "Natural History Museum (London) Collection Specimens",
+      "species": 4959,
+      "occurrences": 22199,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "f318309f-f9db-453d-9b93-39acd4a67227",
+      "name": "Marie-Victorin Herbarium (MT) - Bryophytes",
+      "species": 758,
+      "occurrences": 22157,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "55a29b7c-9cb3-4721-b1e3-40561c955e21",
+      "name": "McGill University Herbarium Database",
+      "species": 1717,
+      "occurrences": 22142,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "a56671b7-f619-4f49-9250-dfa7c0b298dc",
+      "name": "USGS Patuxent Wildlife Research Center Seabirds Compendium",
+      "species": 98,
+      "occurrences": 22048,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "8cc8c592-e818-4ba2-8840-bc0c27880670",
+      "name": "DFO Quebec Gulf of St. Lawrence eDNA metabarcoding (12S) 2020-2022",
+      "species": 87,
+      "occurrences": 21306,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "82d21102-f762-11e1-a439-00145eb45e9a",
+      "name": "BC Coastal Waterbird Survey",
+      "species": 151,
+      "occurrences": 21200,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "843df0c4-f762-11e1-a439-00145eb45e9a",
+      "name": "Provincial Museum of Alberta, Edmonton, AB, Canada. Birds (Aves)",
+      "species": 491,
+      "occurrences": 20953,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "05bdc54a-26ae-43e9-b7bf-bf0b0798ebf9",
+      "name": "Northumberland Strait multi-species trawl survey dataset",
+      "species": 121,
+      "occurrences": 20938,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "5dc9f641-1471-4f41-988c-5b8f85b2b873",
+      "name": "GPS locations of Northern Gannets season 2015 / Localisations GPS de fous de Bassan saison 2015",
+      "species": 1,
+      "occurrences": 20511,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "7bd65a7a-f762-11e1-a439-00145eb45e9a",
+      "name": "Tropicos MO Specimen Data",
+      "species": 2786,
+      "occurrences": 20417,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "0082c64d-475d-4853-9c81-3bc71038c816",
+      "name": "DFO Quebec Region Mingan Archipelago Icelandic Scallop Survey 1990-2019",
+      "species": 153,
+      "occurrences": 20359,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "cb6a5492-a37b-4b63-846d-6f38ab009065",
+      "name": "Effects of organic matter manipulation on archaeal, bacterial, and fungal community assembly",
+      "species": 1502,
+      "occurrences": 19799,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "3484c814-c0f1-453c-8501-50d4846c4ba6",
+      "name": "Insectarium de Montréal (IMQC)",
+      "species": 1518,
+      "occurrences": 19653,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "c287bcb5-ee4a-456f-86b6-dae0e6fe7958",
+      "name": "Royal Ontario Museum - Herpetology Collection",
+      "species": 95,
+      "occurrences": 19312,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "a5105b23-ef9c-4ff7-8d0b-a09104130e29",
+      "name": "Eulachon migration bottom trawl surveys",
+      "species": 157,
+      "occurrences": 19008,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "d4d63d03-7562-4f55-8703-bde1ece74de1",
+      "name": "DFO Maritimes Region: Biodiversity assessment of fish communities of the St. Anns Bank MPA, Gully MPA, and Fundian Channel-Browns Bank Area of Interest using eDNA metabarcoding (COI)",
+      "species": 70,
+      "occurrences": 18975,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "4c9174a6-77db-4e94-bc41-478ccf5a09c1",
+      "name": "DFO Pacific Groundfish Synoptic Trawl Surveys - Strait of Georgia",
+      "species": 122,
+      "occurrences": 18973,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "56687a3d-b48f-44e5-b2b8-d55bafff2f33",
+      "name": "Galiano Island BC Canada Marine Zoology 1893–2021",
+      "species": 617,
+      "occurrences": 18846,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "beed26d1-6175-4e0c-94a4-b4c0c3039bc5",
+      "name": "Mortality, Movements, and Migration Timing of Age-0 Cowichan Chinook Salmon Tagged in the Southern Gulf Islands in Fall 2017",
+      "species": 1,
+      "occurrences": 18611,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "83c964d4-f762-11e1-a439-00145eb45e9a",
+      "name": "Gwaii Haanas Invertebrates (OBIS Canada)",
+      "species": 1943,
+      "occurrences": 18220,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "02bbf292-ce04-4573-835a-fd4a36a3e575",
+      "name": "DFO Maritimes Zooplankton Metabarcoding (18S) AEIP 2019",
+      "species": 164,
+      "occurrences": 17940,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "68513375-3aa5-4f6f-9975-d97d56c21d61",
+      "name": "Illinois Natural History Survey Insect Collection",
+      "species": 2140,
+      "occurrences": 17930,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "84b72ee4-f762-11e1-a439-00145eb45e9a",
+      "name": "Arctic Ocean Diversity",
+      "species": 189,
+      "occurrences": 17927,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "3ad882bb-cd21-4201-8b83-3684bfc6d830",
+      "name": "Cowan Tetrapod Collection - Mammals",
+      "species": 216,
+      "occurrences": 17807,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "21705170-d2b6-42de-8904-c3bca4b83591",
+      "name": "Cercle des mycologues de Montréal Fungarium (CMMF)",
+      "species": 3105,
+      "occurrences": 17492,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "a82d2421-be5a-4779-babc-da0b634a7ba8",
+      "name": "CM Birds Collection",
+      "species": 368,
+      "occurrences": 16922,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "4589d944-e08f-4b8f-875c-d671be0b0b4a",
+      "name": "DFO Quebec Region Magdalen Islands Sea Scallop Survey 1992-2019",
+      "species": 109,
+      "occurrences": 16726,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "91641b5c-7afa-4262-9fe0-d22d067ce299",
+      "name": "USGS Great Lakes Science Center Research Vessel Catch Information System Trawl",
+      "species": 60,
+      "occurrences": 16375,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "9f0e1ca6-fb08-4c72-9a4a-1e3b7a528c10",
+      "name": "Global soil organisms",
+      "species": 498,
+      "occurrences": 16116,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "727e910d-5d1c-4bff-8e1c-6b13342d8ca0",
+      "name": "British Columbia Geoduck (Panopea generosa) Age, Size Structure and Growth Parameters, 1993 - 2002",
+      "species": 1,
+      "occurrences": 15907,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "82d32d8a-f762-11e1-a439-00145eb45e9a",
+      "name": "Canadian Lakes Loon Survey",
+      "species": 1,
+      "occurrences": 15883,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "854bc2fc-f762-11e1-a439-00145eb45e9a",
+      "name": "Invertebrate Paleontology Division, Yale Peabody Museum",
+      "species": 912,
+      "occurrences": 15725,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "dd56fb07-2ada-4519-ae23-229baa4fc1f0",
+      "name": "Maritimes Conservation Network: St. Anns Bank Marine Protected Area (MPA) Acoustic Tracking Study",
+      "species": 7,
+      "occurrences": 15626,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "4caf2040-83ad-4fa7-ba13-005bced721eb",
+      "name": "Beaty Biodiversity Museum Fish Collection",
+      "species": 495,
+      "occurrences": 15505,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "d6cc311c-c5ab-4f23-9a20-10514f9eb9c4",
+      "name": "USGS Nonindigenous Aquatic Species database",
+      "species": 142,
+      "occurrences": 15409,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "ffb14d94-d7b3-4f2a-b449-af1ebf39131a",
+      "name": "New Brunswick Museum - Mammals",
+      "species": 164,
+      "occurrences": 15298,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "2b6670a5-2ffd-4215-a372-85205ad5b1fa",
+      "name": "Marine invasive species: Eilat, Gulf of Aqaba, Red Sea",
+      "species": 7,
+      "occurrences": 15152,
+      "publishedInCountry": true,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "845bc5c2-f762-11e1-a439-00145eb45e9a",
+      "name": "Brassicaceae of Canada",
+      "species": 210,
+      "occurrences": 15033,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "ba0c046d-52bb-4262-a495-652988c9f3f7",
+      "name": "Cowan Tetrapod Collection - Birds",
+      "species": 780,
+      "occurrences": 14925,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "82d43810-f762-11e1-a439-00145eb45e9a",
+      "name": "Ontario Breeding Bird Atlas 1981-1985",
+      "species": 237,
+      "occurrences": 14863,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "b20c6e37-2f4f-44ca-94fa-ccf85ac8ecff",
+      "name": "DFO Monthly GRDI Survey eDNA metabarcoding (16S) in the Bay of Fundy 2019-2021",
+      "species": 124,
+      "occurrences": 14803,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "7a94bc17-c63c-444e-8626-9bdf8ee71d03",
+      "name": "DFO Quebec Gulf of St. Lawrence eDNA metabarcoding (16S) 2020-2022",
+      "species": 89,
+      "occurrences": 14608,
+      "publishedInCountry": true,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CA"
+    },
+    {
+      "datasetkey": "7dd6e9f8-f252-42c9-bd34-221716095973",
+      "name": "University of Michigan Museum of Zoology, Division of Mollusks",
+      "species": 394,
+      "occurrences": 14462,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CA"
+    }
+  ],
+  "downloadAttribution": {
+    "downloadKey": "0045877-260519110011954",
+    "doi": "10.15468/dl.wjjhjw",
+    "created": "2026-06-09T10:02:33.361+00:00"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "smallestPassingAll": {
+    "countryCode": "AQ",
+    "countryName": "Antarctica",
+    "distinctClasses": 457,
+    "distinctOrders": 1441,
+    "distinctFamilies": 4730,
+    "distinctSpecies": 14743,
+    "passesLevel1": true,
+    "passesLevel2": true,
+    "passesLevel3": true,
+    "levelsPassedCount": 3,
+    "passesAllLevels": true
+  },
+  "largestFailingAll": {
+    "countryCode": "NR",
+    "countryName": "Nauru",
+    "distinctClasses": 31,
+    "distinctOrders": 91,
+    "distinctFamilies": 237,
+    "distinctSpecies": 615,
+    "passesLevel1": false,
+    "passesLevel2": false,
+    "passesLevel3": false,
+    "levelsPassedCount": 0,
+    "passesAllLevels": false
+  },
+  "statistics": {
+    "totalCountries": 250,
+    "countriesPassingAllLevels": 36,
+    "countriesPassingLevel1": 246,
+    "countriesPassingLevel2": 114,
+    "countriesPassingLevel3": 36
+  },
+  "generatedAt": "2026-03-10T12:45:10.592Z"
+}

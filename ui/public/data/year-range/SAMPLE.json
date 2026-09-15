@@ -1,0 +1,47 @@
+{
+  "All Species": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120],
+    "counts": [1245, 856, 623, 445, 312, 198, 145, 89, 56, 34, 23, 12],
+    "totalSpecies": 4038,
+    "meanYearRange": 28.5,
+    "medianYearRange": 22,
+    "maxYearRange": 126,
+    "minYearRange": 0
+  },
+  "Mammals": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+    "counts": [45, 78, 92, 67, 54, 38, 25, 18, 12, 8],
+    "totalSpecies": 437,
+    "meanYearRange": 35.2,
+    "medianYearRange": 28,
+    "maxYearRange": 105,
+    "minYearRange": 0
+  },
+  "Birds": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110],
+    "counts": [123, 245, 198, 156, 112, 87, 56, 34, 23, 15, 9],
+    "totalSpecies": 1058,
+    "meanYearRange": 32.8,
+    "medianYearRange": 26,
+    "maxYearRange": 118,
+    "minYearRange": 0
+  },
+  "Flowering Plants": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90],
+    "counts": [456, 289, 178, 123, 89, 67, 45, 28, 15],
+    "totalSpecies": 1290,
+    "meanYearRange": 24.3,
+    "medianYearRange": 18,
+    "maxYearRange": 95,
+    "minYearRange": 0
+  },
+  "Insects": {
+    "bins": [0, 10, 20, 30, 40, 50, 60],
+    "counts": [234, 156, 98, 67, 45, 28],
+    "totalSpecies": 628,
+    "meanYearRange": 19.7,
+    "medianYearRange": 15,
+    "maxYearRange": 68,
+    "minYearRange": 0
+  }
+}

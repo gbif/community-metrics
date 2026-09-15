@@ -1,0 +1,1827 @@
+{
+  "countryCode": "CO",
+  "countryName": "Colombia",
+  "totalDatasets": 6001,
+  "lastModified": "2026-06-09",
+  "dataSource": "GBIF",
+  "notes": "Biodiversity datasets from Colombia institutions and GBIF network",
+  "datasets": [
+    {
+      "datasetkey": "4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+      "name": "EOD – eBird Observation Dataset",
+      "species": 1909,
+      "occurrences": 23875257,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "010fcd64-caa7-47dd-b1b1-c8be5a2144b6",
+      "name": "Pesquería Artesanal de la Ciénaga Grande de Santa Marta - SIPEIN",
+      "species": 86,
+      "occurrences": 1997031,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+      "name": "iNaturalist Research-grade Observations",
+      "species": 21047,
+      "occurrences": 625139,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "1fcfeecb-3899-4d59-8c3a-881ffec9d725",
+      "name": "Rescate y reubicación de Epífitas en el área del vaso del embalse del Proyecto Hidroeléctrico Ituango",
+      "species": 43,
+      "occurrences": 583784,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "f65b3120-1fab-4f2d-abbb-49d072bf1016",
+      "name": "Aprovechamiento Forestal en el área de influencia del Proyecto Hidroeléctrico Ituango",
+      "species": 303,
+      "occurrences": 555431,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "9850b85a-793f-429d-a437-2d5b46282acf",
+      "name": "DATAVES",
+      "species": 1637,
+      "occurrences": 413210,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "18da9e5d-8966-4893-bf70-b3911152d991",
+      "name": "Herbario Nacional Colombiano (COL)",
+      "species": 19366,
+      "occurrences": 231872,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "821cc27a-e3bb-4bc5-ac34-89ada245069d",
+      "name": "NMNH Extant Specimen Records (USNM, US)",
+      "species": 25466,
+      "occurrences": 213494,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "876c11ed-b8a6-4b4b-868f-da9b91ab330c",
+      "name": "Primer censo de plantas leñosas de una Parcela Permanente de 25 hectáreas, ubicada en la Reserva Natural La Planada (Nariño, Colombia)",
+      "species": 166,
+      "occurrences": 162096,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "dd1be613-e22c-4e3a-86a3-bc055766aa7b",
+      "name": "Segundo censo de plantas leñosas de una Parcela Permanente de 25 hectáreas, ubicada en la Reserva Natural La Planada (Nariño, Colombia)",
+      "species": 166,
+      "occurrences": 162096,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "0b7d7b92-b33a-4eba-ae40-1ef13b13ea6b",
+      "name": "Biodiversidad asociada al Estudio de Impacto Ambiental del proyecto: Interconexión Cuestecitas - Copey - Fundación 500/220 mil voltios",
+      "species": 924,
+      "occurrences": 156797,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "372ac467-9b19-4373-8a0f-85fb3a91b6ca",
+      "name": "Monitoreo de peces en la cuenca media y baja del río Cauca en el marco del Proyecto Hidroeléctrico Ituango, durante los años 2010 - 2020",
+      "species": 137,
+      "occurrences": 155149,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "0a795556-3b24-4ff7-9113-22eb1bca08a4",
+      "name": "Evaluación de la dinámica pesquera en la cuenca media y baja del río Cauca, en el marco del Proyecto Hidroeléctrico Ituango durante los años 2016 – 2020",
+      "species": 47,
+      "occurrences": 130782,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "7bd65a7a-f762-11e1-a439-00145eb45e9a",
+      "name": "Tropicos MO Specimen Data",
+      "species": 18086,
+      "occurrences": 127661,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "db98b6db-9646-483b-acbd-f3b419666eaa",
+      "name": "Fauna registrada mediante cámaras trampa en el marco del proyecto Expedición del Oso Palmero en el departamento del Casanare",
+      "species": 114,
+      "occurrences": 125600,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "c8565eef-a9f6-49a4-bf8d-7c8416361a99",
+      "name": "Fauna silvestre reubicada en el marco del Proyecto Hidroeléctrico Ituango",
+      "species": 276,
+      "occurrences": 106401,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "9b73f44e-bbe1-4fd1-a7a9-c96c38dcf884",
+      "name": "Herbario Amazónico Colombiano Dairon Cárdenas López",
+      "species": 8581,
+      "occurrences": 103404,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "e053ff53-c156-4e2e-b9b5-4462e9625424",
+      "name": "Tropicos Specimens Non-MO",
+      "species": 15696,
+      "occurrences": 101285,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "22090000-7164-4e20-894e-722f2ce3c44f",
+      "name": "Monitoreo pasivo de fauna silvestre con cámaras trampa en el Piedemonte Meta,  Colombia - Proyecto FIBRAS",
+      "species": 141,
+      "occurrences": 97112,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "3856c01f-5031-4cc1-a5b2-2daa9537411b",
+      "name": "Monitoreo pasivo de fauna silvestre con cámaras trampa en el Piedemonte Casanare, Colombia - Proyecto FIBRAS",
+      "species": 178,
+      "occurrences": 93854,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "cd32991b-546d-4be5-81b4-e2702c22625a",
+      "name": "Datos de monitoreo asociados al indicador de condición tendencias para arrecifes coralinos - ICTac",
+      "species": 81,
+      "occurrences": 92104,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "cf8f886b-7289-4d59-9cb1-f2d293147d98",
+      "name": "Colección de Entomología del Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH-E)",
+      "species": 3767,
+      "occurrences": 77969,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "1fe5d5cd-0336-4664-b768-d38acf349c0a",
+      "name": "Colección Herbario Federico Medem Bogotá - FMB",
+      "species": 11241,
+      "occurrences": 75365,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "ed4b0f29-1e82-4386-80ee-9b9dd863a706",
+      "name": "Monitoreo pasivo de fauna silvestre con cámaras trampa en el Magdalena Medio, Santander y Cesar, Colombia - Proyecto FIBRAS",
+      "species": 155,
+      "occurrences": 75086,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "c0c759df-e3aa-4c37-9151-438d126aded2",
+      "name": "Monitoreo de fauna en el área de influencia del Proyecto Hidroeléctrico Ituango, durante los años 2012 - 2013 y 2018 - 2021",
+      "species": 446,
+      "occurrences": 72920,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "23243164-c132-444d-a3a4-34662abb8305",
+      "name": "Herbario Universidad de Antioquia (HUA)",
+      "species": 8643,
+      "occurrences": 69144,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "52ff421c-ce1a-4724-95af-9bf0d2df14a7",
+      "name": "Flora y epífitas presentes en el proyecto Minera de Cobre Quebradona, municipio de Jericó",
+      "species": 676,
+      "occurrences": 67245,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "9f0e1ca6-fb08-4c72-9a4a-1e3b7a528c10",
+      "name": "Global soil organisms",
+      "species": 894,
+      "occurrences": 66776,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "8e8a18e4-2609-4122-a574-a2fad3945866",
+      "name": "Línea base general de aves y mamíferos a través de cámaras trampa para el valle medio del Magdalena - VMM",
+      "species": 96,
+      "occurrences": 64195,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "01598aee-87a8-4a95-83ec-263469faaf4d",
+      "name": "Monitoreos en áreas de compensación por pérdida de biodiversidad relacionadas al Gasoducto Loop San Mateo",
+      "species": 558,
+      "occurrences": 63718,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "a9e763c8-f674-4492-94a8-4fd4eb9342a5",
+      "name": "Aarhus University Palm Transect Database",
+      "species": 71,
+      "occurrences": 59762,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "c99d545d-7218-4a6b-845f-a3c75e7711b3",
+      "name": "Biodiversidad asociada al plan de manejo ambiental del embalse de Tominé, Cundinamarca",
+      "species": 301,
+      "occurrences": 57226,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "84ed08a5-7d5b-4c0c-9de6-5185dd318e1f",
+      "name": "Sistema de Monitoreo de Arrecifes Coralinos - SIMAC: Estructura Coralina",
+      "species": 118,
+      "occurrences": 56930,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b8aa352d-9409-43a7-9876-e6b196a010d3",
+      "name": "Biodiversidad de aves en el Distrito Especial de Medellín y la Reserva Forestal Protectora Regional Alto de San Miguel",
+      "species": 329,
+      "occurrences": 55504,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "f56b8061-e547-44be-806f-849eab5c073e",
+      "name": "Registros de avistamiento y ahuyentamiento de fauna silvestre en el área de influencia del Proyecto Hidroeléctrico Ituango, durante los años 2012 - 2021",
+      "species": 544,
+      "occurrences": 55180,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "79684ec1-01e8-46cc-83cb-cd5bdfb469fe",
+      "name": "ICN - Universidad Nacional de Colombia",
+      "species": 8043,
+      "occurrences": 54314,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "5fdcdc28-2a80-4236-a257-866b42ed250c",
+      "name": "Monitoreos trianuales de fauna y flora en el Valle del Cerrejón, La Guajira",
+      "species": 877,
+      "occurrences": 52918,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "f442ef1d-7104-4a8c-85d6-a55181d6b265",
+      "name": "Individuos capturados durante las faenas de pesca y su punto de desembarque asociado en el marco del Proyecto Hidroeléctrico Ituango",
+      "species": 46,
+      "occurrences": 52897,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b56fbfec-cf01-458a-b772-2df2c8403201",
+      "name": "Diversidad de hormigas en ambientes urbanos de la ciudad de Santa Marta",
+      "species": 83,
+      "occurrences": 52531,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "d415c253-4d61-4459-9d25-4015b9084fb0",
+      "name": "The New York Botanical Garden Herbarium (NY)",
+      "species": 10759,
+      "occurrences": 49423,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "1280c87e-dad9-4dcf-82da-9823a3f5b679",
+      "name": "Sistema de Monitoreo de Arrecifes Coralinos - SIMAC: Salud Coralina",
+      "species": 69,
+      "occurrences": 45595,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "fca0a83e-f174-4570-924e-849290de2fee",
+      "name": "Individuos plantados en actividades de restauración ecológica en el área de influencia del Proyecto Hidroeléctrico Ituango",
+      "species": 58,
+      "occurrences": 45095,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "cd6e21c8-9e8a-493a-8a76-fbf7862069e5",
+      "name": "Royal Botanic Gardens, Kew - Herbarium Specimens",
+      "species": 11004,
+      "occurrences": 43719,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "2d66b392-d4fd-4fdf-95ca-e34958ae85db",
+      "name": "Monitoreos en áreas de compensación por pérdida de biodiversidad relacionadas al Gasoducto Mamonal-Paiva",
+      "species": 341,
+      "occurrences": 43572,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b83b02a2-c5c4-4f1a-9e5e-78f05812d64e",
+      "name": "Caracterización de fauna y flora en áreas biosensoras, de rehabilitación y de conservación de la Mina La Jagua, 2014-2024",
+      "species": 968,
+      "occurrences": 43449,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "a6bc8ba7-1489-4724-8e72-fd5d0325a9c4",
+      "name": "Sistema de Monitoreo de Arrecifes Coralinos - SIMAC: Abundancia de peces arrecifales",
+      "species": 188,
+      "occurrences": 41896,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b2c6de24-1a59-4090-b045-259330e3be40",
+      "name": "Manejo biológico de peces en zona de barrera del río Sogamoso, 2020-2025. Central Hidroeléctrica Sogamoso",
+      "species": 27,
+      "occurrences": 40753,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "e00c5f31-b326-4cf8-aaa3-8688a2a10c2a",
+      "name": "Registros de aves del Valle de Aburrá asociados al estudio del análisis de la conectividad ecológica funcional y estructural en el Área Metropolitana del Valle de Aburrá",
+      "species": 211,
+      "occurrences": 40169,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "9cc67633-537a-4acc-8d37-92feeaddb2cd",
+      "name": "Monitoreo Ambiental del Proyecto La Colosa",
+      "species": 853,
+      "occurrences": 39084,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b1047888-ae52-4179-9dd5-5448ea342a24",
+      "name": "Xeno-canto - Bird sounds from around the world",
+      "species": 1540,
+      "occurrences": 34788,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "bfeaf9b4-90e1-44a0-bf0c-a82c883c612b",
+      "name": "Biodiversidad asociada a la modificación del Plan de Manejo Ambiental Integral de Mares",
+      "species": 1029,
+      "occurrences": 34740,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "1e78dfef-d315-4347-8e25-53550cdce5fe",
+      "name": "Biodiversidad asociada al Estudio de Impacto Ambiental del proyecto: Línea de transmisión Cerromatoso - Chinú - Copey 500 kV",
+      "species": 511,
+      "occurrences": 34641,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "c3a5002d-06bf-47dc-8477-b75d5a848026",
+      "name": "Datos de monitoreo asociados al indicador de condición tendencias para peces arrecifales - ICTac",
+      "species": 102,
+      "occurrences": 34206,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "15f819bd-6612-4447-854b-14d12ee1022d",
+      "name": "Naturalis Biodiversity Center (NL) - Botany",
+      "species": 9016,
+      "occurrences": 33753,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "9c2d26f1-0ce0-4cde-9f8d-de8284404fff",
+      "name": "Colección de Tejidos del Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH-CT)",
+      "species": 6490,
+      "occurrences": 33651,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "2f98a4d0-01b1-4316-8246-cf8d6a984f4c",
+      "name": "Fauna y Flora del proyecto: Subestación Toluviejo 220 kv y líneas asociadas - Tramo 2",
+      "species": 503,
+      "occurrences": 32840,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "4b04f487-712e-4ade-80fb-14e45f32e5f4",
+      "name": "Aves de las Reservas Distritales de Humedal de Bogotá, D.C.",
+      "species": 158,
+      "occurrences": 32630,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "310714fe-57a1-4cc2-9689-69471bd289ea",
+      "name": "Colección Entomológica del Tecnológico de Antioquia (CETdeA) - Calliphoridae (Diptera)",
+      "species": 23,
+      "occurrences": 31023,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b96a1a09-32c8-4a55-bf14-5a7c0ea68643",
+      "name": "SFF El Corchal El Mono Hernandez Monitoreo del ecosistema Corcho",
+      "species": 1,
+      "occurrences": 30029,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "90c853e6-56bd-480b-8e8f-6285c3f8d42b",
+      "name": "Field Museum of Natural History (Botany) Seed Plant Collection",
+      "species": 6777,
+      "occurrences": 29976,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "6be683cc-fd8f-4385-876d-7a707e73dbc0",
+      "name": "Monitoreo de las condiciones ambientales y los cambios estructurales y funcionales de las comunidades vegetales y de los recursos pesqueros durante la rehabilitación de la Ciénaga Grande de Santa Marta",
+      "species": 4,
+      "occurrences": 29650,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "49f8f145-5b9d-4c34-8d0e-5c8018a0cb91",
+      "name": "Biodiversidad asociada al Proyecto Nueva Subestación Guarcama 110 KV y Redes Asociadas",
+      "species": 347,
+      "occurrences": 27920,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "2b751306-915e-420f-9c3e-2ffd03411aee",
+      "name": "Biodiversidad asociada al Estudio de Impacto Ambiental (EIA) área de desarrollo Casanare 122",
+      "species": 924,
+      "occurrences": 27785,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "d0a95d44-3622-4c40-bbaf-79a5968c697d",
+      "name": "Caracterización de fauna terrestre y flora en el arroyo Bruno, municipio de Albania, La Guajira",
+      "species": 672,
+      "occurrences": 26654,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "834c9918-f762-11e1-a439-00145eb45e9a",
+      "name": "CSIC-Real Jardín Botánico-Colección de Plantas Vasculares (MA)",
+      "species": 5952,
+      "occurrences": 26505,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "86c06614-5b6c-4e8b-8272-52d31f8d50bb",
+      "name": "Muestreos de fauna silvestre existente en la franja de protección del embalse y áreas de reserva protectora de la Central Hidroeléctrica Sogamoso",
+      "species": 731,
+      "occurrences": 26230,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "07044577-bd82-4089-9f3a-f4a9d2170b2e",
+      "name": "A global database for the distributions of crop wild relatives",
+      "species": 988,
+      "occurrences": 26194,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "5f78d639-26ec-473b-90c9-4efe59a0632d",
+      "name": "Base de Datos de Flora de la Cuenca del Río Orinoco en Colombia",
+      "species": 4886,
+      "occurrences": 25699,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "6642123d-8962-4799-86f3-58816b4f3a5a",
+      "name": "Fauna y flora de los monitoreos bióticos en áreas biosensoras de Drummond LTD",
+      "species": 711,
+      "occurrences": 25439,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "2f94ef74-afbe-4039-bfac-881d789672cd",
+      "name": "Monitoreo participativo de aves en la laguna de Fúquene",
+      "species": 164,
+      "occurrences": 25144,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "cb2f5b68-6505-4b45-9ca7-2e7d0fb69d55",
+      "name": "Caracterización de fauna y flora en áreas biosensoras y de rehabilitación de la Mina Calenturitas, 2013-2025",
+      "species": 796,
+      "occurrences": 24856,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "6d5fced1-6e85-4d9e-88f4-e1459772d2fd",
+      "name": "Censo Neotropical de Aves Acuáticas en Colombia (CNAA): 2002 - 2018",
+      "species": 200,
+      "occurrences": 24363,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "75bcbf8f-5e58-4714-9eba-382129702022",
+      "name": "Colección de Peces de Agua Dulce del Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH-P)",
+      "species": 1328,
+      "occurrences": 24212,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "6c49da09-02e0-4682-a7c4-9cbec50a0562",
+      "name": "Levantamientos de vegetación de la Amazonia Colombiana de 0.1 Ha",
+      "species": 1489,
+      "occurrences": 24081,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "c06a8de3-42cf-4d78-a50e-5b8dc8934161",
+      "name": "Biodiversidad asociada al Proyecto Hidroeléctrico el Buey",
+      "species": 712,
+      "occurrences": 23174,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b01bffc2-67b0-4441-806d-65c2cff690b5",
+      "name": "Colección de Herpetología del Instituto de Ciencias Naturales (ICN-MHN-Her)",
+      "species": 710,
+      "occurrences": 22906,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "623d8d63-ea76-4582-b4ad-8dbf5f043f70",
+      "name": "Biodiversidad asociada al proyecto Línea de Transmisión de Energía Segundo Circuito San Lorenzo - Calizas a 110 kV, Antioquia",
+      "species": 916,
+      "occurrences": 22422,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "dd3e1501-5024-4b6e-880c-bb6032f8860f",
+      "name": "Monitoreo de fauna silvestre en la zona de reubicación y margen derecha del Embalse El Quimbo",
+      "species": 311,
+      "occurrences": 21896,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "4a050d23-ef56-4024-9208-dcfc0717aa71",
+      "name": "Corredor neotropical de migración de aves en Colombia Temporada I-II/2016",
+      "species": 498,
+      "occurrences": 21862,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "41403f63-cbf8-42ff-9260-1a8a42c2b5ba",
+      "name": "Caracterización de fauna y flora en el departamento del Casanare: EIA 2024-2025 para el Área de Desarrollo Llanos 87",
+      "species": 574,
+      "occurrences": 21578,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "4bfac3ea-8763-4f4b-a71a-76a6f5f243d3",
+      "name": "Museum of Comparative Zoology, Harvard University",
+      "species": 4246,
+      "occurrences": 21461,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "8a863029-f435-446a-821e-275f4f641165",
+      "name": "Observation.org, Nature data from around the World",
+      "species": 1308,
+      "occurrences": 21340,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "6d535a39-d3fc-4f4d-8903-3184d423c4e3",
+      "name": "Caracterización de fauna y flora en áreas biosensoras en la Sociedad Portuaria Puerto Nuevo, Ciénaga, Magdalena, monitoreos 2013-2025",
+      "species": 715,
+      "occurrences": 21163,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "d8cd16ba-bb74-4420-821e-083f2bac17c2",
+      "name": "INSDC Sequences",
+      "species": 4413,
+      "occurrences": 20701,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "8658262c-f762-11e1-a439-00145eb45e9a",
+      "name": "Academy of Natural Sciences of Philadelphia Ornithology Collection",
+      "species": 1333,
+      "occurrences": 20288,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b4bf8b80-4814-434f-b494-4831d5d909f4",
+      "name": "Mamíferos terrestres de los Montes de María: proyecto de Riqueza Natural",
+      "species": 23,
+      "occurrences": 20087,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "8407f531-56b4-4a20-a981-923a00565d83",
+      "name": "Colección Ornitológica del Instituto de Ciencias Naturales (ICN-MHN-Or)",
+      "species": 1249,
+      "occurrences": 19723,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "a9a819bb-b94e-4e06-bbbd-4cc1eb6f3b1c",
+      "name": "Registros de especies priorizadas de mamíferos de Colombia, recopilados a partir de la información de fototrampeo",
+      "species": 64,
+      "occurrences": 19635,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "85a1a50a-9b1f-4172-bfca-d48be8a0813f",
+      "name": "Biodiversidad asociada al Proyecto Renovación Colector La Heliodora",
+      "species": 195,
+      "occurrences": 19404,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "411e0de5-320c-4819-ac38-52cc6adb2ff1",
+      "name": "Estudios bióticos (Plantas, Fauna Edáfica, Anfibios y Aves) en los Complejos de páramos Guantiva - La Rusia",
+      "species": 454,
+      "occurrences": 19161,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "7e380070-f762-11e1-a439-00145eb45e9a",
+      "name": "Natural History Museum (London) Collection Specimens",
+      "species": 5778,
+      "occurrences": 18557,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "5aa8c4ed-3df2-4179-8e6a-16222f2dbe1c",
+      "name": "Levantamientos portuarios de fitoplancton, zooplancton, perifiton y macrozoobentos en el Pacífico colombiano",
+      "species": 333,
+      "occurrences": 18469,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b34cd173-7e57-421f-9ad7-67c613f1fe32",
+      "name": "Monitoreo de Fauna Silvestre en el Municipio de Envigado",
+      "species": 124,
+      "occurrences": 18392,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "90ea29e8-8bd5-4031-9e1d-a6b4e93ed46b",
+      "name": "Biodiversidad asociada al proyecto Parque Solar Fotovoltaico Tepuy",
+      "species": 497,
+      "occurrences": 18319,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "61843ae6-3cb0-44e4-bc5e-94d0c3493fdf",
+      "name": "Caracterización de fauna en diferentes gradientes altitudinales del departamento de Boyacá, Colombia",
+      "species": 951,
+      "occurrences": 18137,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "a9b30f8b-5879-420b-b306-bd1faeed696a",
+      "name": "Biodiversidad asociada al Estudio de Impacto Ambiental (EIA) para la construcción y operación de la línea de flujo Belleza - Casacará",
+      "species": 340,
+      "occurrences": 18063,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "5226008f-c500-4fcd-a9b5-0d0776ba4874",
+      "name": "Fauna y Flora del proyecto: Estudio de Impacto Ambiental 2024 en el Área de Desarrollo Llanos 123",
+      "species": 740,
+      "occurrences": 17955,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "2092da06-aade-460b-9525-3098eca9abbc",
+      "name": "Estudios bióticos (Plantas, Fauna Edáfica, Anfibios y Aves) en los Complejos de páramos Tota-Bijagual-Mamapacha",
+      "species": 457,
+      "occurrences": 17803,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "1035299a-5f41-4dde-92d4-2951e3d4bc87",
+      "name": "Flora al interior del Área 1 del Banco de Hábitat del Meta de Terrasos",
+      "species": 478,
+      "occurrences": 17758,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "040c5662-da76-4782-a48e-cdea1892d14c",
+      "name": "International Barcode of Life project (iBOL)",
+      "species": 3683,
+      "occurrences": 17749,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "d69c0b98-00a6-491c-8dee-f2da8e88f4b4",
+      "name": "Flora en zonas de influencia de la Central Hidroeléctrica Miel I. 2020",
+      "species": 329,
+      "occurrences": 17210,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "5f4200de-0744-4c21-b80b-a326a16a65ee",
+      "name": "Registros biológicos asociados al monitoreo de la diversidad de aves en paisajes ganaderos 2013-2019",
+      "species": 542,
+      "occurrences": 17066,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "2d747f6e-ce9a-4d0f-833f-babb42f429db",
+      "name": "Monitoreos ecosistémicos y de biodiversidad en las cuencas abastecedoras del recurso hídrico para la prestación de servicios públicos en el Valle de Aburrá, Norte y Oriente antioqueño - Convenios Corporación CuencaVerde - EPM.",
+      "species": 240,
+      "occurrences": 16949,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "7e4d62f9-af91-4656-a4a8-5bbc53ad4460",
+      "name": "Monitoreo de supervivencia y estado fitosanitario de la vegetación en el Parque Nacional Natural Serranía de Los Yariguíes para el periodo 2017 a 2019",
+      "species": 34,
+      "occurrences": 16795,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "3bef6fb2-9a1f-4d8d-b5f3-d6d23885905c",
+      "name": "Colección de Aves del Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH-A)",
+      "species": 1344,
+      "occurrences": 16751,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "94687f6b-6723-46a3-90d8-5a06b843291c",
+      "name": "Colección de Sonidos Ambientales del Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH-CSA)",
+      "species": 1343,
+      "occurrences": 16683,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "7de15d3d-9582-4a0c-9dee-60b0897fea7e",
+      "name": "Registros de fauna marino-costera y terrestre encontrados en el golfo de Urabá",
+      "species": 334,
+      "occurrences": 16641,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "9a25dd5f-eb12-47f3-8a7e-51b8e3824600",
+      "name": "Biodiversidad asociada al gasoducto Loop San Mateo-Mamonal",
+      "species": 616,
+      "occurrences": 16558,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "2f7208c8-b31d-4287-84b4-fc10ab376302",
+      "name": "Herbario Universidad de Caldas - FAUC",
+      "species": 3838,
+      "occurrences": 16480,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "401bea1b-82d5-4f63-9710-61794cca5c2e",
+      "name": "Avifauna Nariñense: exploraciones ornitológicas en el departamento de Nariño",
+      "species": 1023,
+      "occurrences": 16311,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "4864a414-6138-432a-9197-0405afce96bf",
+      "name": "Biodiversidad asociada al Estudio de Impacto Ambiental para la Modificación del Área de Perforación Exploratoria Medina Occidental",
+      "species": 820,
+      "occurrences": 16266,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "94dce9c1-e2f0-45cb-a77b-8e5caa871a41",
+      "name": "Colección de Anfibios del Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH-Am)",
+      "species": 571,
+      "occurrences": 16066,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "ad68e7eb-1f8c-4c48-b0b5-ffcbda299c36",
+      "name": "Marcaje y recaptura de peces en el área de influencia del Proyecto Hidroeléctrico Ituango",
+      "species": 25,
+      "occurrences": 15975,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "2b51bcb1-47f9-4d05-887b-1bfa9d7db9e5",
+      "name": "Avifauna de la Amazonia Colombiana",
+      "species": 819,
+      "occurrences": 15690,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "3e5b6985-5eaa-473b-92b3-17af00e3a781",
+      "name": "Biodiversidad asociada al proyecto Desarrollo Hidroeléctrico del río Minavieja",
+      "species": 806,
+      "occurrences": 15319,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "c1946c8c-830f-4cd9-999d-b05f5b1fc968",
+      "name": "Datos de monitoreo de la estructura de los manglares de la Ciénaga Grande de Santa Marta (Magdalena)",
+      "species": 9,
+      "occurrences": 15312,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "96c93a1e-f762-11e1-a439-00145eb45e9a",
+      "name": "AMNH Bird Collection",
+      "species": 1184,
+      "occurrences": 15058,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "7d692461-9c66-4ec5-a57c-96d78fc9132f",
+      "name": "Biodiversidad asociada al gasoducto Loop Mamonal-Paiva",
+      "species": 389,
+      "occurrences": 15016,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "00a89e1e-8ea5-45ae-bf01-585d867e5488",
+      "name": "Monitoreo de aves acuáticas en hábitats sedimentados de la Laguna de Sonso y determinación de la presencia e incidencia de influenza aviar en humedales continentales y costeros del Valle del Cauca.",
+      "species": 221,
+      "occurrences": 15013,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "047e1bb6-38a3-4d86-a1e3-c9b691805155",
+      "name": "Colección de Ictiología del Instituto de Ciencias Naturales (ICN-MHN-Ic)",
+      "species": 1674,
+      "occurrences": 15002,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "a82d2421-be5a-4779-babc-da0b634a7ba8",
+      "name": "CM Birds Collection",
+      "species": 972,
+      "occurrences": 14658,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "3021152d-571e-477e-8b22-e11f9b2e1ca4",
+      "name": "Colección general del plantas vasculares del Herbario JBB",
+      "species": 3217,
+      "occurrences": 14519,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "77861afa-fed2-4bae-bb83-91e6deaf5349",
+      "name": "Fauna y flora asociada al proyecto piloto de investigación integral - PPII Platero, departamento de Santander",
+      "species": 894,
+      "occurrences": 14147,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "03381bbc-ae81-4a9f-b317-09e1716d8849",
+      "name": "Colección Zoológica de la Universidad del Tolima (CZUT)- Ictiología",
+      "species": 1033,
+      "occurrences": 14089,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "887677ec-c307-4398-8fe5-0676c40b57ca",
+      "name": "Flora de las Reservas Distritales de Humedal de Bogotá, D.C.",
+      "species": 382,
+      "occurrences": 14084,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "48321777-b9b2-4182-84ab-1865fc8f11ac",
+      "name": "Biodiversidad asociada al Estudio de Impacto Ambiental (EIA) para la obtención de la licencia ambiental global para el área de desarrollo LLANOS 134",
+      "species": 435,
+      "occurrences": 14078,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "f2bba2e8-855d-48a0-8642-3df701997ec5",
+      "name": "Biodiversidad asociada al proyecto Línea de Transmisión Bello-Guayabal-Ancón Sur 230 kV",
+      "species": 537,
+      "occurrences": 13992,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "7a25f7aa-03fb-4322-aaeb-66719e1a9527",
+      "name": "LACM Vertebrate Collection",
+      "species": 1352,
+      "occurrences": 13798,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "bdd4a614-fb1f-4f0a-a559-478f022baafb",
+      "name": "Colección del Herbario PSO de la Universidad de Nariño",
+      "species": 2818,
+      "occurrences": 13779,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "5dfaf2ac-5980-4ec5-8490-4607fcd59123",
+      "name": "Estudios bióticos: Plantas, edafofauna epígea, anfibios y aves de los Complejos de Páramos de Sonsón y Urrao",
+      "species": 534,
+      "occurrences": 13690,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "36f15a36-6b45-442e-9c31-cd633423aee0",
+      "name": "Field Museum of Natural History (Zoology) Bird Collection",
+      "species": 1214,
+      "occurrences": 13571,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "cb8eee02-f83e-4591-bec3-87cdbfee0f59",
+      "name": "Estudios bióticos (Plantas, Fauna Edáfica, Anfibios y Aves) en los Complejos de páramos Chiles-Cumbal, La Cocha-Patascoy y Doña Juana Chimayoy.",
+      "species": 438,
+      "occurrences": 13456,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "7d13d7d5-9bf3-4c3d-8358-c3a7757a9187",
+      "name": "Biodiversidad asociada al proyecto Línea de Transmisión a 110 kV San Lorenzo-Sonsón",
+      "species": 567,
+      "occurrences": 13325,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "1bde5a67-a7e5-4ca5-8d85-a6be34f7ffff",
+      "name": "Seguimiento a la Fauna presente en las Actividades de Mantenimiento realizadas entre la Empresa de Acueducto y Alcantarillado de Bogotá ESP y Aguas de Bogotá SA ESP en los Parques Ecológicos Distritales de Humedal, Bogotá D.C.",
+      "species": 171,
+      "occurrences": 13276,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "861e6afe-f762-11e1-a439-00145eb45e9a",
+      "name": "Harvard University Herbaria: All Records",
+      "species": 4567,
+      "occurrences": 13226,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "85818aea-f762-11e1-a439-00145eb45e9a",
+      "name": "The System-wide Information Network for Genetic Resources (SINGER)",
+      "species": 302,
+      "occurrences": 12758,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "6424b95e-eee2-41fc-9450-bac5d6767525",
+      "name": "Inventario de flora, avifauna, mamíferos, mariposas y peces realizado en el sector de Puerto Abeja y durante la expedición científica en la ventana Mesay en el sector sur del Parque Nacional Natural Serranía de Chiribiquete",
+      "species": 1342,
+      "occurrences": 12644,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "cc5e1e3d-0850-4cde-a282-656657752e13",
+      "name": "Herbario de la Universidad Industrial de Santander",
+      "species": 3986,
+      "occurrences": 12493,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "f885c8c7-8312-4e4d-a9f4-7e5b30a0a2d1",
+      "name": "Colección Viva del Jardín Botánico de Bogotá",
+      "species": 1230,
+      "occurrences": 12201,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "7fbc7c55-1468-4163-85dd-29aa7fa85254",
+      "name": "Registros biológicos asociados al monitoreo de la diversidad de escarabajos en paisajes ganaderos de bosque 2013 - 2017",
+      "species": 80,
+      "occurrences": 12189,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "6ba996cd-ce32-4865-8505-a82a10e7dffd",
+      "name": "Biodiversidad asociada al proyecto Línea de Transmisión Santo Domingo - San Lorenzo a 110 kV, Antioquia",
+      "species": 608,
+      "occurrences": 12122,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "3aaac338-d444-4f58-9296-201f6ab5da1f",
+      "name": "Registros de aves en 10 reservas de la sociedad civil ubicadas en el municipio de Ibagué",
+      "species": 355,
+      "occurrences": 12019,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "dc81587b-463f-4223-8247-41996e3f4bd8",
+      "name": "Biodiversidad asociada al Estudio de Impacto Ambiental (EIA) para la obtención de la licencia ambiental global para el área de desarrollo VIM-43",
+      "species": 359,
+      "occurrences": 11935,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "8c145caa-8dca-40e6-b082-741e0d6b8f83",
+      "name": "Biodiversidad asociada al gasoducto Paiva-Caracolí",
+      "species": 488,
+      "occurrences": 11912,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "d29a6dca-38f1-4915-8c49-8b400ec431bd",
+      "name": "Fauna y Flora del proyecto: Estudio de Impacto Ambiental - EIA para el Área de Desarrollo - AD Golondrina 2022-2024",
+      "species": 605,
+      "occurrences": 11894,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "46eb90e8-a067-4005-a320-3aa3f83fbe23",
+      "name": "Fauna y Flora del proyecto: Subestación Toluviejo 220 kv y líneas asociadas - Tramo 1",
+      "species": 338,
+      "occurrences": 11871,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "224bb9c2-4426-4d4d-ac9c-38758b5d938f",
+      "name": "Herbario Pontificia Universidad Javeriana",
+      "species": 3846,
+      "occurrences": 11796,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "5e50896f-8bbd-43e7-9ba5-ef7ed7b3e865",
+      "name": "University of Amsterdam (NL) - Páramo Vegetation Research, Chingaza - Cruz Verde - Monserrate -Guasca, Colombia",
+      "species": 537,
+      "occurrences": 11760,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "fb2d347e-7d72-4832-ae6b-fe272850ba1a",
+      "name": "Caracterización de fauna, flora y líquenes en Área de Perforación Exploratoria Bienparado, municipio de Puerto de Asís, Putumayo",
+      "species": 551,
+      "occurrences": 11515,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b7d47a4b-07ff-42cd-8776-d638b95c2bec",
+      "name": "Biodiversidad asociada a proyectos de EPM en el Valle de Aburrá en los años 2019 y 2020",
+      "species": 674,
+      "occurrences": 11485,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "371b386a-d67b-4646-897e-a27cc1101067",
+      "name": "Inventario de fauna presente en la jurisdicción de Corantioquia",
+      "species": 1470,
+      "occurrences": 11482,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "71d0dff0-f762-11e1-a439-00145eb45e9a",
+      "name": "AMNH Herpetology Collections",
+      "species": 491,
+      "occurrences": 11200,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "c2a0198f-4d4b-448a-91cb-ff07ab1532ed",
+      "name": "Estudios bióticos: Plantas, edafofauna epígea, anfibios y aves  del Complejo de Páramos  Almorzadero y Tamá",
+      "species": 545,
+      "occurrences": 11197,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "14d5676a-2c54-4f94-9023-1e8dcd822aa0",
+      "name": "Pl@ntNet automatically identified occurrences",
+      "species": 710,
+      "occurrences": 11196,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b9461088-6f97-49b0-8f76-17e5be9e2df0",
+      "name": "Biodiversidad asociada al Estudio de Impacto Ambiental para la modificación de la licencia ambiental del campo de producción Rubiales",
+      "species": 513,
+      "occurrences": 10974,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "63fbee6f-0865-47ab-a247-98918fea2ea7",
+      "name": "Fototrampeo para la biodiversidad en la Ecoreserva ASA La Guarupaya (Acacías, Meta) - Convenio Ecoreservas",
+      "species": 32,
+      "occurrences": 10867,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b5cdf794-8fa4-4a85-8b26-755d087bf531",
+      "name": "The vascular plants collection (P) at the Herbarium of the Muséum national d'Histoire Naturelle (MNHN - Paris)",
+      "species": 4470,
+      "occurrences": 10815,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "77972fac-09bc-460b-a0d6-34b87b1b4b72",
+      "name": "Monitoreo de biodiversidad utilizando cámaras trampa en la Estructura Ecológica Principal de Santiago de Cali",
+      "species": 62,
+      "occurrences": 10684,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "768823ab-5726-4420-8cc7-d4c4c14fed52",
+      "name": "Caracterización de fauna y flora silvestre en veda para el Estudio de Impacto Ambiental para el Área de Perforación Exploratoria (APE) SN15, Bolívar",
+      "species": 345,
+      "occurrences": 10592,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "4d0554f9-3ae6-4b96-ae19-75a3a6597d80",
+      "name": "Herbario TULV - Jardín Botánico \"Juan María Céspedes\"",
+      "species": 3076,
+      "occurrences": 10499,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "7a8a0b35-94c3-45ad-8c0a-fea3a865bce7",
+      "name": "Monitoreo de aves presentes en planos lodosos del Parque Nacional Natural Sanquianga",
+      "species": 47,
+      "occurrences": 10313,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "743c758d-037a-4ba8-8d91-34f82b472195",
+      "name": "Observaciones de Aves asociadas a investigaciones de la Univerisdad ICESI en el periodo 2014-2019",
+      "species": 372,
+      "occurrences": 10265,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "2fda04c8-2a22-4d16-8c1c-48bde4e1f118",
+      "name": "Línea base general de aves para el valle medio del Magdalena - VMM",
+      "species": 217,
+      "occurrences": 10234,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "f27b41cb-2f1c-4d1a-9b6a-ff64904356b9",
+      "name": "Camera trapping bird data",
+      "species": 63,
+      "occurrences": 10222,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "d0ab9703-fc39-47b5-846f-a87e5da22e1a",
+      "name": "Influencia de los productos de un incendio forestal sobre la germinación de cuatro especies potencialmente invasoras en un Bosque Altoandino disturbado",
+      "species": 4,
+      "occurrences": 10080,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "878b1066-ebac-4a81-a852-7db747ba07b9",
+      "name": "Estudios bióticos (Plantas, Fauna Edáfica, Anfibios y Aves) en el Complejo de Páramos Chingaza",
+      "species": 269,
+      "occurrences": 10077,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "e715ca42-81bc-4168-9180-bd0c0ed1fef3",
+      "name": "Caracterización de fauna silvestre, vegetación terrestre (flora fustal) y flora silvestre en veda asociado al Estudio de Impacto Ambiental para el Área de Perforación Exploratoria (APE) Arbolito Norte",
+      "species": 292,
+      "occurrences": 9988,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "7b0d60e5-99cf-4768-bbe8-9ae3de7d31d4",
+      "name": "Biodiversidad asociada al Estudio de Impacto Ambiental para el Área de Perforación Exploratoria Llanos 99",
+      "species": 560,
+      "occurrences": 9834,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "12af71c8-b364-4bb1-bda0-2481c111c2cf",
+      "name": "Monitoreo de la cobertura vegetal mediante parcelas permanentes en el área de influencia del Proyecto Hidroeléctrico Ituango",
+      "species": 506,
+      "occurrences": 9795,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "c847fb48-d604-4a6e-91c9-4df147f43e14",
+      "name": "Alas del Arroz",
+      "species": 160,
+      "occurrences": 9738,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "9af1667d-dc99-4eb2-96da-e9bd7545e1c0",
+      "name": "Diagnóstico biótico de los predios Bel Rey, Talanqueras Lote 1, La Cascada y El Refugio para las acciones de restauración en cumplimiento del Plan de Compensación Ambiental y Plan de Inversión Forzosa de no menos del 1% del Campo Rubiales, orientadas a la gestión de la biodiversidad y sus servicios ecosistémicos en la cuenca del río Tillavá, Puerto Gaitán, Meta",
+      "species": 565,
+      "occurrences": 9312,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "083799c9-2077-4a35-8a02-fd01c9f223b2",
+      "name": "Flora en la franja de protección, afluentes del embalse Topocoro y del río Sogamoso, aguas abajo de la presa Latora 2022-2024. Central Hidroeléctrica Sogamoso",
+      "species": 194,
+      "occurrences": 9229,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "d1af197e-f7f5-4ba7-bffb-c11bf9cb6b79",
+      "name": "Caracterización de grupos hidrobiológicos en el arroyo Bruno, municipio de Albania, La Guajira",
+      "species": 100,
+      "occurrences": 9210,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "affc3b90-4c48-4c6e-8cd6-4a5cac176bb3",
+      "name": "Fauna y flora asociada a la Central Hidroeléctrica Playas",
+      "species": 551,
+      "occurrences": 9141,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "6d4b3e65-5922-46bd-a9b5-9c80b19a28d0",
+      "name": "Estudios bióticos: Plantas, anfibios, mamíferos, aves y edafofauna epígea (coleópteros y arácnidos), en el complejo de páramo Los Nevados",
+      "species": 344,
+      "occurrences": 9101,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "2618e878-7e19-412d-99e3-f12a8aa23ebb",
+      "name": "Colección de Reptiles del Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH-R)",
+      "species": 424,
+      "occurrences": 9040,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "9f11d995-dba1-436b-a96a-89d8617c9c15",
+      "name": "Fauna y flora asociada al Estudio de Impacto ambiental para el proyecto Piloto de Investigación Integral - Kalé",
+      "species": 527,
+      "occurrences": 8813,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "3d88255b-67ae-4f82-899b-06186eab2995",
+      "name": "Colección de Mamíferos del Instituto de Ciencias Naturales (ICN-MHN-Ma)",
+      "species": 302,
+      "occurrences": 8777,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "dad7f55c-4478-4631-be04-d07c9a8dcb34",
+      "name": "Individuos plantados mediante ensayos de ideas innovadoras en predios del área de influencia del Proyecto Hidroeléctrico Ituango",
+      "species": 20,
+      "occurrences": 8770,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "5afde5ac-9029-4b1b-ab49-21e061ba4f23",
+      "name": "Monitoreo de seguimiento de fauna pozo Lisama 158, séptimo informe",
+      "species": 193,
+      "occurrences": 8761,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "3c715d77-fe53-4332-ae8d-14aca51d4a5b",
+      "name": "Muestreo de la vegetación para la formulación y actualización de Planes de Manejo Ambiental en la jurisdicción de CORPOGUAVIO",
+      "species": 98,
+      "occurrences": 8716,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "cb9e84f5-2367-46c9-83cf-7a68695626fb",
+      "name": "Colección de peces del Museo de Historia Natural de la Pontificia Universidad Javeriana",
+      "species": 813,
+      "occurrences": 8695,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "2a337d5a-a784-4f8a-a947-46d69e0fa3eb",
+      "name": "Colección de Mamíferos del Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH-M)",
+      "species": 385,
+      "occurrences": 8691,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "e382d777-53d3-43bd-88f6-54478ec0bd18",
+      "name": "Acoustic monitoring in nature travel destinations of Colombia",
+      "species": 18,
+      "occurrences": 8644,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "704fd2e5-f071-4836-8f24-2b3da24f7b57",
+      "name": "Colección de Plantas Vasculares del Herbario Forestal UDBC \"Gilberto Emilio Mahecha Vega\"",
+      "species": 2781,
+      "occurrences": 8422,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "0fae5c5d-346e-4751-a18b-1247dbd69326",
+      "name": "Aves Acuáticas de las sabanas inundables del Meta y Casanare",
+      "species": 200,
+      "occurrences": 8370,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "bdfcd41f-66df-4de7-8662-29e0a2e04c92",
+      "name": "Biodiversidad asociada al estudio de impacto ambiental para la unificación de los campos Tello – La Jagua y Río Ceibas",
+      "species": 195,
+      "occurrences": 8229,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "1ca5dd25-ba19-4e22-9890-2755c51ecc4b",
+      "name": "Biodiversidad asociada al proyecto de aprovechamiento de recursos minerales Queresas y Porvenir en el municipio de Planeta Rica",
+      "species": 488,
+      "occurrences": 8204,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "f91111a4-3c37-4273-ad0c-2789758d04e2",
+      "name": "Compilación de datos de campo provenientes del levantamiento del Inventario Forestal Nacional (2015-2017), datos sin validar",
+      "species": 2074,
+      "occurrences": 8147,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "fcb4e601-a1d8-44b6-a9d6-75fd05a280ef",
+      "name": "Herbario Jardín Botánico de Cartagena \"Guillermo Piñeres\"",
+      "species": 2576,
+      "occurrences": 8063,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "8b053bb6-e54a-4250-bd61-e45e1bd0cb56",
+      "name": "Monitoreo de fauna y flora en el bloque de hidrocarburos CPE-6 (Puerto Gaitán, Meta) 2023, 2024 y 2025",
+      "species": 482,
+      "occurrences": 8018,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "5060bce6-8155-46e2-b1dd-20c2041f2a2a",
+      "name": "Primera caracterización biológica de aves del proyecto \"Incorporación de la Biodiversidad en el sector cafetero en Colombia\"",
+      "species": 255,
+      "occurrences": 7932,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "d9bdb14b-ca90-413e-a8a4-d30fcba7a8ac",
+      "name": "Línea base general de hormigas para el valle medio del Magdalena - VMM",
+      "species": 176,
+      "occurrences": 7915,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "80b0a4fd-b6db-4137-8690-5d5191d7432f",
+      "name": "Biodiversidad asociada al proyecto Rehabilitación Presa Miraflores del Complejo Hidroeléctrico Guadalupe",
+      "species": 442,
+      "occurrences": 7887,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "b25cc2e7-36aa-41ff-aa2a-441b12c6d423",
+      "name": "Colección de anfibios del Museo de Historia Natural de la Pontificia Universidad Javeriana",
+      "species": 213,
+      "occurrences": 7886,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "16a22a5e-9f2a-498b-8178-a410c99a5a8c",
+      "name": "Segunda caracterización biológica de aves del proyecto \"Incorporación de la Biodiversidad en el sector cafetero en Colombia\"",
+      "species": 237,
+      "occurrences": 7880,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "0e7f5125-0e37-4a93-9a2e-939e770c7bfd",
+      "name": "Aves migratorias boreales y australes en un bosque secundario con algún grado de intervención (Jardín Botánico) y en una zona periurbana (Campus Barcelona, Unillanos) de piedemonte, Villavicencio, Meta.",
+      "species": 218,
+      "occurrences": 7867,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "647490ab-72e9-4dd6-ac83-8f771494df36",
+      "name": "Colección Entomológica Universidad de Antioquia",
+      "species": 588,
+      "occurrences": 7847,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "88ef77c2-a7eb-4849-93e0-74dd409d7a15",
+      "name": "Colección de artrópodos del Museo de Historia Natural de la Pontificia Universidad Javeriana",
+      "species": 554,
+      "occurrences": 7685,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    },
+    {
+      "datasetkey": "111a2d1e-0efb-4751-b502-78fa7420d3ac",
+      "name": "Monitoreo de fauna del APE Llanos 123: plataformas Saltador y Toritos (2023 - 2024)",
+      "species": 313,
+      "occurrences": 7658,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CO"
+    }
+  ],
+  "downloadAttribution": {
+    "downloadKey": "0045877-260519110011954",
+    "doi": "10.15468/dl.wjjhjw",
+    "created": "2026-06-09T10:02:33.361+00:00"
+  }
+}

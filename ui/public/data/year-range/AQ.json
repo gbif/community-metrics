@@ -1,0 +1,119 @@
+{
+  "Mammals": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200],
+    "counts": [12, 3, 1, 0, 1, 0, 1, 0, 1, 3, 0, 6, 3, 1, 0, 0, 0, 1, 1, 0, 2],
+    "totalSpecies": 36,
+    "meanYearRange": 70.86,
+    "medianYearRange": 78.5,
+    "maxYearRange": 206,
+    "minYearRange": 0
+  },
+  "Birds": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180],
+    "counts": [40, 7, 4, 7, 7, 1, 4, 3, 2, 1, 2, 10, 9, 2, 0, 1, 0, 0, 2],
+    "totalSpecies": 102,
+    "meanYearRange": 48.45,
+    "medianYearRange": 28.5,
+    "maxYearRange": 187,
+    "minYearRange": 0
+  },
+  "Reptiles": {
+    "bins": 0,
+    "counts": 2,
+    "totalSpecies": 2,
+    "meanYearRange": 0,
+    "medianYearRange": 0,
+    "maxYearRange": 0,
+    "minYearRange": 0
+  },
+  "Amphibians": {
+    "bins": 0,
+    "counts": 2,
+    "totalSpecies": 2,
+    "meanYearRange": 0,
+    "medianYearRange": 0,
+    "maxYearRange": 0,
+    "minYearRange": 0
+  },
+  "Insects": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120],
+    "counts": [83, 3, 0, 0, 3, 2, 3, 0, 0, 0, 3, 0, 1],
+    "totalSpecies": 98,
+    "meanYearRange": 9.46,
+    "medianYearRange": 0,
+    "maxYearRange": 121,
+    "minYearRange": 0
+  },
+  "Arachnids": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110],
+    "counts": [59, 6, 4, 11, 13, 2, 3, 0, 0, 5, 6, 3],
+    "totalSpecies": 112,
+    "meanYearRange": 26.47,
+    "medianYearRange": 3,
+    "maxYearRange": 119,
+    "minYearRange": 0
+  },
+  "Molluscs": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170],
+    "counts": [339, 33, 25, 24, 39, 32, 27, 31, 23, 43, 42, 51, 21, 1, 0, 1, 0, 1],
+    "totalSpecies": 733,
+    "meanYearRange": 39.96,
+    "medianYearRange": 19,
+    "maxYearRange": 178,
+    "minYearRange": 0
+  },
+  "Flowering Plants": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120],
+    "counts": [87, 7, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 2],
+    "totalSpecies": 98,
+    "meanYearRange": 4.82,
+    "medianYearRange": 0,
+    "maxYearRange": 123,
+    "minYearRange": 0
+  },
+  "Gymnosperms": {
+    "bins": 0,
+    "counts": 4,
+    "totalSpecies": 4,
+    "meanYearRange": 1,
+    "medianYearRange": 0.5,
+    "maxYearRange": 3,
+    "minYearRange": 0
+  },
+  "Ferns": {
+    "bins": 0,
+    "counts": 1,
+    "totalSpecies": 1,
+    "meanYearRange": 0,
+    "medianYearRange": 0,
+    "maxYearRange": 0,
+    "minYearRange": 0
+  },
+  "Mosses": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170],
+    "counts": [55, 4, 14, 16, 15, 16, 11, 3, 10, 2, 3, 9, 15, 1, 0, 0, 0, 2],
+    "totalSpecies": 176,
+    "meanYearRange": 46.91,
+    "medianYearRange": 39,
+    "maxYearRange": 179,
+    "minYearRange": 0
+  },
+  "Basidiomycota": {
+    "bins": [0, 10, 20],
+    "counts": [140, 29, 1],
+    "totalSpecies": 170,
+    "meanYearRange": 3.68,
+    "medianYearRange": 0,
+    "maxYearRange": 24,
+    "minYearRange": 0
+  },
+  "Sac Fungi": {
+    "bins": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130],
+    "counts": [336, 88, 73, 41, 45, 24, 27, 23, 15, 11, 29, 18, 14, 2],
+    "totalSpecies": 746,
+    "meanYearRange": 28.54,
+    "medianYearRange": 14,
+    "maxYearRange": 137,
+    "minYearRange": 0
+  }
+}

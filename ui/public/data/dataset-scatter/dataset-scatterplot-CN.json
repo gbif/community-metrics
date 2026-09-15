@@ -1,0 +1,1851 @@
+{
+  "countryCode": "CN",
+  "countryName": "China",
+  "totalDatasets": 8035,
+  "lastModified": "2026-06-09",
+  "dataSource": "GBIF",
+  "notes": "Biodiversity datasets from China institutions and GBIF network",
+  "datasets": [
+    {
+      "datasetkey": "4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+      "name": "EOD – eBird Observation Dataset",
+      "species": 1339,
+      "occurrences": 4090224,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "4515e736-fa02-44ee-9808-bf89445104fe",
+      "name": "2023 Contributions of Plant Specimen Data inside China",
+      "species": 29496,
+      "occurrences": 2344865,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+      "name": "iNaturalist Research-grade Observations",
+      "species": 27567,
+      "occurrences": 764686,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "3942a8dc-9f01-420d-a829-01675dc01c73",
+      "name": "500,000 plant Specimens from PE Herbarium in China from 1950 to 1999",
+      "species": 18783,
+      "occurrences": 479461,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "d8cd16ba-bb74-4420-821e-083f2bac17c2",
+      "name": "INSDC Sequences",
+      "species": 45781,
+      "occurrences": 397019,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "246ad1f8-e75c-419d-b97e-16dde697ae30",
+      "name": "Some Plant Specimens from KUN, IBSC, NAS  Herbarium in China from 1900 to 1950",
+      "species": 15465,
+      "occurrences": 338325,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "f9336171-e9a9-4147-b9f6-2d6c133afffd",
+      "name": "Some Plant Specimens from PE Herbarium in China from 1900 to 1950",
+      "species": 14319,
+      "occurrences": 220084,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "393b8c26-e4e0-4dd0-a218-93fc074ebf4e",
+      "name": "INSDC Host Organism Sequences",
+      "species": 8409,
+      "occurrences": 202382,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "1b412457-43cf-4a6f-b5c2-7acf01be5977",
+      "name": "Plant Specimen in Yunnan, China from Herbarium (PE),Institute of Botany, Chinese Academy of Sciences",
+      "species": 11195,
+      "occurrences": 158203,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "821cc27a-e3bb-4bc5-ac34-89ada245069d",
+      "name": "NMNH Extant Specimen Records (USNM, US)",
+      "species": 19775,
+      "occurrences": 140363,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "cd6e21c8-9e8a-493a-8a76-fbf7862069e5",
+      "name": "Royal Botanic Gardens, Kew - Herbarium Specimens",
+      "species": 14735,
+      "occurrences": 121916,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "b54a3b16-b648-41ab-bd6f-d3881895daac",
+      "name": "Plant Specimen from Herbarium (IBK) in China, Guangxi Institute of Botany, Chinese Academy of Sciences",
+      "species": 8315,
+      "occurrences": 114720,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "861e6afe-f762-11e1-a439-00145eb45e9a",
+      "name": "Harvard University Herbaria: All Records",
+      "species": 14588,
+      "occurrences": 113222,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "7bd65a7a-f762-11e1-a439-00145eb45e9a",
+      "name": "Tropicos MO Specimen Data",
+      "species": 10458,
+      "occurrences": 111159,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "eb7681c5-5c9c-4e28-954f-f328991c7004",
+      "name": "Herbarium of Taiwan Forestry Research Institute",
+      "species": 7911,
+      "occurrences": 103348,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "249ec6d9-ce13-4096-baf5-42130fc3d0b1",
+      "name": "Plant Specimen from Herbarium (CDBI) in China, Chengdu Institute of Botany, Chinese Academy of Sciences",
+      "species": 7067,
+      "occurrences": 101584,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "bf2a4bf0-5f31-11de-b67e-b8a03c50a862",
+      "name": "Edinburgh (E) Herbarium Specimens",
+      "species": 12698,
+      "occurrences": 84768,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "040c5662-da76-4782-a48e-cdea1892d14c",
+      "name": "International Barcode of Life project (iBOL)",
+      "species": 13907,
+      "occurrences": 82090,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "07044577-bd82-4089-9f3a-f4a9d2170b2e",
+      "name": "A global database for the distributions of crop wild relatives",
+      "species": 1526,
+      "occurrences": 68011,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "88dc0756-f762-11e1-a439-00145eb45e9a",
+      "name": "Chinese Institute of Biology - Chinese Academy of Sciences",
+      "species": 230,
+      "occurrences": 62123,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "196ac794-b2c2-40d4-8e6a-649d0abc324d",
+      "name": "Plant Specimen from Herbarium (HIB) in China, Wuhan Botanical Garden, Chinese Academy of Sciences",
+      "species": 3414,
+      "occurrences": 58602,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "614d7304-af7c-4613-81d8-488e81e28229",
+      "name": "Plant Specimen from Herbarium (NAS) in China, Institute of Botany, Jiangsu Province and Chinese Academy of Sciences",
+      "species": 3372,
+      "occurrences": 48878,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "2a97f69f-6e0b-4654-91b9-5b4628f46b73",
+      "name": "specimen_records_nefi",
+      "species": 1802,
+      "occurrences": 44624,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "f934f8e2-32ca-46a7-b2f8-b032a4740454",
+      "name": "CAS Botany (BOT)",
+      "species": 6145,
+      "occurrences": 41777,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "b5cdf794-8fa4-4a85-8b26-755d087bf531",
+      "name": "The vascular plants collection (P) at the Herbarium of the Muséum national d'Histoire Naturelle (MNHN - Paris)",
+      "species": 7055,
+      "occurrences": 39227,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "9f0e1ca6-fb08-4c72-9a4a-1e3b7a528c10",
+      "name": "Global soil organisms",
+      "species": 831,
+      "occurrences": 38776,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "af7d2594-6d4e-47e9-9f30-b7ebb3110f7b",
+      "name": "Plant Specimen from Herbarium (LBG) in China, Lushan Botanical Garden, Jiangxi and Chinese Academy of Sciences",
+      "species": 3902,
+      "occurrences": 35893,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "bb5b30b4-827e-4d5e-a86a-825d65cb6583",
+      "name": "Paleobiology Database",
+      "species": 12499,
+      "occurrences": 33851,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "7e380070-f762-11e1-a439-00145eb45e9a",
+      "name": "Natural History Museum (London) Collection Specimens",
+      "species": 8637,
+      "occurrences": 31008,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "82a53efc-f762-11e1-a439-00145eb45e9a",
+      "name": "The Himalayan Uplands Plant database (HUP Version 1)",
+      "species": 2823,
+      "occurrences": 27780,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "d0b2078d-d32e-4fc2-b88b-4d0f778c8dd1",
+      "name": "Occurrence dataset of birds from multi-region avifaunal surveys in Gansu Province, China (2011-2020)",
+      "species": 355,
+      "occurrences": 26883,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "4bfac3ea-8763-4f4b-a71a-76a6f5f243d3",
+      "name": "Museum of Comparative Zoology, Harvard University",
+      "species": 3350,
+      "occurrences": 26120,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "bbc9d999-a8f4-4ce2-8744-1c5a6826f4a1",
+      "name": "Camera trap survey of mammal diversity and activity rhythms of threatened species in Xianxialing Nature Reserve, Zhejiang Province, China",
+      "species": 12,
+      "occurrences": 24919,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "d415c253-4d61-4459-9d25-4015b9084fb0",
+      "name": "The New York Botanical Garden Herbarium (NY)",
+      "species": 7213,
+      "occurrences": 21774,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "861f9a3c-f762-11e1-a439-00145eb45e9a",
+      "name": "Vascular plants of south-central China",
+      "species": 4817,
+      "occurrences": 20047,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "15f819bd-6612-4447-854b-14d12ee1022d",
+      "name": "Naturalis Biodiversity Center (NL) - Botany",
+      "species": 6542,
+      "occurrences": 18981,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "62c86e94-162f-429d-9bc3-c64f5029271f",
+      "name": "NCOS1959_Crustacea",
+      "species": 579,
+      "occurrences": 18615,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "b1047888-ae52-4179-9dd5-5448ea342a24",
+      "name": "Xeno-canto - Bird sounds from around the world",
+      "species": 1010,
+      "occurrences": 18420,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "8a863029-f435-446a-821e-275f4f641165",
+      "name": "Observation.org, Nature data from around the World",
+      "species": 1029,
+      "occurrences": 18278,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "85818aea-f762-11e1-a439-00145eb45e9a",
+      "name": "The System-wide Information Network for Genetic Resources (SINGER)",
+      "species": 95,
+      "occurrences": 15299,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "10cfe1fe-ea15-4b73-b495-66c20d839bef",
+      "name": "Herbarium, Biodiversity Research Museum, Academia Sinica (HAST)",
+      "species": 4716,
+      "occurrences": 14361,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "0df37f92-e0d3-4586-bc09-a3c127acac48",
+      "name": "World Auchenorrhyncha Database",
+      "species": 4994,
+      "occurrences": 14303,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "d740f242-6c26-4229-9a8f-b63bfab63dc6",
+      "name": "GalliForm: Galliformes occurrence records from the Indo-Malay and Palaearctic, 1800-2008",
+      "species": 76,
+      "occurrences": 14112,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "c8d12f8a-7e39-4e2c-92d7-825d590ad15b",
+      "name": "University of Michigan Herbarium",
+      "species": 4932,
+      "occurrences": 12973,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "0afba960-be3b-4202-a7de-736ae05aec9e",
+      "name": "University of Vienna, Institute for Botany - Herbarium WU",
+      "species": 4232,
+      "occurrences": 12430,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "0943f690-fde5-11dd-83f4-b8a03c50a862",
+      "name": "Phanerogamic Botanical Collections (S)",
+      "species": 3905,
+      "occurrences": 12318,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "85802736-f762-11e1-a439-00145eb45e9a",
+      "name": "United States National Plant Germplasm System Collection",
+      "species": 836,
+      "occurrences": 12197,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "71d0dff0-f762-11e1-a439-00145eb45e9a",
+      "name": "AMNH Herpetology Collections",
+      "species": 239,
+      "occurrences": 12063,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "96c93a1e-f762-11e1-a439-00145eb45e9a",
+      "name": "AMNH Bird Collection",
+      "species": 776,
+      "occurrences": 11963,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "865df020-f762-11e1-a439-00145eb45e9a",
+      "name": "EURISCO, The European Genetic Resources Search Catalogue",
+      "species": 1664,
+      "occurrences": 11477,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "ac8a1427-05c7-4484-9f2c-baf72fb6835e",
+      "name": "NCOS1959_Mollusca",
+      "species": 571,
+      "occurrences": 10989,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "02fdd3f5-e2df-430e-9865-478f4464e794",
+      "name": "2021_nsmk_biodiversity_observations_bird_197960",
+      "species": 3,
+      "occurrences": 10583,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "f3f03cbf-1a01-4739-ae15-c1355b8c2dbf",
+      "name": "Carnegie Museum of Natural History Herbarium",
+      "species": 3746,
+      "occurrences": 9085,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "7adf20e0-c955-11de-95c0-b8a03c50a862",
+      "name": "Royal Botanic Garden Edinburgh Living Plant Collections (E)",
+      "species": 2561,
+      "occurrences": 9042,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "b740eaa0-0679-41dc-acb7-990d562dfa37",
+      "name": "Meise Botanic Garden Herbarium (BR)",
+      "species": 4356,
+      "occurrences": 8987,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "96ca66b4-f762-11e1-a439-00145eb45e9a",
+      "name": "AMNH Mammal Collections",
+      "species": 265,
+      "occurrences": 8821,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "83a49751-4282-481e-a847-1c5c224a0551",
+      "name": "The University and Jepson Herbaria -- Vascular Plants",
+      "species": 1566,
+      "occurrences": 8278,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "c1a13bf0-0c71-11dd-84d4-b8a03c50a862",
+      "name": "Botany (UPS)",
+      "species": 3194,
+      "occurrences": 8159,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "d1a3b128-b406-46bb-a6d1-f3591dcc8a7b",
+      "name": "USDA United States National Fungus Collections",
+      "species": 2083,
+      "occurrences": 7906,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "d5fc33c5-e514-45ea-8655-d1c6dc934d35",
+      "name": "Camera trap survey of mammal diversity in a subtropical forest of Huangshan Mountain, China",
+      "species": 15,
+      "occurrences": 7625,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "cece4fc2-1fec-4bb5-a335-7252548e3f0b",
+      "name": "CAS Herpetology (HERP)",
+      "species": 230,
+      "occurrences": 7460,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "8f4ec71e-ca9f-42d6-9b08-008325dc5389",
+      "name": "V.L.Komarov’s expedition to Russia, China, and Korea from 1895 to 1897",
+      "species": 995,
+      "occurrences": 7390,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "b08b5ce4-b157-4fa5-b904-afa1ac982e1a",
+      "name": "Coleoptera collection of National Museum of Nature and Science",
+      "species": 584,
+      "occurrences": 6755,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "583d91fe-bbc0-4b4a-afe1-801f88263016",
+      "name": "INSDC Environment Sample Sequences",
+      "species": 1118,
+      "occurrences": 6663,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "5ba97949-60e3-4aeb-9e7a-7b4882262aac",
+      "name": "2021_nsmk_biodiversity_observations_bird_136784",
+      "species": 2,
+      "occurrences": 6438,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "9781ce05-2379-4a10-ab3b-c91346510df8",
+      "name": "RSA - California Botanic Garden Herbarium",
+      "species": 2613,
+      "occurrences": 6281,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "8658262c-f762-11e1-a439-00145eb45e9a",
+      "name": "Academy of Natural Sciences of Philadelphia Ornithology Collection",
+      "species": 540,
+      "occurrences": 6125,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "41fc5c40-5e81-496f-9733-6b5681b3b7a5",
+      "name": "Field Museum of Natural History (Zoology) Mammal Collection",
+      "species": 202,
+      "occurrences": 5941,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "36f15a36-6b45-442e-9c31-cd633423aee0",
+      "name": "Field Museum of Natural History (Zoology) Bird Collection",
+      "species": 573,
+      "occurrences": 5465,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "902c8fe7-8f38-45b0-854e-c324fed36303",
+      "name": "Moscow University Herbarium (MW)",
+      "species": 2862,
+      "occurrences": 5368,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "7f5260c2-f762-11e1-a439-00145eb45e9a",
+      "name": "Natural History Museum, Vienna - Herbarium W",
+      "species": 2551,
+      "occurrences": 5118,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "85714c48-f762-11e1-a439-00145eb45e9a",
+      "name": "Herbarium Berolinense, Berlin (B)",
+      "species": 2634,
+      "occurrences": 5029,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "be2dc14a-3f5b-44dd-81fc-4d0a8b5cad84",
+      "name": "Svalbard Global Seed Vault Collection",
+      "species": 131,
+      "occurrences": 5018,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "2e8ab72b-5931-4e04-b8ff-e1fb61305d17",
+      "name": "Royal Botanic Gardens, Kew - Fungarium Specimens",
+      "species": 1947,
+      "occurrences": 4917,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "41c1c15f-fff8-45a8-a781-b1b24d81b9cc",
+      "name": "Distribution and Abundance Dataset of Invasive Plants in the Xiaoxing'an Mountains, Heilongjiang (2022–2023)",
+      "species": 37,
+      "occurrences": 4773,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "e16466e8-abb2-47dc-a546-9464d03bec2b",
+      "name": "Bryophyte Herbarium (H): Herbarium Generale",
+      "species": 614,
+      "occurrences": 4739,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "09c4287e-e6d5-4552-a07f-bff8a00833d8",
+      "name": "MVZ Herp Collection (Arctos)",
+      "species": 215,
+      "occurrences": 4688,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "e053ff53-c156-4e2e-b9b5-4462e9625424",
+      "name": "Tropicos Specimens Non-MO",
+      "species": 1878,
+      "occurrences": 4684,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "53bf6dc4-18f5-11e2-98fb-00145eb45e9a",
+      "name": "Bird specimens of the Yamashina Institute for Ornithology",
+      "species": 471,
+      "occurrences": 4388,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "2d2da625-a8d7-44d4-80c9-be1a3dbe79b8",
+      "name": "National Comprehensive Oceanographic Survey (NCOS) - Polychaeta",
+      "species": 132,
+      "occurrences": 4371,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "1f2cfb6f-c91b-498e-80f3-8eeeec688292",
+      "name": "Non-vertebrate Paleontology, Jackson School Museum of Earth History, University of Texas at Austin",
+      "species": 68,
+      "occurrences": 4354,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "6dad136b-1cb9-46b8-bcb4-9f89d77b47d6",
+      "name": "A checklist of seed plant of Gaoligongshan National Nature Reserve",
+      "species": 3773,
+      "occurrences": 4239,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "829026f2-f762-11e1-a439-00145eb45e9a",
+      "name": "Collection Ornithologie - SNSD",
+      "species": 488,
+      "occurrences": 4209,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "e4b2e00d-4504-400f-ab07-241d8e058f36",
+      "name": "2021_nsmk_biodiversity_observations_bi_eagle_81252",
+      "species": 1,
+      "occurrences": 4145,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "c5ccfa7e-eda3-47e3-9652-ab1104576125",
+      "name": "Occurrence dataset of birds in the Sihong Hongze Lake Wetland National Nature Reserve,Jiangsu, China",
+      "species": 215,
+      "occurrences": 4125,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+      "name": "NABU|naturgucker",
+      "species": 902,
+      "occurrences": 4081,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "cfb43618-1423-4031-b3ff-fbd2c264f48b",
+      "name": "Herbarium Pacificum (Bishop Museum)",
+      "species": 2225,
+      "occurrences": 4043,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "68c30283-d2a7-4742-96cb-52e249598ff9",
+      "name": "Entomological Specimens of Museum of Nature and Human Activities, Hyogo Pref., Japan",
+      "species": 563,
+      "occurrences": 3911,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "e48d6c49-34a3-4df6-8206-121c061f190d",
+      "name": "Field Museum of Natural History (Zoology) Amphibian and Reptile Collection",
+      "species": 267,
+      "occurrences": 3902,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "defb9a47-c1a7-4fb2-9a0b-2da7c5260cad",
+      "name": "Botanical Research Institute of Texas, Philecology Herbarium",
+      "species": 1969,
+      "occurrences": 3586,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "e8d35bac-2abd-47ff-ada4-a0ed81427973",
+      "name": "ZFMK Diptera Collection",
+      "species": 216,
+      "occurrences": 3580,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "eba4c8f7-b6d1-450e-8c14-01eea32b5101",
+      "name": "birds-red-river-delta-seawater-reservoir",
+      "species": 103,
+      "occurrences": 3392,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "90c853e6-56bd-480b-8e8f-6285c3f8d42b",
+      "name": "Field Museum of Natural History (Botany) Seed Plant Collection",
+      "species": 1106,
+      "occurrences": 3362,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "edeee57f-9e48-4202-b387-9cb5224e7b1b",
+      "name": "JODC Dataset",
+      "species": 117,
+      "occurrences": 3204,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "110155d2-f474-4012-9209-eebf20fd9be1",
+      "name": "Global soil microbiomes: A new frontline of biome-ecology research",
+      "species": 1429,
+      "occurrences": 3194,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "5d6c10bd-ea31-4363-8b79-58c96d859f5b",
+      "name": "CAS Ichthyology (ICH)",
+      "species": 1056,
+      "occurrences": 3170,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "aab0cf80-0c64-11dd-84d1-b8a03c50a862",
+      "name": "Lund University Biological Museum - Botanical collection (LD)",
+      "species": 1676,
+      "occurrences": 3019,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "86b50d88-f762-11e1-a439-00145eb45e9a",
+      "name": "Malacology Collection at the Academy of Natural Sciences of Philadelphia",
+      "species": 1050,
+      "occurrences": 2975,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "33795d9d-3f94-4b0e-a2f6-d3a03cfce7aa",
+      "name": "Bioversity Collecting Mission Database",
+      "species": 162,
+      "occurrences": 2969,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "129d2974-fefa-4d37-8994-219ae7dd90f5",
+      "name": "2021_nsmk_biodiversity_observations_bi_eagle_43792",
+      "species": 1,
+      "occurrences": 2961,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "e631a759-36c9-4c34-98c4-35f9d110a1f5",
+      "name": "Occurrence dataset of birds in the Xinjizhou National Wetland Park，Nanjing，China",
+      "species": 162,
+      "occurrences": 2924,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "3959ee49-7678-4a88-9049-5dfc55ccebf3",
+      "name": "The mammals collection (ZM) of the Muséum national d'Histoire naturelle (MNHN - Paris)",
+      "species": 215,
+      "occurrences": 2868,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "13b70480-bd69-11dd-b15f-b8a03c50a862",
+      "name": "AntWeb",
+      "species": 285,
+      "occurrences": 2796,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "744edc21-8dd2-474e-8a0b-b8c3d56a3c2d",
+      "name": "Taxon occurrence data for the FungalRoot database",
+      "species": 1792,
+      "occurrences": 2771,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "56aa0680-0c60-11dd-84cd-b8a03c50a862",
+      "name": "Invertebrates Collection of the Swedish Museum of Natural History",
+      "species": 166,
+      "occurrences": 2768,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "8e479b8f-ac16-4bed-a11a-bc7e27c31663",
+      "name": "University of Michigan Museum of Zoology, Division of Reptiles & Amphibians",
+      "species": 103,
+      "occurrences": 2742,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "84e94348-f762-11e1-a439-00145eb45e9a",
+      "name": "FHSM Fish Collection",
+      "species": 80,
+      "occurrences": 2671,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "197908d0-5565-11d8-b290-b8a03c50a862",
+      "name": "FishBase Database",
+      "species": 848,
+      "occurrences": 2603,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "bd48b249-6c59-4868-85b5-caec4ac250fc",
+      "name": "MGYS00005313",
+      "species": 124,
+      "occurrences": 2522,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "5a6538b8-e35c-46c4-8978-6858a657a75f",
+      "name": "Cornell University Plant Pathology Herbarium",
+      "species": 956,
+      "occurrences": 2474,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "4edd9396-59df-4b01-9e29-dc21a59f9963",
+      "name": "University of British Columbia Herbarium (UBC) - Bryophytes Collection",
+      "species": 579,
+      "occurrences": 2429,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "808d54a7-9884-4b1c-8112-39522fe004d4",
+      "name": "Miami University Turrell Herbarium - Vascular Plants",
+      "species": 1416,
+      "occurrences": 2386,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "e45c7d91-81c6-4455-86e3-2965a5739b1f",
+      "name": "Vascular Plant Herbarium, Oslo (O) UiO",
+      "species": 1273,
+      "occurrences": 2360,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "26098c25-8f7f-4c71-97ac-1d3db181c65e",
+      "name": "NMNH Material Samples (USNM)",
+      "species": 867,
+      "occurrences": 2325,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "7e5cc350-9ac1-4986-92c7-2e09d695655b",
+      "name": "2021_nsmk_biodiversity_observations_bi_eagle_113068",
+      "species": 1,
+      "occurrences": 2323,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "fb9863f4-68cf-4e90-bc4d-2b15bdebf889",
+      "name": "Entomologische Sammlung (ETHZ-ENT) of Eidgenössische Technische Hochschule Zürich",
+      "species": 427,
+      "occurrences": 2317,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "6d504df4-2037-45b0-a61b-1e74dcafa4eb",
+      "name": "Microbial Community Database (MiCoDa). A curated global 16S rRNA gene amplicon dataset from all environments",
+      "species": 14,
+      "occurrences": 2262,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "ea59e7dd-57d2-4ba6-8731-723f17f36d5d",
+      "name": "Occurrence dataset of waterbirds in Tiaozini Wetland, the World Nature Heritage, China",
+      "species": 104,
+      "occurrences": 2227,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "4c3b430e-1b2b-4668-9f07-6c8d7cf60e2e",
+      "name": "Occurrence dataset of waterbirds in Tiaozini Wetland, the World Nature Heritage, China",
+      "species": 104,
+      "occurrences": 2227,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "8b3f5c91-73c0-43e3-88fb-bb3437326ac9",
+      "name": "Occurrence dataset of birds in 12 Universities in Nanjing, China",
+      "species": 66,
+      "occurrences": 2212,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "fea77396-7b26-44cb-8580-aefadc8db276",
+      "name": "The cryptogamy collection (PC) at the Herbarium of the Muséum national d'Histoire Naturelle (MNHN - Paris)",
+      "species": 770,
+      "occurrences": 2171,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "4f29b6ab-20c0-4479-8795-4915bedcebd1",
+      "name": "CAS Ornithology (ORN)",
+      "species": 409,
+      "occurrences": 2168,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "3b8e9d83-b2d4-4a97-973c-31d98b67b1e9",
+      "name": "MBM - Herbário do Museu Botânico Municipal",
+      "species": 1241,
+      "occurrences": 2059,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "5c9a924c-8d45-4452-8604-415a118578aa",
+      "name": "MBM herbarium - Museu Botânico Municipal - Herbário Virtual REFLORA",
+      "species": 1130,
+      "occurrences": 2028,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "c2e3081a-ba91-40cf-b2df-9885a24b37dc",
+      "name": "Fish Collection NRM",
+      "species": 499,
+      "occurrences": 2010,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "14d5676a-2c54-4f94-9023-1e8dcd822aa0",
+      "name": "Pl@ntNet automatically identified occurrences",
+      "species": 351,
+      "occurrences": 1990,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "ca7c3b59-6802-42fd-a7e6-18ad7409506b",
+      "name": "estuary metagenome Raw sequence reads",
+      "species": 335,
+      "occurrences": 1973,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "71bd5407-b775-46c7-ae95-ee3763d54d19",
+      "name": "The Keiichi Omoto Butterfly Collection(Papilionidae), The University Museum, The University of Tokyo",
+      "species": 58,
+      "occurrences": 1963,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "0f83123f-0c04-4556-8f4d-5a4e2a9bac66",
+      "name": "Aphyllophorales externi",
+      "species": 462,
+      "occurrences": 1956,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "9940af5a-3271-4e6a-ad71-ced986b9a9a5",
+      "name": "Entomological Collections (NHRS), Swedish Museum of Natural History (NRM)",
+      "species": 561,
+      "occurrences": 1919,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "889c91a3-614f-4355-8df8-b6d0260a118c",
+      "name": "Naturalis Biodiversity Center (NL) - Aves",
+      "species": 355,
+      "occurrences": 1883,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "965bbbd8-f762-11e1-a439-00145eb45e9a",
+      "name": "Collection Mollusca SMF",
+      "species": 476,
+      "occurrences": 1828,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "d45b8e8a-1f32-40b0-a132-bd690bd90b30",
+      "name": "ZFMK Hymenoptera collection",
+      "species": 244,
+      "occurrences": 1818,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "264e6a66-9c9e-4115-9aec-29d694c68097",
+      "name": "NHMO Bird collection",
+      "species": 227,
+      "occurrences": 1764,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "834c9918-f762-11e1-a439-00145eb45e9a",
+      "name": "CSIC-Real Jardín Botánico-Colección de Plantas Vasculares (MA)",
+      "species": 907,
+      "occurrences": 1724,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "01c8a8a0-4e55-447f-ac9f-d01e1dd2a674",
+      "name": "Checklist of fungi from the Far Eastern Himalaya Landscape",
+      "species": 993,
+      "occurrences": 1718,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "e1539f14-f749-4f73-8c18-3355277f94f4",
+      "name": "World distribution of the aquatic Oligochaeta",
+      "species": 257,
+      "occurrences": 1701,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "4fcbc818-d122-4a4a-ad51-a87fff1686e3",
+      "name": "Loggerhead turtle movement off the coast of Taiwan",
+      "species": 1,
+      "occurrences": 1689,
+      "publishedInCountry": false,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "064508e2-255e-4d82-9f13-05d73476cc03",
+      "name": "United Herbaria of the University and ETH Zurich",
+      "species": 721,
+      "occurrences": 1642,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "e635240a-3cb1-4d26-ab87-57d8c7afdfdb",
+      "name": "KUBI Ornithology Collection",
+      "species": 233,
+      "occurrences": 1614,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "e42c4be9-dc6d-466b-8df2-60ac8c47fadd",
+      "name": "University of Vermont, Pringle Herbarium",
+      "species": 1188,
+      "occurrences": 1613,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "84a2fe56-f762-11e1-a439-00145eb45e9a",
+      "name": "Bird collection of National Museum of Nature and Science",
+      "species": 415,
+      "occurrences": 1608,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "f71cff20-c223-445a-9fb1-ff3a7466d993",
+      "name": "marine metagenome Metagenome",
+      "species": 230,
+      "occurrences": 1596,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "43fb301d-0354-45bc-94d2-dd50f3142a50",
+      "name": "Palaeobotanical Collections (PB), Swedish Museum of Natural History (NRM)",
+      "species": 113,
+      "occurrences": 1567,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "85af82a6-f762-11e1-a439-00145eb45e9a",
+      "name": "Planetary Biodiversity Inventory Eumycetozoan Databank",
+      "species": 69,
+      "occurrences": 1563,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "85b1cfb6-f762-11e1-a439-00145eb45e9a",
+      "name": "UF Invertebrate Zoology",
+      "species": 785,
+      "occurrences": 1530,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "07fd0d79-4883-435f-bba1-58fef110cd13",
+      "name": "University of British Columbia Herbarium (UBC) - Vascular Plant Collection",
+      "species": 1056,
+      "occurrences": 1507,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "6ff8b3b0-ef0f-4f79-a310-5a5615c6aa0b",
+      "name": "Birda - Global Observation Dataset",
+      "species": 260,
+      "occurrences": 1499,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "9070a460-0c6e-11dd-84d2-b8a03c50a862",
+      "name": "Mosses (S)",
+      "species": 609,
+      "occurrences": 1465,
+      "publishedInCountry": false,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "09435c69-7ec7-46f4-b52f-5131baa10143",
+      "name": "Cornell University Insect Collection (CUIC)",
+      "species": 184,
+      "occurrences": 1459,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "72704e74-30b1-424b-97ab-01d082884142",
+      "name": "sediment metagenome Metagenome",
+      "species": 1404,
+      "occurrences": 1444,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "b929f23d-290f-4e85-8f17-764c55b3b284",
+      "name": "Bernice P. Bishop Museum",
+      "species": 828,
+      "occurrences": 1426,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "0f6a3163-4efb-47ab-a4f1-2f548098665f",
+      "name": "University of Cincinnati, Margaret H. Fulford Herbarium - Vascular Plants",
+      "species": 999,
+      "occurrences": 1421,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "8e02e1dd-ec54-405e-b4d7-7abdecd29cc7",
+      "name": "University of Minnesota Insect Collection",
+      "species": 93,
+      "occurrences": 1416,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "be5507b9-7abf-4b69-afe1-5ca2b7561734",
+      "name": "University of Michigan Museum of Zoology, Division of Birds",
+      "species": 318,
+      "occurrences": 1371,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "c711c16e-8db5-4f66-aa06-03d9e472fbbc",
+      "name": "The Fungal, Lichen and Plant Collections at the Herbarium Marburgense",
+      "species": 408,
+      "occurrences": 1350,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "84a1a7e0-f762-11e1-a439-00145eb45e9a",
+      "name": "Fish collection of National Museum of Nature and Science",
+      "species": 583,
+      "occurrences": 1326,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "a82d2421-be5a-4779-babc-da0b634a7ba8",
+      "name": "CM Birds Collection",
+      "species": 309,
+      "occurrences": 1324,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "fe35d6a0-0c6e-11dd-84d2-b8a03c50a862",
+      "name": "Fungi (S)",
+      "species": 682,
+      "occurrences": 1291,
+      "publishedInCountry": false,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "263bbfe7-f643-43bb-b448-f0705d1c0e18",
+      "name": "ZFMK Herpetology collection",
+      "species": 153,
+      "occurrences": 1288,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "1ec643b8-ef3c-47ef-842c-618d18d50f2f",
+      "name": "ZFMK Homoptera collection",
+      "species": 161,
+      "occurrences": 1258,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "ba0c03ab-fa61-4a3c-8db7-35c8c3454168",
+      "name": "The birds collection (ZO) of the Muséum national d'Histoire Naturelle (MNHN - Paris)",
+      "species": 212,
+      "occurrences": 1228,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "e560e811-118c-4418-b118-b5117f5c8707",
+      "name": "ZFMK Odonata collection",
+      "species": 106,
+      "occurrences": 1197,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "7308773f-488d-4037-9496-9ff33ff66669",
+      "name": "A Sampling-event Dataset from the Survey of Wintering Waterbirds in Coastal Fujian Province, China",
+      "species": 64,
+      "occurrences": 1195,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "e8e1610d-ca60-413c-8a2b-6e46b9e12057",
+      "name": "ZFMK Orthoptera collection",
+      "species": 102,
+      "occurrences": 1188,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "f58922e2-93ed-4703-ba22-12a0674d1b54",
+      "name": "The fishes collection (IC) of the Muséum national d'Histoire naturelle (MNHN - Paris)",
+      "species": 472,
+      "occurrences": 1184,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "274f0bcf-676c-4312-9db7-8571c5aa0bf4",
+      "name": "Palynological Reference Collection",
+      "species": 790,
+      "occurrences": 1184,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "f3130a8a-4508-42b4-9737-fbda77748438",
+      "name": "Naturalis Biodiversity Center (NL) - Lepidoptera",
+      "species": 200,
+      "occurrences": 1180,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "70e448fa-98b0-4ae7-a7a4-404f6175e7c9",
+      "name": "Morton Arboretum - Vascular Plants",
+      "species": 578,
+      "occurrences": 1173,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "8323a4b8-f762-11e1-a439-00145eb45e9a",
+      "name": "CABI Bioscience Fungus Collection",
+      "species": 528,
+      "occurrences": 1172,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "f577c9f3-ae71-4278-b6bf-512ba1dfaa21",
+      "name": "General Herbarium – Cryptogamy & Phanerogamy (CJBG-G) of Jardin botanique de Genève",
+      "species": 714,
+      "occurrences": 1153,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "ea05dcbd-0d05-4785-9313-0ec68cb90426",
+      "name": "Living Collection of the Gothenburg Botanical Garden",
+      "species": 490,
+      "occurrences": 1141,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "4b027a69-f3f0-42ba-9051-c939d859fc17",
+      "name": "Protist Diversity in the East China Sea",
+      "species": 217,
+      "occurrences": 1135,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "df582950-3b58-11dc-8c19-b8a03c50a862",
+      "name": "Allan Herbarium (CHR)",
+      "species": 570,
+      "occurrences": 1105,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "f29ab192-5964-40ae-a397-fa48ffdf0661",
+      "name": "Zoologische Staatssammlung Muenchen - International Barcode of Life (iBOL) - Barcode of Life Project Specimen Data",
+      "species": 284,
+      "occurrences": 1058,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "fcab85b5-5341-41b3-aa59-24432ea805b2",
+      "name": "Morris Arboretum of University of Pennsylvania",
+      "species": 527,
+      "occurrences": 1047,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "1d31211e-350e-492a-a597-34d24bbc1769",
+      "name": "Royal Botanic Gardens, Kew - Economic Botany Collection Specimens",
+      "species": 494,
+      "occurrences": 1046,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "bb109a7a-6c5a-4cad-a1b9-b750016e9d82",
+      "name": "Royal Ontario Museum - Mammalogy",
+      "species": 107,
+      "occurrences": 1040,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "bd63a93c-8283-11e2-b873-00145eb45e9a",
+      "name": "ECatSym: Electronic World Catalog of Symphyta",
+      "species": 475,
+      "occurrences": 1039,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "a8fca7f7-c5e1-4b99-a13a-e07ad312b5f0",
+      "name": "Odonata collection of National Museum of Nature and Science",
+      "species": 41,
+      "occurrences": 1036,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "ed3dff78-fb73-4b77-909a-b78f9ef78d34",
+      "name": "Vertebrates of the Gothenburg Natural History Museum (GNM)",
+      "species": 283,
+      "occurrences": 1035,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "aea75e24-7003-4c32-b29c-1e0512af5f96",
+      "name": "Dryinidae of the Oriental region (Hymenoptera: Chrysidoidea)",
+      "species": 235,
+      "occurrences": 1014,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "85c8e444-f762-11e1-a439-00145eb45e9a",
+      "name": "Herbarium Hamburgense",
+      "species": 547,
+      "occurrences": 988,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "7dd6e9f8-f252-42c9-bd34-221716095973",
+      "name": "University of Michigan Museum of Zoology, Division of Mollusks",
+      "species": 397,
+      "occurrences": 975,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "fb8ae15d-e30c-44b4-8f61-0bb0c1d90ff9",
+      "name": "Herbarium GZU",
+      "species": 611,
+      "occurrences": 974,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "51b92d4e-556f-4a05-bc5c-bfe982ee1156",
+      "name": "UCBG TAPIR Provider",
+      "species": 749,
+      "occurrences": 969,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "eda63f13-cdbb-417f-9085-ce31eb5f3c28",
+      "name": "KRA Vascular Plant Collection",
+      "species": 505,
+      "occurrences": 958,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "c287bcb5-ee4a-456f-86b6-dae0e6fe7958",
+      "name": "Royal Ontario Museum - Herpetology Collection",
+      "species": 137,
+      "occurrences": 941,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "99315f78-fbe4-4bab-9ea8-a4373b0cb4e5",
+      "name": "2021_nsmk_biodiversity_observations_bi_eagle_12000",
+      "species": 1,
+      "occurrences": 941,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "a0ca4b85-79e2-4ff3-a499-686f93aae13f",
+      "name": "Baterial 16S rRNA amplicon sequencing data from Tengger desert",
+      "species": 201,
+      "occurrences": 930,
+      "publishedInCountry": false,
+      "category": [
+        "eDNA"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "c949d538-3f66-4c15-81db-f7bee8c870d4",
+      "name": "The Insect Collection of Prof. Chûjirô Sasaki and associated researchers, The University Museum, The University of Tokyo.",
+      "species": 263,
+      "occurrences": 921,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "5288946d-5fcf-4b53-8fd3-74f4cc6b53fc",
+      "name": "G. S. Torrey Herbarium at the University of Connecticut (CONN)",
+      "species": 658,
+      "occurrences": 903,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "dce00a1f-f6b4-4e11-9771-92c62c40ad80",
+      "name": "KUBI Herpetology Collection",
+      "species": 117,
+      "occurrences": 901,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "d962a7dc-2183-4824-bb88-5e0ba14ec62d",
+      "name": "Naturalis Biodiversity Center (NL) - Mollusca",
+      "species": 517,
+      "occurrences": 889,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "188411de-569c-4408-a016-1a04b858c142",
+      "name": "A monograph of the genus Maladera Mulsant & Rey, 1871 of China (Coleoptera: Scarabaeidae: Melolonthinae: Sericini)",
+      "species": 198,
+      "occurrences": 865,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "4ce8e3f9-2546-4af1-b28d-e2eadf05dfd4",
+      "name": "National Herbarium of Victoria (MEL) AVH data",
+      "species": 469,
+      "occurrences": 864,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "10a9ffed-8062-454b-bd7e-9c36b4006728",
+      "name": "Insect specimens of Himeji City Science Museum",
+      "species": 112,
+      "occurrences": 859,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "7d8ed137-1d30-42f1-8b78-12a4957e4690",
+      "name": "SysTax -  Zoological Collections",
+      "species": 478,
+      "occurrences": 839,
+      "publishedInCountry": false,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "b63a7193-0c48-4648-a728-086157f26373",
+      "name": "Hymenoptera collection of National Museum of Nature and Science",
+      "species": 69,
+      "occurrences": 837,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    },
+    {
+      "datasetkey": "306f61f2-9ff0-404e-8aa6-a525a7fae369",
+      "name": "Naturalis Biodiversity Center (NL) - Odonata",
+      "species": 232,
+      "occurrences": 837,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "CN"
+    }
+  ],
+  "downloadAttribution": {
+    "downloadKey": "0045877-260519110011954",
+    "doi": "10.15468/dl.wjjhjw",
+    "created": "2026-06-09T10:02:33.361+00:00"
+  }
+}

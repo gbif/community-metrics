@@ -1,0 +1,92 @@
+{
+  "Mammals": {
+    "bins": [0, 10, 20],
+    "counts": [17, 3, 1],
+    "totalSpecies": 21,
+    "meanYearRange": 4.05,
+    "medianYearRange": 0,
+    "maxYearRange": 22,
+    "minYearRange": 0
+  },
+  "Birds": {
+    "bins": [0, 10, 20, 30],
+    "counts": [94, 130, 58, 77],
+    "totalSpecies": 359,
+    "meanYearRange": 17.4,
+    "medianYearRange": 17,
+    "maxYearRange": 35,
+    "minYearRange": 0
+  },
+  "Reptiles": {
+    "bins": [0, 10],
+    "counts": [28, 3],
+    "totalSpecies": 31,
+    "meanYearRange": 3.81,
+    "medianYearRange": 2,
+    "maxYearRange": 13,
+    "minYearRange": 0
+  },
+  "Amphibians": {
+    "bins": 0,
+    "counts": 1,
+    "totalSpecies": 1,
+    "meanYearRange": 0,
+    "medianYearRange": 0,
+    "maxYearRange": 0,
+    "minYearRange": 0
+  },
+  "Insects": {
+    "bins": [0, 10, 20, 30, 40],
+    "counts": [129, 10, 2, 2, 6],
+    "totalSpecies": 149,
+    "meanYearRange": 5.21,
+    "medianYearRange": 1,
+    "maxYearRange": 47,
+    "minYearRange": 0
+  },
+  "Arachnids": {
+    "bins": [0, 10],
+    "counts": [8, 1],
+    "totalSpecies": 9,
+    "meanYearRange": 4.33,
+    "medianYearRange": 3,
+    "maxYearRange": 16,
+    "minYearRange": 0
+  },
+  "Molluscs": {
+    "bins": [0, 10, 20, 30, 40, 50],
+    "counts": [23, 1, 0, 1, 1, 1],
+    "totalSpecies": 27,
+    "meanYearRange": 6,
+    "medianYearRange": 0,
+    "maxYearRange": 55,
+    "minYearRange": 0
+  },
+  "Flowering Plants": {
+    "bins": [0, 10, 20, 30, 40, 50],
+    "counts": [217, 26, 0, 0, 2, 1],
+    "totalSpecies": 246,
+    "meanYearRange": 3,
+    "medianYearRange": 0,
+    "maxYearRange": 55,
+    "minYearRange": 0
+  },
+  "Basidiomycota": {
+    "bins": 0,
+    "counts": 4,
+    "totalSpecies": 4,
+    "meanYearRange": 0.5,
+    "medianYearRange": 0,
+    "maxYearRange": 2,
+    "minYearRange": 0
+  },
+  "Sac Fungi": {
+    "bins": 0,
+    "counts": 1,
+    "totalSpecies": 1,
+    "meanYearRange": 0,
+    "medianYearRange": 0,
+    "maxYearRange": 0,
+    "minYearRange": 0
+  }
+}

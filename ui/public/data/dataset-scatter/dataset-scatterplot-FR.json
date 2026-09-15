@@ -1,0 +1,1963 @@
+{
+  "countryCode": "FR",
+  "countryName": "France",
+  "totalDatasets": 28021,
+  "lastModified": "2026-06-09",
+  "dataSource": "GBIF",
+  "notes": "Biodiversity datasets from France institutions and GBIF network",
+  "datasets": [
+    {
+      "datasetkey": "75956ee6-1a2b-4fa3-b3e8-ccda64ce6c2d",
+      "name": "INPN - Données flore des CBN agrégées par la FCBN",
+      "species": 7384,
+      "occurrences": 20904743,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "dd238f50-f594-4e51-82af-033227ccab55",
+      "name": "Données acquises par le Conservatoire botanique national du Bassin parisien et son réseau (bénévoles, associations, autres structures professionnelles) - Flore du Bassin parisien (CBNBP)",
+      "species": 6113,
+      "occurrences": 6970383,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "e0876b81-db28-4e44-891e-ae768e6bb9b5",
+      "name": "Données Oiseaux des Jardins",
+      "species": 326,
+      "occurrences": 6457513,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+      "name": "EOD – eBird Observation Dataset",
+      "species": 637,
+      "occurrences": 6298589,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "724ec4af-c9a3-490b-b718-a1b202437c0f",
+      "name": "Données piscicoles et astacicoles des cours d'eau de France métropolitaine bancarisées dans ASPE (OFB) - Données acquises selon le protocole de pêche complète à un ou plusieurs passages - ASPE - OFB",
+      "species": 92,
+      "occurrences": 5062217,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "857aa892-f762-11e1-a439-00145eb45e9a",
+      "name": "Observations du Conservatoire botanique national du Bassin parisien.",
+      "species": 3566,
+      "occurrences": 4652792,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "0d8cc344-d880-42ec-a200-40b4ad71affd",
+      "name": "Centralisation des observations floristiques dans le cadre du SINP - Observations floristiques - plateforme SINP régionale SILENE   PACA",
+      "species": 5644,
+      "occurrences": 4379362,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "c4e76595-b467-4f88-8067-b8de661b99c5",
+      "name": "Données STOC-EPS",
+      "species": 353,
+      "occurrences": 4084189,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "c3710778-6492-4094-b7a6-9d63a76e133a",
+      "name": "Faune Occitanie : Saisie naturaliste opportuniste-Données opportunistes OISEAUX de Faune-Occitanie",
+      "species": 462,
+      "occurrences": 3889356,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "14d5676a-2c54-4f94-9023-1e8dcd822aa0",
+      "name": "Pl@ntNet automatically identified occurrences",
+      "species": 3108,
+      "occurrences": 3801293,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+      "name": "iNaturalist Research-grade Observations",
+      "species": 27571,
+      "occurrences": 3533595,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "148a0e3f-1378-4aa5-8423-0ecdac6a5af8",
+      "name": "DIGITALE - Observations flore et habitat centralisées par le CBN de Bailleul-Données d'occurrence taxon (Plantes vasculaires, Bryophytes et Algues) de la région des Hauts-de-France mises au format standard OccTax v3.1 par le CBN de Bailleul en mai 2023 (Données issues de Digitale2 : digitale.cbnbl.org)",
+      "species": 3312,
+      "occurrences": 3521945,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "8a863029-f435-446a-821e-275f4f641165",
+      "name": "Observation.org, Nature data from around the World",
+      "species": 12362,
+      "occurrences": 3132819,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "ee74ecf1-7acf-4c5d-8dcb-43e09fae474c",
+      "name": "Données issues du portail Sigogne - Bourgogne-Franche-Comté - Observatoire LPO Franche-Comté des espèces (oiseaux, amphibiens, reptiles, mammifères sauf chauve-souris)",
+      "species": 459,
+      "occurrences": 3021813,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded",
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "2700f1e5-0f50-4f53-8810-67bb54852aae",
+      "name": "Anciennes données CBNBP-Anciennes données Flora CBNBP",
+      "species": 6574,
+      "occurrences": 2797376,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "f94f92b3-6496-40f1-be05-1300d2254629",
+      "name": "Protocole d'inventaire de la flore vasculaire à l'échelle communale-Inventaire de la flore vasculaire par commune",
+      "species": 3146,
+      "occurrences": 2575325,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "e5f16d86-e225-4822-97be-a64ce17079c7",
+      "name": "Données de l'inventaire forestier national de l'IGN-Relevés floristiques du protocole de l'Inventaire National Forestier de l'IGN",
+      "species": 2803,
+      "occurrences": 2554522,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "0b5f972e-0f84-4d07-9b84-96c09e2925da",
+      "name": "Données piscicoles et astacicoles des cours d'eau de France métropolitaine bancarisées dans ASPE (OFB) - Données acquises selon le protocole de pêche partielle par points - ASPE - OFB",
+      "species": 92,
+      "occurrences": 2371926,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "f11a63fa-b1c5-4cef-9bba-48dd83a01528",
+      "name": "16 - Inventaire général de la flore et de la fonge - CBNA - inventaire général de la flore et de la fonge réalisé sur le terrain",
+      "species": 4185,
+      "occurrences": 2369725,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "7d539268-815c-4ebd-bb42-70f5039d4c60",
+      "name": "Suivi d'oiseaux sauvages par marquage en France - CRBPO - Base de données de baguage et déplacements d'oiseaux de France / Bird ringing and movement database for France. Centre de Recherches sur la Biologie des Populations d'Oiseaux, Muséum National d'Histoire Naturelle, Paris, France. https://crbpo.mnhn.fr/",
+      "species": 413,
+      "occurrences": 2209900,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "86306e4b-5ed8-4684-a626-d9b9f439dcce",
+      "name": "Centralisation des observations floristiques - Observations floristiques issues de la base de données du Conservatoire botanique national alpin",
+      "species": 3905,
+      "occurrences": 2207858,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "4d29f763-53dd-48ee-935a-d56c1a8673f1",
+      "name": "Données issues du portail Sigogne - Bourgogne-Franche-Comté - Données d'observation du groupe taxonomique Oiseaux de la LPO 21-71 et de la LPO 89",
+      "species": 352,
+      "occurrences": 1824843,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "4ebe5835-851f-43fd-beed-afade357bfc7",
+      "name": "Centralisation des observations floristiques - Observations floristiques floutées issues de la base de données flore du Conservatoire botanique national alpin",
+      "species": 4209,
+      "occurrences": 1784540,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "256b9877-cef3-4e8e-84e1-f23299c49655",
+      "name": "Données naturalistes opportunistes Faune-France-Données Naturalistes Faune-France 2021 Communes",
+      "species": 1140,
+      "occurrences": 1645760,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "bd8ee748-4ae8-4956-98d9-c1b8e8b2b9c9",
+      "name": "Données issues du portail Sigogne - Bourgogne-Franche-Comté - TAXA - Flore et habitats naturels de Franche-Comté",
+      "species": 5695,
+      "occurrences": 1578669,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "e357cdec-295a-4b91-ac7d-abf5fbbc43bb",
+      "name": "Données naturalistes opportunistes Faune-France - Données Naturalistes Faune-France 2020 Communes",
+      "species": 1220,
+      "occurrences": 1564173,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "cb850587-95f8-4ab1-83e4-a20267b3aea8",
+      "name": "Flore Franco-Belge",
+      "species": 1699,
+      "occurrences": 1548183,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "ca435754-9190-4a87-9b2c-c21563898294",
+      "name": "CLICNAT- Base de données naturaliste picarde-CLICNAT Base de données naturaliste picarde gérée par Picardie Nature",
+      "species": 6240,
+      "occurrences": 1491329,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "54594d70-93cf-4bce-8232-f257077bdcc0",
+      "name": "Données naturalistes opportunistes Faune-France - Liste des espèces de la faune sauvage observées en 2019 selon le maillage communal français de la base de données naturalistes Faune-France",
+      "species": 1181,
+      "occurrences": 1484342,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "1fec2829-4ac0-4329-b448-6f768b8d3427",
+      "name": "Données naturalistes opportunistes Faune-France - Liste des espèces de la faune sauvage de la base de données naturalistes Faune-France 2018.",
+      "species": 1168,
+      "occurrences": 1381935,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "8cec13a3-9f7f-435f-b750-bf79ce5368ae",
+      "name": "ACQUISITION_CBNMC",
+      "species": 5693,
+      "occurrences": 1362062,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "f946666e-67dc-4848-9fa8-2162f3559e33",
+      "name": "Données d'occurrences Espèces issues de l'inventaire des ZNIEFF",
+      "species": 20379,
+      "occurrences": 1229432,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "017f23ba-bf04-4eb7-a076-04ab2e5de250",
+      "name": "ONF - Observations et inventaires MOA ONF-ONF - Observations opportunistes et inventaires",
+      "species": 16250,
+      "occurrences": 1222026,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "43027054-3812-4599-b7bc-a01f1df5b071",
+      "name": "Données ONF faune-flore-fonge",
+      "species": 15136,
+      "occurrences": 1172914,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "29cd9f29-7c76-4e6b-a8b8-78d91eaf49bf",
+      "name": "Dreal Occitanie- Base Biodiv SINP - Données faune pour le rapportage européen DHFF-DO 2018",
+      "species": 312,
+      "occurrences": 1057786,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "d7cc19ba-7785-4131-ab63-3328a99ecfab",
+      "name": "Données d'observation flore du réseau des CBN issues du système d'information de la FCBN",
+      "species": 558,
+      "occurrences": 1009335,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "1687706e-abdf-4ded-964d-4e7f4acf1e22",
+      "name": "Anciennes données CBNBP-Anciennes données Habitat CBNBP",
+      "species": 2399,
+      "occurrences": 948551,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "659962a0-946a-4dcd-8e50-a9da60cc97bf",
+      "name": "DIGITALE - Observations flore et habitat centralisées par le CBN de Bailleul-Données d'occurrence taxon (Plantes vasculaires, Bryophytes et Algues) du territoire de Normandie orientale, ex-région de Haute-Normandie, mises au format standard OccTax v3.1 par le CBN de Bailleul en mai 2023 (Données issues de Digitale2 : digitale.cbnbl.org)",
+      "species": 2637,
+      "occurrences": 947375,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "66551429-5e35-4848-94f5-b13bcad669a5",
+      "name": "SILENE-FAUNE-PACA - CEN_PACA_2017_12_18",
+      "species": 4967,
+      "occurrences": 932736,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "7a3679ef-5582-4aaa-81f0-8c2545cafc81",
+      "name": "Pl@ntNet observations",
+      "species": 4037,
+      "occurrences": 884128,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "28c7cc8e-3163-4c3d-ab4e-31ebd28b068d",
+      "name": "Oiseaux de France métropolitaine en hiver 1977-1981",
+      "species": 306,
+      "occurrences": 755532,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "224d9990-f027-4c6d-99bc-b7c5a55f6bb6",
+      "name": "Données invertébrés saisies sous BioloVision Auvergne-Rhône-Alpes - VisioNature opportuniste",
+      "species": 1578,
+      "occurrences": 753881,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "1c124078-9b39-4042-84af-b2f948dad993",
+      "name": "Données piscicoles et astacicoles des cours d'eau de France métropolitaine bancarisées dans ASPE (OFB) - Données acquises selon le protocole de pêche par ambiance - ASPE - OFB",
+      "species": 74,
+      "occurrences": 745807,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "bc27185d-5118-417c-be2f-f5f45b4d65ea",
+      "name": "ACQUISITION_CBNMC - Atlas d'Auvergne",
+      "species": 2213,
+      "occurrences": 724465,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "af0c7238-b6c5-4a4d-9fa7-7fb94516d0bc",
+      "name": "Données naturalistes opportunistes Faune-France - Liste des espèces de la faune sauvage de la base de données naturalistes Faune-France 2017.",
+      "species": 1019,
+      "occurrences": 671005,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "14d81697-0d3a-4e4f-a3a0-f1d7d374e758",
+      "name": "Données issues du portail Sigogne - Bourgogne-Franche-Comté - Données flore, fonge, habitats naturels du Conservatoire Botanique National du Bassin Parisien",
+      "species": 2586,
+      "occurrences": 666383,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "d050a143-2e62-4908-9d9e-a7f541eab94d",
+      "name": "DATASAPROX : standardised database of saproxylic beetles from flight interception traps in continental France and Corsica",
+      "species": 2021,
+      "occurrences": 659407,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "d38d6841-de2a-4a16-b39e-495402d8592b",
+      "name": "Observations faune et flore du Parc national des Écrins",
+      "species": 5544,
+      "occurrences": 637489,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "72b6bac4-3a93-491b-a931-cbd07bff5b39",
+      "name": "Inventaire de la flore d'Alsace - Données de la flore d’Alsace (SBA)",
+      "species": 3152,
+      "occurrences": 636615,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "a0ee69cf-df3b-44d7-8b14-19c42a1532a0",
+      "name": "2022_LPO PACA_16",
+      "species": 282,
+      "occurrences": 605790,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "ae4b9b5c-3395-41f1-8209-5cd4ca778718",
+      "name": "Liste rouge des Odonates de France-Liste rouge des Odonates de métropole 2016",
+      "species": 89,
+      "occurrences": 574815,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "4921f3f7-0991-49f4-8f56-91e7b9a55bf3",
+      "name": "2021_LPO PACA_1",
+      "species": 291,
+      "occurrences": 537505,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "ab47c4a9-4b6a-4d59-b846-899d9420f7d3",
+      "name": "CRBPO : STOC, Baguage",
+      "species": 358,
+      "occurrences": 510688,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "75214a8e-445a-4785-857e-5d1e06b9150d",
+      "name": "2019_LPO PACA_5",
+      "species": 309,
+      "occurrences": 488127,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "fe99edff-54d8-43b9-a25d-57964403efa6",
+      "name": "Observatoire de la Biodiversité des Jardins (OBJ)-Données Observatoire des Papillons des Jardins",
+      "species": 38,
+      "occurrences": 469299,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded",
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "da6b7fa1-a8c4-4afb-bcfc-2836a1e85f81",
+      "name": "Macrophytes occurrence data within French Mediterranen Lagoon since 2006",
+      "species": 2810,
+      "occurrences": 459326,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "557f6b7a-7d57-48e7-8648-804657aa30e3",
+      "name": "6 - Inventaire général de la flore vasculaire et de la fonge sur le TAG du CBNMed-Divers jeux de données floristiques produits par le réseau des botanistes amateurs dans les départements du 06, 11, 13, 30, 34, 48, 66, 83, 84",
+      "species": 4403,
+      "occurrences": 451976,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "25e3e8f1-86ee-440c-adfc-8e63759a6505",
+      "name": "Programme BioObs: observations naturalistes en milieux aquatiques-Observations de BioObs.",
+      "species": 2242,
+      "occurrences": 447661,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "4b022c74-5261-4f96-8d4f-b41135e8a308",
+      "name": "Observations issues de la base de données naturalistes d'EDEN 62.-Données faune collectées sur les Espaces Naturels Sensibles du Pas-de-Calais jusqu'au 31 décembre 2021.",
+      "species": 3957,
+      "occurrences": 438644,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "acf7b380-2e9d-42d2-b1f8-a802a5e9d90a",
+      "name": "2020_LPO PACA_14",
+      "species": 293,
+      "occurrences": 422403,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "c6050fc7-ce45-449f-b4a4-daa92cc0f03a",
+      "name": "6 - Inventaire général de la flore vasculaire et de la fonge sur le TAG du CBNMed-Données flores issues de la base de données de Jean-Marc Lewin",
+      "species": 2923,
+      "occurrences": 422126,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "008815d5-eb13-4ea2-957e-bd35e2769e66",
+      "name": "Rapportage 2013-2018 au titre de la directive Oiseaux - Données de synthèse Oiseaux nicheurs issues du rapportage au titre de la directive Oiseaux - période 2013-2018",
+      "species": 277,
+      "occurrences": 413421,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "23f9546d-6ad8-41d4-9c9b-3ecf864c15d0",
+      "name": "65 - Données flore validées CBNC",
+      "species": 3098,
+      "occurrences": 410427,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "92204c07-5011-47ac-82b7-4050858a9cd0",
+      "name": "Atlas des Orchidées de France métropolitaine (2010)",
+      "species": 95,
+      "occurrences": 397482,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "6ec5565d-9dfe-4301-a43e-c41a03dd33ae",
+      "name": "Données issues du portail Sigogne - Bourgogne-Franche-Comté - Données du programme OFAB - Société d'Histoire Naturelle d'Autun",
+      "species": 397,
+      "occurrences": 387820,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "39ca385b-6f25-402c-aa92-a76c89ecda0a",
+      "name": "DELTATRACK - Herring gulls (Larus argentatus, Laridae) and lesser black-backed gulls (Larus fuscus, Laridae) breeding at Neeltje Jans (Netherlands)",
+      "species": 2,
+      "occurrences": 385845,
+      "publishedInCountry": false,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "72114f43-b1c1-46fd-8424-bc500c50e872",
+      "name": "Protocole d'inventaire de la flore vasculaire par maille 5 km X 5 km-Inventaire de la flore vasculaire par maille 5 km X 5 km",
+      "species": 2310,
+      "occurrences": 375698,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "73bf14dd-2893-44d0-ab5c-fc4399fe3db7",
+      "name": "Atlas des papillons de jour et des libellules du Languedoc-Roussillon-Données CEN L-R papillons/libellule",
+      "species": 607,
+      "occurrences": 370952,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "e765780e-42d8-473f-a210-6365554f07b4",
+      "name": "6 - Inventaire général de la flore vasculaire et de la fonge sur le TAG du CBNMed-Divers jeux de données floristiques produits par le CBNMED sur son territoire d'agrément",
+      "species": 4246,
+      "occurrences": 370625,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "8b2a60ba-9044-4f8b-8b24-b0b243814ace",
+      "name": "Rapportage 2008-2012 au titre de la directive Oiseaux - Données de synthèse Oiseaux nicheurs issues du rapportage au titre de la directive Oiseaux - période 2008-2012",
+      "species": 277,
+      "occurrences": 369113,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "b7b219b2-b602-40a2-8427-3d02884bf70d",
+      "name": "Observations opportunistes de flore vasculaire, bryophytes, champignons et lichens-Observations opportunistes Flore, Fonge et Bryophytes du CRPF en Midi-Pyrénées",
+      "species": 7177,
+      "occurrences": 361891,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "2f96ab0b-cfdd-4179-a18a-adde3a0ba98c",
+      "name": "16 - Inventaire général de la flore et de la fonge - GENTIANA - Inventaire de la flore de l'Isère",
+      "species": 2112,
+      "occurrences": 357090,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "170c15ec-9705-46ce-9b9c-3b551f66ece9",
+      "name": "SHOC, Suivi Hivernal des Oiseaux Communs-Données SHOC",
+      "species": 218,
+      "occurrences": 356605,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "291577e7-6d58-42d4-81d3-069686ae6a6f",
+      "name": "Contributions à l'Observatoire de la biodiversité végétale de Nouvelle-Aquitaine",
+      "species": 2628,
+      "occurrences": 353706,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "3b03f113-e3da-41ba-bd98-6f0a3123b8ac",
+      "name": "2013_CEN PACA_1",
+      "species": 2138,
+      "occurrences": 351560,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "4cebd7a3-3782-47fb-9bc3-71968697ecfa",
+      "name": "Données issues du portail Sigogne - Bourgogne-Franche-Comté - TAXA Invertébrés",
+      "species": 295,
+      "occurrences": 347159,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "c967b7f3-1724-45cc-9488-129b24087e0c",
+      "name": "Flore d'Ille-et-Vilaine",
+      "species": 1330,
+      "occurrences": 346885,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "e13c8785-ca23-4aab-a30a-788079d84695",
+      "name": "16 - Inventaire général de la flore et de la fonge - Inventaires de la flore et de la fonge réalisées par les botanistes du réseau des botanistes du CBNA",
+      "species": 3498,
+      "occurrences": 341084,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "dd3d3542-9038-4c60-9bbe-c683101e83ed",
+      "name": "Inventaire général de la flore vasculaire sur le territoire d'agrément du CBNPMP-Inventaire général de la flore vasculaire de Midi-Pyrénées par le CBNPMP",
+      "species": 2646,
+      "occurrences": 326983,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "fbf2c8a9-1f63-4a48-a85e-96e5641f3cc8",
+      "name": "Données piscicoles et astacicoles des cours d'eau de France métropolitaine bancarisées dans ASPE (OFB) - Données piscicoles acquises selon le protocole de pêche partielle sur berges - ASPE - OFB",
+      "species": 70,
+      "occurrences": 317748,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "b47ed41a-b9a4-4108-bdb3-5a61afdf1756",
+      "name": "Inventaire des Mammifères de France - Atlas des ongulés et Lagomorphes de France (Métropole et outre-mer). 2000-2020.",
+      "species": 16,
+      "occurrences": 313252,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "f7e109bd-af62-4642-8dcd-9e60567fd169",
+      "name": "17 - inventaire général de la flore et de la fonge issu de la bibliographie - CBNA - inventaires de la flore et de la fonge issus du dépouillement de la bibliographie",
+      "species": 4205,
+      "occurrences": 312682,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "f5e9bf91-d834-49ed-a58a-78b9cb952b35",
+      "name": "Inventaire des oiseaux de France métropolitaine, présence hivernale, 2009-2013 - Oiseaux de France métropolitaine 2009-2013 en période hivernale",
+      "species": 275,
+      "occurrences": 309504,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "072fb9cc-b309-40e9-8b66-ffad4753a778",
+      "name": "Colisa Biological Resource Centre - Collection of ichthyological samples",
+      "species": 6,
+      "occurrences": 308981,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "ae89759c-c8f0-436f-bcc9-ef67874e2e30",
+      "name": "SILENE-FAUNE-PACA - Parc_National_des_Ecrins_2017_12_18",
+      "species": 1657,
+      "occurrences": 302259,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "baa86fb2-7346-4507-a34f-44e4c1bd0d57",
+      "name": "Carnet en Ligne",
+      "species": 5166,
+      "occurrences": 300582,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "6f0b28dc-60cf-4378-b0c4-c6c6979ffcbc",
+      "name": "Activité générale du bureau d'étude BIOTOPE (1994 - 2013) - Données acquises dans le cadre de l'activité du bureau d'étude BIOTOPE (1994 - 2013)",
+      "species": 5475,
+      "occurrences": 299955,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "64f0bab7-5fa1-4620-af16-2615669db9cb",
+      "name": "Dataset of French Observation and Monitoring program for Phytoplankton and Hydrology in coastal waters since 1987",
+      "species": 259,
+      "occurrences": 294647,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "f8b9ff6b-40d0-4b7c-8495-0341b0c3daba",
+      "name": "16 - Inventaire général de la flore et de la fonge - Inventaires de la flore et de la fonge réalisés ou transmis par Denis JORDAN",
+      "species": 2254,
+      "occurrences": 285755,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "1560f099-f48d-43ac-8d88-ce329a53aa7e",
+      "name": "Saisie naturaliste opportuniste dans SICEN Occitanie-Données opportunistes du CEN Midi-Pyrénées",
+      "species": 7986,
+      "occurrences": 285243,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "a67ec884-e895-4e14-a3c7-fc39795ee749",
+      "name": "Versement collectif Faune Occitanie 2020 amphibiens, reptiles, mammifères",
+      "species": 2637,
+      "occurrences": 284748,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "fef99f8e-e00e-447a-9896-1ce15538e4fb",
+      "name": "16 - Inventaire général de la flore et de la fonge - ASTERS - Conservatoire d'Espaces Naturels Haute-Savoie - inventaire général de la flore et de la fonge réalisé sur le terrain",
+      "species": 2164,
+      "occurrences": 280024,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "70c95646-c08f-41bb-9153-06c6294b385f",
+      "name": "R44_CBAL_BD_Lorraine_2014-2022",
+      "species": 2107,
+      "occurrences": 277880,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "355b8ff9-7bd9-49c3-92af-f6741b8bd0cb",
+      "name": "LBBG_ZEEBRUGGE - Lesser black-backed gulls (Larus fuscus, Laridae) breeding at the southern North Sea coast (Belgium and the Netherlands)",
+      "species": 1,
+      "occurrences": 274314,
+      "publishedInCountry": false,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "e110bdcf-81f6-4d3b-b7e8-fe12ed94e3e3",
+      "name": "SILENE-FAUNE-PACA - Parc_National_de_Port_Cros_2017_12_18",
+      "species": 961,
+      "occurrences": 272517,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "b740eaa0-0679-41dc-acb7-990d562dfa37",
+      "name": "Meise Botanic Garden Herbarium (BR)",
+      "species": 15739,
+      "occurrences": 269447,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "1632788f-d8ec-4cfa-acfb-baf7da8e5e74",
+      "name": "Phenology and biological traits of migrating trout and sea trout (Salmo trutta) sampled by trapping in the survey in the Bresle river (France)",
+      "species": 1,
+      "occurrences": 268801,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "88967ea9-19ea-4f4d-b137-879ee00ebda8",
+      "name": "CardObs : Observations naturalistes issues de l'outil CardObs-Données naturalistes de CERCOPE",
+      "species": 7178,
+      "occurrences": 248090,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "fb5bea36-859e-47f1-995d-ee8962d96f41",
+      "name": "Système d’évaluation de l’état des Eaux (SEEE) - Données hydrobiologiques sur l'état des eaux de surface - Système d’évaluation de l’état des Eaux (SEEE) - Diatomées",
+      "species": 881,
+      "occurrences": 242993,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "147834a9-fbff-4357-b8b8-e755c62df2ce",
+      "name": "Données du CEN Picardie concernant la Faune, la Flore et la Fonge-Données faune, flore et fonge du Conservatoire des espaces naturels de Picardie",
+      "species": 3551,
+      "occurrences": 237662,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "d3130e9c-8587-4545-baea-6e72876bb50c",
+      "name": "Programme CarNET B (Cartographie Nationale des Enjeux Territorialisés de Biodiversité Remarquable) - Carnet B Lorraine",
+      "species": 5431,
+      "occurrences": 234715,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "f9b241f8-900c-4077-ab8a-cca18427fc43",
+      "name": "Hotspots de biodiversité en Nouvelle-Aquitaine-Données issues du logiciel \"Faune Aquitaine\"",
+      "species": 488,
+      "occurrences": 234598,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "0b499d5e-c359-4cce-b817-d6f588988441",
+      "name": "HG_JUVENILE - Juvenile herring gulls (Larus argentatus, Laridae) hatched at the southern North Sea coast (Belgium)",
+      "species": 1,
+      "occurrences": 231779,
+      "publishedInCountry": false,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "e2d928f8-abbc-402c-9c78-c34f248ca096",
+      "name": "Observations opportunistes de flore vasculaire, bryophytes, champignons et lichens-Observations opportunistes Flore, Fonge et Bryophytes des salariés et bénévoles du CBNPMP",
+      "species": 4815,
+      "occurrences": 224601,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "da216795-b3ad-41c2-ac4e-3d8faf4743d2",
+      "name": "Inventaire permanent de la flore du massif armoricain",
+      "species": 1701,
+      "occurrences": 222888,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "2d680d46-d783-4ea7-94b1-2556cd653e36",
+      "name": "Phytochorologie des départements français",
+      "species": 6667,
+      "occurrences": 221659,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "7247dc2e-b862-4555-b533-7701d183271b",
+      "name": "Programme d'observation naturaliste participative avec l'application mobile INPN Espèces - Application INPN Espèces: Observations naturalistes, participatives et opportunistes, fondées sur des photographies",
+      "species": 7338,
+      "occurrences": 219567,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "40e69efe-e113-4eea-9363-0a8eec54cf38",
+      "name": "Comptages Wetlands, dénombrements des oiseaux d'eau à la mi-janvier en France métropolitaine-Comptages Wetlands, dénombrements des Oiseaux d'eau à la mi-janvier en France métropolitaine",
+      "species": 164,
+      "occurrences": 212697,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "a5eed886-841f-45c6-b851-9b4c22283a5d",
+      "name": "ACQUISITION_CBNMC - Atlas de l'Ardèche",
+      "species": 2141,
+      "occurrences": 209436,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "fe4baa57-8f75-472b-982a-7711e3739873",
+      "name": "Réserves Naturelles de France (RNF) - RNF - Données de la Fédération des Réserves Catalanes",
+      "species": 12255,
+      "occurrences": 207653,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "5d467c2a-b758-4005-bd0e-9f76fdb4effa",
+      "name": "Inventaire des oiseaux nicheurs de France métropolitaine 2009-2012 - Oiseaux nicheurs de France métropolitaine 2009-2012 - Nidification certaine",
+      "species": 301,
+      "occurrences": 206686,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "cd9e0589-187b-43c0-9692-50d8db7d0467",
+      "name": "2020_MNHN_1",
+      "species": 10057,
+      "occurrences": 199816,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "483dd49a-7b02-4697-bce4-6d8564be9c9c",
+      "name": "REPHY - Réseau d'Observation et de Surveillance du Phytoplancton et de l'Hydrologie dans les eaux littorales",
+      "species": 156,
+      "occurrences": 199654,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "b5d37941-c7cd-4a7d-a696-b64b5af8cb87",
+      "name": "ACQUISITION_CBNMC - Atlas de la Loire",
+      "species": 1549,
+      "occurrences": 192379,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "c0dd99c3-fa06-499c-949e-aa44d42f2f16",
+      "name": "Inventaire des Messicoles - Inventaire Messicoles (FCBN)",
+      "species": 99,
+      "occurrences": 191529,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "a542665f-1b92-406e-8d92-072fcba576b2",
+      "name": "Atlas des oiseaux nicheurs du Nord et du Pas-de-Calais (GON)",
+      "species": 196,
+      "occurrences": 188369,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "869b574f-23eb-4575-a771-6ffd480dcdab",
+      "name": "Suivi Temporel des Rhopalocères de France (STERF)",
+      "species": 217,
+      "occurrences": 186163,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "bd067a4c-05b8-4def-925c-60ce83c01891",
+      "name": "2018_CEN PACA_1",
+      "species": 3436,
+      "occurrences": 184334,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "f97eeccc-8409-4075-ab7c-8980f73c0d0d",
+      "name": "Atlas des plantes vasculaires de Lorraine",
+      "species": 1413,
+      "occurrences": 183866,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "d52f20c1-ee9a-46e4-a517-32c62cc7396c",
+      "name": "Import données Baznat oiseaux",
+      "species": 306,
+      "occurrences": 183506,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "6c860eb3-83ba-48c3-9328-a7b3c7a3c7b4",
+      "name": "HG_OOSTENDE - Herring gulls (Larus argentatus, Laridae) breeding at the southern North Sea coast (Belgium)",
+      "species": 1,
+      "occurrences": 181788,
+      "publishedInCountry": false,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "d7bdd9d0-84df-4c8b-a587-a126f3b1760b",
+      "name": "16 - Inventaire général de la flore et de la fonge - Divers relevés de terrain saisis par le CBNA",
+      "species": 3116,
+      "occurrences": 181472,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "c186e534-5281-4d9e-a389-f0415aa70331",
+      "name": "CardObs : Observations naturalistes issues de l'outil CardObs-Données naturalistes de Thomas GAILLARD",
+      "species": 2942,
+      "occurrences": 180119,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "d8c016b5-cdc0-4781-9990-6a2bcb116bc5",
+      "name": "CA des structures-Observations opportunistes de la structure : NaturEssonne",
+      "species": 1864,
+      "occurrences": 179885,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "da076629-fb18-4558-a9c1-6eaa55d69056",
+      "name": "Données LPO Réserves Naturelles Nationales - Données des réserves naturelles nationales gérées par la Ligue pour la protection des oiseaux (LPO)",
+      "species": 2443,
+      "occurrences": 178938,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "43408d27-f127-490c-a15f-477acd24714e",
+      "name": "Données Birdlab",
+      "species": 30,
+      "occurrences": 178150,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "d2884502-2117-4996-bfaa-363dba170536",
+      "name": "Données piscicoles et astacicoles des cours d'eau de France métropolitaine bancarisées dans ASPE (OFB) - Données piscicoles acquises selon la méthode des indices d'abondance \"saumon\" - ASPE - OFB",
+      "species": 1,
+      "occurrences": 175040,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "83fdfd3d-3a25-4705-9fbe-3db1d1892b13",
+      "name": "Swiss National Databank of Vascular Plants",
+      "species": 2298,
+      "occurrences": 174871,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "6242ca69-c65e-4723-b629-9aeb05b51c88",
+      "name": "Abundances and biological traits of fish sampled by electrofishing (except specific abundance indices) on the River Oir since 1988 (France).",
+      "species": 27,
+      "occurrences": 173042,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "306aab9c-6c36-4cd3-be8c-7848f99a4b0e",
+      "name": "7 - Données flore du CBNMed issues de la bibliographie-Divers jeux de données issues de la bibliographie dépouillées par le CBNMED",
+      "species": 5999,
+      "occurrences": 172777,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "b7cae180-6c5e-4490-aa8e-953996540411",
+      "name": "2021_Conservatoire du littoral_1",
+      "species": 1535,
+      "occurrences": 171481,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "f77748a2-7a86-4e65-9804-3e4db286df6c",
+      "name": "6 - Inventaire général de la flore vasculaire et de la fonge sur le TAG du CBNMed-Divers jeux de données floristiques produits par le CEN du Languedoc-Roussillon dans les départements du 06, 11, 13, 30, 34, 48, 66, 83, 84",
+      "species": 2848,
+      "occurrences": 167520,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "a71c4bb7-139e-4603-aa37-46c5dbcdf17e",
+      "name": "Inventaire des oiseaux nicheurs de France métropolitaine 2009-2012 - Oiseaux nicheurs de France métropolitaine 2009-2012 - Nidification probable",
+      "species": 287,
+      "occurrences": 163994,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "b5cdf794-8fa4-4a85-8b26-755d087bf531",
+      "name": "The vascular plants collection (P) at the Herbarium of the Muséum national d'Histoire Naturelle (MNHN - Paris)",
+      "species": 8531,
+      "occurrences": 163934,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "50434ba4-eb46-47cd-83d9-91288ad4dd9c",
+      "name": "Regroupement de données floristiques issues de la base du CBN des Pyrénées et de Midi-Pyrénées-Base de données du CBN des Pyrénées et de Midi-Pyrénées",
+      "species": 1666,
+      "occurrences": 162625,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "54facf62-bf0c-43e7-9972-4fdc407fa6c5",
+      "name": "Déterminations et observations du Forum \"Le Monde des Insectes\" (LMDI)-Données photographiques validées de la galerie du forum \"Le Monde des Insectes\"",
+      "species": 14346,
+      "occurrences": 161633,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded",
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "79d8c57d-8148-4aab-b5bd-f833410454f0",
+      "name": "ACQUISITION_CBNMC - ONF 15",
+      "species": 1553,
+      "occurrences": 161413,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "9332c241-340d-4e35-a8e5-5791c4ce83af",
+      "name": "ACQUISITION_CBNMC - LAMAISON J.L.",
+      "species": 1791,
+      "occurrences": 160754,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "16cea338-38b9-47f8-bde1-5bf4a613ea3d",
+      "name": "Base de données faune - DREAL Centre-Val de Loire. Points / polylignes",
+      "species": 1697,
+      "occurrences": 159753,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "773c3269-79c6-4010-9295-04c179f333ab",
+      "name": "2014_CEN PACA_1",
+      "species": 3358,
+      "occurrences": 159499,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "2dd3b5c1-2a7f-4324-83d3-d05cff85676b",
+      "name": "2020_CEN PACA_1",
+      "species": 3526,
+      "occurrences": 158650,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "e0916f8b-b9ed-401a-8353-064a3859871a",
+      "name": "Flore de Franche-Comté",
+      "species": 1998,
+      "occurrences": 156587,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "7e6df30d-d8af-438d-bb01-5a528f6f4fa3",
+      "name": "Programme CarNET B (Cartographie Nationale des Enjeux Territorialisés de Biodiversité Remarquable) - Carnet B Centre - lot 2012",
+      "species": 6122,
+      "occurrences": 155640,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "24168b97-a6b0-41cf-9836-29110572efc6",
+      "name": "2016_CEN PACA_1",
+      "species": 2479,
+      "occurrences": 155341,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "b7a9aa3e-325b-4705-bb01-dcb89f695e44",
+      "name": "ACQUISITION_CBNMC - Atlas du Rhône",
+      "species": 1514,
+      "occurrences": 154340,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "bdb525f6-2087-4f7f-8ab5-b5b052898996",
+      "name": "2021_LPO PACA_5",
+      "species": 53,
+      "occurrences": 153339,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "0a0b594e-0c5e-4766-a5d7-66043160de5f",
+      "name": "Swiss National Fauna Databank",
+      "species": 3636,
+      "occurrences": 152222,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "12f7588e-f812-4da0-85e9-05f655fa538a",
+      "name": "Rapportage 2013-2018 au titre de la directive Habitats-Faune-Flore - Données de synthèse Espèces issues du rapportage au titre de la directive Habitats - période 2013-2018",
+      "species": 291,
+      "occurrences": 148100,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "962f59bc-f762-11e1-a439-00145eb45e9a",
+      "name": "Collections and observation data National Museum of Natural History Luxembourg",
+      "species": 6362,
+      "occurrences": 145564,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "33572c56-7266-4705-83df-614a94b37606",
+      "name": "Rapportage 2001-2006 au titre de la directive Habitats-Faune-Flore - Données de synthèse Espèces issues du rapportage au titre de la directive Habitats - période 2001-2006",
+      "species": 283,
+      "occurrences": 145167,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "ba8b3250-6115-4680-8c21-6129c35ba738",
+      "name": "2022_CEN PACA_1",
+      "species": 3743,
+      "occurrences": 144099,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "a4a74db9-fe84-40f3-8782-e4940416076a",
+      "name": "2015_CEN PACA_1",
+      "species": 3669,
+      "occurrences": 142139,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "aeab6ee6-c27f-4f1c-8c20-418decd54684",
+      "name": "REBENT - Réseau national de surveillance des biocénoses benthiques côtières",
+      "species": 1588,
+      "occurrences": 141189,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "96a521af-58d0-4913-8b14-8a5d900c3c0d",
+      "name": "Rapportage 2007-2012 au titre de la directive Habitats-Faune-Flore - Données de synthèse Espèces issues du rapportage au titre de la directive Habitats - période 2007-2012",
+      "species": 299,
+      "occurrences": 140534,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "3f2f66a5-4581-43e7-88cc-6b00c0cff137",
+      "name": "Données invertébrés saisies sous BioloVision Auvergne-Rhône-Alpes - Données Sympetrum/LPO",
+      "species": 82,
+      "occurrences": 140393,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "8497d89a-4c99-4379-96d8-4040d629761c",
+      "name": "ACQUISITION_CBNMC - Atlas du Grand Lyon",
+      "species": 1517,
+      "occurrences": 139413,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "8d53b914-0bd6-4b6d-a3e0-05e4407e7331",
+      "name": "Flore du Limousin",
+      "species": 1208,
+      "occurrences": 137262,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "662a5899-42ba-4ca3-b075-c51d45516ba1",
+      "name": "Données Vigie-Flore",
+      "species": 2763,
+      "occurrences": 135774,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+      "name": "NABU|naturgucker",
+      "species": 6670,
+      "occurrences": 134407,
+      "publishedInCountry": false,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "c6d289cc-62ee-46e1-9367-515092eed533",
+      "name": "Données du Parc national des Pyrénées - Observations occasionnelles Parc national des Pyrénées",
+      "species": 7411,
+      "occurrences": 132492,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "906b2d3f-dbd7-4c5c-acfc-c572c35c2b5a",
+      "name": "SILENE-FAUNE-PACA - Réserve_Naturelle_de_Camargue_2017_12_18",
+      "species": 1617,
+      "occurrences": 132136,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "4cb7bf6d-fb33-440c-a686-2606ef12ec07",
+      "name": "Import données Baznat invert",
+      "species": 3027,
+      "occurrences": 131650,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "e1cf9737-844f-4de5-938c-04265c598542",
+      "name": "Observations opportunistes de flore vasculaire, bryophytes, champignons et lichens-Observations opportunistes Flore, Fonge et Bryophytes des salariés et bénévoles de l'association Nature en Occitanie (ex-Nature en Midi-Pyrénées) en Midi-Pyrénées",
+      "species": 2416,
+      "occurrences": 130292,
+      "publishedInCountry": true,
+      "category": [
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "e7c5a179-b6d7-497e-8fb9-41e0ef1bb21e",
+      "name": "Inventaire des mammifères de France métropolitaine",
+      "species": 123,
+      "occurrences": 129971,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "e2b9a599-b5b4-4196-8c2a-d57f678208be",
+      "name": "Données naturalistes CEN Centre-Val de Loire - Conservatoire d'espaces naturels Centre-Val de Loire - Données Faune au 1/11/2020",
+      "species": 5459,
+      "occurrences": 129933,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "a34ed31c-4027-4884-9874-7496afd8dc34",
+      "name": "16 - Inventaire général de la flore et de la fonge - LO PARVI - Inventaire général de la flore et de la fonge",
+      "species": 1252,
+      "occurrences": 128877,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "c779b049-28f3-4daf-bbf4-0a40830819b6",
+      "name": "EBCC Atlas of European Breeding Birds",
+      "species": 494,
+      "occurrences": 125235,
+      "publishedInCountry": false,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "69580c67-e820-423f-a75b-20e0489107e3",
+      "name": "R44_CBAL_BD_Alsace_2012-2022",
+      "species": 1663,
+      "occurrences": 124196,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "38b69d98-e980-4a30-aaf7-f9616d34ae02",
+      "name": "Inventaire national des araignées de France métropolitaine",
+      "species": 1272,
+      "occurrences": 122789,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "0f6b3a50-0ee2-4c7c-bb65-7512b0acdb51",
+      "name": "16 - Inventaire général de la flore et de la fonge - SFO - inventaire de la flore",
+      "species": 86,
+      "occurrences": 122148,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "a9f7dd79-e368-46be-a774-a9eabf2d191a",
+      "name": "Amphibiens et Reptiles de France (Enquête 2)",
+      "species": 78,
+      "occurrences": 120391,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "8256af7b-37fc-4fe7-99bc-d4454c379374",
+      "name": "Atlas des poissons d'eau douce de France métropolitaine (2001)",
+      "species": 102,
+      "occurrences": 120166,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "6eea0cd8-2e8d-4d1e-8a01-19306e4787aa",
+      "name": "Visiolittoral : Base de données de la communauté de travail du Conservatoire du littoral-Suivi de population des oiseaux d'eau",
+      "species": 258,
+      "occurrences": 119718,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "2e409ff6-7714-417e-89ef-678207f66071",
+      "name": "ATBI Parc national du Mercantour / Parco naturale Alpi Marittime-Jeux de données provenant de l'ATBI Mercantour",
+      "species": 12341,
+      "occurrences": 114373,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "a5ea4e15-d28f-4081-8624-2b4e9e3f83c8",
+      "name": "6 - Inventaire général de la flore vasculaire et de la fonge sur le TAG du CBNMed-Divers jeux de données floristiques produits par la Fédération France Orchidées (FFO)",
+      "species": 114,
+      "occurrences": 113050,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "2c2d73bf-44a6-40c6-8d1b-34b1715a19b8",
+      "name": "Visiolittoral : Base de données de la communauté de travail du Conservatoire du littoral-Agrégat de données naturalistes d'une réserve naturelle",
+      "species": 708,
+      "occurrences": 112685,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "898b6c44-2891-45da-84e5-3d8bf6f5d38d",
+      "name": "Grey seals GPS telemetry in Molene Archipelago",
+      "species": 1,
+      "occurrences": 111314,
+      "publishedInCountry": false,
+      "category": [
+        "Tracking"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "15f819bd-6612-4447-854b-14d12ee1022d",
+      "name": "Naturalis Biodiversity Center (NL) - Botany",
+      "species": 9558,
+      "occurrences": 110399,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "c95d7c37-9ff8-4ad9-a856-ca0f4d3fd9ed",
+      "name": "Programmes de connaissance sur les communautés d'invertébrés en Occitanie-Données des lépidoptères de France issues du portail Artemisiae",
+      "species": 1670,
+      "occurrences": 110253,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "aeeff4d1-a1e0-454e-ae87-2748138279d3",
+      "name": "Quadrige",
+      "species": 152,
+      "occurrences": 109969,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "dd407634-e947-42ae-ae9a-4f44055db313",
+      "name": "Projet éolien de la Vallée des Vignes-Données milieu naturel",
+      "species": 574,
+      "occurrences": 109407,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "fea77396-7b26-44cb-8580-aefadc8db276",
+      "name": "The cryptogamy collection (PC) at the Herbarium of the Muséum national d'Histoire Naturelle (MNHN - Paris)",
+      "species": 8471,
+      "occurrences": 107667,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "aa79690b-018a-44b0-8ed4-2704ba530ade",
+      "name": "CardObs : Observations naturalistes issues de l'outil de saisie et gestion CardObs mis en place par le Service du Patrimoine Naturel (MNHN) / UMS PatriNat (OFB - CNRS - MNHN) - Données naturalistes d'Olivier ESCUDER",
+      "species": 2404,
+      "occurrences": 107602,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "fb257244-7e61-4a6c-b097-54963ca5b7af",
+      "name": "ATBI Parc national du Mercantour / Parco naturale Alpi Marittime - Observations floristiques issues de la base de données flore du Conservatoire botanique national alpin",
+      "species": 1773,
+      "occurrences": 107396,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "33fc4df2-3342-4612-a842-30f1caa330ac",
+      "name": "2015_Réserve Naturelle de Camargue_3",
+      "species": 284,
+      "occurrences": 107008,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "d1d386f4-1c00-48c0-b9b2-5efdec12b159",
+      "name": "Phenology and biological traits of migrating salmon (Salmo salar) sampled by trapping in the Scorff river (France).",
+      "species": 1,
+      "occurrences": 106109,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "d59ea6f3-f758-4d84-8c90-be078629127e",
+      "name": "Butterfly distribution records for the UK from Butterfly Conservation, up to 2019",
+      "species": 45,
+      "occurrences": 105964,
+      "publishedInCountry": false,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "4e3e00d6-6a60-401d-af5a-1a4816755f72",
+      "name": "SILENE-FAUNE-PACA - Parc_National_du_Mercantour_2017_12_18",
+      "species": 2989,
+      "occurrences": 105079,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "16b6c119-2785-4361-990e-8965046d066c",
+      "name": "CA des structures-Observations opportunistes de la structure : OPIE",
+      "species": 3353,
+      "occurrences": 104947,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "bff23119-69aa-4127-9710-08cccd0d6fa3",
+      "name": "Données du parc national de la Vanoise",
+      "species": 1242,
+      "occurrences": 103808,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "62aa099e-d9c7-4bb2-a37a-6191b0b3fc29",
+      "name": "Données de l'association Nature 18-Données Nature 18 - 2021",
+      "species": 722,
+      "occurrences": 102942,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "48b7967d-52cc-4a0c-abc2-2153381d92b3",
+      "name": "16 - Inventaire général de la flore et de la fonge - PN Vanoise - inventaire général de la flore et de la fonge réalisé sur le terrain",
+      "species": 1999,
+      "occurrences": 102938,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "d4c38e8e-5375-4860-82ab-68dc979da9cd",
+      "name": "Ensemble de données récoltées par le Département de la Gironde-Regroupement d'études et inventaires",
+      "species": 528,
+      "occurrences": 102455,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "0797c245-3f7f-42db-b822-550a36b2a922",
+      "name": "Suivi Photographique des Insectes Pollinisateurs (SPIPOLL)",
+      "species": 213,
+      "occurrences": 102371,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded",
+        "CitizenScience"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "c1a72e98-67a4-4e26-8a85-c0dc014668e0",
+      "name": "ACQUISITION_CBNMC - SAPALY",
+      "species": 1153,
+      "occurrences": 102079,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "dd915a74-f2d2-4888-a62d-4a5ebeae4e0e",
+      "name": "2017_CEN PACA_1",
+      "species": 4542,
+      "occurrences": 101730,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "22a8e7a7-255a-4f63-83bb-f5f888ed3cd8",
+      "name": "Diversité et répartition des mammifères non-volants d'Auvergne (Groupe Mammalogique d'Auvergne - LPO Auvergne) - Données de Mammifères collectées par le Groupe Mammalogique d’Auvergne et la Ligue pour la Protection des Oiseaux Auvergne.",
+      "species": 50,
+      "occurrences": 101226,
+      "publishedInCountry": true,
+      "category": [
+        "Gridded"
+      ],
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "34039ff3-7eaf-4ebf-bcf4-64b7365004b4",
+      "name": "JDD observateurs -Observations opportunistes de Letourneau Christian",
+      "species": 296,
+      "occurrences": 100809,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "7ad079e7-f905-444f-a228-01746e3b7c6b",
+      "name": "Visiolittoral : Base de données de la communauté de travail du Conservatoire du littoral-Visiolittoral : surveillance naturaliste des sites du Conservatoire du littoral",
+      "species": 1730,
+      "occurrences": 100590,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    },
+    {
+      "datasetkey": "23bab45d-e5c8-43fd-8fc5-6a8668becd16",
+      "name": "Données issues des cartes validées dans le cadre de l'Atlas de la Biodiversité Départementale et des Secteurs Marins",
+      "species": 3587,
+      "occurrences": 99890,
+      "publishedInCountry": true,
+      "category": {},
+      "countrycode": "FR"
+    }
+  ],
+  "downloadAttribution": {
+    "downloadKey": "0045877-260519110011954",
+    "doi": "10.15468/dl.wjjhjw",
+    "created": "2026-06-09T10:02:33.361+00:00"
+  }
+}
