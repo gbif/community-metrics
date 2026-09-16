@@ -131,6 +131,10 @@ for (country in countries) {
   lit_two_ago <- get_literature_count(country, as.character(two_years_ago))
   cat(paste("  Literature", two_years_ago, ":", lit_two_ago, "\n"))
   
+  # Current year for summary display
+  lit_current <- get_literature_count(country, as.character(current_year))
+  cat(paste("  Literature", current_year, ":", lit_current, "\n"))
+  
   # Get occurrence count
   occ_count <- get_occurrence_count(country)
   cat(paste("  Total occurrences:", format(occ_count, big.mark = ","), "\n"))
@@ -163,8 +167,8 @@ for (country in countries) {
     datasetsRaw = dataset_count,
     organizations = paste(org_count, "organizations in", country),
     organizationsRaw = org_count,
-    literatureCount = as.character(lit_2024),
-    literatureCountRaw = lit_2024,
+    literatureCount = as.character(lit_current),
+    literatureCountRaw = lit_current,
     literatureTotal = paste(lit_total, "articles since 2008"),
     literatureTotalRaw = lit_total,
     literatureYearOverYear = if (lit_two_ago > 0) {
