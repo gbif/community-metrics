@@ -31,6 +31,8 @@ jobs:
             any::tidyr
             any::jsonlite
             any::httr
+            any::sf
+            any::spData
 
       - name: Run export-geojson metric
         working-directory: metrics
