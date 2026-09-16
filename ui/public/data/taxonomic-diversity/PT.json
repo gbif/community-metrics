@@ -1,194 +1,178 @@
 {
   "countryCode": "PT",
   "countryName": "Portugal",
-  "totalSpecies": 39108,
+  "totalSpecies": 40359,
   "groups": [
     {
-      "name": "Insects",
-      "species": 10267,
-      "percentage": 26.3,
+      "name": "Other",
+      "species": 21881,
+      "percentage": 54.2,
       "kingdom": "Animalia"
     },
     {
-      "name": "Flowering Plants",
-      "species": 7342,
-      "percentage": 18.8,
+      "name": "Other",
+      "species": 9195,
+      "percentage": 22.8,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 6555,
-      "percentage": 16.8,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 2790,
-      "percentage": 7.1,
+      "species": 6242,
+      "percentage": 15.5,
       "kingdom": "Fungi"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 2199,
-      "percentage": 5.6,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Molluscs",
-      "species": 2189,
-      "percentage": 5.6,
-      "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 2148,
-      "percentage": 5.5,
+      "species": 2094,
+      "percentage": 5.2,
       "kingdom": "Chromista"
     },
     {
-      "name": "Arachnids",
-      "species": 1421,
-      "percentage": 3.6,
-      "kingdom": "Animalia"
+      "name": "Other",
+      "species": 409,
+      "percentage": 1,
+      "kingdom": "Bacillati"
     },
     {
       "name": "Other",
-      "species": 1124,
-      "percentage": 2.9,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Birds",
-      "species": 854,
-      "percentage": 2.2,
-      "kingdom": "Animalia"
+      "species": 279,
+      "percentage": 0.7,
+      "kingdom": "Pseudomonadati"
     },
     {
       "name": "Other",
-      "species": 637,
-      "percentage": 1.6,
-      "kingdom": "Bacteria"
-    },
-    {
-      "name": "Mosses",
-      "species": 537,
-      "percentage": 1.4,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Mammals",
-      "species": 226,
+      "species": 222,
       "percentage": 0.6,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 210,
-      "percentage": 0.5,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Other",
-      "species": 199,
-      "percentage": 0.5,
       "kingdom": "Protozoa"
     },
     {
-      "name": "Ferns",
-      "species": 184,
-      "percentage": 0.5,
-      "kingdom": "Plantae"
+      "name": "Mosses",
+      "species": 10,
+      "percentage": 0,
+      "kingdom": "Chromista"
     },
     {
-      "name": "Gymnosperms",
-      "species": 112,
-      "percentage": 0.3,
-      "kingdom": "Plantae"
+      "name": "Other",
+      "species": 8,
+      "percentage": 0,
+      "kingdom": "Thermotogati"
     },
     {
-      "name": "Reptiles",
-      "species": 71,
-      "percentage": 0.2,
+      "name": "Bony Fish",
+      "species": 7,
+      "percentage": 0,
       "kingdom": "Animalia"
     },
     {
-      "name": "Amphibians",
-      "species": 35,
-      "percentage": 0.1,
-      "kingdom": "Animalia"
+      "name": "Other",
+      "species": 4,
+      "percentage": 0,
+      "kingdom": ""
     },
     {
       "name": "Other",
       "species": 3,
       "percentage": 0,
-      "kingdom": "Archaea"
+      "kingdom": "Fusobacteriati"
     },
     {
       "name": "Other",
       "species": 3,
       "percentage": 0,
-      "kingdom": "incertae sedis"
+      "kingdom": "Methanobacteriati"
+    },
+    {
+      "name": "Other",
+      "species": 3,
+      "percentage": 0,
+      "kingdom": "Orthornavirae"
     },
     {
       "name": "Other",
       "species": 2,
       "percentage": 0,
-      "kingdom": "Viruses"
+      "kingdom": "Thermoproteati"
+    },
+    {
+      "name": "Other",
+      "species": 1,
+      "percentage": 0,
+      "kingdom": "Bamfordvirae"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 21618,
-      "percentage": 55.3
+      "species": 21888,
+      "percentage": 54.2
     },
     {
       "kingdom": "Plantae",
-      "species": 9299,
-      "percentage": 23.8
+      "species": 9195,
+      "percentage": 22.8
     },
     {
       "kingdom": "Fungi",
-      "species": 5199,
-      "percentage": 13.3
+      "species": 6242,
+      "percentage": 15.5
     },
     {
       "kingdom": "Chromista",
-      "species": 2148,
-      "percentage": 5.5
+      "species": 2104,
+      "percentage": 5.2
     },
     {
-      "kingdom": "Bacteria",
-      "species": 637,
-      "percentage": 1.6
+      "kingdom": "Bacillati",
+      "species": 409,
+      "percentage": 1
+    },
+    {
+      "kingdom": "Pseudomonadati",
+      "species": 279,
+      "percentage": 0.7
     },
     {
       "kingdom": "Protozoa",
-      "species": 199,
-      "percentage": 0.5
+      "species": 222,
+      "percentage": 0.6
     },
     {
-      "kingdom": "Archaea",
+      "kingdom": "Thermotogati",
+      "species": 8,
+      "percentage": 0
+    },
+    {
+      "kingdom": "Fusobacteriati",
       "species": 3,
       "percentage": 0
     },
     {
-      "kingdom": "incertae sedis",
+      "kingdom": "Methanobacteriati",
       "species": 3,
       "percentage": 0
     },
     {
-      "kingdom": "Viruses",
+      "kingdom": "Orthornavirae",
+      "species": 3,
+      "percentage": 0
+    },
+    {
+      "kingdom": "Thermoproteati",
       "species": 2,
+      "percentage": 0
+    },
+    {
+      "kingdom": "Bamfordvirae",
+      "species": 1,
       "percentage": 0
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 9849,
-    "uniqueFamilies": 2674,
-    "uniqueOrders": 393,
-    "uniqueClasses": 78,
+    "uniqueGenera": 9982,
+    "uniqueFamilies": 2745,
+    "uniqueOrders": 391,
+    "uniqueClasses": 82,
     "uniquePhyla": 24,
-    "uniqueKingdoms": 9
+    "uniqueKingdoms": 13
   }
 }

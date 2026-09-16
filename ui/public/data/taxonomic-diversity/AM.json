@@ -1,113 +1,47 @@
 {
   "countryCode": "AM",
   "countryName": "Armenia",
-  "totalSpecies": 8512,
+  "totalSpecies": 8781,
   "groups": [
     {
-      "name": "Flowering Plants",
-      "species": 4087,
-      "percentage": 48,
+      "name": "Other",
+      "species": 4221,
+      "percentage": 48.1,
       "kingdom": "Plantae"
     },
     {
-      "name": "Insects",
-      "species": 2237,
-      "percentage": 26.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 495,
-      "percentage": 5.8,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 389,
-      "percentage": 4.6,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Birds",
-      "species": 349,
-      "percentage": 4.1,
+      "name": "Other",
+      "species": 3405,
+      "percentage": 38.8,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 266,
-      "percentage": 3.1,
-      "kingdom": "Animalia"
+      "species": 1017,
+      "percentage": 11.6,
+      "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 117,
-      "percentage": 1.4,
+      "species": 114,
+      "percentage": 1.3,
       "kingdom": "Chromista"
     },
     {
-      "name": "Mosses",
-      "species": 110,
-      "percentage": 1.3,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Molluscs",
-      "species": 103,
-      "percentage": 1.2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Arachnids",
-      "species": 96,
-      "percentage": 1.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mammals",
-      "species": 73,
-      "percentage": 0.9,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Reptiles",
-      "species": 62,
-      "percentage": 0.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Ferns",
-      "species": 37,
-      "percentage": 0.4,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Gymnosperms",
-      "species": 35,
-      "percentage": 0.4,
-      "kingdom": "Plantae"
-    },
-    {
       "name": "Other",
-      "species": 31,
-      "percentage": 0.4,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Amphibians",
       "species": 10,
       "percentage": 0.1,
-      "kingdom": "Animalia"
+      "kingdom": "Pseudomonadati"
     },
     {
       "name": "Other",
-      "species": 9,
+      "species": 8,
       "percentage": 0.1,
-      "kingdom": "Bacteria"
+      "kingdom": "Bacillati"
     },
     {
       "name": "Other",
-      "species": 5,
+      "species": 6,
       "percentage": 0.1,
       "kingdom": "Protozoa"
     },
@@ -115,47 +49,52 @@
       "name": "Other",
       "species": 1,
       "percentage": 0,
-      "kingdom": "Fungi"
+      "kingdom": ""
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Plantae",
-      "species": 4300,
-      "percentage": 50.5
+      "species": 4221,
+      "percentage": 48.1
     },
     {
       "kingdom": "Animalia",
-      "species": 3196,
-      "percentage": 37.5
+      "species": 3405,
+      "percentage": 38.8
     },
     {
       "kingdom": "Fungi",
-      "species": 885,
-      "percentage": 10.4
+      "species": 1017,
+      "percentage": 11.6
     },
     {
       "kingdom": "Chromista",
-      "species": 117,
-      "percentage": 1.4
+      "species": 114,
+      "percentage": 1.3
     },
     {
-      "kingdom": "Bacteria",
-      "species": 9,
+      "kingdom": "Pseudomonadati",
+      "species": 10,
+      "percentage": 0.1
+    },
+    {
+      "kingdom": "Bacillati",
+      "species": 8,
       "percentage": 0.1
     },
     {
       "kingdom": "Protozoa",
-      "species": 5,
+      "species": 6,
       "percentage": 0.1
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1797,
-    "uniqueFamilies": 484,
-    "uniqueOrders": 108,
-    "uniqueClasses": 25,
-    "uniquePhyla": 11,
-    "uniqueKingdoms": 6
+    "uniqueGenera": 1812,
+    "uniqueFamilies": 469,
+    "uniqueOrders": 109,
+    "uniqueClasses": 27,
+    "uniquePhyla": 10,
+    "uniqueKingdoms": 7
   }
 }

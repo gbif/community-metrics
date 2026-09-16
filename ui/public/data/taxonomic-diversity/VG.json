@@ -1,150 +1,89 @@
 {
   "countryCode": "VG",
   "countryName": "Virgin Islands (British)",
-  "totalSpecies": 3248,
+  "totalSpecies": 3350,
   "groups": [
     {
       "name": "Other",
-      "species": 874,
-      "percentage": 26.9,
+      "species": 2110,
+      "percentage": 63,
       "kingdom": "Animalia"
     },
     {
-      "name": "Flowering Plants",
-      "species": 774,
-      "percentage": 23.8,
+      "name": "Other",
+      "species": 855,
+      "percentage": 25.5,
       "kingdom": "Plantae"
     },
     {
-      "name": "Molluscs",
-      "species": 659,
-      "percentage": 20.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Insects",
-      "species": 257,
-      "percentage": 7.9,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Birds",
-      "species": 165,
-      "percentage": 5.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 139,
-      "percentage": 4.3,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 101,
-      "percentage": 3.1,
+      "name": "Other",
+      "species": 303,
+      "percentage": 9,
       "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 67,
-      "percentage": 2.1,
+      "species": 66,
+      "percentage": 2,
       "kingdom": "Chromista"
     },
     {
-      "name": "Arachnids",
-      "species": 51,
-      "percentage": 1.6,
-      "kingdom": "Animalia"
-    },
-    {
       "name": "Other",
-      "species": 42,
-      "percentage": 1.3,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Reptiles",
-      "species": 36,
-      "percentage": 1.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 22,
-      "percentage": 0.7,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Ferns",
-      "species": 20,
-      "percentage": 0.6,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Other",
-      "species": 17,
-      "percentage": 0.5,
-      "kingdom": "Bacteria"
-    },
-    {
-      "name": "Mammals",
-      "species": 14,
+      "species": 13,
       "percentage": 0.4,
-      "kingdom": "Animalia"
+      "kingdom": "Pseudomonadati"
     },
     {
-      "name": "Amphibians",
-      "species": 7,
-      "percentage": 0.2,
-      "kingdom": "Animalia"
+      "name": "Other",
+      "species": 2,
+      "percentage": 0.1,
+      "kingdom": "Bacillati"
     },
     {
       "name": "Mosses",
-      "species": 2,
-      "percentage": 0.1,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Gymnosperms",
       "species": 1,
       "percentage": 0,
-      "kingdom": "Plantae"
+      "kingdom": "Chromista"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 2063,
-      "percentage": 63.5
+      "species": 2110,
+      "percentage": 63
     },
     {
       "kingdom": "Plantae",
-      "species": 839,
-      "percentage": 25.8
+      "species": 855,
+      "percentage": 25.5
     },
     {
       "kingdom": "Fungi",
-      "species": 262,
-      "percentage": 8.1
+      "species": 303,
+      "percentage": 9
     },
     {
       "kingdom": "Chromista",
       "species": 67,
-      "percentage": 2.1
+      "percentage": 2
     },
     {
-      "kingdom": "Bacteria",
-      "species": 17,
-      "percentage": 0.5
+      "kingdom": "Pseudomonadati",
+      "species": 13,
+      "percentage": 0.4
+    },
+    {
+      "kingdom": "Bacillati",
+      "species": 2,
+      "percentage": 0.1
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1449,
-    "uniqueFamilies": 727,
-    "uniqueOrders": 191,
-    "uniqueClasses": 41,
-    "uniquePhyla": 11,
-    "uniqueKingdoms": 5
+    "uniqueGenera": 1482,
+    "uniqueFamilies": 743,
+    "uniqueOrders": 195,
+    "uniqueClasses": 44,
+    "uniquePhyla": 12,
+    "uniqueKingdoms": 6
   }
 }

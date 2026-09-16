@@ -1,107 +1,59 @@
 {
   "countryCode": "NR",
   "countryName": "Nauru",
-  "totalSpecies": 602,
+  "totalSpecies": 547,
   "groups": [
     {
       "name": "Other",
-      "species": 266,
-      "percentage": 44.2,
+      "species": 382,
+      "percentage": 69.8,
       "kingdom": "Animalia"
     },
     {
-      "name": "Flowering Plants",
-      "species": 132,
-      "percentage": 21.9,
+      "name": "Other",
+      "species": 144,
+      "percentage": 26.3,
       "kingdom": "Plantae"
-    },
-    {
-      "name": "Molluscs",
-      "species": 131,
-      "percentage": 21.8,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Birds",
-      "species": 22,
-      "percentage": 3.7,
-      "kingdom": "Animalia"
     },
     {
       "name": "Other",
       "species": 20,
-      "percentage": 3.3,
+      "percentage": 3.7,
       "kingdom": "Chromista"
     },
     {
-      "name": "Insects",
-      "species": 9,
-      "percentage": 1.5,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Reptiles",
-      "species": 8,
-      "percentage": 1.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Ferns",
-      "species": 5,
-      "percentage": 0.8,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Other",
-      "species": 5,
-      "percentage": 0.8,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Mammals",
-      "species": 2,
-      "percentage": 0.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Arachnids",
-      "species": 1,
-      "percentage": 0.2,
-      "kingdom": "Animalia"
-    },
-    {
       "name": "Other",
       "species": 1,
       "percentage": 0.2,
-      "kingdom": "Bacteria"
+      "kingdom": "Bacillati"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 439,
-      "percentage": 72.9
+      "species": 382,
+      "percentage": 69.8
     },
     {
       "kingdom": "Plantae",
-      "species": 142,
-      "percentage": 23.6
+      "species": 144,
+      "percentage": 26.3
     },
     {
       "kingdom": "Chromista",
       "species": 20,
-      "percentage": 3.3
+      "percentage": 3.7
     },
     {
-      "kingdom": "Bacteria",
+      "kingdom": "Bacillati",
       "species": 1,
       "percentage": 0.2
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 254,
-    "uniqueFamilies": 140,
-    "uniqueOrders": 51,
+    "uniqueGenera": 226,
+    "uniqueFamilies": 123,
+    "uniqueOrders": 52,
     "uniqueClasses": 17,
     "uniquePhyla": 6,
     "uniqueKingdoms": 4

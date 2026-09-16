@@ -1,115 +1,49 @@
 {
   "countryCode": "ET",
   "countryName": "Ethiopia",
-  "totalSpecies": 11298,
+  "totalSpecies": 11248,
   "groups": [
     {
-      "name": "Flowering Plants",
-      "species": 5583,
-      "percentage": 49.4,
+      "name": "Other",
+      "species": 6117,
+      "percentage": 54.4,
       "kingdom": "Plantae"
     },
     {
-      "name": "Insects",
-      "species": 2079,
-      "percentage": 18.4,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Birds",
-      "species": 919,
-      "percentage": 8.1,
+      "name": "Other",
+      "species": 4463,
+      "percentage": 39.7,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 513,
-      "percentage": 4.5,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 374,
-      "percentage": 3.3,
+      "species": 624,
+      "percentage": 5.5,
       "kingdom": "Fungi"
-    },
-    {
-      "name": "Mammals",
-      "species": 335,
-      "percentage": 3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Arachnids",
-      "species": 252,
-      "percentage": 2.2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mosses",
-      "species": 248,
-      "percentage": 2.2,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 188,
-      "percentage": 1.7,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Reptiles",
-      "species": 185,
-      "percentage": 1.6,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Ferns",
-      "species": 182,
-      "percentage": 1.6,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Molluscs",
-      "species": 162,
-      "percentage": 1.4,
-      "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 156,
-      "percentage": 1.4,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Amphibians",
-      "species": 82,
-      "percentage": 0.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Gymnosperms",
       "species": 14,
       "percentage": 0.1,
-      "kingdom": "Plantae"
+      "kingdom": "Bacillati"
+    },
+    {
+      "name": "Other",
+      "species": 14,
+      "percentage": 0.1,
+      "kingdom": "Pseudomonadati"
     },
     {
       "name": "Other",
       "species": 9,
       "percentage": 0.1,
-      "kingdom": "Bacteria"
-    },
-    {
-      "name": "Other",
-      "species": 8,
-      "percentage": 0.1,
-      "kingdom": "Viruses"
-    },
-    {
-      "name": "Other",
-      "species": 6,
-      "percentage": 0.1,
       "kingdom": "Chromista"
+    },
+    {
+      "name": "Other",
+      "species": 3,
+      "percentage": 0,
+      "kingdom": "Orthornavirae"
     },
     {
       "name": "Other",
@@ -121,52 +55,73 @@
       "name": "Other",
       "species": 1,
       "percentage": 0,
-      "kingdom": "Fungi"
+      "kingdom": "Bamfordvirae"
+    },
+    {
+      "name": "Other",
+      "species": 1,
+      "percentage": 0,
+      "kingdom": "Thermotogati"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Plantae",
-      "species": 6183,
-      "percentage": 54.7
+      "species": 6117,
+      "percentage": 54.4
     },
     {
       "kingdom": "Animalia",
-      "species": 4527,
-      "percentage": 40.1
+      "species": 4463,
+      "percentage": 39.7
     },
     {
       "kingdom": "Fungi",
-      "species": 563,
-      "percentage": 5
+      "species": 624,
+      "percentage": 5.5
     },
     {
-      "kingdom": "Bacteria",
-      "species": 9,
+      "kingdom": "Bacillati",
+      "species": 14,
       "percentage": 0.1
     },
     {
-      "kingdom": "Viruses",
-      "species": 8,
+      "kingdom": "Pseudomonadati",
+      "species": 14,
       "percentage": 0.1
     },
     {
       "kingdom": "Chromista",
-      "species": 6,
+      "species": 9,
       "percentage": 0.1
+    },
+    {
+      "kingdom": "Orthornavirae",
+      "species": 3,
+      "percentage": 0
     },
     {
       "kingdom": "Protozoa",
       "species": 2,
       "percentage": 0
+    },
+    {
+      "kingdom": "Bamfordvirae",
+      "species": 1,
+      "percentage": 0
+    },
+    {
+      "kingdom": "Thermotogati",
+      "species": 1,
+      "percentage": 0
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 2158,
-    "uniqueFamilies": 631,
-    "uniqueOrders": 159,
-    "uniqueClasses": 36,
-    "uniquePhyla": 14,
-    "uniqueKingdoms": 7
+    "uniqueGenera": 2122,
+    "uniqueFamilies": 586,
+    "uniqueOrders": 144,
+    "uniqueClasses": 34,
+    "uniquePhyla": 13,
+    "uniqueKingdoms": 10
   }
 }

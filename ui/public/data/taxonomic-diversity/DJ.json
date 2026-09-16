@@ -1,118 +1,58 @@
 {
   "countryCode": "DJ",
   "countryName": "Djibouti",
-  "totalSpecies": 1833,
+  "totalSpecies": 1814,
   "groups": [
     {
       "name": "Other",
-      "species": 600,
-      "percentage": 32.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Flowering Plants",
-      "species": 393,
-      "percentage": 21.4,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Birds",
-      "species": 316,
-      "percentage": 17.2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Molluscs",
-      "species": 314,
-      "percentage": 17.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Insects",
-      "species": 74,
-      "percentage": 4,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mammals",
-      "species": 53,
-      "percentage": 2.9,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Reptiles",
-      "species": 31,
-      "percentage": 1.7,
+      "species": 1386,
+      "percentage": 76.4,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 18,
-      "percentage": 1,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Arachnids",
-      "species": 13,
-      "percentage": 0.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Amphibians",
-      "species": 6,
-      "percentage": 0.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Ferns",
-      "species": 5,
-      "percentage": 0.3,
+      "species": 419,
+      "percentage": 23.1,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
       "species": 3,
       "percentage": 0.2,
-      "kingdom": "Bacteria"
+      "kingdom": "Chromista"
     },
     {
-      "name": "Basidiomycota",
-      "species": 2,
-      "percentage": 0.1,
+      "name": "Other",
+      "species": 3,
+      "percentage": 0.2,
       "kingdom": "Fungi"
-    },
-    {
-      "name": "Gymnosperms",
-      "species": 2,
-      "percentage": 0.1,
-      "kingdom": "Plantae"
     },
     {
       "name": "Other",
       "species": 2,
       "percentage": 0.1,
-      "kingdom": "Chromista"
+      "kingdom": "Bacillati"
     },
     {
-      "name": "Sac Fungi",
+      "name": "Other",
       "species": 1,
       "percentage": 0.1,
-      "kingdom": "Fungi"
+      "kingdom": "Thermotogati"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 1407,
-      "percentage": 76.8
+      "species": 1386,
+      "percentage": 76.4
     },
     {
       "kingdom": "Plantae",
-      "species": 418,
-      "percentage": 22.8
+      "species": 419,
+      "percentage": 23.1
     },
     {
-      "kingdom": "Bacteria",
+      "kingdom": "Chromista",
       "species": 3,
       "percentage": 0.2
     },
@@ -122,17 +62,22 @@
       "percentage": 0.2
     },
     {
-      "kingdom": "Chromista",
+      "kingdom": "Bacillati",
       "species": 2,
+      "percentage": 0.1
+    },
+    {
+      "kingdom": "Thermotogati",
+      "species": 1,
       "percentage": 0.1
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 934,
-    "uniqueFamilies": 452,
-    "uniqueOrders": 144,
+    "uniqueGenera": 921,
+    "uniqueFamilies": 447,
+    "uniqueOrders": 146,
     "uniqueClasses": 36,
     "uniquePhyla": 11,
-    "uniqueKingdoms": 5
+    "uniqueKingdoms": 6
   }
 }

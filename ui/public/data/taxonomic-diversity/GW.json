@@ -1,120 +1,48 @@
 {
   "countryCode": "GW",
   "countryName": "Guinea-Bissau",
-  "totalSpecies": 3295,
+  "totalSpecies": 3382,
   "groups": [
     {
-      "name": "Flowering Plants",
-      "species": 1128,
-      "percentage": 34.2,
+      "name": "Other",
+      "species": 2136,
+      "percentage": 63.2,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Other",
+      "species": 1169,
+      "percentage": 34.6,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 945,
-      "percentage": 28.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Birds",
-      "species": 475,
-      "percentage": 14.4,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Insects",
-      "species": 287,
-      "percentage": 8.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Molluscs",
-      "species": 185,
-      "percentage": 5.6,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mammals",
-      "species": 69,
-      "percentage": 2.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 68,
-      "percentage": 2.1,
+      "species": 63,
+      "percentage": 1.9,
       "kingdom": "Chromista"
     },
     {
-      "name": "Reptiles",
-      "species": 55,
-      "percentage": 1.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Arachnids",
-      "species": 24,
-      "percentage": 0.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Amphibians",
-      "species": 18,
-      "percentage": 0.5,
-      "kingdom": "Animalia"
-    },
-    {
       "name": "Other",
-      "species": 17,
-      "percentage": 0.5,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 9,
-      "percentage": 0.3,
+      "species": 14,
+      "percentage": 0.4,
       "kingdom": "Fungi"
-    },
-    {
-      "name": "Ferns",
-      "species": 8,
-      "percentage": 0.2,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 5,
-      "percentage": 0.2,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Gymnosperms",
-      "species": 1,
-      "percentage": 0,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Mosses",
-      "species": 1,
-      "percentage": 0,
-      "kingdom": "Plantae"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 2058,
-      "percentage": 62.5
+      "species": 2136,
+      "percentage": 63.2
     },
     {
       "kingdom": "Plantae",
-      "species": 1155,
-      "percentage": 35.1
+      "species": 1169,
+      "percentage": 34.6
     },
     {
       "kingdom": "Chromista",
-      "species": 68,
-      "percentage": 2.1
+      "species": 63,
+      "percentage": 1.9
     },
     {
       "kingdom": "Fungi",
@@ -123,9 +51,9 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1352,
-    "uniqueFamilies": 625,
-    "uniqueOrders": 163,
+    "uniqueGenera": 1408,
+    "uniqueFamilies": 665,
+    "uniqueOrders": 184,
     "uniqueClasses": 37,
     "uniquePhyla": 10,
     "uniqueKingdoms": 4

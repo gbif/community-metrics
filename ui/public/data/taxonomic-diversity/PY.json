@@ -1,107 +1,35 @@
 {
   "countryCode": "PY",
   "countryName": "Paraguay",
-  "totalSpecies": 12109,
+  "totalSpecies": 12172,
   "groups": [
     {
-      "name": "Flowering Plants",
-      "species": 5705,
-      "percentage": 47.1,
+      "name": "Other",
+      "species": 6273,
+      "percentage": 51.5,
       "kingdom": "Plantae"
     },
     {
-      "name": "Insects",
-      "species": 2681,
-      "percentage": 22.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Birds",
-      "species": 778,
-      "percentage": 6.4,
+      "name": "Other",
+      "species": 5089,
+      "percentage": 41.8,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 715,
-      "percentage": 5.9,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 543,
-      "percentage": 4.5,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Ferns",
-      "species": 254,
-      "percentage": 2.1,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Mosses",
-      "species": 241,
-      "percentage": 2,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Arachnids",
-      "species": 225,
-      "percentage": 1.9,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mammals",
-      "species": 206,
-      "percentage": 1.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Reptiles",
-      "species": 185,
-      "percentage": 1.5,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 171,
-      "percentage": 1.4,
+      "species": 729,
+      "percentage": 6,
       "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 133,
-      "percentage": 1.1,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Amphibians",
-      "species": 103,
-      "percentage": 0.9,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Molluscs",
-      "species": 82,
-      "percentage": 0.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 80,
-      "percentage": 0.7,
+      "species": 78,
+      "percentage": 0.6,
       "kingdom": "Protozoa"
     },
     {
-      "name": "Gymnosperms",
-      "species": 3,
-      "percentage": 0,
-      "kingdom": "Plantae"
-    },
-    {
       "name": "Other",
-      "species": 3,
+      "species": 2,
       "percentage": 0,
       "kingdom": "Chromista"
     },
@@ -109,42 +37,47 @@
       "name": "Other",
       "species": 1,
       "percentage": 0,
-      "kingdom": "Fungi"
+      "kingdom": "Pseudomonadati"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Plantae",
-      "species": 6336,
-      "percentage": 52.3
+      "species": 6273,
+      "percentage": 51.5
     },
     {
       "kingdom": "Animalia",
-      "species": 4975,
-      "percentage": 41.1
+      "species": 5089,
+      "percentage": 41.8
     },
     {
       "kingdom": "Fungi",
-      "species": 715,
-      "percentage": 5.9
+      "species": 729,
+      "percentage": 6
     },
     {
       "kingdom": "Protozoa",
-      "species": 80,
-      "percentage": 0.7
+      "species": 78,
+      "percentage": 0.6
     },
     {
       "kingdom": "Chromista",
-      "species": 3,
+      "species": 2,
+      "percentage": 0
+    },
+    {
+      "kingdom": "Pseudomonadati",
+      "species": 1,
       "percentage": 0
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 2623,
-    "uniqueFamilies": 575,
-    "uniqueOrders": 121,
-    "uniqueClasses": 31,
-    "uniquePhyla": 11,
-    "uniqueKingdoms": 5
+    "uniqueGenera": 2721,
+    "uniqueFamilies": 597,
+    "uniqueOrders": 118,
+    "uniqueClasses": 27,
+    "uniquePhyla": 8,
+    "uniqueKingdoms": 6
   }
 }

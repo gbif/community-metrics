@@ -1,73 +1,31 @@
 {
   "countryCode": "SH",
   "countryName": "Saint Helena, Ascension and Tristan da Cunha",
-  "totalSpecies": 3399,
+  "totalSpecies": 3419,
   "groups": [
     {
       "name": "Other",
-      "species": 1254,
-      "percentage": 36.9,
+      "species": 2067,
+      "percentage": 60.5,
       "kingdom": "Animalia"
     },
     {
-      "name": "Flowering Plants",
-      "species": 663,
-      "percentage": 19.5,
+      "name": "Other",
+      "species": 1001,
+      "percentage": 29.3,
       "kingdom": "Plantae"
     },
     {
-      "name": "Molluscs",
-      "species": 264,
-      "percentage": 7.8,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Insects",
-      "species": 201,
-      "percentage": 5.9,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Birds",
-      "species": 171,
-      "percentage": 5,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 165,
-      "percentage": 4.9,
+      "name": "Other",
+      "species": 174,
+      "percentage": 5.1,
       "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 144,
-      "percentage": 4.2,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Other",
-      "species": 125,
-      "percentage": 3.7,
+      "species": 123,
+      "percentage": 3.6,
       "kingdom": "Chromista"
-    },
-    {
-      "name": "Arachnids",
-      "species": 103,
-      "percentage": 3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mosses",
-      "species": 103,
-      "percentage": 3,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Ferns",
-      "species": 80,
-      "percentage": 2.4,
-      "kingdom": "Plantae"
     },
     {
       "name": "Other",
@@ -76,62 +34,38 @@
       "kingdom": "Protozoa"
     },
     {
-      "name": "Mammals",
-      "species": 41,
-      "percentage": 1.2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Gymnosperms",
-      "species": 14,
-      "percentage": 0.4,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Reptiles",
-      "species": 10,
-      "percentage": 0.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 6,
-      "percentage": 0.2,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Amphibians",
-      "species": 2,
-      "percentage": 0.1,
-      "kingdom": "Animalia"
-    },
-    {
       "name": "Other",
       "species": 2,
       "percentage": 0.1,
-      "kingdom": "Bacteria"
+      "kingdom": "Bacillati"
+    },
+    {
+      "name": "Bony Fish",
+      "species": 1,
+      "percentage": 0,
+      "kingdom": "Animalia"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 2046,
-      "percentage": 60.2
+      "species": 2068,
+      "percentage": 60.5
     },
     {
       "kingdom": "Plantae",
-      "species": 1004,
-      "percentage": 29.5
+      "species": 1001,
+      "percentage": 29.3
     },
     {
       "kingdom": "Fungi",
-      "species": 171,
-      "percentage": 5
+      "species": 174,
+      "percentage": 5.1
     },
     {
       "kingdom": "Chromista",
-      "species": 125,
-      "percentage": 3.7
+      "species": 123,
+      "percentage": 3.6
     },
     {
       "kingdom": "Protozoa",
@@ -139,17 +73,17 @@
       "percentage": 1.5
     },
     {
-      "kingdom": "Bacteria",
+      "kingdom": "Bacillati",
       "species": 2,
       "percentage": 0.1
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1411,
-    "uniqueFamilies": 758,
-    "uniqueOrders": 209,
-    "uniqueClasses": 50,
-    "uniquePhyla": 15,
+    "uniqueGenera": 1425,
+    "uniqueFamilies": 773,
+    "uniqueOrders": 206,
+    "uniqueClasses": 49,
+    "uniquePhyla": 14,
     "uniqueKingdoms": 6
   }
 }

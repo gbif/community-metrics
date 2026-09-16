@@ -1,85 +1,31 @@
 {
   "countryCode": "NF",
   "countryName": "Norfolk Island",
-  "totalSpecies": 4413,
+  "totalSpecies": 4504,
   "groups": [
     {
       "name": "Other",
-      "species": 1444,
-      "percentage": 32.7,
+      "species": 2775,
+      "percentage": 61.6,
       "kingdom": "Animalia"
     },
     {
-      "name": "Flowering Plants",
-      "species": 641,
-      "percentage": 14.5,
+      "name": "Other",
+      "species": 1008,
+      "percentage": 22.4,
       "kingdom": "Plantae"
     },
     {
-      "name": "Molluscs",
-      "species": 612,
-      "percentage": 13.9,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Insects",
-      "species": 383,
-      "percentage": 8.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 332,
-      "percentage": 7.5,
+      "name": "Other",
+      "species": 426,
+      "percentage": 9.5,
       "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 213,
-      "percentage": 4.8,
+      "species": 203,
+      "percentage": 4.5,
       "kingdom": "Chromista"
-    },
-    {
-      "name": "Other",
-      "species": 193,
-      "percentage": 4.4,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Birds",
-      "species": 167,
-      "percentage": 3.8,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 85,
-      "percentage": 1.9,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Mosses",
-      "species": 81,
-      "percentage": 1.8,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Ferns",
-      "species": 68,
-      "percentage": 1.5,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Arachnids",
-      "species": 67,
-      "percentage": 1.5,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 51,
-      "percentage": 1.2,
-      "kingdom": "Bacteria"
     },
     {
       "name": "Other",
@@ -88,68 +34,67 @@
       "kingdom": "Protozoa"
     },
     {
-      "name": "Mammals",
-      "species": 13,
-      "percentage": 0.3,
-      "kingdom": "Animalia"
+      "name": "Other",
+      "species": 41,
+      "percentage": 0.9,
+      "kingdom": "Pseudomonadati"
     },
     {
-      "name": "Gymnosperms",
-      "species": 9,
-      "percentage": 0.2,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Reptiles",
-      "species": 7,
-      "percentage": 0.2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Amphibians",
-      "species": 3,
+      "name": "Other",
+      "species": 6,
       "percentage": 0.1,
+      "kingdom": "Bacillati"
+    },
+    {
+      "name": "Bony Fish",
+      "species": 1,
+      "percentage": 0,
       "kingdom": "Animalia"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 2696,
-      "percentage": 61.1
+      "species": 2776,
+      "percentage": 61.6
     },
     {
       "kingdom": "Plantae",
-      "species": 992,
-      "percentage": 22.5
+      "species": 1008,
+      "percentage": 22.4
     },
     {
       "kingdom": "Fungi",
-      "species": 417,
-      "percentage": 9.4
+      "species": 426,
+      "percentage": 9.5
     },
     {
       "kingdom": "Chromista",
-      "species": 213,
-      "percentage": 4.8
-    },
-    {
-      "kingdom": "Bacteria",
-      "species": 51,
-      "percentage": 1.2
+      "species": 203,
+      "percentage": 4.5
     },
     {
       "kingdom": "Protozoa",
       "species": 44,
       "percentage": 1
+    },
+    {
+      "kingdom": "Pseudomonadati",
+      "species": 41,
+      "percentage": 0.9
+    },
+    {
+      "kingdom": "Bacillati",
+      "species": 6,
+      "percentage": 0.1
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1849,
-    "uniqueFamilies": 865,
+    "uniqueGenera": 1910,
+    "uniqueFamilies": 891,
     "uniqueOrders": 201,
-    "uniqueClasses": 41,
-    "uniquePhyla": 13,
-    "uniqueKingdoms": 6
+    "uniqueClasses": 43,
+    "uniquePhyla": 14,
+    "uniqueKingdoms": 7
   }
 }

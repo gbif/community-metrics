@@ -1,161 +1,100 @@
 {
   "countryCode": "GT",
   "countryName": "Guatemala",
-  "totalSpecies": 20848,
+  "totalSpecies": 21172,
   "groups": [
     {
-      "name": "Flowering Plants",
-      "species": 8145,
-      "percentage": 39.1,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Insects",
-      "species": 5096,
-      "percentage": 24.4,
-      "kingdom": "Animalia"
-    },
-    {
       "name": "Other",
-      "species": 1177,
-      "percentage": 5.6,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Molluscs",
-      "species": 896,
-      "percentage": 4.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Birds",
-      "species": 859,
-      "percentage": 4.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 765,
-      "percentage": 3.7,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 601,
-      "percentage": 2.9,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Ferns",
-      "species": 594,
-      "percentage": 2.8,
+      "species": 9716,
+      "percentage": 45.9,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 589,
-      "percentage": 2.8,
+      "species": 9282,
+      "percentage": 43.8,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Other",
+      "species": 1505,
+      "percentage": 7.1,
+      "kingdom": "Fungi"
+    },
+    {
+      "name": "Other",
+      "species": 582,
+      "percentage": 2.7,
       "kingdom": "Chromista"
     },
     {
-      "name": "Mosses",
-      "species": 538,
-      "percentage": 2.6,
-      "kingdom": "Plantae"
-    },
-    {
       "name": "Other",
-      "species": 430,
-      "percentage": 2.1,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Reptiles",
-      "species": 315,
-      "percentage": 1.5,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mammals",
-      "species": 296,
-      "percentage": 1.4,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Arachnids",
-      "species": 250,
-      "percentage": 1.2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Amphibians",
-      "species": 172,
-      "percentage": 0.8,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 59,
+      "species": 61,
       "percentage": 0.3,
       "kingdom": "Protozoa"
-    },
-    {
-      "name": "Gymnosperms",
-      "species": 41,
-      "percentage": 0.2,
-      "kingdom": "Plantae"
     },
     {
       "name": "Other",
       "species": 22,
       "percentage": 0.1,
-      "kingdom": "Bacteria"
+      "kingdom": "Bacillati"
     },
     {
       "name": "Other",
-      "species": 3,
+      "species": 4,
       "percentage": 0,
-      "kingdom": "Fungi"
+      "kingdom": "Pseudomonadati"
+    },
+    {
+      "name": "Other",
+      "species": 1,
+      "percentage": 0,
+      "kingdom": ""
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Plantae",
-      "species": 9748,
-      "percentage": 46.8
+      "species": 9716,
+      "percentage": 45.9
     },
     {
       "kingdom": "Animalia",
-      "species": 9061,
-      "percentage": 43.5
+      "species": 9282,
+      "percentage": 43.8
     },
     {
       "kingdom": "Fungi",
-      "species": 1369,
-      "percentage": 6.6
+      "species": 1505,
+      "percentage": 7.1
     },
     {
       "kingdom": "Chromista",
-      "species": 589,
-      "percentage": 2.8
+      "species": 582,
+      "percentage": 2.7
     },
     {
       "kingdom": "Protozoa",
-      "species": 59,
+      "species": 61,
       "percentage": 0.3
     },
     {
-      "kingdom": "Bacteria",
+      "kingdom": "Bacillati",
       "species": 22,
       "percentage": 0.1
+    },
+    {
+      "kingdom": "Pseudomonadati",
+      "species": 4,
+      "percentage": 0
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 4398,
-    "uniqueFamilies": 1066,
-    "uniqueOrders": 218,
-    "uniqueClasses": 40,
-    "uniquePhyla": 14,
-    "uniqueKingdoms": 6
+    "uniqueGenera": 4556,
+    "uniqueFamilies": 1076,
+    "uniqueOrders": 212,
+    "uniqueClasses": 41,
+    "uniquePhyla": 13,
+    "uniqueKingdoms": 7
   }
 }

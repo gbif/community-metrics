@@ -1,161 +1,117 @@
 {
   "countryCode": "IM",
   "countryName": "Isle of Man",
-  "totalSpecies": 10078,
+  "totalSpecies": 10726,
   "groups": [
     {
-      "name": "Insects",
-      "species": 2738,
-      "percentage": 27.2,
+      "name": "Other",
+      "species": 5681,
+      "percentage": 53,
       "kingdom": "Animalia"
     },
     {
-      "name": "Flowering Plants",
-      "species": 1526,
-      "percentage": 15.1,
+      "name": "Other",
+      "species": 2564,
+      "percentage": 23.9,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 1362,
-      "percentage": 13.5,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 1126,
-      "percentage": 11.2,
+      "species": 2102,
+      "percentage": 19.6,
       "kingdom": "Fungi"
     },
     {
-      "name": "Basidiomycota",
-      "species": 926,
-      "percentage": 9.2,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Birds",
-      "species": 535,
-      "percentage": 5.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Molluscs",
-      "species": 442,
-      "percentage": 4.4,
-      "kingdom": "Animalia"
-    },
-    {
       "name": "Other",
-      "species": 355,
-      "percentage": 3.5,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Mosses",
-      "species": 323,
-      "percentage": 3.2,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Other",
-      "species": 282,
-      "percentage": 2.8,
+      "species": 293,
+      "percentage": 2.7,
       "kingdom": "Chromista"
     },
     {
-      "name": "Arachnids",
-      "species": 237,
-      "percentage": 2.4,
-      "kingdom": "Animalia"
-    },
-    {
       "name": "Other",
-      "species": 82,
-      "percentage": 0.8,
+      "species": 79,
+      "percentage": 0.7,
       "kingdom": "Protozoa"
     },
     {
-      "name": "Mammals",
-      "species": 48,
-      "percentage": 0.5,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Ferns",
-      "species": 34,
-      "percentage": 0.3,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Gymnosperms",
-      "species": 29,
-      "percentage": 0.3,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Other",
-      "species": 17,
-      "percentage": 0.2,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Reptiles",
-      "species": 8,
-      "percentage": 0.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Amphibians",
-      "species": 6,
-      "percentage": 0.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
+      "name": "Bony Fish",
       "species": 2,
       "percentage": 0,
-      "kingdom": "Bacteria"
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Mosses",
+      "species": 2,
+      "percentage": 0,
+      "kingdom": "Chromista"
+    },
+    {
+      "name": "Other",
+      "species": 1,
+      "percentage": 0,
+      "kingdom": "Bacillati"
+    },
+    {
+      "name": "Other",
+      "species": 1,
+      "percentage": 0,
+      "kingdom": "Bamfordvirae"
+    },
+    {
+      "name": "Other",
+      "species": 1,
+      "percentage": 0,
+      "kingdom": "Pseudomonadati"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 5376,
-      "percentage": 53.3
+      "species": 5683,
+      "percentage": 53
     },
     {
       "kingdom": "Plantae",
-      "species": 2267,
-      "percentage": 22.5
+      "species": 2564,
+      "percentage": 23.9
     },
     {
       "kingdom": "Fungi",
-      "species": 2069,
-      "percentage": 20.5
+      "species": 2102,
+      "percentage": 19.6
     },
     {
       "kingdom": "Chromista",
-      "species": 282,
+      "species": 295,
       "percentage": 2.8
     },
     {
       "kingdom": "Protozoa",
-      "species": 82,
-      "percentage": 0.8
+      "species": 79,
+      "percentage": 0.7
     },
     {
-      "kingdom": "Bacteria",
-      "species": 2,
+      "kingdom": "Bacillati",
+      "species": 1,
+      "percentage": 0
+    },
+    {
+      "kingdom": "Bamfordvirae",
+      "species": 1,
+      "percentage": 0
+    },
+    {
+      "kingdom": "Pseudomonadati",
+      "species": 1,
       "percentage": 0
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 3138,
-    "uniqueFamilies": 1077,
-    "uniqueOrders": 229,
-    "uniqueClasses": 52,
+    "uniqueGenera": 3187,
+    "uniqueFamilies": 1086,
+    "uniqueOrders": 222,
+    "uniqueClasses": 53,
     "uniquePhyla": 18,
-    "uniqueKingdoms": 6
+    "uniqueKingdoms": 8
   }
 }

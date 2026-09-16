@@ -1,133 +1,61 @@
 {
   "countryCode": "GI",
   "countryName": "Gibraltar",
-  "totalSpecies": 1689,
+  "totalSpecies": 1989,
   "groups": [
     {
-      "name": "Flowering Plants",
-      "species": 628,
-      "percentage": 37.2,
+      "name": "Other",
+      "species": 1272,
+      "percentage": 64,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Other",
+      "species": 676,
+      "percentage": 34,
       "kingdom": "Plantae"
     },
     {
-      "name": "Insects",
-      "species": 463,
-      "percentage": 27.4,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Birds",
-      "species": 218,
-      "percentage": 12.9,
-      "kingdom": "Animalia"
-    },
-    {
       "name": "Other",
-      "species": 124,
-      "percentage": 7.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Molluscs",
-      "species": 120,
-      "percentage": 7.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Arachnids",
-      "species": 35,
-      "percentage": 2.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 25,
-      "percentage": 1.5,
+      "species": 23,
+      "percentage": 1.2,
       "kingdom": "Chromista"
     },
     {
-      "name": "Reptiles",
-      "species": 21,
-      "percentage": 1.2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mammals",
-      "species": 15,
-      "percentage": 0.9,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Ferns",
-      "species": 12,
-      "percentage": 0.7,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 8,
-      "percentage": 0.5,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 8,
-      "percentage": 0.5,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Gymnosperms",
-      "species": 5,
-      "percentage": 0.3,
-      "kingdom": "Plantae"
-    },
-    {
       "name": "Other",
-      "species": 5,
-      "percentage": 0.3,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Amphibians",
-      "species": 1,
-      "percentage": 0.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mosses",
-      "species": 1,
-      "percentage": 0.1,
-      "kingdom": "Plantae"
+      "species": 18,
+      "percentage": 0.9,
+      "kingdom": "Fungi"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 997,
-      "percentage": 59
+      "species": 1272,
+      "percentage": 64
     },
     {
       "kingdom": "Plantae",
-      "species": 651,
-      "percentage": 38.5
+      "species": 676,
+      "percentage": 34
     },
     {
       "kingdom": "Chromista",
-      "species": 25,
-      "percentage": 1.5
+      "species": 23,
+      "percentage": 1.2
     },
     {
       "kingdom": "Fungi",
-      "species": 16,
+      "species": 18,
       "percentage": 0.9
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 775,
-    "uniqueFamilies": 359,
-    "uniqueOrders": 110,
-    "uniqueClasses": 26,
-    "uniquePhyla": 10,
+    "uniqueGenera": 822,
+    "uniqueFamilies": 372,
+    "uniqueOrders": 113,
+    "uniqueClasses": 28,
+    "uniquePhyla": 9,
     "uniqueKingdoms": 4
   }
 }

@@ -1,137 +1,83 @@
 {
   "countryCode": "KI",
   "countryName": "Kiribati",
-  "totalSpecies": 4125,
+  "totalSpecies": 4025,
   "groups": [
     {
       "name": "Other",
-      "species": 2189,
-      "percentage": 53.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Molluscs",
-      "species": 778,
-      "percentage": 18.9,
+      "species": 3104,
+      "percentage": 77.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 502,
-      "percentage": 12.2,
+      "species": 429,
+      "percentage": 10.7,
       "kingdom": "Chromista"
     },
     {
       "name": "Other",
-      "species": 178,
-      "percentage": 4.3,
-      "kingdom": "Bacteria"
-    },
-    {
-      "name": "Flowering Plants",
-      "species": 152,
-      "percentage": 3.7,
+      "species": 210,
+      "percentage": 5.2,
       "kingdom": "Plantae"
-    },
-    {
-      "name": "Birds",
-      "species": 70,
-      "percentage": 1.7,
-      "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 54,
-      "percentage": 1.3,
-      "kingdom": "Plantae"
+      "species": 133,
+      "percentage": 3.3,
+      "kingdom": "Pseudomonadati"
     },
     {
-      "name": "Insects",
-      "species": 46,
-      "percentage": 1.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 37,
-      "percentage": 0.9,
+      "name": "Other",
+      "species": 77,
+      "percentage": 1.9,
       "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 34,
-      "percentage": 0.8,
+      "species": 43,
+      "percentage": 1.1,
       "kingdom": "Protozoa"
     },
     {
-      "name": "Sac Fungi",
-      "species": 30,
-      "percentage": 0.7,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Arachnids",
-      "species": 14,
-      "percentage": 0.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Reptiles",
-      "species": 14,
-      "percentage": 0.3,
-      "kingdom": "Animalia"
-    },
-    {
       "name": "Other",
-      "species": 10,
-      "percentage": 0.2,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Mammals",
-      "species": 8,
-      "percentage": 0.2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Ferns",
-      "species": 6,
-      "percentage": 0.1,
-      "kingdom": "Plantae"
+      "species": 20,
+      "percentage": 0.5,
+      "kingdom": "Bacillati"
     },
     {
       "name": "Mosses",
-      "species": 2,
-      "percentage": 0,
-      "kingdom": "Plantae"
+      "species": 9,
+      "percentage": 0.2,
+      "kingdom": "Chromista"
     },
     {
-      "name": "Amphibians",
+      "name": "Other",
       "species": 1,
       "percentage": 0,
-      "kingdom": "Animalia"
+      "kingdom": ""
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 3120,
-      "percentage": 75.6
+      "species": 3104,
+      "percentage": 77.1
     },
     {
       "kingdom": "Chromista",
-      "species": 502,
-      "percentage": 12.2
+      "species": 438,
+      "percentage": 10.9
     },
     {
       "kingdom": "Plantae",
-      "species": 214,
+      "species": 210,
       "percentage": 5.2
     },
     {
-      "kingdom": "Bacteria",
-      "species": 178,
-      "percentage": 4.3
+      "kingdom": "Pseudomonadati",
+      "species": 133,
+      "percentage": 3.3
     },
     {
       "kingdom": "Fungi",
@@ -140,16 +86,21 @@
     },
     {
       "kingdom": "Protozoa",
-      "species": 34,
-      "percentage": 0.8
+      "species": 43,
+      "percentage": 1.1
+    },
+    {
+      "kingdom": "Bacillati",
+      "species": 20,
+      "percentage": 0.5
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1519,
-    "uniqueFamilies": 650,
-    "uniqueOrders": 188,
-    "uniqueClasses": 48,
+    "uniqueGenera": 1528,
+    "uniqueFamilies": 657,
+    "uniqueOrders": 192,
+    "uniqueClasses": 50,
     "uniquePhyla": 16,
-    "uniqueKingdoms": 6
+    "uniqueKingdoms": 7
   }
 }

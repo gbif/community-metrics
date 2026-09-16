@@ -1,166 +1,111 @@
 {
   "countryCode": "AO",
   "countryName": "Angola",
-  "totalSpecies": 13084,
+  "totalSpecies": 13146,
   "groups": [
     {
-      "name": "Flowering Plants",
-      "species": 5573,
-      "percentage": 42.6,
+      "name": "Other",
+      "species": 6763,
+      "percentage": 51.4,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Other",
+      "species": 5975,
+      "percentage": 45.5,
       "kingdom": "Plantae"
     },
     {
-      "name": "Insects",
-      "species": 2167,
-      "percentage": 16.6,
-      "kingdom": "Animalia"
-    },
-    {
       "name": "Other",
-      "species": 1965,
-      "percentage": 15,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Birds",
-      "species": 956,
-      "percentage": 7.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Molluscs",
-      "species": 834,
-      "percentage": 6.4,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 318,
-      "percentage": 2.4,
+      "species": 274,
+      "percentage": 2.1,
       "kingdom": "Chromista"
     },
     {
-      "name": "Mammals",
-      "species": 281,
-      "percentage": 2.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Reptiles",
-      "species": 258,
-      "percentage": 2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mosses",
-      "species": 144,
-      "percentage": 1.1,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Amphibians",
-      "species": 130,
+      "name": "Other",
+      "species": 126,
       "percentage": 1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Arachnids",
-      "species": 121,
-      "percentage": 0.9,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 115,
-      "percentage": 0.9,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 86,
-      "percentage": 0.7,
       "kingdom": "Fungi"
     },
     {
-      "name": "Ferns",
-      "species": 85,
-      "percentage": 0.6,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 36,
-      "percentage": 0.3,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Gymnosperms",
-      "species": 8,
-      "percentage": 0.1,
-      "kingdom": "Plantae"
-    },
-    {
       "name": "Other",
-      "species": 5,
+      "species": 4,
       "percentage": 0,
-      "kingdom": "Bacteria"
+      "kingdom": "Bacillati"
+    },
+    {
+      "name": "Other",
+      "species": 2,
+      "percentage": 0,
+      "kingdom": "Pseudomonadati"
+    },
+    {
+      "name": "Other",
+      "species": 1,
+      "percentage": 0,
+      "kingdom": ""
+    },
+    {
+      "name": "Other",
+      "species": 1,
+      "percentage": 0,
+      "kingdom": "Orthornavirae"
     },
     {
       "name": "Other",
       "species": 1,
       "percentage": 0,
       "kingdom": "Protozoa"
-    },
-    {
-      "name": "Other",
-      "species": 1,
-      "percentage": 0,
-      "kingdom": "Viruses"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 6712,
-      "percentage": 51.3
+      "species": 6763,
+      "percentage": 51.4
     },
     {
       "kingdom": "Plantae",
-      "species": 5925,
-      "percentage": 45.3
+      "species": 5975,
+      "percentage": 45.5
     },
     {
       "kingdom": "Chromista",
-      "species": 318,
-      "percentage": 2.4
+      "species": 274,
+      "percentage": 2.1
     },
     {
       "kingdom": "Fungi",
-      "species": 122,
-      "percentage": 0.9
+      "species": 126,
+      "percentage": 1
     },
     {
-      "kingdom": "Bacteria",
-      "species": 5,
+      "kingdom": "Bacillati",
+      "species": 4,
+      "percentage": 0
+    },
+    {
+      "kingdom": "Pseudomonadati",
+      "species": 2,
+      "percentage": 0
+    },
+    {
+      "kingdom": "Orthornavirae",
+      "species": 1,
       "percentage": 0
     },
     {
       "kingdom": "Protozoa",
       "species": 1,
       "percentage": 0
-    },
-    {
-      "kingdom": "Viruses",
-      "species": 1,
-      "percentage": 0
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 3474,
-    "uniqueFamilies": 1167,
-    "uniqueOrders": 251,
-    "uniqueClasses": 47,
+    "uniqueGenera": 3465,
+    "uniqueFamilies": 1168,
+    "uniqueOrders": 248,
+    "uniqueClasses": 49,
     "uniquePhyla": 13,
-    "uniqueKingdoms": 7
+    "uniqueKingdoms": 8
   }
 }

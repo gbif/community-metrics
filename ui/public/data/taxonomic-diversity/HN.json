@@ -1,171 +1,99 @@
 {
   "countryCode": "HN",
   "countryName": "Honduras",
-  "totalSpecies": 19837,
+  "totalSpecies": 20185,
   "groups": [
     {
-      "name": "Flowering Plants",
-      "species": 6487,
-      "percentage": 32.7,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Insects",
-      "species": 5867,
-      "percentage": 29.6,
+      "name": "Other",
+      "species": 11033,
+      "percentage": 54.7,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 2031,
-      "percentage": 10.2,
-      "kingdom": "Animalia"
+      "species": 7956,
+      "percentage": 39.4,
+      "kingdom": "Plantae"
     },
     {
-      "name": "Birds",
-      "species": 858,
-      "percentage": 4.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Molluscs",
-      "species": 857,
-      "percentage": 4.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 577,
-      "percentage": 2.9,
+      "name": "Other",
+      "species": 1076,
+      "percentage": 5.3,
       "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 509,
-      "percentage": 2.6,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 477,
-      "percentage": 2.4,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Mosses",
-      "species": 475,
-      "percentage": 2.4,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Ferns",
-      "species": 460,
-      "percentage": 2.3,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Arachnids",
-      "species": 343,
-      "percentage": 1.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Reptiles",
-      "species": 332,
-      "percentage": 1.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mammals",
-      "species": 238,
-      "percentage": 1.2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Amphibians",
-      "species": 169,
-      "percentage": 0.9,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 75,
+      "species": 73,
       "percentage": 0.4,
       "kingdom": "Chromista"
     },
     {
       "name": "Other",
-      "species": 35,
+      "species": 37,
       "percentage": 0.2,
       "kingdom": "Protozoa"
-    },
-    {
-      "name": "Gymnosperms",
-      "species": 33,
-      "percentage": 0.2,
-      "kingdom": "Plantae"
     },
     {
       "name": "Other",
       "species": 8,
       "percentage": 0,
-      "kingdom": "Bacteria"
+      "kingdom": "Bacillati"
     },
     {
       "name": "Other",
-      "species": 5,
+      "species": 2,
       "percentage": 0,
-      "kingdom": "Fungi"
+      "kingdom": "Pseudomonadati"
     },
     {
       "name": "Other",
       "species": 1,
       "percentage": 0,
-      "kingdom": "incertae sedis"
+      "kingdom": ""
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 10695,
-      "percentage": 53.9
+      "species": 11033,
+      "percentage": 54.7
     },
     {
       "kingdom": "Plantae",
-      "species": 7964,
-      "percentage": 40.1
+      "species": 7956,
+      "percentage": 39.4
     },
     {
       "kingdom": "Fungi",
-      "species": 1059,
+      "species": 1076,
       "percentage": 5.3
     },
     {
       "kingdom": "Chromista",
-      "species": 75,
+      "species": 73,
       "percentage": 0.4
     },
     {
       "kingdom": "Protozoa",
-      "species": 35,
+      "species": 37,
       "percentage": 0.2
     },
     {
-      "kingdom": "Bacteria",
+      "kingdom": "Bacillati",
       "species": 8,
       "percentage": 0
     },
     {
-      "kingdom": "incertae sedis",
-      "species": 1,
+      "kingdom": "Pseudomonadati",
+      "species": 2,
       "percentage": 0
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 5362,
-    "uniqueFamilies": 1237,
-    "uniqueOrders": 252,
-    "uniqueClasses": 47,
+    "uniqueGenera": 5529,
+    "uniqueFamilies": 1305,
+    "uniqueOrders": 257,
+    "uniqueClasses": 49,
     "uniquePhyla": 15,
     "uniqueKingdoms": 7
   }

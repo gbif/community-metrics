@@ -1,132 +1,89 @@
 {
   "countryCode": "QA",
   "countryName": "Qatar",
-  "totalSpecies": 1175,
+  "totalSpecies": 1304,
   "groups": [
     {
-      "name": "Birds",
-      "species": 359,
-      "percentage": 30.6,
+      "name": "Other",
+      "species": 963,
+      "percentage": 73.8,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 266,
-      "percentage": 22.6,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Flowering Plants",
-      "species": 253,
-      "percentage": 21.5,
+      "species": 274,
+      "percentage": 21,
       "kingdom": "Plantae"
     },
     {
-      "name": "Insects",
-      "species": 151,
-      "percentage": 12.9,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Molluscs",
-      "species": 55,
-      "percentage": 4.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Reptiles",
-      "species": 33,
-      "percentage": 2.8,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mammals",
-      "species": 23,
-      "percentage": 2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Arachnids",
-      "species": 10,
-      "percentage": 0.9,
-      "kingdom": "Animalia"
+      "name": "Other",
+      "species": 51,
+      "percentage": 3.9,
+      "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 9,
-      "percentage": 0.8,
-      "kingdom": "Bacteria"
+      "species": 8,
+      "percentage": 0.6,
+      "kingdom": "Bacillati"
     },
     {
       "name": "Other",
-      "species": 6,
+      "species": 7,
       "percentage": 0.5,
       "kingdom": "Chromista"
     },
     {
-      "name": "Basidiomycota",
-      "species": 4,
-      "percentage": 0.3,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 3,
-      "percentage": 0.3,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Amphibians",
+      "name": "Other",
       "species": 1,
       "percentage": 0.1,
-      "kingdom": "Animalia"
+      "kingdom": ""
     },
     {
       "name": "Other",
       "species": 1,
       "percentage": 0.1,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Other",
-      "species": 1,
-      "percentage": 0.1,
-      "kingdom": "Plantae"
+      "kingdom": "Pseudomonadati"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 898,
-      "percentage": 76.4
+      "species": 963,
+      "percentage": 73.8
     },
     {
       "kingdom": "Plantae",
-      "species": 254,
-      "percentage": 21.6
-    },
-    {
-      "kingdom": "Bacteria",
-      "species": 9,
-      "percentage": 0.8
+      "species": 274,
+      "percentage": 21
     },
     {
       "kingdom": "Fungi",
+      "species": 51,
+      "percentage": 3.9
+    },
+    {
+      "kingdom": "Bacillati",
       "species": 8,
-      "percentage": 0.7
+      "percentage": 0.6
     },
     {
       "kingdom": "Chromista",
-      "species": 6,
+      "species": 7,
       "percentage": 0.5
+    },
+    {
+      "kingdom": "Pseudomonadati",
+      "species": 1,
+      "percentage": 0.1
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 630,
-    "uniqueFamilies": 329,
-    "uniqueOrders": 115,
+    "uniqueGenera": 680,
+    "uniqueFamilies": 348,
+    "uniqueOrders": 121,
     "uniqueClasses": 30,
     "uniquePhyla": 10,
-    "uniqueKingdoms": 5
+    "uniqueKingdoms": 6
   }
 }

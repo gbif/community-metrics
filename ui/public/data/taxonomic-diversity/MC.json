@@ -1,132 +1,60 @@
 {
   "countryCode": "MC",
   "countryName": "Monaco",
-  "totalSpecies": 1130,
+  "totalSpecies": 1383,
   "groups": [
     {
       "name": "Other",
-      "species": 386,
-      "percentage": 34.2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Flowering Plants",
-      "species": 283,
-      "percentage": 25,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Insects",
-      "species": 171,
-      "percentage": 15.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Birds",
-      "species": 122,
-      "percentage": 10.8,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Molluscs",
-      "species": 78,
-      "percentage": 6.9,
+      "species": 1018,
+      "percentage": 73.6,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 17,
-      "percentage": 1.5,
+      "species": 341,
+      "percentage": 24.7,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Other",
+      "species": 16,
+      "percentage": 1.2,
       "kingdom": "Chromista"
     },
     {
-      "name": "Arachnids",
-      "species": 13,
-      "percentage": 1.2,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Ferns",
-      "species": 13,
-      "percentage": 1.2,
-      "kingdom": "Plantae"
-    },
-    {
       "name": "Other",
-      "species": 12,
-      "percentage": 1.1,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Gymnosperms",
-      "species": 10,
-      "percentage": 0.9,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Mosses",
       "species": 8,
-      "percentage": 0.7,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 6,
-      "percentage": 0.5,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Reptiles",
-      "species": 5,
-      "percentage": 0.4,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mammals",
-      "species": 4,
-      "percentage": 0.4,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Amphibians",
-      "species": 1,
-      "percentage": 0.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 1,
-      "percentage": 0.1,
+      "percentage": 0.6,
       "kingdom": "Fungi"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 780,
-      "percentage": 69
+      "species": 1018,
+      "percentage": 73.6
     },
     {
       "kingdom": "Plantae",
-      "species": 326,
-      "percentage": 28.8
+      "species": 341,
+      "percentage": 24.7
     },
     {
       "kingdom": "Chromista",
-      "species": 17,
-      "percentage": 1.5
+      "species": 16,
+      "percentage": 1.2
     },
     {
       "kingdom": "Fungi",
-      "species": 7,
+      "species": 8,
       "percentage": 0.6
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 617,
-    "uniqueFamilies": 383,
-    "uniqueOrders": 138,
-    "uniqueClasses": 35,
+    "uniqueGenera": 633,
+    "uniqueFamilies": 390,
+    "uniqueOrders": 143,
+    "uniqueClasses": 36,
     "uniquePhyla": 9,
     "uniqueKingdoms": 4
   }

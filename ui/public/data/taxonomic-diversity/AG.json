@@ -1,109 +1,37 @@
 {
   "countryCode": "AG",
   "countryName": "Antigua and Barbuda",
-  "totalSpecies": 2638,
+  "totalSpecies": 2680,
   "groups": [
     {
       "name": "Other",
-      "species": 733,
-      "percentage": 27.8,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Flowering Plants",
-      "species": 626,
-      "percentage": 23.7,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Molluscs",
-      "species": 554,
-      "percentage": 21,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Insects",
-      "species": 231,
-      "percentage": 8.8,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Birds",
-      "species": 194,
-      "percentage": 7.4,
+      "species": 1817,
+      "percentage": 67.8,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 122,
-      "percentage": 4.6,
+      "species": 803,
+      "percentage": 30,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 44,
-      "percentage": 1.7,
+      "species": 43,
+      "percentage": 1.6,
       "kingdom": "Chromista"
     },
     {
-      "name": "Arachnids",
-      "species": 29,
-      "percentage": 1.1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Ferns",
-      "species": 28,
-      "percentage": 1.1,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Reptiles",
-      "species": 26,
-      "percentage": 1,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mammals",
-      "species": 19,
-      "percentage": 0.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 9,
-      "percentage": 0.3,
+      "name": "Other",
+      "species": 15,
+      "percentage": 0.6,
       "kingdom": "Fungi"
-    },
-    {
-      "name": "Mosses",
-      "species": 8,
-      "percentage": 0.3,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Amphibians",
-      "species": 7,
-      "percentage": 0.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Basidiomycota",
-      "species": 5,
-      "percentage": 0.2,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Gymnosperms",
-      "species": 1,
-      "percentage": 0,
-      "kingdom": "Plantae"
     },
     {
       "name": "Other",
       "species": 1,
       "percentage": 0,
-      "kingdom": "Bacteria"
+      "kingdom": "Bacillati"
     },
     {
       "name": "Other",
@@ -115,26 +43,26 @@
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 1793,
-      "percentage": 68
+      "species": 1817,
+      "percentage": 67.8
     },
     {
       "kingdom": "Plantae",
-      "species": 785,
-      "percentage": 29.8
+      "species": 803,
+      "percentage": 30
     },
     {
       "kingdom": "Chromista",
-      "species": 44,
-      "percentage": 1.7
+      "species": 43,
+      "percentage": 1.6
     },
     {
       "kingdom": "Fungi",
-      "species": 14,
-      "percentage": 0.5
+      "species": 15,
+      "percentage": 0.6
     },
     {
-      "kingdom": "Bacteria",
+      "kingdom": "Bacillati",
       "species": 1,
       "percentage": 0
     },
@@ -145,9 +73,9 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1274,
-    "uniqueFamilies": 655,
-    "uniqueOrders": 160,
+    "uniqueGenera": 1296,
+    "uniqueFamilies": 661,
+    "uniqueOrders": 158,
     "uniqueClasses": 38,
     "uniquePhyla": 12,
     "uniqueKingdoms": 6
