@@ -1,100 +1,155 @@
 {
   "countryCode": "PN",
   "countryName": "Pitcairn",
-  "totalSpecies": 969,
+  "totalSpecies": 1044,
   "groups": [
     {
       "name": "Other",
-      "species": 357,
-      "percentage": 36.8,
+      "species": 273,
+      "percentage": 26.1,
       "kingdom": "Animalia"
     },
     {
-      "name": "Other",
-      "species": 299,
-      "percentage": 30.9,
+      "name": "Flowering Plants",
+      "species": 226,
+      "percentage": 21.6,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 145,
-      "percentage": 15,
+      "species": 159,
+      "percentage": 15.2,
       "kingdom": "Chromista"
     },
     {
       "name": "Other",
-      "species": 72,
-      "percentage": 7.4,
-      "kingdom": "Pseudomonadati"
+      "species": 80,
+      "percentage": 7.7,
+      "kingdom": "Bacteria"
+    },
+    {
+      "name": "Molluscs",
+      "species": 79,
+      "percentage": 7.6,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Birds",
+      "species": 51,
+      "percentage": 4.9,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Ferns",
+      "species": 29,
+      "percentage": 2.8,
+      "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 52,
-      "percentage": 5.4,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Other",
-      "species": 32,
-      "percentage": 3.3,
+      "species": 27,
+      "percentage": 2.6,
       "kingdom": "Protozoa"
     },
     {
+      "name": "Other",
+      "species": 26,
+      "percentage": 2.5,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Sac Fungi",
+      "species": 24,
+      "percentage": 2.3,
+      "kingdom": "Fungi"
+    },
+    {
+      "name": "Basidiomycota",
+      "species": 21,
+      "percentage": 2,
+      "kingdom": "Fungi"
+    },
+    {
+      "name": "Insects",
+      "species": 15,
+      "percentage": 1.4,
+      "kingdom": "Animalia"
+    },
+    {
       "name": "Mosses",
+      "species": 9,
+      "percentage": 0.9,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Reptiles",
       "species": 8,
       "percentage": 0.8,
-      "kingdom": "Chromista"
+      "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 4,
-      "percentage": 0.4,
-      "kingdom": "Bacillati"
+      "species": 7,
+      "percentage": 0.7,
+      "kingdom": "Fungi"
+    },
+    {
+      "name": "Mammals",
+      "species": 5,
+      "percentage": 0.5,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Gymnosperms",
+      "species": 3,
+      "percentage": 0.3,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Arachnids",
+      "species": 2,
+      "percentage": 0.2,
+      "kingdom": "Animalia"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 357,
-      "percentage": 36.8
+      "species": 433,
+      "percentage": 41.5
     },
     {
       "kingdom": "Plantae",
-      "species": 299,
-      "percentage": 30.9
+      "species": 293,
+      "percentage": 28.1
     },
     {
       "kingdom": "Chromista",
-      "species": 153,
-      "percentage": 15.8
+      "species": 159,
+      "percentage": 15.2
     },
     {
-      "kingdom": "Pseudomonadati",
-      "species": 72,
-      "percentage": 7.4
+      "kingdom": "Bacteria",
+      "species": 80,
+      "percentage": 7.7
     },
     {
       "kingdom": "Fungi",
       "species": 52,
-      "percentage": 5.4
+      "percentage": 5
     },
     {
       "kingdom": "Protozoa",
-      "species": 32,
-      "percentage": 3.3
-    },
-    {
-      "kingdom": "Bacillati",
-      "species": 4,
-      "percentage": 0.4
+      "species": 27,
+      "percentage": 2.6
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 246,
-    "uniqueFamilies": 157,
-    "uniqueOrders": 69,
-    "uniqueClasses": 26,
+    "uniqueGenera": 274,
+    "uniqueFamilies": 165,
+    "uniqueOrders": 64,
+    "uniqueClasses": 22,
     "uniquePhyla": 11,
-    "uniqueKingdoms": 7
+    "uniqueKingdoms": 6
   }
 }

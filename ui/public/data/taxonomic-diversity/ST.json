@@ -1,37 +1,103 @@
 {
   "countryCode": "ST",
   "countryName": "Sao Tome and Principe",
-  "totalSpecies": 2961,
+  "totalSpecies": 2935,
   "groups": [
     {
-      "name": "Other",
-      "species": 1622,
-      "percentage": 54.8,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 1151,
-      "percentage": 38.9,
+      "name": "Flowering Plants",
+      "species": 942,
+      "percentage": 32.1,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 117,
-      "percentage": 4,
+      "species": 679,
+      "percentage": 23.1,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Insects",
+      "species": 399,
+      "percentage": 13.6,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Molluscs",
+      "species": 234,
+      "percentage": 8,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Birds",
+      "species": 162,
+      "percentage": 5.5,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Other",
+      "species": 123,
+      "percentage": 4.2,
       "kingdom": "Chromista"
     },
     {
-      "name": "Other",
-      "species": 69,
-      "percentage": 2.3,
-      "kingdom": "Fungi"
+      "name": "Ferns",
+      "species": 95,
+      "percentage": 3.2,
+      "kingdom": "Plantae"
     },
     {
       "name": "Other",
+      "species": 72,
+      "percentage": 2.5,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Arachnids",
+      "species": 55,
+      "percentage": 1.9,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Mosses",
+      "species": 49,
+      "percentage": 1.7,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Sac Fungi",
+      "species": 32,
+      "percentage": 1.1,
+      "kingdom": "Fungi"
+    },
+    {
+      "name": "Reptiles",
+      "species": 31,
+      "percentage": 1.1,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Basidiomycota",
+      "species": 30,
+      "percentage": 1,
+      "kingdom": "Fungi"
+    },
+    {
+      "name": "Mammals",
+      "species": 22,
+      "percentage": 0.7,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Amphibians",
+      "species": 8,
+      "percentage": 0.3,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Gymnosperms",
       "species": 1,
       "percentage": 0,
-      "kingdom": "Bacillati"
+      "kingdom": "Plantae"
     },
     {
       "name": "Other",
@@ -43,28 +109,23 @@
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 1622,
-      "percentage": 54.8
+      "species": 1590,
+      "percentage": 54.2
     },
     {
       "kingdom": "Plantae",
-      "species": 1151,
-      "percentage": 38.9
+      "species": 1159,
+      "percentage": 39.5
     },
     {
       "kingdom": "Chromista",
-      "species": 117,
-      "percentage": 4
+      "species": 123,
+      "percentage": 4.2
     },
     {
       "kingdom": "Fungi",
-      "species": 69,
-      "percentage": 2.3
-    },
-    {
-      "kingdom": "Bacillati",
-      "species": 1,
-      "percentage": 0
+      "species": 62,
+      "percentage": 2.1
     },
     {
       "kingdom": "Protozoa",
@@ -73,11 +134,11 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1213,
-    "uniqueFamilies": 588,
-    "uniqueOrders": 171,
+    "uniqueGenera": 1201,
+    "uniqueFamilies": 587,
+    "uniqueOrders": 167,
     "uniqueClasses": 35,
-    "uniquePhyla": 12,
-    "uniqueKingdoms": 6
+    "uniquePhyla": 11,
+    "uniqueKingdoms": 5
   }
 }

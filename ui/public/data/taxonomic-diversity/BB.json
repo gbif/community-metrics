@@ -1,94 +1,155 @@
 {
   "countryCode": "BB",
   "countryName": "Barbados",
-  "totalSpecies": 4331,
+  "totalSpecies": 4410,
   "groups": [
     {
       "name": "Other",
-      "species": 3153,
-      "percentage": 72.8,
+      "species": 1822,
+      "percentage": 41.3,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Molluscs",
+      "species": 750,
+      "percentage": 17,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Flowering Plants",
+      "species": 675,
+      "percentage": 15.3,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Birds",
+      "species": 276,
+      "percentage": 6.3,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 1002,
-      "percentage": 23.1,
+      "species": 257,
+      "percentage": 5.8,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Insects",
+      "species": 223,
+      "percentage": 5.1,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Other",
+      "species": 198,
+      "percentage": 4.5,
+      "kingdom": "Chromista"
+    },
+    {
+      "name": "Basidiomycota",
+      "species": 49,
+      "percentage": 1.1,
+      "kingdom": "Fungi"
+    },
+    {
+      "name": "Sac Fungi",
+      "species": 28,
+      "percentage": 0.6,
+      "kingdom": "Fungi"
+    },
+    {
+      "name": "Ferns",
+      "species": 25,
+      "percentage": 0.6,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Mammals",
+      "species": 24,
+      "percentage": 0.5,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Mosses",
+      "species": 22,
+      "percentage": 0.5,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Reptiles",
+      "species": 21,
+      "percentage": 0.5,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Arachnids",
+      "species": 20,
+      "percentage": 0.5,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Other",
+      "species": 9,
+      "percentage": 0.2,
+      "kingdom": "Bacteria"
+    },
+    {
+      "name": "Amphibians",
+      "species": 4,
+      "percentage": 0.1,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Gymnosperms",
+      "species": 4,
+      "percentage": 0.1,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 79,
-      "percentage": 1.8,
-      "kingdom": "Chromista"
-    },
-    {
-      "name": "Other",
-      "species": 79,
-      "percentage": 1.8,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Other",
-      "species": 10,
-      "percentage": 0.2,
-      "kingdom": "Bacillati"
-    },
-    {
-      "name": "Other",
-      "species": 4,
+      "species": 3,
       "percentage": 0.1,
       "kingdom": "Protozoa"
-    },
-    {
-      "name": "Other",
-      "species": 4,
-      "percentage": 0.1,
-      "kingdom": "Pseudomonadati"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 3153,
-      "percentage": 72.8
+      "species": 3140,
+      "percentage": 71.2
     },
     {
       "kingdom": "Plantae",
-      "species": 1002,
-      "percentage": 23.1
+      "species": 983,
+      "percentage": 22.3
     },
     {
       "kingdom": "Chromista",
-      "species": 79,
-      "percentage": 1.8
+      "species": 198,
+      "percentage": 4.5
     },
     {
       "kingdom": "Fungi",
-      "species": 79,
-      "percentage": 1.8
+      "species": 77,
+      "percentage": 1.7
     },
     {
-      "kingdom": "Bacillati",
-      "species": 10,
+      "kingdom": "Bacteria",
+      "species": 9,
       "percentage": 0.2
     },
     {
       "kingdom": "Protozoa",
-      "species": 4,
-      "percentage": 0.1
-    },
-    {
-      "kingdom": "Pseudomonadati",
-      "species": 4,
+      "species": 3,
       "percentage": 0.1
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 2016,
-    "uniqueFamilies": 898,
+    "uniqueGenera": 1999,
+    "uniqueFamilies": 891,
     "uniqueOrders": 213,
-    "uniqueClasses": 47,
+    "uniqueClasses": 45,
     "uniquePhyla": 16,
-    "uniqueKingdoms": 7
+    "uniqueKingdoms": 6
   }
 }

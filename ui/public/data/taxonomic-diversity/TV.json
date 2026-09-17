@@ -1,48 +1,108 @@
 {
   "countryCode": "TV",
   "countryName": "Tuvalu",
-  "totalSpecies": 1420,
+  "totalSpecies": 1432,
   "groups": [
     {
       "name": "Other",
-      "species": 1191,
-      "percentage": 83.9,
+      "species": 801,
+      "percentage": 55.9,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Molluscs",
+      "species": 352,
+      "percentage": 24.6,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 120,
-      "percentage": 8.5,
+      "species": 118,
+      "percentage": 8.2,
       "kingdom": "Chromista"
     },
     {
-      "name": "Other",
-      "species": 106,
-      "percentage": 7.5,
+      "name": "Flowering Plants",
+      "species": 83,
+      "percentage": 5.8,
       "kingdom": "Plantae"
     },
     {
+      "name": "Birds",
+      "species": 24,
+      "percentage": 1.7,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Insects",
+      "species": 13,
+      "percentage": 0.9,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Reptiles",
+      "species": 12,
+      "percentage": 0.8,
+      "kingdom": "Animalia"
+    },
+    {
       "name": "Other",
+      "species": 10,
+      "percentage": 0.7,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Ferns",
+      "species": 7,
+      "percentage": 0.5,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Mammals",
+      "species": 5,
+      "percentage": 0.3,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Arachnids",
       "species": 3,
       "percentage": 0.2,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Basidiomycota",
+      "species": 2,
+      "percentage": 0.1,
+      "kingdom": "Fungi"
+    },
+    {
+      "name": "Amphibians",
+      "species": 1,
+      "percentage": 0.1,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Sac Fungi",
+      "species": 1,
+      "percentage": 0.1,
       "kingdom": "Fungi"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 1191,
-      "percentage": 83.9
+      "species": 1211,
+      "percentage": 84.6
     },
     {
       "kingdom": "Chromista",
-      "species": 120,
-      "percentage": 8.5
+      "species": 118,
+      "percentage": 8.2
     },
     {
       "kingdom": "Plantae",
-      "species": 106,
-      "percentage": 7.5
+      "species": 100,
+      "percentage": 7
     },
     {
       "kingdom": "Fungi",
@@ -51,8 +111,8 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 676,
-    "uniqueFamilies": 332,
+    "uniqueGenera": 672,
+    "uniqueFamilies": 338,
     "uniqueOrders": 117,
     "uniqueClasses": 35,
     "uniquePhyla": 11,

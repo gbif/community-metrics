@@ -1,100 +1,155 @@
 {
   "countryCode": "VI",
   "countryName": "Virgin Islands (U.S.)",
-  "totalSpecies": 5808,
+  "totalSpecies": 5690,
   "groups": [
     {
       "name": "Other",
-      "species": 3908,
-      "percentage": 67.3,
+      "species": 2033,
+      "percentage": 35.7,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Flowering Plants",
+      "species": 1121,
+      "percentage": 19.7,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Molluscs",
+      "species": 892,
+      "percentage": 15.7,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Insects",
+      "species": 529,
+      "percentage": 9.3,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 1465,
-      "percentage": 25.2,
+      "species": 260,
+      "percentage": 4.6,
       "kingdom": "Plantae"
     },
     {
-      "name": "Other",
-      "species": 274,
-      "percentage": 4.7,
+      "name": "Birds",
+      "species": 243,
+      "percentage": 4.3,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Basidiomycota",
+      "species": 146,
+      "percentage": 2.6,
+      "kingdom": "Fungi"
+    },
+    {
+      "name": "Sac Fungi",
+      "species": 127,
+      "percentage": 2.2,
       "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 136,
-      "percentage": 2.3,
+      "species": 90,
+      "percentage": 1.6,
       "kingdom": "Chromista"
     },
     {
-      "name": "Other",
-      "species": 12,
+      "name": "Arachnids",
+      "species": 89,
+      "percentage": 1.6,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Ferns",
+      "species": 40,
+      "percentage": 0.7,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Reptiles",
+      "species": 40,
+      "percentage": 0.7,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Mammals",
+      "species": 27,
+      "percentage": 0.5,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Mosses",
+      "species": 27,
+      "percentage": 0.5,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Amphibians",
+      "species": 10,
       "percentage": 0.2,
-      "kingdom": "Protozoa"
+      "kingdom": "Animalia"
     },
     {
       "name": "Other",
       "species": 9,
       "percentage": 0.2,
-      "kingdom": "Bacillati"
-    },
-    {
-      "name": "Mosses",
-      "species": 3,
-      "percentage": 0.1,
-      "kingdom": "Chromista"
+      "kingdom": "Bacteria"
     },
     {
       "name": "Other",
+      "species": 6,
+      "percentage": 0.1,
+      "kingdom": "Protozoa"
+    },
+    {
+      "name": "Gymnosperms",
       "species": 1,
       "percentage": 0,
-      "kingdom": "Pseudomonadati"
+      "kingdom": "Plantae"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 3908,
-      "percentage": 67.3
+      "species": 3863,
+      "percentage": 67.9
     },
     {
       "kingdom": "Plantae",
-      "species": 1465,
-      "percentage": 25.2
+      "species": 1449,
+      "percentage": 25.5
     },
     {
       "kingdom": "Fungi",
-      "species": 274,
-      "percentage": 4.7
+      "species": 273,
+      "percentage": 4.8
     },
     {
       "kingdom": "Chromista",
-      "species": 139,
-      "percentage": 2.4
+      "species": 90,
+      "percentage": 1.6
     },
     {
-      "kingdom": "Protozoa",
-      "species": 12,
-      "percentage": 0.2
-    },
-    {
-      "kingdom": "Bacillati",
+      "kingdom": "Bacteria",
       "species": 9,
       "percentage": 0.2
     },
     {
-      "kingdom": "Pseudomonadati",
-      "species": 1,
-      "percentage": 0
+      "kingdom": "Protozoa",
+      "species": 6,
+      "percentage": 0.1
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 2489,
-    "uniqueFamilies": 1107,
-    "uniqueOrders": 265,
-    "uniqueClasses": 55,
-    "uniquePhyla": 19,
-    "uniqueKingdoms": 7
+    "uniqueGenera": 2411,
+    "uniqueFamilies": 1058,
+    "uniqueOrders": 252,
+    "uniqueClasses": 53,
+    "uniquePhyla": 18,
+    "uniqueKingdoms": 6
   }
 }
