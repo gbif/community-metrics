@@ -1,60 +1,72 @@
 {
   "countryCode": "QA",
   "countryName": "Qatar",
-  "totalSpecies": 1175,
+  "totalSpecies": 1294,
   "groups": [
     {
       "name": "Birds",
-      "species": 359,
-      "percentage": 30.6,
+      "species": 371,
+      "percentage": 28.7,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 266,
-      "percentage": 22.6,
+      "species": 282,
+      "percentage": 21.8,
       "kingdom": "Animalia"
     },
     {
       "name": "Flowering Plants",
-      "species": 253,
-      "percentage": 21.5,
+      "species": 270,
+      "percentage": 20.9,
       "kingdom": "Plantae"
     },
     {
       "name": "Insects",
-      "species": 151,
-      "percentage": 12.9,
+      "species": 170,
+      "percentage": 13.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Molluscs",
-      "species": 55,
-      "percentage": 4.7,
+      "species": 60,
+      "percentage": 4.6,
       "kingdom": "Animalia"
     },
     {
       "name": "Reptiles",
-      "species": 33,
-      "percentage": 2.8,
+      "species": 34,
+      "percentage": 2.6,
       "kingdom": "Animalia"
     },
     {
+      "name": "Basidiomycota",
+      "species": 26,
+      "percentage": 2,
+      "kingdom": "Fungi"
+    },
+    {
       "name": "Mammals",
-      "species": 23,
+      "species": 26,
       "percentage": 2,
       "kingdom": "Animalia"
     },
     {
+      "name": "Sac Fungi",
+      "species": 20,
+      "percentage": 1.5,
+      "kingdom": "Fungi"
+    },
+    {
       "name": "Arachnids",
-      "species": 10,
-      "percentage": 0.9,
+      "species": 14,
+      "percentage": 1.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
       "species": 9,
-      "percentage": 0.8,
+      "percentage": 0.7,
       "kingdom": "Bacteria"
     },
     {
@@ -64,14 +76,8 @@
       "kingdom": "Chromista"
     },
     {
-      "name": "Basidiomycota",
+      "name": "Other",
       "species": 4,
-      "percentage": 0.3,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Sac Fungi",
-      "species": 3,
       "percentage": 0.3,
       "kingdom": "Fungi"
     },
@@ -85,34 +91,28 @@
       "name": "Other",
       "species": 1,
       "percentage": 0.1,
-      "kingdom": "Fungi"
-    },
-    {
-      "name": "Other",
-      "species": 1,
-      "percentage": 0.1,
       "kingdom": "Plantae"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 898,
-      "percentage": 76.4
+      "species": 958,
+      "percentage": 74
     },
     {
       "kingdom": "Plantae",
-      "species": 254,
-      "percentage": 21.6
+      "species": 271,
+      "percentage": 20.9
+    },
+    {
+      "kingdom": "Fungi",
+      "species": 50,
+      "percentage": 3.9
     },
     {
       "kingdom": "Bacteria",
       "species": 9,
-      "percentage": 0.8
-    },
-    {
-      "kingdom": "Fungi",
-      "species": 8,
       "percentage": 0.7
     },
     {
@@ -122,9 +122,9 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 630,
-    "uniqueFamilies": 329,
-    "uniqueOrders": 115,
+    "uniqueGenera": 672,
+    "uniqueFamilies": 345,
+    "uniqueOrders": 118,
     "uniqueClasses": 30,
     "uniquePhyla": 10,
     "uniqueKingdoms": 5

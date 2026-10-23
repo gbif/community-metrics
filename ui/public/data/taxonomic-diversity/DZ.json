@@ -1,97 +1,91 @@
 {
   "countryCode": "DZ",
   "countryName": "Algeria",
-  "totalSpecies": 11414,
+  "totalSpecies": 11451,
   "groups": [
     {
       "name": "Flowering Plants",
-      "species": 3572,
+      "species": 3587,
       "percentage": 31.3,
       "kingdom": "Plantae"
     },
     {
       "name": "Insects",
-      "species": 2790,
-      "percentage": 24.4,
+      "species": 2972,
+      "percentage": 26,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 1841,
-      "percentage": 16.1,
+      "species": 1720,
+      "percentage": 15,
       "kingdom": "Animalia"
     },
     {
       "name": "Molluscs",
-      "species": 812,
-      "percentage": 7.1,
+      "species": 759,
+      "percentage": 6.6,
       "kingdom": "Animalia"
     },
     {
       "name": "Birds",
-      "species": 405,
-      "percentage": 3.5,
+      "species": 408,
+      "percentage": 3.6,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Arachnids",
+      "species": 353,
+      "percentage": 3.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 337,
-      "percentage": 3,
+      "species": 310,
+      "percentage": 2.7,
       "kingdom": "Chromista"
     },
     {
-      "name": "Arachnids",
-      "species": 328,
-      "percentage": 2.9,
-      "kingdom": "Animalia"
-    },
-    {
       "name": "Sac Fungi",
-      "species": 247,
-      "percentage": 2.2,
+      "species": 272,
+      "percentage": 2.4,
       "kingdom": "Fungi"
     },
     {
       "name": "Basidiomycota",
-      "species": 245,
-      "percentage": 2.1,
+      "species": 269,
+      "percentage": 2.3,
       "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 224,
-      "percentage": 2,
+      "species": 211,
+      "percentage": 1.8,
       "kingdom": "Plantae"
     },
     {
       "name": "Mammals",
-      "species": 157,
-      "percentage": 1.4,
+      "species": 129,
+      "percentage": 1.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 114,
+      "species": 118,
       "percentage": 1,
       "kingdom": "Bacteria"
     },
     {
       "name": "Reptiles",
-      "species": 111,
+      "species": 110,
       "percentage": 1,
       "kingdom": "Animalia"
     },
     {
       "name": "Mosses",
-      "species": 91,
+      "species": 94,
       "percentage": 0.8,
       "kingdom": "Plantae"
-    },
-    {
-      "name": "Other",
-      "species": 37,
-      "percentage": 0.3,
-      "kingdom": "Protozoa"
     },
     {
       "name": "Ferns",
@@ -101,9 +95,15 @@
     },
     {
       "name": "Gymnosperms",
-      "species": 36,
+      "species": 35,
       "percentage": 0.3,
       "kingdom": "Plantae"
+    },
+    {
+      "name": "Other",
+      "species": 34,
+      "percentage": 0.3,
+      "kingdom": "Protozoa"
     },
     {
       "name": "Amphibians",
@@ -113,13 +113,13 @@
     },
     {
       "name": "Other",
-      "species": 6,
+      "species": 8,
       "percentage": 0.1,
       "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 2,
+      "species": 3,
       "percentage": 0,
       "kingdom": "Viruses"
     },
@@ -139,37 +139,37 @@
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 6465,
-      "percentage": 56.6
+      "species": 6472,
+      "percentage": 56.5
     },
     {
       "kingdom": "Plantae",
-      "species": 3959,
-      "percentage": 34.7
+      "species": 3963,
+      "percentage": 34.6
     },
     {
       "kingdom": "Fungi",
-      "species": 498,
-      "percentage": 4.4
+      "species": 549,
+      "percentage": 4.8
     },
     {
       "kingdom": "Chromista",
-      "species": 337,
-      "percentage": 3
+      "species": 310,
+      "percentage": 2.7
     },
     {
       "kingdom": "Bacteria",
-      "species": 114,
+      "species": 118,
       "percentage": 1
     },
     {
       "kingdom": "Protozoa",
-      "species": 37,
+      "species": 34,
       "percentage": 0.3
     },
     {
       "kingdom": "Viruses",
-      "species": 2,
+      "species": 3,
       "percentage": 0
     },
     {
@@ -184,11 +184,11 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 3753,
-    "uniqueFamilies": 1385,
-    "uniqueOrders": 276,
-    "uniqueClasses": 60,
-    "uniquePhyla": 19,
+    "uniqueGenera": 3648,
+    "uniqueFamilies": 1312,
+    "uniqueOrders": 267,
+    "uniqueClasses": 55,
+    "uniquePhyla": 18,
     "uniqueKingdoms": 9
   }
 }

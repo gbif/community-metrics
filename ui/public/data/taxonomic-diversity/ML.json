@@ -1,42 +1,42 @@
 {
   "countryCode": "ML",
   "countryName": "Mali",
-  "totalSpecies": 3607,
+  "totalSpecies": 3623,
   "groups": [
     {
       "name": "Flowering Plants",
-      "species": 1970,
-      "percentage": 54.6,
+      "species": 1974,
+      "percentage": 54.5,
       "kingdom": "Plantae"
     },
     {
       "name": "Birds",
-      "species": 465,
+      "species": 466,
       "percentage": 12.9,
       "kingdom": "Animalia"
     },
     {
       "name": "Insects",
-      "species": 427,
-      "percentage": 11.8,
+      "species": 435,
+      "percentage": 12,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 338,
-      "percentage": 9.4,
+      "species": 329,
+      "percentage": 9.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Mammals",
-      "species": 119,
-      "percentage": 3.3,
+      "species": 124,
+      "percentage": 3.4,
       "kingdom": "Animalia"
     },
     {
       "name": "Reptiles",
-      "species": 81,
-      "percentage": 2.2,
+      "species": 86,
+      "percentage": 2.4,
       "kingdom": "Animalia"
     },
     {
@@ -47,14 +47,20 @@
     },
     {
       "name": "Other",
-      "species": 42,
+      "species": 44,
       "percentage": 1.2,
       "kingdom": "Bacteria"
     },
     {
       "name": "Molluscs",
-      "species": 36,
-      "percentage": 1,
+      "species": 31,
+      "percentage": 0.9,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Amphibians",
+      "species": 19,
+      "percentage": 0.5,
       "kingdom": "Animalia"
     },
     {
@@ -62,12 +68,6 @@
       "species": 19,
       "percentage": 0.5,
       "kingdom": "Fungi"
-    },
-    {
-      "name": "Amphibians",
-      "species": 16,
-      "percentage": 0.4,
-      "kingdom": "Animalia"
     },
     {
       "name": "Other",
@@ -89,7 +89,7 @@
     },
     {
       "name": "Other",
-      "species": 2,
+      "species": 4,
       "percentage": 0.1,
       "kingdom": "Viruses"
     },
@@ -115,17 +115,17 @@
   "kingdomSummaries": [
     {
       "kingdom": "Plantae",
-      "species": 1998,
-      "percentage": 55.4
+      "species": 2002,
+      "percentage": 55.3
     },
     {
       "kingdom": "Animalia",
-      "species": 1530,
-      "percentage": 42.4
+      "species": 1538,
+      "percentage": 42.5
     },
     {
       "kingdom": "Bacteria",
-      "species": 42,
+      "species": 44,
       "percentage": 1.2
     },
     {
@@ -135,7 +135,7 @@
     },
     {
       "kingdom": "Viruses",
-      "species": 2,
+      "species": 4,
       "percentage": 0.1
     },
     {
@@ -145,10 +145,10 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 876,
+    "uniqueGenera": 886,
     "uniqueFamilies": 340,
-    "uniqueOrders": 98,
-    "uniqueClasses": 24,
+    "uniqueOrders": 93,
+    "uniqueClasses": 21,
     "uniquePhyla": 8,
     "uniqueKingdoms": 6
   }

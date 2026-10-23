@@ -1,90 +1,96 @@
 {
   "countryCode": "AZ",
   "countryName": "Azerbaijan",
-  "totalSpecies": 6268,
+  "totalSpecies": 6697,
   "groups": [
     {
       "name": "Flowering Plants",
-      "species": 2895,
-      "percentage": 46.2,
+      "species": 3015,
+      "percentage": 45,
       "kingdom": "Plantae"
     },
     {
       "name": "Insects",
-      "species": 1780,
-      "percentage": 28.4,
+      "species": 2060,
+      "percentage": 30.8,
       "kingdom": "Animalia"
     },
     {
       "name": "Birds",
-      "species": 404,
-      "percentage": 6.4,
+      "species": 405,
+      "percentage": 6,
       "kingdom": "Animalia"
     },
     {
       "name": "Sac Fungi",
-      "species": 250,
-      "percentage": 4,
+      "species": 252,
+      "percentage": 3.8,
       "kingdom": "Fungi"
     },
     {
-      "name": "Other",
-      "species": 187,
+      "name": "Arachnids",
+      "species": 198,
       "percentage": 3,
       "kingdom": "Animalia"
     },
     {
-      "name": "Arachnids",
-      "species": 173,
-      "percentage": 2.8,
+      "name": "Other",
+      "species": 198,
+      "percentage": 3,
       "kingdom": "Animalia"
     },
     {
       "name": "Basidiomycota",
-      "species": 125,
-      "percentage": 2,
+      "species": 129,
+      "percentage": 1.9,
       "kingdom": "Fungi"
     },
     {
       "name": "Molluscs",
-      "species": 123,
-      "percentage": 2,
+      "species": 114,
+      "percentage": 1.7,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Mammals",
+      "species": 59,
+      "percentage": 0.9,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 68,
-      "percentage": 1.1,
-      "kingdom": "Bacteria"
-    },
-    {
-      "name": "Mammals",
-      "species": 58,
+      "species": 59,
       "percentage": 0.9,
-      "kingdom": "Animalia"
+      "kingdom": "Bacteria"
     },
     {
       "name": "Mosses",
       "species": 54,
-      "percentage": 0.9,
+      "percentage": 0.8,
       "kingdom": "Plantae"
     },
     {
       "name": "Reptiles",
       "species": 50,
-      "percentage": 0.8,
+      "percentage": 0.7,
       "kingdom": "Animalia"
     },
     {
       "name": "Ferns",
-      "species": 30,
+      "species": 32,
       "percentage": 0.5,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 28,
+      "species": 27,
       "percentage": 0.4,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Gymnosperms",
+      "species": 16,
+      "percentage": 0.2,
       "kingdom": "Plantae"
     },
     {
@@ -92,12 +98,6 @@
       "species": 14,
       "percentage": 0.2,
       "kingdom": "Animalia"
-    },
-    {
-      "name": "Gymnosperms",
-      "species": 14,
-      "percentage": 0.2,
-      "kingdom": "Plantae"
     },
     {
       "name": "Other",
@@ -121,23 +121,23 @@
   "kingdomSummaries": [
     {
       "kingdom": "Plantae",
-      "species": 3021,
-      "percentage": 48.2
+      "species": 3144,
+      "percentage": 46.9
     },
     {
       "kingdom": "Animalia",
-      "species": 2789,
-      "percentage": 44.5
+      "species": 3098,
+      "percentage": 46.3
     },
     {
       "kingdom": "Fungi",
-      "species": 375,
-      "percentage": 6
+      "species": 381,
+      "percentage": 5.7
     },
     {
       "kingdom": "Bacteria",
-      "species": 68,
-      "percentage": 1.1
+      "species": 59,
+      "percentage": 0.9
     },
     {
       "kingdom": "Protozoa",
@@ -156,11 +156,11 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1687,
-    "uniqueFamilies": 431,
-    "uniqueOrders": 102,
-    "uniqueClasses": 25,
-    "uniquePhyla": 19,
+    "uniqueGenera": 1764,
+    "uniqueFamilies": 449,
+    "uniqueOrders": 107,
+    "uniqueClasses": 23,
+    "uniquePhyla": 18,
     "uniqueKingdoms": 7
   }
 }

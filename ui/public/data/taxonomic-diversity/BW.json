@@ -1,67 +1,67 @@
 {
   "countryCode": "BW",
   "countryName": "Botswana",
-  "totalSpecies": 7407,
+  "totalSpecies": 7488,
   "groups": [
     {
       "name": "Insects",
-      "species": 2856,
+      "species": 2887,
       "percentage": 38.6,
       "kingdom": "Animalia"
     },
     {
       "name": "Flowering Plants",
-      "species": 2682,
-      "percentage": 36.2,
+      "species": 2723,
+      "percentage": 36.4,
       "kingdom": "Plantae"
     },
     {
       "name": "Birds",
-      "species": 683,
-      "percentage": 9.2,
+      "species": 679,
+      "percentage": 9.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Arachnids",
-      "species": 301,
-      "percentage": 4.1,
+      "species": 298,
+      "percentage": 4,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 260,
-      "percentage": 3.5,
+      "species": 266,
+      "percentage": 3.6,
       "kingdom": "Animalia"
     },
     {
       "name": "Mammals",
-      "species": 200,
-      "percentage": 2.7,
+      "species": 192,
+      "percentage": 2.6,
       "kingdom": "Animalia"
     },
     {
       "name": "Reptiles",
-      "species": 154,
+      "species": 155,
       "percentage": 2.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Molluscs",
-      "species": 53,
-      "percentage": 0.7,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Amphibians",
-      "species": 52,
-      "percentage": 0.7,
+      "species": 63,
+      "percentage": 0.8,
       "kingdom": "Animalia"
     },
     {
       "name": "Basidiomycota",
-      "species": 49,
+      "species": 52,
       "percentage": 0.7,
       "kingdom": "Fungi"
+    },
+    {
+      "name": "Amphibians",
+      "species": 51,
+      "percentage": 0.7,
+      "kingdom": "Animalia"
     },
     {
       "name": "Other",
@@ -71,13 +71,13 @@
     },
     {
       "name": "Mosses",
-      "species": 36,
+      "species": 38,
       "percentage": 0.5,
       "kingdom": "Plantae"
     },
     {
       "name": "Ferns",
-      "species": 23,
+      "species": 24,
       "percentage": 0.3,
       "kingdom": "Plantae"
     },
@@ -91,13 +91,13 @@
       "name": "Other",
       "species": 3,
       "percentage": 0,
-      "kingdom": "Protozoa"
+      "kingdom": "Bacteria"
     },
     {
       "name": "Other",
-      "species": 1,
+      "species": 3,
       "percentage": 0,
-      "kingdom": "Bacteria"
+      "kingdom": "Protozoa"
     },
     {
       "name": "Other",
@@ -109,27 +109,27 @@
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 4559,
-      "percentage": 61.5
+      "species": 4591,
+      "percentage": 61.3
     },
     {
       "kingdom": "Plantae",
-      "species": 2781,
-      "percentage": 37.5
+      "species": 2825,
+      "percentage": 37.7
     },
     {
       "kingdom": "Fungi",
-      "species": 62,
-      "percentage": 0.8
+      "species": 65,
+      "percentage": 0.9
     },
     {
-      "kingdom": "Protozoa",
+      "kingdom": "Bacteria",
       "species": 3,
       "percentage": 0
     },
     {
-      "kingdom": "Bacteria",
-      "species": 1,
+      "kingdom": "Protozoa",
+      "species": 3,
       "percentage": 0
     },
     {
@@ -139,11 +139,11 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 2582,
-    "uniqueFamilies": 574,
-    "uniqueOrders": 113,
-    "uniqueClasses": 23,
-    "uniquePhyla": 9,
+    "uniqueGenera": 2613,
+    "uniqueFamilies": 580,
+    "uniqueOrders": 114,
+    "uniqueClasses": 22,
+    "uniquePhyla": 8,
     "uniqueKingdoms": 6
   }
 }

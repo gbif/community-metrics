@@ -1,49 +1,43 @@
 {
   "countryCode": "AS",
   "countryName": "American Samoa",
-  "totalSpecies": 3937,
+  "totalSpecies": 3904,
   "groups": [
     {
       "name": "Other",
-      "species": 1779,
-      "percentage": 45.2,
+      "species": 1815,
+      "percentage": 46.5,
       "kingdom": "Animalia"
     },
     {
       "name": "Molluscs",
-      "species": 732,
-      "percentage": 18.6,
+      "species": 745,
+      "percentage": 19.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Flowering Plants",
-      "species": 360,
-      "percentage": 9.1,
+      "species": 370,
+      "percentage": 9.5,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 289,
-      "percentage": 7.3,
+      "species": 246,
+      "percentage": 6.3,
       "kingdom": "Chromista"
     },
     {
       "name": "Other",
-      "species": 213,
-      "percentage": 5.4,
+      "species": 178,
+      "percentage": 4.6,
       "kingdom": "Plantae"
     },
     {
       "name": "Insects",
-      "species": 110,
-      "percentage": 2.8,
+      "species": 117,
+      "percentage": 3,
       "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 92,
-      "percentage": 2.3,
-      "kingdom": "Bacteria"
     },
     {
       "name": "Birds",
@@ -52,28 +46,34 @@
       "kingdom": "Animalia"
     },
     {
+      "name": "Other",
+      "species": 70,
+      "percentage": 1.8,
+      "kingdom": "Bacteria"
+    },
+    {
       "name": "Ferns",
-      "species": 68,
+      "species": 67,
       "percentage": 1.7,
       "kingdom": "Plantae"
     },
     {
       "name": "Mosses",
       "species": 61,
-      "percentage": 1.5,
+      "percentage": 1.6,
       "kingdom": "Plantae"
     },
     {
-      "name": "Other",
+      "name": "Basidiomycota",
       "species": 36,
       "percentage": 0.9,
-      "kingdom": "Protozoa"
+      "kingdom": "Fungi"
     },
     {
-      "name": "Basidiomycota",
-      "species": 33,
-      "percentage": 0.8,
-      "kingdom": "Fungi"
+      "name": "Other",
+      "species": 35,
+      "percentage": 0.9,
+      "kingdom": "Protozoa"
     },
     {
       "name": "Sac Fungi",
@@ -127,32 +127,32 @@
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 2758,
-      "percentage": 70.1
+      "species": 2814,
+      "percentage": 72.1
     },
     {
       "kingdom": "Plantae",
-      "species": 703,
-      "percentage": 17.9
+      "species": 677,
+      "percentage": 17.3
     },
     {
       "kingdom": "Chromista",
-      "species": 289,
-      "percentage": 7.3
+      "species": 246,
+      "percentage": 6.3
     },
     {
       "kingdom": "Bacteria",
-      "species": 92,
-      "percentage": 2.3
+      "species": 70,
+      "percentage": 1.8
     },
     {
       "kingdom": "Fungi",
-      "species": 58,
-      "percentage": 1.5
+      "species": 61,
+      "percentage": 1.6
     },
     {
       "kingdom": "Protozoa",
-      "species": 36,
+      "species": 35,
       "percentage": 0.9
     },
     {
@@ -162,10 +162,10 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1424,
-    "uniqueFamilies": 634,
-    "uniqueOrders": 175,
-    "uniqueClasses": 41,
+    "uniqueGenera": 1450,
+    "uniqueFamilies": 645,
+    "uniqueOrders": 179,
+    "uniqueClasses": 42,
     "uniquePhyla": 13,
     "uniqueKingdoms": 7
   }

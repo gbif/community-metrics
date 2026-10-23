@@ -42,11 +42,11 @@ sql_query <- "
   SELECT 
     countrycode,
     datasetkey,
-    COUNT(DISTINCT specieskey) as species,
+    COUNT(DISTINCT occurrence.gbif_classification.specieskey) as species,
     COUNT(*) as occurrences
   FROM occurrence 
   WHERE countrycode IS NOT NULL
-    AND specieskey IS NOT NULL
+    AND occurrence.gbif_classification.specieskey IS NOT NULL
   GROUP BY countrycode, datasetkey
   ORDER BY countrycode, occurrences DESC
 "

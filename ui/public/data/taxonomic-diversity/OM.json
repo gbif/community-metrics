@@ -1,85 +1,85 @@
 {
   "countryCode": "OM",
   "countryName": "Oman",
-  "totalSpecies": 7983,
+  "totalSpecies": 7561,
   "groups": [
     {
       "name": "Other",
-      "species": 2409,
-      "percentage": 30.2,
+      "species": 2002,
+      "percentage": 26.5,
       "kingdom": "Animalia"
     },
     {
       "name": "Flowering Plants",
-      "species": 1380,
-      "percentage": 17.3,
+      "species": 1402,
+      "percentage": 18.5,
       "kingdom": "Plantae"
     },
     {
       "name": "Molluscs",
-      "species": 1288,
-      "percentage": 16.1,
+      "species": 1296,
+      "percentage": 17.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Insects",
-      "species": 865,
-      "percentage": 10.8,
+      "species": 886,
+      "percentage": 11.7,
       "kingdom": "Animalia"
     },
     {
       "name": "Birds",
-      "species": 581,
-      "percentage": 7.3,
+      "species": 583,
+      "percentage": 7.7,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 571,
-      "percentage": 7.2,
+      "species": 528,
+      "percentage": 7,
       "kingdom": "Chromista"
     },
     {
       "name": "Sac Fungi",
-      "species": 217,
-      "percentage": 2.7,
+      "species": 228,
+      "percentage": 3,
       "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 190,
-      "percentage": 2.4,
+      "species": 160,
+      "percentage": 2.1,
       "kingdom": "Plantae"
     },
     {
       "name": "Reptiles",
-      "species": 113,
-      "percentage": 1.4,
+      "species": 115,
+      "percentage": 1.5,
       "kingdom": "Animalia"
     },
     {
       "name": "Arachnids",
-      "species": 102,
+      "species": 101,
       "percentage": 1.3,
       "kingdom": "Animalia"
     },
     {
       "name": "Mammals",
-      "species": 88,
+      "species": 80,
       "percentage": 1.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Basidiomycota",
-      "species": 67,
-      "percentage": 0.8,
+      "species": 75,
+      "percentage": 1,
       "kingdom": "Fungi"
     },
     {
       "name": "Other",
-      "species": 30,
-      "percentage": 0.4,
-      "kingdom": "Bacteria"
+      "species": 25,
+      "percentage": 0.3,
+      "kingdom": "Fungi"
     },
     {
       "name": "Mosses",
@@ -89,9 +89,9 @@
     },
     {
       "name": "Other",
-      "species": 21,
+      "species": 20,
       "percentage": 0.3,
-      "kingdom": "Fungi"
+      "kingdom": "Bacteria"
     },
     {
       "name": "Ferns",
@@ -122,39 +122,33 @@
       "species": 3,
       "percentage": 0,
       "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 1,
-      "percentage": 0,
-      "kingdom": "incertae sedis"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 5449,
-      "percentage": 68.3
+      "species": 5066,
+      "percentage": 67
     },
     {
       "kingdom": "Plantae",
-      "species": 1610,
-      "percentage": 20.2
+      "species": 1602,
+      "percentage": 21.2
     },
     {
       "kingdom": "Chromista",
-      "species": 571,
-      "percentage": 7.2
+      "species": 528,
+      "percentage": 7
     },
     {
       "kingdom": "Fungi",
-      "species": 305,
-      "percentage": 3.8
+      "species": 328,
+      "percentage": 4.3
     },
     {
       "kingdom": "Bacteria",
-      "species": 30,
-      "percentage": 0.4
+      "species": 20,
+      "percentage": 0.3
     },
     {
       "kingdom": "Protozoa",
@@ -165,19 +159,14 @@
       "kingdom": "Archaea",
       "species": 4,
       "percentage": 0.1
-    },
-    {
-      "kingdom": "incertae sedis",
-      "species": 1,
-      "percentage": 0
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 3109,
-    "uniqueFamilies": 1207,
-    "uniqueOrders": 247,
-    "uniqueClasses": 56,
+    "uniqueGenera": 2889,
+    "uniqueFamilies": 1136,
+    "uniqueOrders": 242,
+    "uniqueClasses": 55,
     "uniquePhyla": 17,
-    "uniqueKingdoms": 8
+    "uniqueKingdoms": 7
   }
 }

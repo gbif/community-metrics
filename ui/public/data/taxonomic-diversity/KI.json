@@ -1,53 +1,53 @@
 {
   "countryCode": "KI",
   "countryName": "Kiribati",
-  "totalSpecies": 4125,
+  "totalSpecies": 4002,
   "groups": [
     {
       "name": "Other",
-      "species": 2189,
-      "percentage": 53.1,
+      "species": 2165,
+      "percentage": 54.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Molluscs",
-      "species": 778,
-      "percentage": 18.9,
+      "species": 774,
+      "percentage": 19.3,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 502,
-      "percentage": 12.2,
+      "species": 434,
+      "percentage": 10.8,
       "kingdom": "Chromista"
     },
     {
-      "name": "Other",
-      "species": 178,
-      "percentage": 4.3,
-      "kingdom": "Bacteria"
-    },
-    {
       "name": "Flowering Plants",
-      "species": 152,
-      "percentage": 3.7,
+      "species": 156,
+      "percentage": 3.9,
       "kingdom": "Plantae"
     },
     {
+      "name": "Other",
+      "species": 153,
+      "percentage": 3.8,
+      "kingdom": "Bacteria"
+    },
+    {
       "name": "Birds",
-      "species": 70,
-      "percentage": 1.7,
+      "species": 71,
+      "percentage": 1.8,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 54,
-      "percentage": 1.3,
+      "species": 48,
+      "percentage": 1.2,
       "kingdom": "Plantae"
     },
     {
       "name": "Insects",
-      "species": 46,
+      "species": 45,
       "percentage": 1.1,
       "kingdom": "Animalia"
     },
@@ -59,7 +59,7 @@
     },
     {
       "name": "Other",
-      "species": 34,
+      "species": 32,
       "percentage": 0.8,
       "kingdom": "Protozoa"
     },
@@ -71,8 +71,8 @@
     },
     {
       "name": "Arachnids",
-      "species": 14,
-      "percentage": 0.3,
+      "species": 15,
+      "percentage": 0.4,
       "kingdom": "Animalia"
     },
     {
@@ -89,7 +89,7 @@
     },
     {
       "name": "Mammals",
-      "species": 8,
+      "species": 9,
       "percentage": 0.2,
       "kingdom": "Animalia"
     },
@@ -115,23 +115,23 @@
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 3120,
-      "percentage": 75.6
+      "species": 3094,
+      "percentage": 77.3
     },
     {
       "kingdom": "Chromista",
-      "species": 502,
-      "percentage": 12.2
+      "species": 434,
+      "percentage": 10.8
     },
     {
       "kingdom": "Plantae",
-      "species": 214,
-      "percentage": 5.2
+      "species": 212,
+      "percentage": 5.3
     },
     {
       "kingdom": "Bacteria",
-      "species": 178,
-      "percentage": 4.3
+      "species": 153,
+      "percentage": 3.8
     },
     {
       "kingdom": "Fungi",
@@ -140,14 +140,14 @@
     },
     {
       "kingdom": "Protozoa",
-      "species": 34,
+      "species": 32,
       "percentage": 0.8
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1519,
-    "uniqueFamilies": 650,
-    "uniqueOrders": 188,
+    "uniqueGenera": 1511,
+    "uniqueFamilies": 648,
+    "uniqueOrders": 190,
     "uniqueClasses": 48,
     "uniquePhyla": 16,
     "uniqueKingdoms": 6

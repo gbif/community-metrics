@@ -1,60 +1,60 @@
 {
   "countryCode": "SN",
   "countryName": "Senegal",
-  "totalSpecies": 7027,
+  "totalSpecies": 7042,
   "groups": [
     {
       "name": "Flowering Plants",
-      "species": 2080,
-      "percentage": 29.6,
+      "species": 2068,
+      "percentage": 29.4,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 1681,
-      "percentage": 23.9,
+      "species": 1691,
+      "percentage": 24,
       "kingdom": "Animalia"
     },
     {
       "name": "Insects",
-      "species": 944,
-      "percentage": 13.4,
+      "species": 961,
+      "percentage": 13.6,
       "kingdom": "Animalia"
     },
     {
       "name": "Birds",
-      "species": 751,
+      "species": 753,
       "percentage": 10.7,
       "kingdom": "Animalia"
     },
     {
       "name": "Molluscs",
-      "species": 725,
+      "species": 726,
       "percentage": 10.3,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 242,
-      "percentage": 3.4,
+      "species": 224,
+      "percentage": 3.2,
       "kingdom": "Chromista"
     },
     {
       "name": "Mammals",
-      "species": 206,
-      "percentage": 2.9,
+      "species": 213,
+      "percentage": 3,
       "kingdom": "Animalia"
     },
     {
       "name": "Arachnids",
-      "species": 106,
+      "species": 108,
       "percentage": 1.5,
       "kingdom": "Animalia"
     },
     {
       "name": "Reptiles",
-      "species": 94,
-      "percentage": 1.3,
+      "species": 97,
+      "percentage": 1.4,
       "kingdom": "Animalia"
     },
     {
@@ -71,21 +71,27 @@
     },
     {
       "name": "Sac Fungi",
-      "species": 26,
+      "species": 25,
       "percentage": 0.4,
       "kingdom": "Fungi"
     },
     {
       "name": "Ferns",
-      "species": 24,
+      "species": 23,
       "percentage": 0.3,
       "kingdom": "Plantae"
     },
     {
       "name": "Amphibians",
-      "species": 20,
+      "species": 21,
       "percentage": 0.3,
       "kingdom": "Animalia"
+    },
+    {
+      "name": "Other",
+      "species": 16,
+      "percentage": 0.2,
+      "kingdom": "Bacteria"
     },
     {
       "name": "Mosses",
@@ -94,15 +100,9 @@
       "kingdom": "Plantae"
     },
     {
-      "name": "Other",
-      "species": 8,
-      "percentage": 0.1,
-      "kingdom": "Bacteria"
-    },
-    {
       "name": "Gymnosperms",
-      "species": 7,
-      "percentage": 0.1,
+      "species": 3,
+      "percentage": 0,
       "kingdom": "Plantae"
     },
     {
@@ -133,28 +133,28 @@
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 4527,
-      "percentage": 64.4
+      "species": 4570,
+      "percentage": 64.9
     },
     {
       "kingdom": "Plantae",
-      "species": 2179,
-      "percentage": 31
+      "species": 2162,
+      "percentage": 30.7
     },
     {
       "kingdom": "Chromista",
-      "species": 242,
-      "percentage": 3.4
+      "species": 224,
+      "percentage": 3.2
     },
     {
       "kingdom": "Fungi",
-      "species": 65,
+      "species": 64,
       "percentage": 0.9
     },
     {
       "kingdom": "Bacteria",
-      "species": 8,
-      "percentage": 0.1
+      "species": 16,
+      "percentage": 0.2
     },
     {
       "kingdom": "Viruses",
@@ -173,9 +173,9 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 2602,
-    "uniqueFamilies": 1037,
-    "uniqueOrders": 243,
+    "uniqueGenera": 2624,
+    "uniqueFamilies": 1048,
+    "uniqueOrders": 241,
     "uniqueClasses": 49,
     "uniquePhyla": 13,
     "uniqueKingdoms": 8

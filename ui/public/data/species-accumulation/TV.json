@@ -1,12 +1,155 @@
 {
   "countryCode": "TV",
   "countryName": "Tuvalu",
-  "lastModified": "2026-09-15",
+  "lastModified": "2026-10-20",
   "taxonomicGroups": [
     {
-      "group": "Other",
-      "totalSpecies": 1160,
-      "totalOccurrences": 7865,
+      "group": "Amphibians",
+      "totalSpecies": 1,
+      "totalOccurrences": 3,
+      "data": [
+        {
+          "year": 1983,
+          "cumulativeSpecies": 1,
+          "effort": 2
+        },
+        {
+          "year": 2024,
+          "cumulativeSpecies": 1,
+          "effort": 3
+        }
+      ]
+    },
+    {
+      "group": "Arachnids",
+      "totalSpecies": 1,
+      "totalOccurrences": 1,
+      "data": [
+        {
+          "year": 1976,
+          "cumulativeSpecies": 1,
+          "effort": 1
+        }
+      ]
+    },
+    {
+      "group": "Birds",
+      "totalSpecies": 30,
+      "totalOccurrences": 106,
+      "data": [
+        {
+          "year": 1899,
+          "cumulativeSpecies": 1,
+          "effort": 1
+        },
+        {
+          "year": 1967,
+          "cumulativeSpecies": 2,
+          "effort": 2
+        },
+        {
+          "year": 1981,
+          "cumulativeSpecies": 11,
+          "effort": 12
+        },
+        {
+          "year": 1994,
+          "cumulativeSpecies": 13,
+          "effort": 16
+        },
+        {
+          "year": 2004,
+          "cumulativeSpecies": 21,
+          "effort": 27
+        },
+        {
+          "year": 2005,
+          "cumulativeSpecies": 22,
+          "effort": 28
+        },
+        {
+          "year": 2010,
+          "cumulativeSpecies": 22,
+          "effort": 29
+        },
+        {
+          "year": 2018,
+          "cumulativeSpecies": 23,
+          "effort": 32
+        },
+        {
+          "year": 2019,
+          "cumulativeSpecies": 23,
+          "effort": 40
+        },
+        {
+          "year": 2020,
+          "cumulativeSpecies": 24,
+          "effort": 42
+        },
+        {
+          "year": 2021,
+          "cumulativeSpecies": 25,
+          "effort": 43
+        },
+        {
+          "year": 2023,
+          "cumulativeSpecies": 26,
+          "effort": 53
+        },
+        {
+          "year": 2024,
+          "cumulativeSpecies": 26,
+          "effort": 56
+        },
+        {
+          "year": 2025,
+          "cumulativeSpecies": 26,
+          "effort": 57
+        },
+        {
+          "year": 2026,
+          "cumulativeSpecies": 30,
+          "effort": 106
+        }
+      ]
+    },
+    {
+      "group": "Ferns",
+      "totalSpecies": 4,
+      "totalOccurrences": 7,
+      "data": [
+        {
+          "year": 1898,
+          "cumulativeSpecies": 1,
+          "effort": 1
+        },
+        {
+          "year": 1910,
+          "cumulativeSpecies": 1,
+          "effort": 2
+        },
+        {
+          "year": 1971,
+          "cumulativeSpecies": 3,
+          "effort": 4
+        },
+        {
+          "year": 1981,
+          "cumulativeSpecies": 4,
+          "effort": 5
+        },
+        {
+          "year": 1982,
+          "cumulativeSpecies": 4,
+          "effort": 7
+        }
+      ]
+    },
+    {
+      "group": "Floweringplants",
+      "totalSpecies": 93,
+      "totalOccurrences": 193,
       "data": [
         {
           "year": 1860,
@@ -14,341 +157,543 @@
           "effort": 1
         },
         {
-          "year": 1889,
+          "year": 1898,
+          "cumulativeSpecies": 4,
+          "effort": 4
+        },
+        {
+          "year": 1976,
+          "cumulativeSpecies": 5,
+          "effort": 5
+        },
+        {
+          "year": 1981,
+          "cumulativeSpecies": 10,
+          "effort": 12
+        },
+        {
+          "year": 1982,
+          "cumulativeSpecies": 17,
+          "effort": 21
+        },
+        {
+          "year": 1986,
+          "cumulativeSpecies": 18,
+          "effort": 23
+        },
+        {
+          "year": 2019,
+          "cumulativeSpecies": 19,
+          "effort": 24
+        },
+        {
+          "year": 2021,
+          "cumulativeSpecies": 20,
+          "effort": 25
+        },
+        {
+          "year": 2022,
+          "cumulativeSpecies": 21,
+          "effort": 26
+        },
+        {
+          "year": 2023,
+          "cumulativeSpecies": 24,
+          "effort": 33
+        },
+        {
+          "year": 2024,
+          "cumulativeSpecies": 30,
+          "effort": 51
+        },
+        {
+          "year": 2025,
+          "cumulativeSpecies": 87,
+          "effort": 137
+        },
+        {
+          "year": 2026,
+          "cumulativeSpecies": 93,
+          "effort": 193
+        }
+      ]
+    },
+    {
+      "group": "Insects",
+      "totalSpecies": 9,
+      "totalOccurrences": 18,
+      "data": [
+        {
+          "year": 1900,
+          "cumulativeSpecies": 1,
+          "effort": 1
+        },
+        {
+          "year": 1924,
+          "cumulativeSpecies": 2,
+          "effort": 5
+        },
+        {
+          "year": 1954,
+          "cumulativeSpecies": 3,
+          "effort": 7
+        },
+        {
+          "year": 1958,
+          "cumulativeSpecies": 4,
+          "effort": 9
+        },
+        {
+          "year": 1972,
+          "cumulativeSpecies": 5,
+          "effort": 10
+        },
+        {
+          "year": 1974,
+          "cumulativeSpecies": 5,
+          "effort": 12
+        },
+        {
+          "year": 2023,
+          "cumulativeSpecies": 5,
+          "effort": 13
+        },
+        {
+          "year": 2024,
+          "cumulativeSpecies": 6,
+          "effort": 14
+        },
+        {
+          "year": 2025,
+          "cumulativeSpecies": 8,
+          "effort": 16
+        },
+        {
+          "year": 2026,
+          "cumulativeSpecies": 9,
+          "effort": 18
+        }
+      ]
+    },
+    {
+      "group": "Mammals",
+      "totalSpecies": 5,
+      "totalOccurrences": 8,
+      "data": [
+        {
+          "year": 1981,
+          "cumulativeSpecies": 1,
+          "effort": 1
+        },
+        {
+          "year": 2019,
           "cumulativeSpecies": 2,
           "effort": 2
         },
         {
-          "year": 1896,
-          "cumulativeSpecies": 231,
-          "effort": 318
-        },
-        {
-          "year": 1897,
-          "cumulativeSpecies": 237,
-          "effort": 350
-        },
-        {
-          "year": 1898,
-          "cumulativeSpecies": 259,
-          "effort": 391
-        },
-        {
-          "year": 1899,
-          "cumulativeSpecies": 315,
-          "effort": 471
-        },
-        {
-          "year": 1900,
-          "cumulativeSpecies": 316,
-          "effort": 472
-        },
-        {
-          "year": 1902,
-          "cumulativeSpecies": 317,
-          "effort": 473
-        },
-        {
-          "year": 1903,
-          "cumulativeSpecies": 318,
-          "effort": 476
-        },
-        {
-          "year": 1910,
-          "cumulativeSpecies": 318,
-          "effort": 477
-        },
-        {
-          "year": 1917,
-          "cumulativeSpecies": 335,
-          "effort": 504
-        },
-        {
-          "year": 1921,
-          "cumulativeSpecies": 336,
-          "effort": 506
-        },
-        {
-          "year": 1924,
-          "cumulativeSpecies": 337,
-          "effort": 510
-        },
-        {
-          "year": 1928,
-          "cumulativeSpecies": 338,
-          "effort": 511
-        },
-        {
-          "year": 1930,
-          "cumulativeSpecies": 355,
-          "effort": 544
-        },
-        {
-          "year": 1932,
-          "cumulativeSpecies": 363,
-          "effort": 555
-        },
-        {
-          "year": 1943,
-          "cumulativeSpecies": 382,
-          "effort": 601
-        },
-        {
-          "year": 1944,
-          "cumulativeSpecies": 382,
-          "effort": 602
-        },
-        {
-          "year": 1945,
-          "cumulativeSpecies": 382,
-          "effort": 603
-        },
-        {
-          "year": 1951,
-          "cumulativeSpecies": 389,
-          "effort": 628
-        },
-        {
-          "year": 1952,
-          "cumulativeSpecies": 391,
-          "effort": 630
-        },
-        {
-          "year": 1954,
-          "cumulativeSpecies": 392,
-          "effort": 632
-        },
-        {
-          "year": 1958,
-          "cumulativeSpecies": 393,
-          "effort": 634
-        },
-        {
-          "year": 1960,
-          "cumulativeSpecies": 396,
-          "effort": 644
-        },
-        {
-          "year": 1962,
-          "cumulativeSpecies": 407,
-          "effort": 658
-        },
-        {
-          "year": 1963,
-          "cumulativeSpecies": 409,
-          "effort": 660
-        },
-        {
-          "year": 1967,
-          "cumulativeSpecies": 410,
-          "effort": 661
-        },
-        {
-          "year": 1970,
-          "cumulativeSpecies": 412,
-          "effort": 663
-        },
-        {
-          "year": 1971,
-          "cumulativeSpecies": 414,
-          "effort": 665
-        },
-        {
-          "year": 1972,
-          "cumulativeSpecies": 415,
-          "effort": 666
-        },
-        {
-          "year": 1973,
-          "cumulativeSpecies": 415,
-          "effort": 667
-        },
-        {
-          "year": 1974,
-          "cumulativeSpecies": 415,
-          "effort": 669
-        },
-        {
-          "year": 1976,
-          "cumulativeSpecies": 416,
-          "effort": 670
-        },
-        {
-          "year": 1978,
-          "cumulativeSpecies": 417,
-          "effort": 671
-        },
-        {
-          "year": 1981,
-          "cumulativeSpecies": 429,
-          "effort": 684
-        },
-        {
-          "year": 1982,
-          "cumulativeSpecies": 430,
-          "effort": 687
-        },
-        {
-          "year": 1983,
-          "cumulativeSpecies": 433,
-          "effort": 706
-        },
-        {
-          "year": 1984,
-          "cumulativeSpecies": 434,
-          "effort": 707
-        },
-        {
-          "year": 1986,
-          "cumulativeSpecies": 435,
-          "effort": 709
-        },
-        {
-          "year": 1987,
-          "cumulativeSpecies": 538,
-          "effort": 1075
-        },
-        {
-          "year": 1989,
-          "cumulativeSpecies": 539,
-          "effort": 1076
-        },
-        {
-          "year": 1990,
-          "cumulativeSpecies": 556,
-          "effort": 1101
-        },
-        {
-          "year": 1991,
-          "cumulativeSpecies": 560,
-          "effort": 1106
-        },
-        {
-          "year": 1992,
-          "cumulativeSpecies": 589,
-          "effort": 1229
-        },
-        {
-          "year": 1994,
-          "cumulativeSpecies": 592,
-          "effort": 1234
-        },
-        {
-          "year": 1997,
-          "cumulativeSpecies": 593,
-          "effort": 1235
-        },
-        {
-          "year": 1998,
-          "cumulativeSpecies": 598,
-          "effort": 1254
-        },
-        {
-          "year": 1999,
-          "cumulativeSpecies": 610,
-          "effort": 1270
-        },
-        {
-          "year": 2004,
-          "cumulativeSpecies": 828,
-          "effort": 3575
-        },
-        {
-          "year": 2005,
-          "cumulativeSpecies": 850,
-          "effort": 5526
-        },
-        {
-          "year": 2007,
-          "cumulativeSpecies": 852,
-          "effort": 5530
-        },
-        {
-          "year": 2008,
-          "cumulativeSpecies": 856,
-          "effort": 5542
-        },
-        {
-          "year": 2009,
-          "cumulativeSpecies": 864,
-          "effort": 5707
-        },
-        {
-          "year": 2010,
-          "cumulativeSpecies": 864,
-          "effort": 5708
-        },
-        {
-          "year": 2011,
-          "cumulativeSpecies": 864,
-          "effort": 5709
-        },
-        {
-          "year": 2012,
-          "cumulativeSpecies": 865,
-          "effort": 5711
-        },
-        {
-          "year": 2014,
-          "cumulativeSpecies": 870,
-          "effort": 5723
-        },
-        {
-          "year": 2016,
-          "cumulativeSpecies": 875,
-          "effort": 5732
-        },
-        {
-          "year": 2017,
-          "cumulativeSpecies": 885,
-          "effort": 5770
-        },
-        {
-          "year": 2018,
-          "cumulativeSpecies": 886,
-          "effort": 5773
-        },
-        {
-          "year": 2019,
-          "cumulativeSpecies": 889,
-          "effort": 5785
-        },
-        {
-          "year": 2021,
-          "cumulativeSpecies": 891,
-          "effort": 5787
-        },
-        {
-          "year": 2022,
-          "cumulativeSpecies": 892,
-          "effort": 5788
-        },
-        {
-          "year": 2023,
-          "cumulativeSpecies": 1009,
-          "effort": 6528
-        },
-        {
           "year": 2024,
-          "cumulativeSpecies": 1079,
-          "effort": 7551
-        },
-        {
-          "year": 2025,
-          "cumulativeSpecies": 1140,
-          "effort": 7644
+          "cumulativeSpecies": 3,
+          "effort": 4
         },
         {
           "year": 2026,
-          "cumulativeSpecies": 1160,
-          "effort": 7865
+          "cumulativeSpecies": 5,
+          "effort": 8
+        }
+      ]
+    },
+    {
+      "group": "Molluscs",
+      "totalSpecies": 294,
+      "totalOccurrences": 1133,
+      "data": [
+        {
+          "year": 1896,
+          "cumulativeSpecies": 179,
+          "effort": 228
+        },
+        {
+          "year": 1897,
+          "cumulativeSpecies": 184,
+          "effort": 259
+        },
+        {
+          "year": 1898,
+          "cumulativeSpecies": 201,
+          "effort": 295
+        },
+        {
+          "year": 1899,
+          "cumulativeSpecies": 206,
+          "effort": 308
+        },
+        {
+          "year": 1917,
+          "cumulativeSpecies": 209,
+          "effort": 316
+        },
+        {
+          "year": 1921,
+          "cumulativeSpecies": 210,
+          "effort": 318
+        },
+        {
+          "year": 1943,
+          "cumulativeSpecies": 227,
+          "effort": 363
+        },
+        {
+          "year": 1945,
+          "cumulativeSpecies": 227,
+          "effort": 364
+        },
+        {
+          "year": 1951,
+          "cumulativeSpecies": 234,
+          "effort": 389
+        },
+        {
+          "year": 1970,
+          "cumulativeSpecies": 235,
+          "effort": 390
+        },
+        {
+          "year": 1990,
+          "cumulativeSpecies": 236,
+          "effort": 391
+        },
+        {
+          "year": 2004,
+          "cumulativeSpecies": 274,
+          "effort": 763
+        },
+        {
+          "year": 2005,
+          "cumulativeSpecies": 276,
+          "effort": 995
+        },
+        {
+          "year": 2017,
+          "cumulativeSpecies": 277,
+          "effort": 997
+        },
+        {
+          "year": 2019,
+          "cumulativeSpecies": 277,
+          "effort": 998
+        },
+        {
+          "year": 2023,
+          "cumulativeSpecies": 281,
+          "effort": 1042
+        },
+        {
+          "year": 2024,
+          "cumulativeSpecies": 292,
+          "effort": 1114
+        },
+        {
+          "year": 2025,
+          "cumulativeSpecies": 292,
+          "effort": 1115
+        },
+        {
+          "year": 2026,
+          "cumulativeSpecies": 294,
+          "effort": 1133
+        }
+      ]
+    },
+    {
+      "group": "Other",
+      "totalSpecies": 735,
+      "totalOccurrences": 6914,
+      "data": [
+        {
+          "year": 1889,
+          "cumulativeSpecies": 1,
+          "effort": 1
+        },
+        {
+          "year": 1896,
+          "cumulativeSpecies": 51,
+          "effort": 89
+        },
+        {
+          "year": 1897,
+          "cumulativeSpecies": 52,
+          "effort": 90
+        },
+        {
+          "year": 1898,
+          "cumulativeSpecies": 53,
+          "effort": 91
+        },
+        {
+          "year": 1899,
+          "cumulativeSpecies": 103,
+          "effort": 156
+        },
+        {
+          "year": 1902,
+          "cumulativeSpecies": 104,
+          "effort": 157
+        },
+        {
+          "year": 1903,
+          "cumulativeSpecies": 105,
+          "effort": 160
+        },
+        {
+          "year": 1917,
+          "cumulativeSpecies": 119,
+          "effort": 179
+        },
+        {
+          "year": 1928,
+          "cumulativeSpecies": 120,
+          "effort": 180
+        },
+        {
+          "year": 1930,
+          "cumulativeSpecies": 137,
+          "effort": 213
+        },
+        {
+          "year": 1932,
+          "cumulativeSpecies": 145,
+          "effort": 224
+        },
+        {
+          "year": 1943,
+          "cumulativeSpecies": 146,
+          "effort": 225
+        },
+        {
+          "year": 1944,
+          "cumulativeSpecies": 146,
+          "effort": 226
+        },
+        {
+          "year": 1952,
+          "cumulativeSpecies": 148,
+          "effort": 228
+        },
+        {
+          "year": 1960,
+          "cumulativeSpecies": 151,
+          "effort": 238
+        },
+        {
+          "year": 1962,
+          "cumulativeSpecies": 162,
+          "effort": 252
+        },
+        {
+          "year": 1963,
+          "cumulativeSpecies": 163,
+          "effort": 253
+        },
+        {
+          "year": 1970,
+          "cumulativeSpecies": 164,
+          "effort": 254
+        },
+        {
+          "year": 1973,
+          "cumulativeSpecies": 164,
+          "effort": 255
+        },
+        {
+          "year": 1978,
+          "cumulativeSpecies": 165,
+          "effort": 256
+        },
+        {
+          "year": 1981,
+          "cumulativeSpecies": 166,
+          "effort": 257
+        },
+        {
+          "year": 1984,
+          "cumulativeSpecies": 167,
+          "effort": 258
+        },
+        {
+          "year": 1987,
+          "cumulativeSpecies": 268,
+          "effort": 618
+        },
+        {
+          "year": 1989,
+          "cumulativeSpecies": 269,
+          "effort": 619
+        },
+        {
+          "year": 1990,
+          "cumulativeSpecies": 285,
+          "effort": 643
+        },
+        {
+          "year": 1991,
+          "cumulativeSpecies": 289,
+          "effort": 648
+        },
+        {
+          "year": 1992,
+          "cumulativeSpecies": 318,
+          "effort": 771
+        },
+        {
+          "year": 1994,
+          "cumulativeSpecies": 319,
+          "effort": 772
+        },
+        {
+          "year": 1997,
+          "cumulativeSpecies": 320,
+          "effort": 773
+        },
+        {
+          "year": 1999,
+          "cumulativeSpecies": 332,
+          "effort": 789
+        },
+        {
+          "year": 2004,
+          "cumulativeSpecies": 504,
+          "effort": 2711
+        },
+        {
+          "year": 2005,
+          "cumulativeSpecies": 523,
+          "effort": 4429
+        },
+        {
+          "year": 2007,
+          "cumulativeSpecies": 525,
+          "effort": 4433
+        },
+        {
+          "year": 2008,
+          "cumulativeSpecies": 528,
+          "effort": 4438
+        },
+        {
+          "year": 2009,
+          "cumulativeSpecies": 536,
+          "effort": 4603
+        },
+        {
+          "year": 2011,
+          "cumulativeSpecies": 536,
+          "effort": 4604
+        },
+        {
+          "year": 2012,
+          "cumulativeSpecies": 537,
+          "effort": 4606
+        },
+        {
+          "year": 2014,
+          "cumulativeSpecies": 543,
+          "effort": 4618
+        },
+        {
+          "year": 2016,
+          "cumulativeSpecies": 548,
+          "effort": 4627
+        },
+        {
+          "year": 2017,
+          "cumulativeSpecies": 557,
+          "effort": 4663
+        },
+        {
+          "year": 2023,
+          "cumulativeSpecies": 662,
+          "effort": 5333
+        },
+        {
+          "year": 2024,
+          "cumulativeSpecies": 714,
+          "effort": 6251
+        },
+        {
+          "year": 2025,
+          "cumulativeSpecies": 715,
+          "effort": 6260
+        },
+        {
+          "year": 2026,
+          "cumulativeSpecies": 735,
+          "effort": 6914
+        }
+      ]
+    },
+    {
+      "group": "Reptiles",
+      "totalSpecies": 12,
+      "totalOccurrences": 57,
+      "data": [
+        {
+          "year": 1983,
+          "cumulativeSpecies": 2,
+          "effort": 17
+        },
+        {
+          "year": 1998,
+          "cumulativeSpecies": 7,
+          "effort": 36
+        },
+        {
+          "year": 2008,
+          "cumulativeSpecies": 8,
+          "effort": 43
+        },
+        {
+          "year": 2019,
+          "cumulativeSpecies": 9,
+          "effort": 44
+        },
+        {
+          "year": 2023,
+          "cumulativeSpecies": 11,
+          "effort": 46
+        },
+        {
+          "year": 2024,
+          "cumulativeSpecies": 11,
+          "effort": 50
+        },
+        {
+          "year": 2025,
+          "cumulativeSpecies": 11,
+          "effort": 51
+        },
+        {
+          "year": 2026,
+          "cumulativeSpecies": 12,
+          "effort": 57
+        }
+      ]
+    },
+    {
+      "group": "Sacfungi",
+      "totalSpecies": 1,
+      "totalOccurrences": 1,
+      "data": [
+        {
+          "year": 1963,
+          "cumulativeSpecies": 1,
+          "effort": 1
         }
       ]
     }
   ],
   "downloadAttribution": {
-    "downloadKey": "0001061-260914200134857",
-    "doi": "10.15468/dl.rr342r",
-    "created": "2026-09-15T11:20:53.081+00:00"
+    "downloadKey": "0036630-260928105237408",
+    "doi": "10.15468/dl.hacda4",
+    "created": "2026-10-20T11:23:33.785+00:00"
   }
 }

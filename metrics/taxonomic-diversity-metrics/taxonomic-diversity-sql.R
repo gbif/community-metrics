@@ -40,50 +40,50 @@ sql_groups <- "
 SELECT 
   countryCode,
   CASE 
-    WHEN classKey IN ('359') THEN 'Mammals'
-    WHEN classKey IN ('212') THEN 'Birds'
-    WHEN familyKey IN ('1103', '1104', '494', '495', '1105', '496', '497', '1106', '498', '499', '1107', '537', '538', '1153', '547', '1162', '548', '549', '550', '1163', '1164', '1165', '1166', '1167', '1305', '1067', '1306', '1307', '1308', '1068', '1069', '587', '1310', '588', '589', '1311', '1312', '1313', '590', '708', '890', '774', '889', '773', '772', '888', '765', '879') THEN 'Bony Fish'
-    WHEN classKey IN ('131') THEN 'Amphibians'
-    WHEN classKey IN ('216') THEN 'Insects'
-    WHEN classKey IN ('11418114', '11569602', '11592253', '11493978') THEN 'Reptiles'
-    WHEN phylumKey IN ('52') THEN 'Molluscs'
-    WHEN classKey IN ('367') THEN 'Arachnids'
-    WHEN classKey IN ('220', '196') THEN 'Flowering Plants'
-    WHEN classKey IN ('194', '244', '228', '282') THEN 'Gymnosperms'
-    WHEN orderKey IN ('392') THEN 'Ferns'
-    WHEN phylumKey IN ('35') THEN 'Mosses'
-    WHEN phylumKey IN ('95') THEN 'Sac Fungi'
-    WHEN phylumKey IN ('34') THEN 'Basidiomycota'
+    WHEN occurrence.gbif_classification.classkey IN ('359') THEN 'Mammals'
+    WHEN occurrence.gbif_classification.classkey IN ('212') THEN 'Birds'
+    WHEN occurrence.gbif_classification.familykey IN ('1103', '1104', '494', '495', '1105', '496', '497', '1106', '498', '499', '1107', '537', '538', '1153', '547', '1162', '548', '549', '550', '1163', '1164', '1165', '1166', '1167', '1305', '1067', '1306', '1307', '1308', '1068', '1069', '587', '1310', '588', '589', '1311', '1312', '1313', '590', '708', '890', '774', '889', '773', '772', '888', '765', '879') THEN 'Bony Fish'
+    WHEN occurrence.gbif_classification.classkey IN ('131') THEN 'Amphibians'
+    WHEN occurrence.gbif_classification.classkey IN ('216') THEN 'Insects'
+    WHEN occurrence.gbif_classification.classkey IN ('11418114', '11569602', '11592253', '11493978') THEN 'Reptiles'
+    WHEN occurrence.gbif_classification.phylumkey IN ('52') THEN 'Molluscs'
+    WHEN occurrence.gbif_classification.classkey IN ('367') THEN 'Arachnids'
+    WHEN occurrence.gbif_classification.classkey IN ('220', '196') THEN 'Flowering Plants'
+    WHEN occurrence.gbif_classification.classkey IN ('194', '244', '228', '282') THEN 'Gymnosperms'
+    WHEN occurrence.gbif_classification.orderkey IN ('392') THEN 'Ferns'
+    WHEN occurrence.gbif_classification.phylumkey IN ('35') THEN 'Mosses'
+    WHEN occurrence.gbif_classification.phylumkey IN ('95') THEN 'Sac Fungi'
+    WHEN occurrence.gbif_classification.phylumkey IN ('34') THEN 'Basidiomycota'
     ELSE 'Other'
   END AS taxon_group,
-  kingdom,
-  COUNT(DISTINCT speciesKey) AS species_count
+  occurrence.gbif_classification.kingdom AS kingdom,
+  COUNT(DISTINCT occurrence.gbif_classification.specieskey) AS species_count
 FROM occurrence
 WHERE 
   hasCoordinate = TRUE
   AND hasgeospatialissues = FALSE
-  AND speciesKey IS NOT NULL
+  AND occurrence.gbif_classification.specieskey IS NOT NULL
   AND basisOfRecord != 'FOSSIL_SPECIMEN'
   AND taxonrank = 'SPECIES'
   AND countryCode IS NOT NULL
 GROUP BY 
   countryCode,
-  kingdom,
+  occurrence.gbif_classification.kingdom,
   CASE 
-    WHEN classKey IN ('359') THEN 'Mammals'
-    WHEN classKey IN ('212') THEN 'Birds'
-    WHEN familyKey IN ('1103', '1104', '494', '495', '1105', '496', '497', '1106', '498', '499', '1107', '537', '538', '1153', '547', '1162', '548', '549', '550', '1163', '1164', '1165', '1166', '1167', '1305', '1067', '1306', '1307', '1308', '1068', '1069', '587', '1310', '588', '589', '1311', '1312', '1313', '590', '708', '890', '774', '889', '773', '772', '888', '765', '879') THEN 'Bony Fish'
-    WHEN classKey IN ('131') THEN 'Amphibians'
-    WHEN classKey IN ('216') THEN 'Insects'
-    WHEN classKey IN ('11418114', '11569602', '11592253', '11493978') THEN 'Reptiles'
-    WHEN phylumKey IN ('52') THEN 'Molluscs'
-    WHEN classKey IN ('367') THEN 'Arachnids'
-    WHEN classKey IN ('220', '196') THEN 'Flowering Plants'
-    WHEN classKey IN ('194', '244', '228', '282') THEN 'Gymnosperms'
-    WHEN orderKey IN ('392') THEN 'Ferns'
-    WHEN phylumKey IN ('35') THEN 'Mosses'
-    WHEN phylumKey IN ('95') THEN 'Sac Fungi'
-    WHEN phylumKey IN ('34') THEN 'Basidiomycota'
+    WHEN occurrence.gbif_classification.classkey IN ('359') THEN 'Mammals'
+    WHEN occurrence.gbif_classification.classkey IN ('212') THEN 'Birds'
+    WHEN occurrence.gbif_classification.familykey IN ('1103', '1104', '494', '495', '1105', '496', '497', '1106', '498', '499', '1107', '537', '538', '1153', '547', '1162', '548', '549', '550', '1163', '1164', '1165', '1166', '1167', '1305', '1067', '1306', '1307', '1308', '1068', '1069', '587', '1310', '588', '589', '1311', '1312', '1313', '590', '708', '890', '774', '889', '773', '772', '888', '765', '879') THEN 'Bony Fish'
+    WHEN occurrence.gbif_classification.classkey IN ('131') THEN 'Amphibians'
+    WHEN occurrence.gbif_classification.classkey IN ('216') THEN 'Insects'
+    WHEN occurrence.gbif_classification.classkey IN ('11418114', '11569602', '11592253', '11493978') THEN 'Reptiles'
+    WHEN occurrence.gbif_classification.phylumkey IN ('52') THEN 'Molluscs'
+    WHEN occurrence.gbif_classification.classkey IN ('367') THEN 'Arachnids'
+    WHEN occurrence.gbif_classification.classkey IN ('220', '196') THEN 'Flowering Plants'
+    WHEN occurrence.gbif_classification.classkey IN ('194', '244', '228', '282') THEN 'Gymnosperms'
+    WHEN occurrence.gbif_classification.orderkey IN ('392') THEN 'Ferns'
+    WHEN occurrence.gbif_classification.phylumkey IN ('35') THEN 'Mosses'
+    WHEN occurrence.gbif_classification.phylumkey IN ('95') THEN 'Sac Fungi'
+    WHEN occurrence.gbif_classification.phylumkey IN ('34') THEN 'Basidiomycota'
     ELSE 'Other'
   END
 ORDER BY countryCode, taxon_group, kingdom
@@ -93,25 +93,25 @@ ORDER BY countryCode, taxon_group, kingdom
 sql_kingdoms_ranks <- "
 SELECT 
   countryCode,
-  kingdom,
-  COUNT(DISTINCT speciesKey) AS species_count,
-  COUNT(DISTINCT genusKey) AS unique_genera,
-  COUNT(DISTINCT familyKey) AS unique_families,
-  COUNT(DISTINCT orderKey) AS unique_orders,
-  COUNT(DISTINCT classKey) AS unique_classes,
-  COUNT(DISTINCT phylumKey) AS unique_phyla
+  occurrence.gbif_classification.kingdom AS kingdom,
+  COUNT(DISTINCT occurrence.gbif_classification.specieskey) AS species_count,
+  COUNT(DISTINCT occurrence.gbif_classification.genuskey) AS unique_genera,
+  COUNT(DISTINCT occurrence.gbif_classification.familykey) AS unique_families,
+  COUNT(DISTINCT occurrence.gbif_classification.orderkey) AS unique_orders,
+  COUNT(DISTINCT occurrence.gbif_classification.classkey) AS unique_classes,
+  COUNT(DISTINCT occurrence.gbif_classification.phylumkey) AS unique_phyla
 FROM occurrence
 WHERE 
   hasCoordinate = TRUE
   AND hasgeospatialissues = FALSE
-  AND speciesKey IS NOT NULL
+  AND occurrence.gbif_classification.specieskey IS NOT NULL
   AND basisOfRecord != 'FOSSIL_SPECIMEN'
   AND taxonrank = 'SPECIES'
   AND countryCode IS NOT NULL
-  AND kingdom IS NOT NULL
+  AND occurrence.gbif_classification.kingdom IS NOT NULL
 GROUP BY 
   countryCode,
-  kingdom
+  occurrence.gbif_classification.kingdom
 ORDER BY countryCode, kingdom
 "
 

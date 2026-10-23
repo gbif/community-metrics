@@ -1,67 +1,61 @@
 {
   "countryCode": "NE",
   "countryName": "Niger",
-  "totalSpecies": 2543,
+  "totalSpecies": 2498,
   "groups": [
     {
       "name": "Flowering Plants",
-      "species": 1294,
-      "percentage": 50.9,
+      "species": 1289,
+      "percentage": 51.6,
       "kingdom": "Plantae"
     },
     {
       "name": "Birds",
       "species": 435,
-      "percentage": 17.1,
+      "percentage": 17.4,
       "kingdom": "Animalia"
     },
     {
       "name": "Insects",
-      "species": 245,
-      "percentage": 9.6,
+      "species": 249,
+      "percentage": 10,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 214,
-      "percentage": 8.4,
+      "species": 184,
+      "percentage": 7.4,
       "kingdom": "Animalia"
     },
     {
       "name": "Mammals",
-      "species": 148,
-      "percentage": 5.8,
+      "species": 143,
+      "percentage": 5.7,
       "kingdom": "Animalia"
     },
     {
       "name": "Reptiles",
-      "species": 75,
+      "species": 72,
       "percentage": 2.9,
       "kingdom": "Animalia"
     },
     {
       "name": "Molluscs",
-      "species": 27,
-      "percentage": 1.1,
+      "species": 26,
+      "percentage": 1,
       "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 20,
-      "percentage": 0.8,
-      "kingdom": "Plantae"
     },
     {
       "name": "Mosses",
       "species": 19,
-      "percentage": 0.7,
+      "percentage": 0.8,
       "kingdom": "Plantae"
     },
     {
-      "name": "Amphibians",
-      "species": 17,
+      "name": "Other",
+      "species": 18,
       "percentage": 0.7,
-      "kingdom": "Animalia"
+      "kingdom": "Plantae"
     },
     {
       "name": "Arachnids",
@@ -74,6 +68,12 @@
       "species": 14,
       "percentage": 0.6,
       "kingdom": "Chromista"
+    },
+    {
+      "name": "Amphibians",
+      "species": 13,
+      "percentage": 0.5,
+      "kingdom": "Animalia"
     },
     {
       "name": "Other",
@@ -95,21 +95,21 @@
     },
     {
       "name": "Basidiomycota",
-      "species": 3,
-      "percentage": 0.1,
+      "species": 4,
+      "percentage": 0.2,
       "kingdom": "Fungi"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Plantae",
-      "species": 1338,
-      "percentage": 52.6
+      "species": 1331,
+      "percentage": 53.3
     },
     {
       "kingdom": "Animalia",
-      "species": 1176,
-      "percentage": 46.2
+      "species": 1137,
+      "percentage": 45.5
     },
     {
       "kingdom": "Chromista",
@@ -118,8 +118,8 @@
     },
     {
       "kingdom": "Fungi",
-      "species": 8,
-      "percentage": 0.3
+      "species": 9,
+      "percentage": 0.4
     },
     {
       "kingdom": "Bacteria",
@@ -128,11 +128,11 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 755,
-    "uniqueFamilies": 325,
-    "uniqueOrders": 101,
-    "uniqueClasses": 26,
-    "uniquePhyla": 11,
+    "uniqueGenera": 720,
+    "uniqueFamilies": 302,
+    "uniqueOrders": 93,
+    "uniqueClasses": 23,
+    "uniquePhyla": 10,
     "uniqueKingdoms": 5
   }
 }

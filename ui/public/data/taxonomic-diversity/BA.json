@@ -1,78 +1,78 @@
 {
   "countryCode": "BA",
   "countryName": "Bosnia and Herzegovina",
-  "totalSpecies": 6819,
+  "totalSpecies": 7148,
   "groups": [
     {
       "name": "Insects",
-      "species": 2353,
-      "percentage": 34.5,
+      "species": 2606,
+      "percentage": 36.5,
       "kingdom": "Animalia"
     },
     {
       "name": "Flowering Plants",
-      "species": 2291,
-      "percentage": 33.6,
+      "species": 2324,
+      "percentage": 32.5,
       "kingdom": "Plantae"
     },
     {
       "name": "Birds",
-      "species": 513,
-      "percentage": 7.5,
+      "species": 512,
+      "percentage": 7.2,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 443,
-      "percentage": 6.5,
+      "species": 410,
+      "percentage": 5.7,
       "kingdom": "Animalia"
     },
     {
-      "name": "Molluscs",
-      "species": 261,
-      "percentage": 3.8,
+      "name": "Arachnids",
+      "species": 289,
+      "percentage": 4,
       "kingdom": "Animalia"
     },
     {
       "name": "Basidiomycota",
-      "species": 232,
-      "percentage": 3.4,
+      "species": 265,
+      "percentage": 3.7,
       "kingdom": "Fungi"
     },
     {
-      "name": "Arachnids",
-      "species": 228,
-      "percentage": 3.3,
+      "name": "Molluscs",
+      "species": 241,
+      "percentage": 3.4,
       "kingdom": "Animalia"
     },
     {
       "name": "Sac Fungi",
-      "species": 156,
+      "species": 166,
       "percentage": 2.3,
       "kingdom": "Fungi"
     },
     {
       "name": "Mammals",
-      "species": 88,
-      "percentage": 1.3,
+      "species": 82,
+      "percentage": 1.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Mosses",
-      "species": 73,
-      "percentage": 1.1,
+      "species": 74,
+      "percentage": 1,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 44,
+      "species": 42,
       "percentage": 0.6,
       "kingdom": "Plantae"
     },
     {
       "name": "Ferns",
-      "species": 40,
-      "percentage": 0.6,
+      "species": 39,
+      "percentage": 0.5,
       "kingdom": "Plantae"
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "name": "Gymnosperms",
-      "species": 21,
+      "species": 25,
       "percentage": 0.3,
       "kingdom": "Plantae"
     },
@@ -95,13 +95,13 @@
     },
     {
       "name": "Amphibians",
-      "species": 16,
+      "species": 15,
       "percentage": 0.2,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 9,
+      "species": 8,
       "percentage": 0.1,
       "kingdom": "Chromista"
     },
@@ -116,29 +116,23 @@
       "species": 1,
       "percentage": 0,
       "kingdom": "Viruses"
-    },
-    {
-      "name": "Other",
-      "species": 1,
-      "percentage": 0,
-      "kingdom": "incertae sedis"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 3929,
-      "percentage": 57.6
+      "species": 4182,
+      "percentage": 58.5
     },
     {
       "kingdom": "Plantae",
-      "species": 2469,
-      "percentage": 36.2
+      "species": 2504,
+      "percentage": 35
     },
     {
       "kingdom": "Fungi",
-      "species": 388,
-      "percentage": 5.7
+      "species": 431,
+      "percentage": 6
     },
     {
       "kingdom": "Bacteria",
@@ -147,7 +141,7 @@
     },
     {
       "kingdom": "Chromista",
-      "species": 9,
+      "species": 8,
       "percentage": 0.1
     },
     {
@@ -159,19 +153,14 @@
       "kingdom": "Viruses",
       "species": 1,
       "percentage": 0
-    },
-    {
-      "kingdom": "incertae sedis",
-      "species": 1,
-      "percentage": 0
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 2246,
-    "uniqueFamilies": 591,
-    "uniqueOrders": 144,
-    "uniqueClasses": 35,
-    "uniquePhyla": 13,
-    "uniqueKingdoms": 8
+    "uniqueGenera": 2265,
+    "uniqueFamilies": 580,
+    "uniqueOrders": 140,
+    "uniqueClasses": 32,
+    "uniquePhyla": 12,
+    "uniqueKingdoms": 7
   }
 }

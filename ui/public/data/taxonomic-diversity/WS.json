@@ -1,42 +1,48 @@
 {
   "countryCode": "WS",
   "countryName": "Samoa",
-  "totalSpecies": 3629,
+  "totalSpecies": 3700,
   "groups": [
     {
       "name": "Other",
-      "species": 1008,
-      "percentage": 27.8,
+      "species": 1049,
+      "percentage": 28.4,
       "kingdom": "Animalia"
     },
     {
       "name": "Flowering Plants",
-      "species": 881,
-      "percentage": 24.3,
+      "species": 897,
+      "percentage": 24.2,
       "kingdom": "Plantae"
     },
     {
       "name": "Molluscs",
-      "species": 677,
-      "percentage": 18.7,
+      "species": 673,
+      "percentage": 18.2,
       "kingdom": "Animalia"
     },
     {
       "name": "Insects",
-      "species": 260,
-      "percentage": 7.2,
+      "species": 271,
+      "percentage": 7.3,
       "kingdom": "Animalia"
     },
     {
       "name": "Ferns",
-      "species": 229,
-      "percentage": 6.3,
+      "species": 226,
+      "percentage": 6.1,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
       "species": 142,
-      "percentage": 3.9,
+      "percentage": 3.8,
+      "kingdom": "Plantae"
+    },
+    {
+      "name": "Mosses",
+      "species": 107,
+      "percentage": 2.9,
       "kingdom": "Plantae"
     },
     {
@@ -46,15 +52,9 @@
       "kingdom": "Animalia"
     },
     {
-      "name": "Mosses",
-      "species": 98,
-      "percentage": 2.7,
-      "kingdom": "Plantae"
-    },
-    {
       "name": "Sac Fungi",
-      "species": 93,
-      "percentage": 2.6,
+      "species": 94,
+      "percentage": 2.5,
       "kingdom": "Fungi"
     },
     {
@@ -65,8 +65,8 @@
     },
     {
       "name": "Other",
-      "species": 28,
-      "percentage": 0.8,
+      "species": 27,
+      "percentage": 0.7,
       "kingdom": "Chromista"
     },
     {
@@ -78,7 +78,7 @@
     {
       "name": "Reptiles",
       "species": 20,
-      "percentage": 0.6,
+      "percentage": 0.5,
       "kingdom": "Animalia"
     },
     {
@@ -100,6 +100,12 @@
       "kingdom": "Bacteria"
     },
     {
+      "name": "Amphibians",
+      "species": 1,
+      "percentage": 0,
+      "kingdom": "Animalia"
+    },
+    {
       "name": "Gymnosperms",
       "species": 1,
       "percentage": 0,
@@ -115,23 +121,23 @@
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 2102,
-      "percentage": 57.9
+      "species": 2151,
+      "percentage": 58.1
     },
     {
       "kingdom": "Plantae",
-      "species": 1351,
-      "percentage": 37.2
+      "species": 1373,
+      "percentage": 37.1
     },
     {
       "kingdom": "Fungi",
-      "species": 130,
-      "percentage": 3.6
+      "species": 131,
+      "percentage": 3.5
     },
     {
       "kingdom": "Chromista",
-      "species": 28,
-      "percentage": 0.8
+      "species": 27,
+      "percentage": 0.7
     },
     {
       "kingdom": "Protozoa",
@@ -145,10 +151,10 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1138,
-    "uniqueFamilies": 497,
-    "uniqueOrders": 135,
-    "uniqueClasses": 34,
+    "uniqueGenera": 1174,
+    "uniqueFamilies": 513,
+    "uniqueOrders": 140,
+    "uniqueClasses": 35,
     "uniquePhyla": 10,
     "uniqueKingdoms": 6
   }

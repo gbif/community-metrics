@@ -1,43 +1,49 @@
 {
   "countryCode": "YT",
   "countryName": "Mayotte",
-  "totalSpecies": 8513,
+  "totalSpecies": 8725,
   "groups": [
     {
       "name": "Other",
-      "species": 2833,
-      "percentage": 33.3,
+      "species": 2857,
+      "percentage": 32.7,
       "kingdom": "Animalia"
     },
     {
       "name": "Molluscs",
-      "species": 1469,
-      "percentage": 17.3,
+      "species": 1478,
+      "percentage": 16.9,
       "kingdom": "Animalia"
     },
     {
       "name": "Flowering Plants",
-      "species": 1306,
-      "percentage": 15.3,
+      "species": 1309,
+      "percentage": 15,
       "kingdom": "Plantae"
     },
     {
       "name": "Insects",
-      "species": 1019,
-      "percentage": 12,
+      "species": 1264,
+      "percentage": 14.5,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 819,
-      "percentage": 9.6,
+      "species": 759,
+      "percentage": 8.7,
       "kingdom": "Chromista"
     },
     {
       "name": "Other",
-      "species": 242,
-      "percentage": 2.8,
+      "species": 212,
+      "percentage": 2.4,
       "kingdom": "Plantae"
+    },
+    {
+      "name": "Arachnids",
+      "species": 158,
+      "percentage": 1.8,
+      "kingdom": "Animalia"
     },
     {
       "name": "Birds",
@@ -47,20 +53,14 @@
     },
     {
       "name": "Basidiomycota",
-      "species": 138,
+      "species": 137,
       "percentage": 1.6,
       "kingdom": "Fungi"
     },
     {
-      "name": "Arachnids",
-      "species": 127,
-      "percentage": 1.5,
-      "kingdom": "Animalia"
-    },
-    {
       "name": "Other",
       "species": 81,
-      "percentage": 1,
+      "percentage": 0.9,
       "kingdom": "Protozoa"
     },
     {
@@ -71,8 +71,8 @@
     },
     {
       "name": "Other",
-      "species": 70,
-      "percentage": 0.8,
+      "species": 65,
+      "percentage": 0.7,
       "kingdom": "Bacteria"
     },
     {
@@ -100,12 +100,6 @@
       "kingdom": "Animalia"
     },
     {
-      "name": "Other",
-      "species": 4,
-      "percentage": 0,
-      "kingdom": "Viruses"
-    },
-    {
       "name": "Amphibians",
       "species": 3,
       "percentage": 0,
@@ -127,46 +121,41 @@
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 5668,
-      "percentage": 66.6
+      "species": 5977,
+      "percentage": 68.5
     },
     {
       "kingdom": "Plantae",
-      "species": 1680,
-      "percentage": 19.7
+      "species": 1653,
+      "percentage": 18.9
     },
     {
       "kingdom": "Chromista",
-      "species": 819,
-      "percentage": 9.6
+      "species": 759,
+      "percentage": 8.7
     },
     {
       "kingdom": "Fungi",
-      "species": 191,
+      "species": 190,
       "percentage": 2.2
     },
     {
       "kingdom": "Protozoa",
       "species": 81,
-      "percentage": 1
+      "percentage": 0.9
     },
     {
       "kingdom": "Bacteria",
-      "species": 70,
-      "percentage": 0.8
-    },
-    {
-      "kingdom": "Viruses",
-      "species": 4,
-      "percentage": 0
+      "species": 65,
+      "percentage": 0.7
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 3032,
-    "uniqueFamilies": 1059,
-    "uniqueOrders": 220,
+    "uniqueGenera": 3082,
+    "uniqueFamilies": 1069,
+    "uniqueOrders": 223,
     "uniqueClasses": 48,
     "uniquePhyla": 18,
-    "uniqueKingdoms": 7
+    "uniqueKingdoms": 6
   }
 }

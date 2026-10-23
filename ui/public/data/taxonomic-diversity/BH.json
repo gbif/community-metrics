@@ -1,61 +1,67 @@
 {
   "countryCode": "BH",
   "countryName": "Bahrain",
-  "totalSpecies": 894,
+  "totalSpecies": 916,
   "groups": [
     {
       "name": "Birds",
-      "species": 299,
-      "percentage": 33.4,
+      "species": 305,
+      "percentage": 33.3,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 240,
-      "percentage": 26.8,
+      "species": 246,
+      "percentage": 26.9,
       "kingdom": "Animalia"
     },
     {
       "name": "Flowering Plants",
-      "species": 132,
-      "percentage": 14.8,
+      "species": 141,
+      "percentage": 15.4,
       "kingdom": "Plantae"
     },
     {
       "name": "Insects",
       "species": 95,
-      "percentage": 10.6,
+      "percentage": 10.4,
       "kingdom": "Animalia"
     },
     {
       "name": "Molluscs",
-      "species": 79,
-      "percentage": 8.8,
+      "species": 76,
+      "percentage": 8.3,
       "kingdom": "Animalia"
     },
     {
       "name": "Reptiles",
-      "species": 19,
-      "percentage": 2.1,
+      "species": 20,
+      "percentage": 2.2,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Mammals",
+      "species": 9,
+      "percentage": 1,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 9,
-      "percentage": 1,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Mammals",
       "species": 8,
       "percentage": 0.9,
-      "kingdom": "Animalia"
+      "kingdom": "Plantae"
     },
     {
       "name": "Other",
       "species": 6,
       "percentage": 0.7,
       "kingdom": "Chromista"
+    },
+    {
+      "name": "Other",
+      "species": 4,
+      "percentage": 0.4,
+      "kingdom": "Bacteria"
     },
     {
       "name": "Sac Fungi",
@@ -80,24 +86,18 @@
       "species": 1,
       "percentage": 0.1,
       "kingdom": "Plantae"
-    },
-    {
-      "name": "Other",
-      "species": 1,
-      "percentage": 0.1,
-      "kingdom": "Bacteria"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 742,
-      "percentage": 83
+      "species": 753,
+      "percentage": 82.2
     },
     {
       "kingdom": "Plantae",
-      "species": 142,
-      "percentage": 15.9
+      "species": 150,
+      "percentage": 16.4
     },
     {
       "kingdom": "Chromista",
@@ -105,20 +105,20 @@
       "percentage": 0.7
     },
     {
+      "kingdom": "Bacteria",
+      "species": 4,
+      "percentage": 0.4
+    },
+    {
       "kingdom": "Fungi",
       "species": 3,
       "percentage": 0.3
-    },
-    {
-      "kingdom": "Bacteria",
-      "species": 1,
-      "percentage": 0.1
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 521,
-    "uniqueFamilies": 299,
-    "uniqueOrders": 103,
+    "uniqueGenera": 532,
+    "uniqueFamilies": 306,
+    "uniqueOrders": 109,
     "uniqueClasses": 29,
     "uniquePhyla": 10,
     "uniqueKingdoms": 5

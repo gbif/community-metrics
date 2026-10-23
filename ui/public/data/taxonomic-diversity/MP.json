@@ -1,48 +1,48 @@
 {
   "countryCode": "MP",
   "countryName": "Northern Mariana Islands",
-  "totalSpecies": 3432,
+  "totalSpecies": 3481,
   "groups": [
     {
       "name": "Other",
-      "species": 1701,
-      "percentage": 49.6,
+      "species": 1706,
+      "percentage": 49,
       "kingdom": "Animalia"
     },
     {
       "name": "Flowering Plants",
-      "species": 443,
-      "percentage": 12.9,
+      "species": 456,
+      "percentage": 13.1,
       "kingdom": "Plantae"
     },
     {
       "name": "Molluscs",
-      "species": 418,
-      "percentage": 12.2,
+      "species": 452,
+      "percentage": 13,
       "kingdom": "Animalia"
     },
     {
       "name": "Insects",
-      "species": 293,
-      "percentage": 8.5,
+      "species": 301,
+      "percentage": 8.6,
       "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 160,
-      "percentage": 4.7,
-      "kingdom": "Chromista"
     },
     {
       "name": "Birds",
-      "species": 158,
-      "percentage": 4.6,
+      "species": 157,
+      "percentage": 4.5,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 64,
-      "percentage": 1.9,
+      "species": 152,
+      "percentage": 4.4,
+      "kingdom": "Chromista"
+    },
+    {
+      "name": "Other",
+      "species": 63,
+      "percentage": 1.8,
       "kingdom": "Plantae"
     },
     {
@@ -53,32 +53,32 @@
     },
     {
       "name": "Mammals",
-      "species": 34,
+      "species": 36,
       "percentage": 1,
       "kingdom": "Animalia"
     },
     {
       "name": "Reptiles",
-      "species": 34,
-      "percentage": 1,
+      "species": 33,
+      "percentage": 0.9,
       "kingdom": "Animalia"
     },
     {
       "name": "Arachnids",
-      "species": 31,
+      "species": 30,
       "percentage": 0.9,
       "kingdom": "Animalia"
     },
     {
       "name": "Ferns",
-      "species": 26,
+      "species": 27,
       "percentage": 0.8,
       "kingdom": "Plantae"
     },
     {
       "name": "Basidiomycota",
-      "species": 16,
-      "percentage": 0.5,
+      "species": 15,
+      "percentage": 0.4,
       "kingdom": "Fungi"
     },
     {
@@ -86,12 +86,6 @@
       "species": 7,
       "percentage": 0.2,
       "kingdom": "Fungi"
-    },
-    {
-      "name": "Other",
-      "species": 3,
-      "percentage": 0.1,
-      "kingdom": "Bacteria"
     },
     {
       "name": "Amphibians",
@@ -109,33 +103,39 @@
       "name": "Other",
       "species": 2,
       "percentage": 0.1,
+      "kingdom": "Bacteria"
+    },
+    {
+      "name": "Other",
+      "species": 2,
+      "percentage": 0.1,
       "kingdom": "Protozoa"
     }
   ],
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 2671,
-      "percentage": 77.8
+      "species": 2717,
+      "percentage": 78.1
     },
     {
       "kingdom": "Plantae",
-      "species": 573,
-      "percentage": 16.7
+      "species": 586,
+      "percentage": 16.8
     },
     {
       "kingdom": "Chromista",
-      "species": 160,
-      "percentage": 4.7
+      "species": 152,
+      "percentage": 4.4
     },
     {
       "kingdom": "Fungi",
-      "species": 23,
-      "percentage": 0.7
+      "species": 22,
+      "percentage": 0.6
     },
     {
       "kingdom": "Bacteria",
-      "species": 3,
+      "species": 2,
       "percentage": 0.1
     },
     {
@@ -145,9 +145,9 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1551,
-    "uniqueFamilies": 708,
-    "uniqueOrders": 188,
+    "uniqueGenera": 1584,
+    "uniqueFamilies": 727,
+    "uniqueOrders": 190,
     "uniqueClasses": 43,
     "uniquePhyla": 15,
     "uniqueKingdoms": 6

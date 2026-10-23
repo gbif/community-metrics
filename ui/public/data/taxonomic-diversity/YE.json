@@ -1,30 +1,30 @@
 {
   "countryCode": "YE",
   "countryName": "Yemen",
-  "totalSpecies": 6624,
+  "totalSpecies": 6622,
   "groups": [
     {
       "name": "Flowering Plants",
-      "species": 2083,
-      "percentage": 31.4,
+      "species": 2116,
+      "percentage": 32,
       "kingdom": "Plantae"
     },
     {
       "name": "Other",
-      "species": 1945,
-      "percentage": 29.4,
+      "species": 1921,
+      "percentage": 29,
       "kingdom": "Animalia"
     },
     {
       "name": "Insects",
-      "species": 849,
-      "percentage": 12.8,
+      "species": 861,
+      "percentage": 13,
       "kingdom": "Animalia"
     },
     {
       "name": "Molluscs",
-      "species": 461,
-      "percentage": 7,
+      "species": 477,
+      "percentage": 7.2,
       "kingdom": "Animalia"
     },
     {
@@ -35,15 +35,9 @@
     },
     {
       "name": "Other",
-      "species": 253,
-      "percentage": 3.8,
+      "species": 232,
+      "percentage": 3.5,
       "kingdom": "Chromista"
-    },
-    {
-      "name": "Other",
-      "species": 167,
-      "percentage": 2.5,
-      "kingdom": "Plantae"
     },
     {
       "name": "Sac Fungi",
@@ -52,9 +46,15 @@
       "kingdom": "Fungi"
     },
     {
+      "name": "Other",
+      "species": 142,
+      "percentage": 2.1,
+      "kingdom": "Plantae"
+    },
+    {
       "name": "Arachnids",
-      "species": 126,
-      "percentage": 1.9,
+      "species": 134,
+      "percentage": 2,
       "kingdom": "Animalia"
     },
     {
@@ -64,16 +64,16 @@
       "kingdom": "Animalia"
     },
     {
+      "name": "Ferns",
+      "species": 47,
+      "percentage": 0.7,
+      "kingdom": "Plantae"
+    },
+    {
       "name": "Mammals",
       "species": 47,
       "percentage": 0.7,
       "kingdom": "Animalia"
-    },
-    {
-      "name": "Ferns",
-      "species": 46,
-      "percentage": 0.7,
-      "kingdom": "Plantae"
     },
     {
       "name": "Mosses",
@@ -83,7 +83,7 @@
     },
     {
       "name": "Basidiomycota",
-      "species": 16,
+      "species": 14,
       "percentage": 0.2,
       "kingdom": "Fungi"
     },
@@ -109,22 +109,22 @@
   "kingdomSummaries": [
     {
       "kingdom": "Animalia",
-      "species": 3872,
-      "percentage": 58.5
+      "species": 3884,
+      "percentage": 58.7
     },
     {
       "kingdom": "Plantae",
-      "species": 2331,
-      "percentage": 35.2
+      "species": 2340,
+      "percentage": 35.3
     },
     {
       "kingdom": "Chromista",
-      "species": 253,
-      "percentage": 3.8
+      "species": 232,
+      "percentage": 3.5
     },
     {
       "kingdom": "Fungi",
-      "species": 166,
+      "species": 164,
       "percentage": 2.5
     },
     {
@@ -134,9 +134,9 @@
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 2158,
-    "uniqueFamilies": 910,
-    "uniqueOrders": 222,
+    "uniqueGenera": 2168,
+    "uniqueFamilies": 907,
+    "uniqueOrders": 220,
     "uniqueClasses": 46,
     "uniquePhyla": 16,
     "uniqueKingdoms": 5

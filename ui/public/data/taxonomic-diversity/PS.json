@@ -1,97 +1,91 @@
 {
   "countryCode": "PS",
   "countryName": "Palestine, State of",
-  "totalSpecies": 3911,
+  "totalSpecies": 3411,
   "groups": [
     {
       "name": "Flowering Plants",
-      "species": 1959,
-      "percentage": 50.1,
+      "species": 1374,
+      "percentage": 40.3,
       "kingdom": "Plantae"
     },
     {
       "name": "Insects",
-      "species": 877,
-      "percentage": 22.4,
+      "species": 1064,
+      "percentage": 31.2,
       "kingdom": "Animalia"
     },
     {
       "name": "Birds",
-      "species": 390,
-      "percentage": 10,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Other",
-      "species": 130,
-      "percentage": 3.3,
-      "kingdom": "Animalia"
-    },
-    {
-      "name": "Mammals",
-      "species": 98,
-      "percentage": 2.5,
+      "species": 358,
+      "percentage": 10.5,
       "kingdom": "Animalia"
     },
     {
       "name": "Arachnids",
-      "species": 88,
-      "percentage": 2.3,
+      "species": 120,
+      "percentage": 3.5,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Other",
+      "species": 91,
+      "percentage": 2.7,
       "kingdom": "Animalia"
     },
     {
       "name": "Mosses",
-      "species": 77,
-      "percentage": 2,
+      "species": 81,
+      "percentage": 2.4,
       "kingdom": "Plantae"
     },
     {
       "name": "Molluscs",
-      "species": 76,
-      "percentage": 1.9,
+      "species": 77,
+      "percentage": 2.3,
       "kingdom": "Animalia"
     },
     {
-      "name": "Reptiles",
-      "species": 64,
-      "percentage": 1.6,
+      "name": "Mammals",
+      "species": 76,
+      "percentage": 2.2,
       "kingdom": "Animalia"
     },
     {
       "name": "Basidiomycota",
-      "species": 61,
-      "percentage": 1.6,
+      "species": 52,
+      "percentage": 1.5,
       "kingdom": "Fungi"
     },
     {
-      "name": "Sac Fungi",
-      "species": 41,
-      "percentage": 1,
-      "kingdom": "Fungi"
+      "name": "Reptiles",
+      "species": 46,
+      "percentage": 1.3,
+      "kingdom": "Animalia"
+    },
+    {
+      "name": "Other",
+      "species": 26,
+      "percentage": 0.8,
+      "kingdom": "Plantae"
     },
     {
       "name": "Ferns",
-      "species": 12,
-      "percentage": 0.3,
+      "species": 16,
+      "percentage": 0.5,
       "kingdom": "Plantae"
+    },
+    {
+      "name": "Sac Fungi",
+      "species": 12,
+      "percentage": 0.4,
+      "kingdom": "Fungi"
     },
     {
       "name": "Gymnosperms",
-      "species": 9,
-      "percentage": 0.2,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Other",
-      "species": 9,
-      "percentage": 0.2,
-      "kingdom": "Plantae"
-    },
-    {
-      "name": "Other",
       "species": 7,
       "percentage": 0.2,
-      "kingdom": "Bacteria"
+      "kingdom": "Plantae"
     },
     {
       "name": "Other",
@@ -101,43 +95,44 @@
     },
     {
       "name": "Amphibians",
-      "species": 4,
+      "species": 2,
       "percentage": 0.1,
       "kingdom": "Animalia"
     },
     {
       "name": "Other",
-      "species": 3,
+      "species": 2,
       "percentage": 0.1,
-      "kingdom": "Viruses"
+      "kingdom": "Bacteria"
     },
     {
       "name": "Other",
       "species": 1,
       "percentage": 0,
       "kingdom": "Fungi"
+    },
+    {
+      "name": "Other",
+      "species": 1,
+      "percentage": 0,
+      "kingdom": "Viruses"
     }
   ],
   "kingdomSummaries": [
     {
-      "kingdom": "Plantae",
-      "species": 2066,
-      "percentage": 52.8
+      "kingdom": "Animalia",
+      "species": 1834,
+      "percentage": 53.8
     },
     {
-      "kingdom": "Animalia",
-      "species": 1727,
-      "percentage": 44.2
+      "kingdom": "Plantae",
+      "species": 1504,
+      "percentage": 44.1
     },
     {
       "kingdom": "Fungi",
-      "species": 103,
-      "percentage": 2.6
-    },
-    {
-      "kingdom": "Bacteria",
-      "species": 7,
-      "percentage": 0.2
+      "species": 65,
+      "percentage": 1.9
     },
     {
       "kingdom": "Protozoa",
@@ -145,17 +140,22 @@
       "percentage": 0.1
     },
     {
-      "kingdom": "Viruses",
-      "species": 3,
+      "kingdom": "Bacteria",
+      "species": 2,
       "percentage": 0.1
+    },
+    {
+      "kingdom": "Viruses",
+      "species": 1,
+      "percentage": 0
     }
   ],
   "taxonomicRanks": {
-    "uniqueGenera": 1169,
-    "uniqueFamilies": 444,
-    "uniqueOrders": 107,
-    "uniqueClasses": 24,
-    "uniquePhyla": 10,
+    "uniqueGenera": 1118,
+    "uniqueFamilies": 412,
+    "uniqueOrders": 91,
+    "uniqueClasses": 17,
+    "uniquePhyla": 6,
     "uniqueKingdoms": 6
   }
 }
